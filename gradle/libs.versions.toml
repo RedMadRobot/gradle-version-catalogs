@@ -1,0 +1,152 @@
+[versions]
+
+# AndroidX
+androidx-appcompat = "1.3.1"
+androidx-browser = "1.3.0"
+androidx-constraintlayout = "2.1.0"
+androidx-core-ktx = "1.6.0"
+androidx-core-splashscreen = "1.0.0-alpha01"
+androidx-fragment = "1.3.6"
+androidx-lifecycle-viewmodel-ktx = "2.3.1"
+androidx-navigation = "2.3.5"
+androidx-paging = "3.0.1"
+androidx-recyclerview = "1.2.1"
+androidx-swiperefreshlayout = "1.1.0"
+
+# UI Tools
+airbnb-epoxy = "4.6.2"
+chrisbanes-insetter = "0.6.6"
+coil-kt = "1.3.2"
+google-android-material = "1.4.0"
+lisawray-groupie = "2.9.0"
+
+# Multithreading
+kotlinx-coroutines = "1.5.1"
+reactivex-rxjava2 = "2.2.21"
+reactivex-rxjava3 = "3.1.0"
+
+# Network
+jakewharton-timber = "5.0.0"
+squareup-moshi = "1.12.0"
+squareup-okhttp3-okhttp = "4.9.1"
+squareup-retrofit2-converter-moshi = "2.9.0"
+squareup-retrofit2-retrofit = "2.9.0"
+
+# Storage
+androidx-room = "2.3.0"
+
+# Redmadrobot
+redmadrobot-extensions-core = "1.5.0-0"
+redmadrobot-extensions-fragment = "1.3.5-0"
+redmadrobot-extensions-lifecycle-livedata = "2.3.1-0"
+redmadrobot-extensions-resources = "1.3.0-0"
+redmadrobot-extensions-viewbinding = "4.2.1-0"
+redmadrobot-flipper = "2.0.1"
+redmadrobot-itemsadapter = "1.1"
+redmadrobot-mapmemory = "2.0"
+redmadrobot-pinkman = "1.1.3"
+
+# DI
+google-dagger = "2.38.1"
+
+# Test
+kotest = "4.6.1"
+kotlinx-serialization-json = "1.2.2"
+mockk = "1.12.0"
+
+# Debug Tools
+redmadrobot-debug = "0.6.0"
+squareup-leakcanary-android = "2.7"
+
+[libraries]
+
+# AndroidX
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-browser = { module = "androidx.browser:browser", version.ref = "androidx-browser" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-constraintlayout" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core-ktx" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "androidx-core-splashscreen" }
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "androidx-fragment" }
+androidx-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle-viewmodel-ktx" }
+androidx-navigation-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx-navigation" }
+androidx-navigation-ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx-navigation" }
+androidx-paging-runtime = { module = "androidx.paging:paging-runtime", version.ref = "androidx-paging" }
+androidx-paging-rxjava2 = { module = "androidx.paging:paging-rxjava2", version.ref = "androidx-paging" }
+androidx-paging-rxjava3 = { module = "androidx.paging:paging-rxjava3", version.ref = "androidx-paging" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "androidx-recyclerview" }
+androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "androidx-swiperefreshlayout" }
+
+# UI Tools
+airbnb-epoxy-core = { module = "com.airbnb.android:epoxy", version.ref = "airbnb-epoxy" }
+airbnb-epoxy-paging3 = { module = "com.airbnb.android:epoxy-paging3", version.ref = "airbnb-epoxy" }
+airbnb-epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref = "airbnb-epoxy" }
+chrisbanes-insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "chrisbanes-insetter" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil-kt" }
+google-android-material = { module = "com.google.android.material:material", version.ref = "google-android-material" }
+lisawray-groupie = { module = "com.github.lisawray.groupie:groupie", version.ref = "lisawray-groupie" }
+
+# Multithreading
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines" }
+reactivex-rxjava2 = { module = "io.reactivex.rxjava2:rxjava", version.ref = "reactivex-rxjava2" }
+reactivex-rxjava3 = { module = "io.reactivex.rxjava3:rxjava", version.ref = "reactivex-rxjava3" }
+
+# Network
+jakewharton-timber = { module = "com.jakewharton.timber:timber", version.ref = "jakewharton-timber" }
+squareup-okhttp-loggingInterceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "squareup-okhttp3-okhttp" }
+squareup-okhttp-bom = { module = "com.squareup.okhttp3:okhttp-bom", version.ref = "squareup-okhttp3-okhttp" }
+squareup-okhttp-core = { module = "com.squareup.okhttp3:okhttp", version.ref = "squareup-okhttp3-okhttp" }
+squareup-retrofit2-converterMoshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "squareup-retrofit2-converter-moshi" }
+squareup-retrofit2-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "squareup-retrofit2-retrofit" }
+
+# Serialization
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+squareup-moshi-adapters = { module = "com.squareup.moshi:moshi-adapters", version.ref = "squareup-moshi" }
+squareup-moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "squareup-moshi" }
+squareup-moshi-kotlinCodegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "squareup-moshi" }
+
+# Storage
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "androidx-room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "androidx-room" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "androidx-room" }
+androidx-room-rxjava2 = { module = "androidx.room:room-rxjava2", version.ref = "androidx-room" }
+androidx-room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "androidx-room" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "androidx-room" }
+
+# Redmadrobot
+redmadrobot-extensions-core = { module = "com.redmadrobot.extensions:core-ktx", version.ref = "redmadrobot-extensions-core" }
+redmadrobot-extensions-fragmentArgs = { module = "com.redmadrobot.extensions:fragment-args-ktx", version.ref = "redmadrobot-extensions-fragment" }
+redmadrobot-extensions-fragment = { module = "com.redmadrobot.extensions:fragment-ktx", version.ref = "redmadrobot-extensions-fragment" }
+redmadrobot-extensions-lifecycleLivedata = { module = "com.redmadrobot.extensions:lifecycle-livedata-ktx", version.ref = "redmadrobot-extensions-lifecycle-livedata" }
+redmadrobot-extensions-resources = { module = "com.redmadrobot.extensions:resources-ktx", version.ref = "redmadrobot-extensions-resources" }
+redmadrobot-extensions-viewbinding = { module = "com.redmadrobot.extensions:viewbinding-ktx", version.ref = "redmadrobot-extensions-viewbinding" }
+redmadrobot-flipper = { module = "com.redmadrobot:flipper", version.ref = "redmadrobot-flipper" }
+redmadrobot-itemsadapter-core = { module = "com.redmadrobot.itemsadapter:itemsadapter", version.ref = "redmadrobot-itemsadapter" }
+redmadrobot-itemsadapter-viewbinding = { module = "com.redmadrobot.itemsadapter:itemsadapter-viewbinding", version.ref = "redmadrobot-itemsadapter" }
+redmadrobot-mapmemory-core = { module = "com.redmadrobot.mapmemory:mapmemory", version.ref = "redmadrobot-mapmemory" }
+redmadrobot-mapmemory-coroutines = { module = "com.redmadrobot.mapmemory:mapmemory-coroutines", version.ref = "redmadrobot-mapmemory" }
+redmadrobot-mapmemory-rxjava2 = { module = "com.redmadrobot.mapmemory:mapmemory-rxjava2", version.ref = "redmadrobot-mapmemory" }
+redmadrobot-mapmemory-rxjava3 = { module = "com.redmadrobot.mapmemory:mapmemory-rxjava3", version.ref = "redmadrobot-mapmemory" }
+redmadrobot-mapmemory-test = { module = "com.redmadrobot.mapmemory:mapmemory-test", version.ref = "redmadrobot-mapmemory" }
+redmadrobot-pinkman-core = { module = "com.redmadrobot:pinkman", version.ref = "redmadrobot-pinkman" }
+redmadrobot-pinkman-coroutines = { module = "com.redmadrobot:pinkman-coroutines", version.ref = "redmadrobot-pinkman" }
+redmadrobot-pinkman-rx3 = { module = "com.redmadrobot:pinkman-rx3", version.ref = "redmadrobot-pinkman" }
+
+# DI
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "google-dagger" }
+dagger-core = { module = "com.google.dagger:dagger", version.ref = "google-dagger" }
+dagger-hilt-android-core = { module = "com.google.dagger:hilt-android", version.ref = "google-dagger" }
+dagger-hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "google-dagger" }
+dagger-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "google-dagger" }
+
+# Test
+kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest-framework-datatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
+kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+
+# Debug Tools
+redmadrobot-debugPanel-core = { module = "com.redmadrobot.debug:panel-core", version.ref = "redmadrobot-debug" }
+redmadrobot-debugPanel-serversPlugin = { module = "com.redmadrobot.debug:servers-plugin", version.ref = "redmadrobot-debug" }
+squareup-leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "squareup-leakcanary-android" }
