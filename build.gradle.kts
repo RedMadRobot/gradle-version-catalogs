@@ -1,28 +1,33 @@
 fun properties(key: String) = project.findProperty(key).toString()
 
 plugins {
-    kotlin("jvm") version "1.5.21"
     `version-catalog`
     `maven-publish`
 }
-
-group = properties("project.group")
-version = properties("project.version")
 
 repositories {
     mavenCentral()
 }
 
-catalog {
-    versionCatalog {
-        from(files("gradle/libs.versions.toml"))
+subprojects {
+    apply {
+        plugin("org.gradle.maven-publish")
+        plugin("org.gradle.version-catalog")
     }
-}
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            from(components["versionCatalog"])
+    group = "com.redmadrobot.versions"
+
+    catalog {
+        versionCatalog {
+            from(files("libs.versions.toml"))
+        }
+    }
+
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                from(components["versionCatalog"])
+            }
         }
     }
 }
