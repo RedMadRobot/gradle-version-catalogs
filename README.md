@@ -1,5 +1,5 @@
 # red_mad_robot Version Catalog
-Shared catalog of red_mad_robot based on [Gradle Shared Catalogs]((https://docs.gradle.org/current/userguide/platforms.html#sec:sharing-catalogs).).
+Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.gradle.org/current/userguide/platforms.html#sec:sharing-catalogs) (Gradle version 7.2).
 
 > :warning: Shared Catalog is experimental feature, make sure you activate feature preview by `enableFeaturePreview('VERSION_CATALOGS')` in the `setting.gradle.kts`. 
 > You can read more about this in the [documentation](https://docs.gradle.org/current/userguide/platforms.html).
@@ -86,3 +86,7 @@ Probably, you named a version catalog as one of the gradle plugin extensions.
 ```
 
 Probably, you named a published version catalog as `libs`.
+
+### Invalid TOML catalog definition
+
+Check your Gradle wrapper version. The current catalog based on Gradle 7.2. 
