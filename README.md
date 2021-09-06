@@ -10,7 +10,7 @@ Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.g
 
 - [Modules](#modules)
   - [AndroidX](#androidx)
-  - [Redmadrobot](#redmadrobot)
+  - [red_mad_robot](#red_mad_robot)
   - [Stack](#stack)
 - [Importing a published catalog](#importing-a-published-catalog)
 - [Troubleshooting](#troubleshooting)
@@ -23,25 +23,19 @@ Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.g
 
 ## Modules
 
-The catalog contains modules: 
- - androidX
- - redmadrobot
- - core
- - ui tools
-
 ### AndroidX 
 
 The catalog provides some [Jetpack libraries](https://developer.android.com/jetpack/androidx/versions). 
 You can find them in the [androidx catalog](versions-androidx/libs.versions.toml).
 
-### Redmadrobot
+### red_mad_robot
 
-The catalog provides the [Redmadrobot libraries](https://github.com/RedMadRobot). 
+The catalog provides the [red_mad_robot libraries](https://github.com/RedMadRobot). 
 You can find them in the [redmadrobot catalog](versions-redmadrobot/libs.versions.toml).
 
 ### Stack
 
-The catalog provides a main r_m_r stack.
+The catalog provides a main red_mad_robot stack.
 You can find them in the [ui tools catalog](versions-stack/libs.versions.toml).
 
 ## Importing a published catalog 
