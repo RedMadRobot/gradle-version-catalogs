@@ -16,23 +16,23 @@ debug = "0.6.0"
 [libraries]
 
 extension-core = { module = "com.redmadrobot.extensions:core-ktx", version.ref = "extensions-core" }
-extension-fragmentArgs = { module = "com.redmadrobot.extensions:fragment-args-ktx", version.ref = "extensions-fragment" }
+extension-fragment-args = { module = "com.redmadrobot.extensions:fragment-args-ktx", version.ref = "extensions-fragment" }
 extension-fragment = { module = "com.redmadrobot.extensions:fragment-ktx", version.ref = "extensions-fragment" }
 extension-lifecycleLivedata = { module = "com.redmadrobot.extensions:lifecycle-livedata-ktx", version.ref = "extensions-lifecycle-livedata" }
 extension-resources = { module = "com.redmadrobot.extensions:resources-ktx", version.ref = "extensions-resources" }
 extension-viewbinding = { module = "com.redmadrobot.extensions:viewbinding-ktx", version.ref = "extensions-viewbinding" }
 flipper = { module = "com.redmadrobot:flipper", version.ref = "flipper" }
-itemsadapter-core = { module = "com.redmadrobot.itemsadapter:itemsadapter", version.ref = "itemsadapter" }
+itemsadapter = { module = "com.redmadrobot.itemsadapter:itemsadapter", version.ref = "itemsadapter" }
 itemsadapter-viewbinding = { module = "com.redmadrobot.itemsadapter:itemsadapter-viewbinding", version.ref = "itemsadapter" }
-mapmemory-core = { module = "com.redmadrobot.mapmemory:mapmemory", version.ref = "mapmemory" }
+mapmemory = { module = "com.redmadrobot.mapmemory:mapmemory", version.ref = "mapmemory" }
 mapmemory-coroutines = { module = "com.redmadrobot.mapmemory:mapmemory-coroutines", version.ref = "mapmemory" }
 mapmemory-rxjava2 = { module = "com.redmadrobot.mapmemory:mapmemory-rxjava2", version.ref = "mapmemory" }
 mapmemory-rxjava3 = { module = "com.redmadrobot.mapmemory:mapmemory-rxjava3", version.ref = "mapmemory" }
 mapmemory-test = { module = "com.redmadrobot.mapmemory:mapmemory-test", version.ref = "mapmemory" }
-pinkman-core = { module = "com.redmadrobot:pinkman", version.ref = "pinkman" }
+pinkman = { module = "com.redmadrobot:pinkman", version.ref = "pinkman" }
 pinkman-coroutines = { module = "com.redmadrobot:pinkman-coroutines", version.ref = "pinkman" }
 pinkman-rx3 = { module = "com.redmadrobot:pinkman-rx3", version.ref = "pinkman" }
 
 # Debug Tools
-debugPanel-core = { module = "com.redmadrobot.debug:panel-core", version.ref = "debug" }
-debugPanel-pluginServers = { module = "com.redmadrobot.debug:servers-plugin", version.ref = "debug" }
+debugPanel = { module = "com.redmadrobot.debug:panel-core", version.ref = "debug" }
+debugPanel-plugin-servers = { module = "com.redmadrobot.debug:servers-plugin", version.ref = "debug" }

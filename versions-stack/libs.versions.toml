@@ -33,7 +33,7 @@ leakcanary = "2.7"
 [libraries]
 
 # UI Tools
-airbnb-epoxy-core = { module = "com.airbnb.android:epoxy", version.ref = "airbnb-epoxy" }
+airbnb-epoxy = { module = "com.airbnb.android:epoxy", version.ref = "airbnb-epoxy" }
 airbnb-epoxy-paging3 = { module = "com.airbnb.android:epoxy-paging3", version.ref = "airbnb-epoxy" }
 airbnb-epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref = "airbnb-epoxy" }
 insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "insetter" }
@@ -50,21 +50,21 @@ rxjava3 = { module = "io.reactivex.rxjava3:rxjava", version.ref = "reactivex-rxj
 
 # Network
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
-okhttp-loggingInterceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 okhttp-bom = { module = "com.squareup.okhttp3:okhttp-bom", version.ref = "okhttp" }
-okhttp-core = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
-retrofit2-converterMoshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2-converter-moshi" }
-retrofit2-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2-retrofit" }
+okhttp-interceptor-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2-retrofit" }
+retrofit-converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2-converter-moshi" }
 
 # Serialization
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
 moshi-adapters = { module = "com.squareup.moshi:moshi-adapters", version.ref = "moshi" }
 moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
-moshi-kotlinCodegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi" }
+moshi-kotlin-codegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi" }
 
 # DI
-daggerCompiler = { module = "com.google.dagger:dagger-compiler", version.ref = "google-dagger" }
 dagger = { module = "com.google.dagger:dagger", version.ref = "google-dagger" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "google-dagger" }
 dagger-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "google-dagger" }
 dagger-hilt-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "google-dagger" }
 dagger-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "google-dagger" }
@@ -72,7 +72,7 @@ dagger-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref
 # Test
 kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 kotest-frameworkDatatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
-kotest-junit5Runner = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 
 # Debug Tools
