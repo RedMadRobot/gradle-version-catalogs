@@ -19,14 +19,9 @@ You can find them in the [androidx catalog](versions-androidx/libs.versions.toml
 The catalog provides the [Redmadrobot libraries](https://github.com/RedMadRobot). 
 You can find them in the [redmadrobot catalog](versions-redmadrobot/libs.versions.toml).
 
-### Core
-There are libraries in the catalog for working with network, di, etc. 
-You can find them in the [core catalog](versions-core/libs.versions.toml). 
-
-### Ui Tools 
-There are libraries in the catalog for working with ui utilities like image loading, insets, etc. 
-Google Android Material is also provided by this module.
-You can find them in the [ui tools catalog](versions-ui-tools/libs.versions.toml).
+### Stack
+The catalog provides a main r_m_r stack.
+You can find them in the [ui tools catalog](versions-stack/libs.versions.toml).
 
 ## Importing a published catalog 
 You can read more about install shared catalogs in the [gradle documentation](https://docs.gradle.org/current/userguide/platforms.html#sec:importing-published-catalog).
