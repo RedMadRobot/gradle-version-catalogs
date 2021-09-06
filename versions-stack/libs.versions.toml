@@ -71,7 +71,7 @@ dagger-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref
 
 # Test
 kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
-kotest-frameworkDatatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
+kotest-framework-datatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
 kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 
