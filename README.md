@@ -1,10 +1,12 @@
 # red_mad_robot Version Catalog
+
 Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.gradle.org/current/userguide/platforms.html#sec:sharing-catalogs) (Gradle version 7.2).
 
 > :warning: Shared Catalog is experimental feature, make sure you activate feature preview by `enableFeaturePreview('VERSION_CATALOGS')` in the `setting.gradle.kts`. 
 > You can read more about this in the [documentation](https://docs.gradle.org/current/userguide/platforms.html).
 
 ## Modules
+
 The catalog contains modules: 
  - androidX
  - redmadrobot
@@ -12,18 +14,22 @@ The catalog contains modules:
  - ui tools
 
 ### AndroidX 
+
 The catalog provides the Jetpack libraries. 
 You can find them in the [androidx catalog](versions-androidx/libs.versions.toml).
 
 ### Redmadrobot
+
 The catalog provides the [Redmadrobot libraries](https://github.com/RedMadRobot). 
 You can find them in the [redmadrobot catalog](versions-redmadrobot/libs.versions.toml).
 
 ### Stack
+
 The catalog provides a main r_m_r stack.
 You can find them in the [ui tools catalog](versions-stack/libs.versions.toml).
 
 ## Importing a published catalog 
+
 You can read more about install shared catalogs in the [gradle documentation](https://docs.gradle.org/current/userguide/platforms.html#sec:importing-published-catalog).
 
 You need to create version catalogs in `settings.gradle.kts` from remote repository:
@@ -46,6 +52,7 @@ dependencyResolutionManagement {
     }
 }
 ``` 
+
 > :warning: Be aware with naming of version catalog name, be sure your name does not conflict with any gradle plugin extension, otherwise your project will not sync.
 > For example, if you have [gradle-infrastructure](https://github.com/RedMadRobot/gradle-infrastructure) plugin, you cannot create version catalog named `redmadrobot`, because gradle-infrastructure contains an extension named `redmadrobot`.
 > Also you should not name the published version catalog as `libs` if you want to use the local version catalog, or you must rename the local version catalog.
@@ -64,6 +71,7 @@ dependencies {
 ```
 
 ## Troubleshooting
+
 You can find Troubleshooting in [gradle documentation page](https://docs.gradle.org/7.2/userguide/version_catalog_problems.html).
 
 ### Cannot apply plugin 
