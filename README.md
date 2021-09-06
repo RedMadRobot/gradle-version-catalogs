@@ -1,9 +1,25 @@
 # red_mad_robot Version Catalog
 
-Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.gradle.org/current/userguide/platforms.html#sec:sharing-catalogs) (Gradle version 7.2).
+Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.gradle.org/current/userguide/platforms.html#sec:sharing-catalogs) (**Gradle version 7.2**).
 
 > :warning: Shared Catalog is experimental feature, make sure you activate feature preview by `enableFeaturePreview('VERSION_CATALOGS')` in the `setting.gradle.kts`. 
 > You can read more about this in the [documentation](https://docs.gradle.org/current/userguide/platforms.html).
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Modules](#modules)
+  - [AndroidX](#androidx)
+  - [Redmadrobot](#redmadrobot)
+  - [Stack](#stack)
+- [Importing a published catalog](#importing-a-published-catalog)
+- [Troubleshooting](#troubleshooting)
+  - [Cannot apply plugin](#cannot-apply-plugin)
+  - [Invalid catalog definition](#invalid-catalog-definition)
+  - [Invalid TOML catalog definition](#invalid-toml-catalog-definition)
+- [Additional links](#additional-links)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Modules
 
