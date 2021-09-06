@@ -15,7 +15,7 @@ The catalog contains modules:
 
 ### AndroidX 
 
-The catalog provides the Jetpack libraries. 
+The catalog provides some [Jetpack libraries](https://developer.android.com/jetpack/androidx/versions). 
 You can find them in the [androidx catalog](versions-androidx/libs.versions.toml).
 
 ### Redmadrobot
@@ -93,3 +93,7 @@ Probably, you named a published version catalog as `libs`.
 ### Invalid TOML catalog definition
 
 Check your Gradle wrapper version. The current catalog based on Gradle 7.2. 
+
+## Additional links
+
+- You can find some useful information and some answers to questions about the version catalog at https://melix.github.io/blog/tags/catalog.html
