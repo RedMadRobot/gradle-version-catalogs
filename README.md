@@ -9,12 +9,17 @@ Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.g
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Modules](#modules)
-  - [AndroidX](#androidx)
+  - [androidX](#androidx)
   - [red_mad_robot](#red_mad_robot)
-  - [Stack](#stack)
+  - [stack](#stack)
+  - [plugins](#plugins)
 - [Importing a published catalog](#importing-a-published-catalog)
+  - [Importing published libraries](#importing-published-libraries)
+  - [Importing published plugins](#importing-published-plugins)
 - [Troubleshooting](#troubleshooting)
-  - [Cannot apply plugin](#cannot-apply-plugin)
+  - [Unable to apply the plugin because the extension is already registered](#unable-to-apply-the-plugin-because-the-extension-is-already-registered)
+  - [Unable to apply a plugin from the version catalog due to a version conflict to the classpath](#unable-to-apply-a-plugin-from-the-version-catalog-due-to-a-version-conflict-to-the-classpath)
+  - [DSL_SCOPE_VIOLATION Can't be called in this context by implicit receiver](#dsl_scope_violation-cant-be-called-in-this-context-by-implicit-receiver)
   - [Invalid catalog definition](#invalid-catalog-definition)
   - [Invalid TOML catalog definition](#invalid-toml-catalog-definition)
 - [Additional links](#additional-links)
@@ -23,7 +28,7 @@ Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.g
 
 ## Modules
 
-### AndroidX 
+### androidX 
 
 The catalog provides some [Jetpack libraries](https://developer.android.com/jetpack/androidx/versions). 
 You can find them in the [androidx catalog](versions-androidx/libs.versions.toml).
@@ -33,12 +38,19 @@ You can find them in the [androidx catalog](versions-androidx/libs.versions.toml
 The catalog provides the [red_mad_robot libraries](https://github.com/RedMadRobot). 
 You can find them in the [redmadrobot catalog](versions-redmadrobot/libs.versions.toml).
 
-### Stack
+### stack
 
 The catalog provides a main red_mad_robot stack.
-You can find them in the [ui tools catalog](versions-stack/libs.versions.toml).
+You can find them in the [stack catalog](versions-stack/libs.versions.toml).
+
+### plugins
+
+The catalog contains frequently used plugins for projects.
+You can find them in the [plugins catalog](versions-plugins/libs.versions.toml).
 
 ## Importing a published catalog 
+
+### Importing published libraries
 
 You can read more about install shared catalogs in the [gradle documentation](https://docs.gradle.org/current/userguide/platforms.html#sec:importing-published-catalog).
 
@@ -54,10 +66,7 @@ dependencyResolutionManagement {
             from("com.redmadrobot.versions:versions-androidx:2021.09.06")
         }
         create("core") {
-            from("com.redmadrobot.versions:versions-core:2021.09.06")
-        }
-        create("ui") {
-            from("com.redmadrobot.versions:versions-ui-tools:2021.09.06")
+            from("com.redmadrobot.versions:versions-stack:2021.09.06")
         }
     }
 }
@@ -80,17 +89,65 @@ dependencies {
 }
 ```
 
+### Importing published plugins
+
+Since Gradle version 7.2 you can use plugins from local or remote version catalogs. 
+To use them, you need to create a plugins section in the version catalog file or create a version catalog from a remote repository.
+
+```kotlin
+dependencyResolutionManagement {
+    versionCatalogs {
+      create("rmr") {
+        from("com.redmadrobot.versions:versions-plugins:2021.09.06")
+      }
+    }
+}
+```
+
+After that, gradle creates accessors for the plugins. You can apply plugins using the alias gradle extension.
+
+```kotlin
+plugins {
+  alias(rmr.plugins.infrastructure.application)
+  alias(rmr.plugins.infrastructure.detekt)
+}
+``` 
+
+You can read more about using plugins from version directory files in the [official documentation](https://docs.gradle.org/current/userguide/platforms.html#sec:plugins).
+
 ## Troubleshooting
 
 You can find Troubleshooting in [gradle documentation page](https://docs.gradle.org/7.2/userguide/version_catalog_problems.html).
 
-### Cannot apply plugin 
+### Unable to apply the plugin because the extension is already registered 
 
 ```text
 Caused by: java.lang.IllegalArgumentException: Cannot add extension with name, as there is an extension already registered with that name
 ```
 
 Probably, you named a version catalog as one of the gradle plugin extensions.
+Please, read the warning under [Importing a published catalog](#importing-a-published-catalog) section.
+
+### Unable to apply a plugin from the version catalog due to a version conflict to the classpath
+
+```text
+Caused by: org.gradle.plugin.management.internal.InvalidPluginRequestException: Plugin request for plugin already on the classpath must not include a version
+```
+
+This exception can occur if the plugin has already been applied in the root **build.gradle**, or has a notation in the **buildscripts** section, or has a notation in the **plugins** section of the **settings.gradle** file.
+You can leave the plugin notation only in the modules you need, because `alias` applies the plugin version from the version catalog file. 
+If this is not possible, you can use the `id` extension instead of `alias` and get only **pluginId** from the accessor.
+
+```kotlin
+plugins {
+  id(rmr.plugins.infrastructure.detekt.get().pluginId)
+}
+```
+
+### DSL_SCOPE_VIOLATION can't be called in this context by implicit receiver
+
+This is an Intellij IDEA [issue](https://youtrack.jetbrains.com/issue/KTIJ-19369) and it does not affect the build.
+You can suppress it with `@Suppress("DSL_SCOPE_VIOLATION")`
 
 ### Invalid catalog definition
 
@@ -99,6 +156,7 @@ Probably, you named a version catalog as one of the gradle plugin extensions.
 ```
 
 Probably, you named a published version catalog as `libs`.
+Please, read the warning under [Importing a published catalog](#importing-a-published-catalog) section.
 
 ### Invalid TOML catalog definition
 
