@@ -1,0 +1,40 @@
+[versions]
+
+# Android
+android-navigation = "2.3.5"
+android-cacheFix = "2.4.4"
+goodle-services = "4.3.10"
+firebase-crashlitycs = "2.7.0"
+
+# Kotlin
+kotlin = "1.5.31"
+
+# Tools
+infrastrucutre = "0.12.1"
+detekt = "1.18.1"
+owasp = "6.2.2"
+
+[plugins]
+
+# Android
+android-navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "android-navigation" }
+android-cacheFix = { id = "org.gradle.android.cache-fix", version.ref = "android-cacheFix" }
+google-services = { id = "com.google.gms.google-services", version.ref = "goodle-services"}
+firebase-crashlitycs = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlitycs"}
+
+# Kotlin
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+kotlin-pluginParcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+# Tools
+infrastructure-root = { id = "redmadrobot.root-project", version.ref = "infrastrucutre" }
+infrastructure-kotlinLibrary = { id = "redmadrobot.kotlin-library", version.ref = "infrastrucutre" }
+infrastructure-publish = { id = "redmadrobot.publish", version.ref = "infrastrucutre" }
+infrastructure-signing = { id = "redmadrobot.signing", version.ref = "infrastrucutre" }
+infrastructure-detekt = { id = "redmadrobot.detekt", version.ref = "infrastrucutre" }
+infrastructure-application = { id = "redmadrobot.application", version.ref = "infrastrucutre" }
+infrastructure-androidLibrary = { id = "redmadrobot.android-library", version.ref = "infrastrucutre" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+owasp = { id = "org.owasp.dependencycheck", version.ref = "owasp" }
