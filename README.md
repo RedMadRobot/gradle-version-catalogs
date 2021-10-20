@@ -65,7 +65,7 @@ dependencyResolutionManagement {
         create("androidx") {
             from("com.redmadrobot.versions:versions-androidx:2021.10.20")
         }
-        create("core") {
+        create("stack") {
             from("com.redmadrobot.versions:versions-stack:2021.10.20")
         }
     }
