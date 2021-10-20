@@ -8,6 +8,7 @@ firebase-crashlitycs = "2.7.0"
 
 # Kotlin
 kotlin = "1.5.31"
+ksp = "1.5.31-1.0.0"
 
 # Tools
 infrastrucutre = "0.12.1"
@@ -27,6 +28,7 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 kotlin-pluginParcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
 
 # Tools
 infrastructure-root = { id = "redmadrobot.root-project", version.ref = "infrastrucutre" }
