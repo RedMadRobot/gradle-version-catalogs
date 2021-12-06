@@ -2,18 +2,18 @@
 
 # Android
 android-navigation = "2.3.5"
-android-cacheFix = "2.4.4"
+android-cacheFix = "2.4.5"
 goodle-services = "4.3.10"
-firebase-crashlitycs = "2.7.0"
+firebase-crashlitycs = "2.8.1"
 
 # Kotlin
-kotlin = "1.5.31"
-ksp = "1.5.31-1.0.0"
+kotlin = "1.6.0"
+ksp = "1.6.0-1.0.1"
 
 # Tools
-infrastrucutre = "0.12.1"
-detekt = "1.18.1"
-owasp = "6.2.2"
+infrastrucutre = "0.12.2"
+detekt = "1.19.0"
+owasp = "6.5.0.1"
 
 [plugins]
 

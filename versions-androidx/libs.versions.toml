@@ -1,15 +1,15 @@
 [versions]
 
 # AndroidX
-appcompat = "1.3.1"
-browser = "1.3.0"
-constraintlayout = "2.1.1"
-core-ktx = "1.6.0"
+appcompat = "1.4.0"
+browser = "1.4.0"
+constraintlayout = "2.1.2"
+core-ktx = "1.7.0"
 core-splashscreen = "1.0.0-alpha01"
-fragment = "1.3.6"
-lifecycle-viewmodel-ktx = "2.3.1"
+fragment = "1.4.0"
+lifecycle-viewmodel-ktx = "2.4.0"
 navigation = "2.3.5"
-paging = "3.0.1"
+paging = "3.1.0"
 recyclerview = "1.2.1"
 swiperefreshlayout = "1.1.0"
 
