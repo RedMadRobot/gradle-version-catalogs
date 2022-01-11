@@ -1,27 +1,27 @@
 [versions]
 
 # Android
+android-cacheFix = "2.4.6"
 android-navigation = "2.3.5"
-android-cacheFix = "2.4.5"
-goodle-services = "4.3.10"
 firebase-crashlitycs = "2.8.1"
+goodle-services = "4.3.10"
 
 # Kotlin
-kotlin = "1.6.0"
-ksp = "1.6.0-1.0.1"
+kotlin = "1.6.10"
+ksp = "1.6.10-1.0.2"
 
 # Tools
-infrastrucutre = "0.12.2"
 detekt = "1.19.0"
-owasp = "6.5.0.1"
+infrastrucutre = "0.14"
+owasp = "6.5.2.1"
 
 [plugins]
 
 # Android
-android-navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "android-navigation" }
 android-cacheFix = { id = "org.gradle.android.cache-fix", version.ref = "android-cacheFix" }
-google-services = { id = "com.google.gms.google-services", version.ref = "goodle-services"}
+android-navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "android-navigation" }
 firebase-crashlitycs = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlitycs"}
+google-services = { id = "com.google.gms.google-services", version.ref = "goodle-services"}
 
 # Kotlin
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
@@ -31,12 +31,13 @@ kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", versi
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
 
 # Tools
-infrastructure-root = { id = "redmadrobot.root-project", version.ref = "infrastrucutre" }
-infrastructure-kotlinLibrary = { id = "redmadrobot.kotlin-library", version.ref = "infrastrucutre" }
-infrastructure-publish = { id = "redmadrobot.publish", version.ref = "infrastrucutre" }
-infrastructure-signing = { id = "redmadrobot.signing", version.ref = "infrastrucutre" }
-infrastructure-detekt = { id = "redmadrobot.detekt", version.ref = "infrastrucutre" }
-infrastructure-application = { id = "redmadrobot.application", version.ref = "infrastrucutre" }
-infrastructure-androidLibrary = { id = "redmadrobot.android-library", version.ref = "infrastrucutre" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+infrastructure-androidConfig = { id = "com.redmadrobot.android-config", version.ref = "infrastrucutre" }
+infrastructure-androidLibrary = { id = "com.redmadrobot.android-library", version.ref = "infrastrucutre" }
+infrastructure-application = { id = "com.redmadrobot.application", version.ref = "infrastrucutre" }
+infrastructure-detekt = { id = "com.redmadrobot.detekt", version.ref = "infrastrucutre" }
+infrastructure-kotlinConfig = { id = "com.redmadrobot.kotlin-config", version.ref = "infrastrucutre" }
+infrastructure-kotlinLibrary = { id = "com.redmadrobot.kotlin-library", version.ref = "infrastrucutre" }
+infrastructure-publish = { id = "com.redmadrobot.publish", version.ref = "infrastrucutre" }
+infrastructure-publishConfig = { id = "com.redmadrobot.publish-config", version.ref = "infrastrucutre" }
 owasp = { id = "org.owasp.dependencycheck", version.ref = "owasp" }

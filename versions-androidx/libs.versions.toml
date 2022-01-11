@@ -1,27 +1,25 @@
 [versions]
 
-# AndroidX
-appcompat = "1.4.0"
+appcompat = "1.4.1"
 browser = "1.4.0"
 constraintlayout = "2.1.2"
+coordinatorlayout = "1.2.0"
 core-ktx = "1.7.0"
-core-splashscreen = "1.0.0-alpha01"
+core-splashscreen = "1.0.0-beta01"
 fragment = "1.4.0"
 lifecycle-viewmodel-ktx = "2.4.0"
 navigation = "2.3.5"
 paging = "3.1.0"
 recyclerview = "1.2.1"
+room = "2.4.1"
 swiperefreshlayout = "1.1.0"
-
-# Storage
-room = "2.3.0"
 
 [libraries]
 
-# AndroidX
 appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 browser = { module = "androidx.browser:browser", version.ref = "browser" }
 constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+coordinatorlayout = { module = "androidx.coordinatorlayout:coordinatorlayout", version.ref = "coordinatorlayout" }
 core = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
 core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "core-splashscreen" }
 fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
@@ -32,12 +30,10 @@ paging-runtime = { module = "androidx.paging:paging-runtime", version.ref = "pag
 paging-rxjava2 = { module = "androidx.paging:paging-rxjava2", version.ref = "paging" }
 paging-rxjava3 = { module = "androidx.paging:paging-rxjava3", version.ref = "paging" }
 recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
-
-# Storage
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-rxjava2 = { module = "androidx.room:room-rxjava2", version.ref = "room" }
 room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "room" }
 room-testing = { module = "androidx.room:room-testing", version.ref = "room" }
+swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
