@@ -1,52 +1,94 @@
 ## [Unreleased]
 
-### Added
+### AndroidX
 
-- **androidx:** coordinatorlayout 1.2.0
-- **plugins:** infrastructure-kotlinConfig
-- **plugins:** infrastructure-androidConfig
-- **plugins:** infrastructure-publishConfig
-- **stack:** kotlinx-serialization-protobuf
+#### Added
 
-### Removed
+- activity and activity-compose `1.4.0`
+- compose `1.1.0-rc01`:
+    - compose-animation
+    - compose-foundation
+    - compose-material
+    - compose-material3 `1.0.0-alpha03`
+    - compose-runtime
+    - compose-ui
+    - compose-ui-tooling
+- constraintlayout-compose
+- coordinatorlayout `1.2.0`
+- fragment-testing
+- lifecycle-viewmodel-compose
+- navigation-compose
+- paging-compose `1.0.0-alpha14`
 
-- **plugins:** infrastructure-root
-- **plugins:** infrastructure-signing
+#### Updated
 
-### Changed
+- appcompat `1.4.0` → `1.4.1`
+- core-splashscreen `1.0.0-alpha01` → `1.0.0-beta01`
+- navigation `2.3.5` → `2.4.0-rc01`
+- room `2.3.0` → `2.4.1`
 
-- **plugins:** `kotlin-pluginParcelize` → `kotlin-parcelize`
-- **stack:** `airbnb-epoxy` → `epoxy`
+### Plugins
 
-### Updated
+#### Added
 
-- **androidx:** appcompat `1.4.0` → `1.4.1`
-- **androidx:** room `2.3.0` → `2.4.1`
-- **androidx:** core-splashscreen `1.0.0-alpha01` → `1.0.0-beta01`
-- **plugins:** android-cacheFix `2.4.5` → `2.4.6`
-- **plugins:** kotlin `1.6.0` → `1.6.10`
-- **plugins:** ksp `1.6.0-1.0.1` → `1.6.10-1.0.2`
-- **plugins:** infrastructure `0.12.2` → `0.14`
-- **plugins:** owasp `6.5.0.1` → `6.5.2.1`
-- **redmadrobot:** extensions-core `1.6.0-1` → `1.6.0-2`
-- **redmadrobot:** extensions-fragment-args `1.3.6-0` → `1.3.6-1`
-- **stack:** insetter `0.6.6` → `0.6.1` (fixed)
-- **stack:** groupie `2.9.0` → `2.10.0`
-- **stack:** kotlinx-coroutines `1.5.2` → `1.6.0`
-- **stack:** kotlinx-serialization `1.3.0` → `1.3.2`
-- **stack:** reactivex-rxjava3 `3.1.2` → `3.1.3`
-- **stack:** moshi `1.12.0` → `1.13.0`
-- **stack:** okhttp `4.9.2` → `4.9.3`
-- **stack:** google-dagger `2.39.1` → `2.40.5`
-- **stack:** kotest `4.6.3` → `5.1.0`
-- **stack:** google-dagger `1.12.0` → `1.12.2`
-- **stack:** leakcanary `2.7` → `2.8.1`
-- **stack:** ksp `1.5.31-1.0.0` → `1.6.10-1.0.2`
+- infrastructure-androidConfig
+- infrastructure-kotlinConfig
+- infrastructure-publishConfig
+
+#### Removed
+
+- infrastructure-root
+- infrastructure-signing
+
+#### Changed
+
+- `kotlin-pluginParcelize` → `kotlin-parcelize`
+
+#### Updated
+
+- android-cacheFix `2.4.5` → `2.4.6`
+- infrastructure `0.12.2` → `0.14`
+- kotlin `1.6.0` → `1.6.10`
+- ksp `1.6.0-1.0.1` → `1.6.10-1.0.2`
+- owasp `6.5.0.1` → `6.5.2.1`
+
+### Stack
+
+#### Added
+
+- kotlinx-serialization-protobuf
+- coil-compose
+
+#### Changed
+
+- `airbnb-epoxy` → `epoxy`
+
+#### Updated
+
+- google-dagger `2.39.1` → `2.40.5`
+- groupie `2.9.0` → `2.10.0`
+- insetter `0.6.6` → `0.6.1` (fix)
+- kotest `4.6.3` → `5.1.0`
+- kotlinx-coroutines `1.5.2` → `1.6.0`
+- kotlinx-serialization `1.3.0` → `1.3.2`
+- ksp `1.5.31-1.0.0` → `1.6.10-1.0.2`
+- leakcanary `2.7` → `2.8.1`
+- mockk `1.12.0` → `1.12.2`
+- moshi `1.12.0` → `1.13.0`
+- okhttp `4.9.2` → `4.9.3`
+- reactivex-rxjava3 `3.1.2` → `3.1.3`
+
+### red_mad_robot
+
+#### Updated
+
+- extensions-core `1.6.0-1` → `1.6.0-2`
+- extensions-fragment-args `1.3.6-0` → `1.3.6-1`
 
 ### Housekeeping
 
 - Update Gradle `7.3` → `7.3.3`
-- Add CHANGELOG
+- Added CHANGELOG
 
 ## [2021.06.12] (2021 Dec 06)
 

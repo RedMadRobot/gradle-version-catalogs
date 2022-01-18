@@ -1,7 +1,7 @@
 [versions]
 
 # Ui Tools
-coil-kt = "1.4.0"
+coil = "1.4.0"
 epoxy = "4.6.4"
 groupie = "2.10.0"
 insetter = "0.6.1"
@@ -37,7 +37,8 @@ ksp = "1.6.10-1.0.2"
 [libraries]
 
 # UI Tools
-coil = { module = "io.coil-kt:coil", version.ref = "coil-kt" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
 epoxy = { module = "com.airbnb.android:epoxy", version.ref = "epoxy" }
 epoxy-paging3 = { module = "com.airbnb.android:epoxy-paging3", version.ref = "epoxy" }
 epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref = "epoxy" }
