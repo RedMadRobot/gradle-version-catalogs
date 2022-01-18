@@ -1,11 +1,11 @@
 [versions]
 
 # Ui Tools
-airbnb-epoxy = "4.6.4"
-insetter = "0.6.1"
 coil-kt = "1.4.0"
-material = "1.5.0"
+epoxy = "4.6.4"
 groupie = "2.10.0"
+insetter = "0.6.1"
+material = "1.5.0"
 
 # Multithreading
 kotlinx-coroutines = "1.6.0"
@@ -37,13 +37,13 @@ ksp = "1.6.10-1.0.2"
 [libraries]
 
 # UI Tools
-airbnb-epoxy = { module = "com.airbnb.android:epoxy", version.ref = "airbnb-epoxy" }
-airbnb-epoxy-paging3 = { module = "com.airbnb.android:epoxy-paging3", version.ref = "airbnb-epoxy" }
-airbnb-epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref = "airbnb-epoxy" }
-insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "insetter" }
 coil = { module = "io.coil-kt:coil", version.ref = "coil-kt" }
-material = { module = "com.google.android.material:material", version.ref = "material" }
+epoxy = { module = "com.airbnb.android:epoxy", version.ref = "epoxy" }
+epoxy-paging3 = { module = "com.airbnb.android:epoxy-paging3", version.ref = "epoxy" }
+epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref = "epoxy" }
 groupie = { module = "com.github.lisawray.groupie:groupie", version.ref = "groupie" }
+insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "insetter" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
 
 # Multithreading
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }

@@ -13,6 +13,11 @@
 - **plugins:** infrastructure-root
 - **plugins:** infrastructure-signing
 
+### Changed
+
+- **plugins:** `kotlin-pluginParcelize` → `kotlin-parcelize`
+- **stack:** `airbnb-epoxy` → `epoxy`
+
 ### Updated
 
 - **androidx:** appcompat `1.4.0` → `1.4.1`
