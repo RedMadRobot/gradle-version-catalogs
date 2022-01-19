@@ -1,8 +1,10 @@
 enableFeaturePreview("VERSION_CATALOGS")
 
-rootProject.name = "versions-catalog"
+rootProject.name = "versions"
 
-include("versions-androidx")
-include("versions-redmadrobot")
-include("versions-stack")
-include("versions-plugins")
+include(
+    "versions-androidx",
+    "versions-plugins",
+    "versions-redmadrobot",
+    "versions-stack",
+)

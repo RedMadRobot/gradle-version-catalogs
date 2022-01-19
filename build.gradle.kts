@@ -1,5 +1,3 @@
-fun properties(key: String) = project.findProperty(key).toString()
-
 plugins {
     `version-catalog`
     `maven-publish`
