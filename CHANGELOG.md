@@ -6,19 +6,25 @@
 
 - activity and activity-compose `1.4.0`
 - compose `1.1.0-rc01`:
-    - compose-animation
-    - compose-foundation
-    - compose-material
-    - compose-material3 `1.0.0-alpha03`
-    - compose-runtime
-    - compose-ui
-    - compose-ui-tooling
+  - compose-animation
+  - compose-foundation
+  - compose-material
+  - compose-material3 `1.0.0-alpha03`
+  - compose-runtime
+  - compose-ui
+  - compose-ui-tooling
 - constraintlayout-compose
 - coordinatorlayout `1.2.0`
+- datastore `1.0.0`:
+  - core
+  - rxjava2
+  - rxjava3
 - fragment-testing
+- lifecycle-runtime
 - lifecycle-viewmodel-compose
 - navigation-compose
 - paging-compose `1.0.0-alpha14`
+- security-crypto `1.0.0`
 
 #### Updated
 
@@ -56,8 +62,16 @@
 
 #### Added
 
-- kotlinx-serialization-protobuf
 - coil-compose
+- firebase:
+  - analytics `20.0.2`
+  - bom `29.0.3`
+  - crashlytics `18.2.6`
+  - messaging `23.0.0`
+- kotlin-bom `1.6.10`
+- kotlinx-serialization-protobuf
+- retrofit-converter-kotlinxSerialization (`com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0`)
+- tink, tink-android `1.6.1`:
 
 #### Changed
 
@@ -82,8 +96,12 @@
 
 #### Updated
 
-- extensions-core `1.6.0-1` → `1.6.0-2`
-- extensions-fragment-args `1.3.6-0` → `1.3.6-1`
+- ktx-core `1.6.0-1` → `1.6.0-2`
+- ktx-fragment-args `1.3.6-0` → `1.3.6-1`
+
+#### Changed
+
+- `extension-*` -> `ktx-*`
 
 ### Housekeeping
 
