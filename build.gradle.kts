@@ -1,15 +1,38 @@
+import com.redmadrobot.build.dsl.*
+
 plugins {
     `version-catalog`
     `maven-publish`
+    id("com.redmadrobot.publish-config") version "0.15"
+    id("com.redmadrobot.publish") version "0.15" apply false
 }
 
 repositories {
     mavenCentral()
 }
 
+redmadrobot {
+    publishing {
+        signArtifacts.set(true)
+
+        pom {
+            setGitHubProject("RedMadRobot/gradle-version-catalogs")
+
+            licenses {
+                mit()
+            }
+
+            developers {
+                developer(id = "rwqwr", name = "Roman Ivanov", email = "r.ivanov@redmadrobot.com")
+                developer(id = "osipxd", name = "Osip Fatkullin", email = "o.fatkullin@redmadrobot.com")
+            }
+        }
+    }
+}
+
 subprojects {
     apply {
-        plugin("org.gradle.maven-publish")
+        plugin("com.redmadrobot.publish")
         plugin("org.gradle.version-catalog")
     }
 
@@ -22,10 +45,8 @@ subprojects {
     }
 
     publishing {
-        publications {
-            create<MavenPublication>("maven") {
-                from(components["versionCatalog"])
-            }
+        repositories {
+            if (credentialsExist("ossrh")) ossrh(OssrhHost.LEGACY)
         }
     }
 }
