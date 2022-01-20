@@ -29,22 +29,22 @@ Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.g
 
 ## Modules
 
-### androidx
+### androidx [![Version](https://img.shields.io/maven-central/v/com.redmadrobot.versions/versions-androidx?style=flat-square)][mavenCentral]
 
 The catalog provides some [Jetpack libraries](https://developer.android.com/jetpack/androidx/versions). 
 You can find them in the [androidx catalog](versions-androidx/libs.versions.toml).
 
-### redmadrobot
+### redmadrobot [![Version](https://img.shields.io/maven-central/v/com.redmadrobot.versions/versions-redmadrobot?style=flat-square)][mavenCentral]
 
 The catalog provides the [red_mad_robot libraries](https://github.com/RedMadRobot). 
 You can find them in the [redmadrobot catalog](versions-redmadrobot/libs.versions.toml).
 
-### stack
+### stack [![Version](https://img.shields.io/maven-central/v/com.redmadrobot.versions/versions-stack?style=flat-square)][mavenCentral]
 
 The catalog provides a main red_mad_robot stack.
 You can find them in the [stack catalog](versions-stack/libs.versions.toml).
 
-### plugins
+### plugins [![Version](https://img.shields.io/maven-central/v/com.redmadrobot.versions/versions-plugins?style=flat-square)][mavenCentral]
 
 The catalog contains frequently used plugins for projects.
 You can find them in the [plugins catalog](versions-plugins/libs.versions.toml).
@@ -167,3 +167,5 @@ Check your Gradle wrapper version. The current catalog based on Gradle 7.2.
 ## Additional links
 
 - You can find some useful information and some answers to questions about the version catalog at https://melix.github.io/blog/tags/catalog.html
+
+[mavenCentral]: https://search.maven.org/search?q=com.redmadrobot.versions
