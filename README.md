@@ -61,13 +61,13 @@ You need to create version catalogs in `settings.gradle.kts` from remote reposit
 dependencyResolutionManagement {
     versionCatalogs {
         create("rmr") {
-            from("com.redmadrobot.versions:versions-redmadrobot:2021.06.12")
+            from("com.redmadrobot.versions:versions-redmadrobot:2022.01.20")
         }
         create("androidx") {
-            from("com.redmadrobot.versions:versions-androidx:2021.06.12")
+            from("com.redmadrobot.versions:versions-androidx:2022.01.20")
         }
         create("stack") {
-            from("com.redmadrobot.versions:versions-stack:2021.06.12")
+            from("com.redmadrobot.versions:versions-stack:2022.01.20")
         }
     }
 }
@@ -100,7 +100,7 @@ To use them, you need to create a plugins section in the version catalog file or
 dependencyResolutionManagement {
     versionCatalogs {
       create("rmr") {
-        from("com.redmadrobot.versions:versions-plugins:2021.06.12")
+        from("com.redmadrobot.versions:versions-plugins:2022.01.20")
       }
     }
 }
