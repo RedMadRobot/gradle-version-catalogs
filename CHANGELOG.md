@@ -1,5 +1,20 @@
 ## [Unreleased]
 
+### AndroidX
+
+#### Added
+
+- room-paging
+
+#### Changed
+
+- `room-ktx` → `room`
+
+#### Updated
+
+- constraintlayout `2.1.2` → `2.1.3`
+- constraintlayout-compose `1.0.0-rc02` → `1.0.0`
+
 ### Stack
 
 #### Added
