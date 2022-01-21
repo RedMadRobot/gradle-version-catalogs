@@ -36,6 +36,19 @@
   - systemuicontroller
 - material-compose-themeAdapter `1.1.3`
 - material-compose-themeAdapter3 `1.0.3`
+- junit4 `4.13`
+- junit `5.8.2`:
+  - bom
+  - jupiter
+  - jupiter-api
+  - jupiter-engine
+  - jupiter-migrationsupport
+  - jupiter-params
+  - platform-launcher
+  - platform-runner
+  - vintage-engine
+- retorfit-mock
+- okhttp-mockwebserver3
 
 ## [2022.01.20] (2022 Jan 20)
 
