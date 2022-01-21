@@ -1,5 +1,27 @@
 ## [Unreleased]
 
+### Stack
+
+#### Added
+
+- accompanist `0.24.0-alpha`:
+  - appcompatTheme
+  - drawablepainter
+  - flowlayout
+  - insets
+  - insets-ui
+  - navigation-animation
+  - navigation-material
+  - pager
+  - pager-indicators
+  - permissions
+  - placeholder
+  - placeholder-material
+  - swiperefresh
+  - systemuicontroller
+- material-compose-themeAdapter `1.1.3`
+- material-compose-themeAdapter3 `1.0.3`
+
 ## [2022.01.20] (2022 Jan 20)
 
 ### AndroidX
