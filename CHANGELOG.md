@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [2022.01.21]
+
 ### AndroidX
 
 #### Added
@@ -164,6 +166,7 @@
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.01.20..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.01.21..main
+[2022.01.21]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.01.20..2022.01.21
 [2022.01.20]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2021.06.12..2022.01.20
 [2021.06.12]: https://github.com/RedMadRobot/gradle-version-catalogs/commits/2021.06.12
