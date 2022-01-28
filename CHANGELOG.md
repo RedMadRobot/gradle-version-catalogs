@@ -2,6 +2,16 @@
 
 ### AndroidX
 
+#### Added
+
+- camera `1.1.0-beta01`:
+  - camera2
+  - core
+  - extensions
+  - lifecycle
+  - video
+  - view
+
 #### Updated
 
 - compose `1.1.0-rc01` → `1.1.0-rc03`
