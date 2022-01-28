@@ -1,6 +1,7 @@
 [versions]
 
 flipper = "2.0.1"
+gradle-infrastructure = "0.15"
 itemsadapter = "1.1"
 ktx-core = "1.6.0-2"
 ktx-fragment = "1.3.6-0"
@@ -30,3 +31,14 @@ mapmemory-test = { module = "com.redmadrobot.mapmemory:mapmemory-test", version.
 pinkman = { module = "com.redmadrobot:pinkman", version.ref = "pinkman" }
 pinkman-coroutines = { module = "com.redmadrobot:pinkman-coroutines", version.ref = "pinkman" }
 pinkman-rx3 = { module = "com.redmadrobot:pinkman-rx3", version.ref = "pinkman" }
+
+[plugins]
+
+android-application = { id = "com.redmadrobot.application", version.ref = "gradle-infrastructure" }
+android-config = { id = "com.redmadrobot.android-config", version.ref = "gradle-infrastructure" }
+android-library = { id = "com.redmadrobot.android-library", version.ref = "gradle-infrastructure" }
+detekt = { id = "com.redmadrobot.detekt", version.ref = "gradle-infrastructure" }
+kotlin-config = { id = "com.redmadrobot.kotlin-config", version.ref = "gradle-infrastructure" }
+kotlin-library = { id = "com.redmadrobot.kotlin-library", version.ref = "gradle-infrastructure" }
+publish = { id = "com.redmadrobot.publish", version.ref = "gradle-infrastructure" }
+publish-config = { id = "com.redmadrobot.publish-config", version.ref = "gradle-infrastructure" }

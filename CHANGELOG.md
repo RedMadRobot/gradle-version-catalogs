@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+Version catalog `plugins` removed.
+Plugins were moved to other catalogs.
+
 ### AndroidX
 
 #### Added
@@ -16,6 +19,7 @@
   - navigation-compose
   - navigation-fragment
   - work
+- **plugin:** navigation-safeargs
 
 #### Updated
 
@@ -24,6 +28,44 @@
 - compose-material3 `1.0.0-alpha03` → `1.0.0-alpha04`
 - fragment `1.4.0` → `1.4.1`
 - navigation `2.4.0-rc01` → `2.4.0`
+
+### Stack
+
+#### Added
+
+Plugins:
+
+- kotlin-jvm
+- kotlin-kapt
+- kotlin-parcelize
+- kotlin-serialization
+- ksp
+- firebase-crashlytics `2.8.1`
+- gms-google-services `4.3.10`
+- android-cacheFix `2.4.6`
+- detekt `1.19.0`
+- gradleDoctor `0.7.3`
+- owasp-dependencycheck `6.5.3`
+
+#### Updated
+
+- firebase-bom `29.0.3` → `29.0.4`
+- firebase-crashlytics `18.2.6` → `18.2.7`
+
+### red_mad_robot
+
+#### Added
+
+gradle-infrastructure plugins `0.15`:
+
+- android-application
+- android-config
+- android-library
+- detekt
+- kotlin-config
+- kotlin-library
+- publish
+- publish-config
 
 ## [2022.01.21]
 

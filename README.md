@@ -45,14 +45,7 @@ You can find them in the [redmadrobot catalog](versions-redmadrobot/libs.version
 The catalog provides a main red_mad_robot stack.
 You can find them in the [stack catalog](versions-stack/libs.versions.toml).
 
-### plugins
-
-The catalog contains frequently used plugins for projects.
-You can find them in the [plugins catalog](versions-plugins/libs.versions.toml).
-
-## Importing a published catalog 
-
-### Importing published libraries
+## Importing a published catalog
 
 You can read more about install shared catalogs in the [gradle documentation](https://docs.gradle.org/current/userguide/platforms.html#sec:importing-published-catalog).
 
@@ -86,6 +79,11 @@ dependencyResolutionManagement {
 After sync the project gradle create accessors for dependencies like: 
 
 ```kotlin
+plugins {
+    alias(rmr.plugins.android.application)
+    alias(androidx.plugins.navigation.safeargs)
+}
+
 dependencies {
     implementation(androidx.core.ktx)
     implementation(androidx.fragment)
@@ -95,32 +93,6 @@ dependencies {
     implementation(core.dagger)
 }
 ```
-
-### Importing published plugins
-
-Since Gradle version 7.2 you can use plugins from local or remote version catalogs. 
-To use them, you need to create a plugins section in the version catalog file or create a version catalog from a remote repository.
-
-```kotlin
-dependencyResolutionManagement {
-    versionCatalogs {
-      create("rmr") {
-        from("com.redmadrobot.versions:versions-plugins:2022.01.21")
-      }
-    }
-}
-```
-
-After that, gradle creates accessors for the plugins. You can apply plugins using the alias gradle extension.
-
-```kotlin
-plugins {
-  alias(rmr.plugins.infrastructure.application)
-  alias(rmr.plugins.infrastructure.detekt)
-}
-``` 
-
-You can read more about using plugins from version directory files in the [official documentation](https://docs.gradle.org/current/userguide/platforms.html#sec:plugins).
 
 ## Troubleshooting
 

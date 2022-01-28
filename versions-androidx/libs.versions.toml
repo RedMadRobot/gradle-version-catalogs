@@ -78,3 +78,7 @@ room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "room" }
 room-testing = { module = "androidx.room:room-testing", version.ref = "room" }
 security-crypto = { module = "androidx.security:security-crypto", version.ref = "security-crypto" }
 swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+
+[plugins]
+
+navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "navigation" }

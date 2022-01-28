@@ -45,9 +45,17 @@ ksp = "1.6.10-1.0.2"
 
 # Services
 firebase-analytics = "20.0.2"
-firebase-bom = "29.0.3"
-firebase-crashlytics = "18.2.6"
+firebase-bom = "29.0.4"
+firebase-crashlytics = "18.2.7"
+firebase-crashlytics-gradle = "2.8.1"
 firebase-messaging = "23.0.0"
+gms-google-services = "4.3.10"
+
+# Gradle plugins
+android-cacheFix = "2.4.6"
+detekt = "1.19.0"
+gradleDoctor = "0.7.3"
+owasp-dependencycheck = "6.5.3"
 
 [libraries]
 
@@ -142,3 +150,20 @@ firebase-analytics = { module = "com.google.firebase:firebase-analytics-ktx", ve
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
 firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx", version.ref = "firebase-crashlytics" }
 firebase-messaging = { module = "com.google.firebase:firebase-messaging-ktx", version.ref = "firebase-messaging" }
+
+[plugins]
+
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
+
+firebase-crashlitycs = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics-gradle"}
+gms-google-services = { id = "com.google.gms.google-services", version.ref = "gms-google-services"}
+
+android-cacheFix = { id = "org.gradle.android.cache-fix", version.ref = "android-cacheFix" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+gradleDoctor = { id = "com.osacky.doctor", version.ref = "gradleDoctor" }
+owasp-dependencycheck = { id = "org.owasp.dependencycheck", version.ref = "owasp-dependencycheck" }
