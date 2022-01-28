@@ -1,5 +1,15 @@
 ## [Unreleased]
 
+### AndroidX
+
+#### Updated
+
+- compose `1.1.0-rc01` → `1.1.0-rc03`
+- compose-compiler `1.1.0-rc02` → `1.1.0-rc03`
+- compose-material3 `1.0.0-alpha03` → `1.0.0-alpha04`
+- fragment `1.4.0` → `1.4.1`
+- navigation `2.4.0-rc01` → `2.4.0`
+
 ## [2022.01.21]
 
 ### AndroidX
