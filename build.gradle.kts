@@ -37,7 +37,7 @@ subprojects {
     }
 
     group = "com.redmadrobot.versions"
-    version = "2022.01.21"
+    version = "2022.01.28"
 
     catalog {
         versionCatalog {
@@ -47,7 +47,7 @@ subprojects {
 
     publishing {
         repositories {
-            if (credentialsExist("ossrh")) ossrh(OssrhHost.LEGACY)
+            if (credentialsExist("ossrh")) ossrh()
         }
     }
 }
