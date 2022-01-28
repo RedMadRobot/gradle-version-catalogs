@@ -11,6 +11,11 @@
   - lifecycle
   - video
   - view
+- hilt `1.0.0`:
+  - compiler
+  - navigation-compose
+  - navigation-fragment
+  - work
 
 #### Updated
 
