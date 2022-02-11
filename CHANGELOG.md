@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [2022.02.11]
+
 ### AndroidX
 
 #### Updated
@@ -257,7 +259,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.01.28..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.02.11..main
+[2022.02.11]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.01.28..2022.02.11
 [2022.01.28]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.01.21..2022.01.28
 [2022.01.21]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.01.20..2022.01.21
 [2022.01.20]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2021.06.12..2022.01.20
