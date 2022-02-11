@@ -1,5 +1,23 @@
 ## [Unreleased]
 
+### AndroidX
+
+#### Updated
+
+- compose `1.1.0-rc03` → `1.1.0`
+- compose-material3 `1.0.0-alpha04` → `1.0.0-alpha05`
+- lifecycle `2.4.0` → `2.4.1`
+- navigation `2.4.0` → `2.4.1`
+
+### Stack
+
+#### Updated
+
+- accompanist `0.24.0-alpha` → `0.23.0` *(downgrade to align with compose version)*
+- material-compose-themeAdapter `1.1.3` → `1.1.4`
+- material-compose-themeAdapter3 `1.0.3` → `1.0.4`
+- junit4 `4.13` → `4.13.2`
+
 ## [2022.01.28]
 
 Version catalog `plugins` removed.
