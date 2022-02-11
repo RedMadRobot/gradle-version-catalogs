@@ -11,6 +11,10 @@
 
 ### Stack
 
+#### Added
+
+- **plugin:** versions `0.42.0`
+
 #### Updated
 
 - accompanist `0.24.0-alpha` → `0.23.0` *(downgrade to align with compose version)*
