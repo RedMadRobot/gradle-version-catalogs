@@ -14,7 +14,6 @@ Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.g
   - [androidx](#androidx)
   - [redmadrobot](#redmadrobot)
   - [stack](#stack)
-  - [plugins](#plugins)
 - [Importing a published catalog](#importing-a-published-catalog)
   - [Importing published libraries](#importing-published-libraries)
   - [Importing published plugins](#importing-published-plugins)
@@ -59,13 +58,13 @@ dependencyResolutionManagement {
   
     versionCatalogs {
         create("rmr") {
-            from("com.redmadrobot.versions:versions-redmadrobot:2022.02.11")
+            from("com.redmadrobot.versions:versions-redmadrobot:2022.02.20")
         }
         create("androidx") {
-            from("com.redmadrobot.versions:versions-androidx:2022.02.11")
+            from("com.redmadrobot.versions:versions-androidx:2022.02.20")
         }
         create("stack") {
-            from("com.redmadrobot.versions:versions-stack:2022.02.11")
+            from("com.redmadrobot.versions:versions-stack:2022.02.20")
         }
     }
 }
