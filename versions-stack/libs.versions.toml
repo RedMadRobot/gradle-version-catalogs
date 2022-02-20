@@ -28,7 +28,7 @@ retrofit-converter-kotlinxSerialization = "0.8.0"
 tink = "1.6.1"
 
 # DI
-dagger = "2.40.5"
+dagger = "2.41"
 
 # Test
 junit = "5.8.2"
@@ -41,7 +41,7 @@ leakcanary = "2.8.1"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "1.6.10-1.0.2"
+ksp = "1.6.10-1.0.3"
 
 # Services
 firebase-analytics = "20.0.2"

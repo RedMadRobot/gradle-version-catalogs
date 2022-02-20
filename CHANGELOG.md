@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### Stack
+
+#### Updated
+
+- [dagger](https://github.com/google/dagger/releases/tag/dagger-2.41) `2.40.5` → `2.41` *(:warning: contains potentially breaking changes)*
+- [ksp](https://github.com/google/ksp/releases/tag/1.6.10-1.0.3) `1.6.10-1.0.2` → `1.6.10-1.0.3`
+
 ## [2022.02.11]
 
 ### AndroidX
