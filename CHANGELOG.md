@@ -6,6 +6,9 @@
 
 - [dagger](https://github.com/google/dagger/releases/tag/dagger-2.41) `2.40.5` → `2.41` *(:warning: contains potentially breaking changes)*
 - [ksp](https://github.com/google/ksp/releases/tag/1.6.10-1.0.3) `1.6.10-1.0.2` → `1.6.10-1.0.3`
+- [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v20-1-0) `20.0.2` → `20.1.0`
+- [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v29-1-0) `29.0.4` → `29.1.0`
+- [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-2-8) `18.2.7` → `18.2.8`
 
 ## [2022.02.11]
 
