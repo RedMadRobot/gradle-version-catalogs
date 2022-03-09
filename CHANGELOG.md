@@ -8,6 +8,17 @@
 - [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.1.1) `3.1.0` → `3.1.1`
 - [room](https://developer.android.com/jetpack/androidx/releases/room#2.4.2) `2.4.1` → `2.4.2`
 
+### Stack
+
+- [accompanist](https://github.com/google/accompanist/releases/tag/v0.23.1) `0.23.0` → `0.23.1`
+- [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#200-rc01---march-2-2022) `1.4.0` → `2.0.0-rc01` *(:warning: breaking changes)*
+- [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.5) `1.1.4` → `1.1.5`
+- [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.5) `1.0.4` → `1.0.5`
+- [ksp](https://github.com/google/ksp/releases/tag/1.6.10-1.0.4) `1.6.10-1.0.3` → `1.6.10-1.0.4`
+- [mockk](https://github.com/mockk/mockk/releases/tag/1.12.3) `1.12.2` → `1.12.3`
+- [android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.5.0) `2.4.6` → `2.5.0` (:warning: AGP 7.0.0+)
+- [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v7.0.0) `6.5.3` → `7.0.0` (:warning: breaking changes)
+
 ## [2022.02.20]
 
 ### Stack
