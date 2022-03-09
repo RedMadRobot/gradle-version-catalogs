@@ -58,13 +58,13 @@ dependencyResolutionManagement {
   
     versionCatalogs {
         create("rmr") {
-            from("com.redmadrobot.versions:versions-redmadrobot:2022.02.20")
+            from("com.redmadrobot.versions:versions-redmadrobot:2022.03.09")
         }
         create("androidx") {
-            from("com.redmadrobot.versions:versions-androidx:2022.02.20")
+            from("com.redmadrobot.versions:versions-androidx:2022.03.09")
         }
         create("stack") {
-            from("com.redmadrobot.versions:versions-stack:2022.02.20")
+            from("com.redmadrobot.versions:versions-stack:2022.03.09")
         }
     }
 }
