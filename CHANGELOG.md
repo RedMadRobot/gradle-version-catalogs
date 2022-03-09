@@ -1,5 +1,13 @@
 ## [Unreleased]
 
+### AndroidX
+
+- [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.1.0-beta02) `1.1.0-beta01` → `1.1.0-beta02`
+- [compose](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.1.1) `1.1.0` → `1.1.1`
+- [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha07) `1.0.0-alpha05` → `1.0.0-alpha07`
+- [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.1.1) `3.1.0` → `3.1.1`
+- [room](https://developer.android.com/jetpack/androidx/releases/room#2.4.2) `2.4.1` → `2.4.2`
+
 ## [2022.02.20]
 
 ### Stack
