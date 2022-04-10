@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### AndroidX
+
+- [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.1.0-beta03) `1.1.0-beta02` → `1.1.0-beta03`
+- [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha09) `1.0.0-alpha07` → `1.0.0-alpha09`
+- [core](https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.0.0-beta02) `1.0.0-beta01` → `1.0.0-beta02`
+- [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.4.2) `2.4.1` → `2.4.2`
+
 ## [2022.03.09] :warning:
 
 ### AndroidX
