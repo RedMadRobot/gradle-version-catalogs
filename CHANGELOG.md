@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+> #### :information_source: Note
+>
+> This update changes Kotlin version to `1.6.20` which is not compatible with Compose `1.1.1`.
+> If you use Compose in your project, you should [overwrite version](https://docs.gradle.org/current/userguide/platforms.html#sec:overwriting-catalog-versions) of Kotlin in `settings.gradle` file.
+
 ### AndroidX
 
 - [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.1.0-beta03) `1.1.0-beta02` → `1.1.0-beta03`
@@ -9,6 +14,13 @@
 
 ### Stack
 
+- [kotlin](https://kotlinlang.org/docs/whatsnew1620.html) `1.6.10` → `1.6.20`
+- [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#200-rc02---march-20-2022) `2.0.0-rc01` → `2.0.0-rc02`
+- [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.6) `1.1.5` → `1.1.6`
+- [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.6) `1.0.5` → `1.0.6`
+- [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.6.1) `1.6.0` → `1.6.1`
+- [kotest](https://kotest.io/docs/changelog.html#521-march-2022) `5.1.0` → `5.2.3` *(:warning: breaking changes)*
+- [ksp](https://github.com/google/ksp/releases/tag/1.6.20-1.0.5) `1.6.10-1.0.4` → `1.6.20-1.0.5`
 - [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v20-1-2) `20.1.0` → `20.1.2`
 - [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v29-3-0) `29.1.0` → `29.3.0`
 - [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-2-9) `18.2.8` → `18.2.9`
@@ -36,8 +48,8 @@
 - [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.5) `1.0.4` → `1.0.5`
 - [ksp](https://github.com/google/ksp/releases/tag/1.6.10-1.0.4) `1.6.10-1.0.3` → `1.6.10-1.0.4`
 - [mockk](https://github.com/mockk/mockk/releases/tag/1.12.3) `1.12.2` → `1.12.3`
-- [android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.5.0) `2.4.6` → `2.5.0` (:warning: AGP 7.0.0+)
-- [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v7.0.0) `6.5.3` → `7.0.0` (:warning: breaking changes)
+- [android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.5.0) `2.4.6` → `2.5.0` *(:warning: AGP 7.0.0+)*
+- [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v7.0.0) `6.5.3` → `7.0.0` *(:warning: breaking changes)*
 
 ## [2022.02.20]
 
