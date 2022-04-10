@@ -1,22 +1,16 @@
 # red_mad_robot Version Catalogs
 [![Version](https://img.shields.io/maven-central/v/com.redmadrobot.versions/versions-redmadrobot?style=flat-square)][mavenCentral]
 
-Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.gradle.org/current/userguide/platforms.html#sec:sharing-catalogs) (**Gradle version 7.2**).
+[Shared catalogs](https://docs.gradle.org/current/userguide/platforms.html#sec:sharing-catalogs) used in red_mad_robot android team.
+Gradle 7.4 required.
 
-> :warning: Version catalogs is experimental feature.
-> You should activate it by adding `enableFeaturePreview("VERSION_CATALOGS")` to the `setting.gradle.kts`.
-> Read more in the [documentation](https://docs.gradle.org/current/userguide/platforms.html).
+---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Modules](#modules)
-  - [androidx](#androidx)
-  - [redmadrobot](#redmadrobot)
-  - [stack](#stack)
-- [Importing a published catalog](#importing-a-published-catalog)
-  - [Importing published libraries](#importing-published-libraries)
-  - [Importing published plugins](#importing-published-plugins)
+- [Catalogs](#catalogs)
+- [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
   - [Unable to apply the plugin because the extension is already registered](#unable-to-apply-the-plugin-because-the-extension-is-already-registered)
   - [Unable to apply a plugin from the version catalog due to a version conflict to the classpath](#unable-to-apply-a-plugin-from-the-version-catalog-due-to-a-version-conflict-to-the-classpath)
@@ -27,26 +21,15 @@ Shared catalog of red_mad_robot based on [Gradle Shared Catalogs](https://docs.g
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Modules
+## Catalogs
 
-### androidx
+- [androidx](versions-androidx/libs.versions.toml) - The catalog with [AndroidX libraries](https://developer.android.com/jetpack/androidx/versions).
+- [redmadrobot](versions-redmadrobot/libs.versions.toml) - The catalog with the [red_mad_robot libraries](https://github.com/RedMadRobot).
+- [stack](versions-stack/libs.versions.toml) - The catalog providing libraries from tech stack used in red_mad_robot android team.
 
-The catalog provides some [Jetpack libraries](https://developer.android.com/jetpack/androidx/versions). 
-You can find them in the [androidx catalog](versions-androidx/libs.versions.toml).
+## Usage
 
-### redmadrobot
-
-The catalog provides the [red_mad_robot libraries](https://github.com/RedMadRobot). 
-You can find them in the [redmadrobot catalog](versions-redmadrobot/libs.versions.toml).
-
-### stack
-
-The catalog provides a main red_mad_robot stack.
-You can find them in the [stack catalog](versions-stack/libs.versions.toml).
-
-## Importing a published catalog
-
-You can read more about install shared catalogs in the [gradle documentation](https://docs.gradle.org/current/userguide/platforms.html#sec:importing-published-catalog).
+> You can read more about shared catalogs usage in the [documentation](https://docs.gradle.org/current/userguide/platforms.html#sec:importing-published-catalog).
 
 You need to create version catalogs in `settings.gradle.kts` from remote repository:
 
@@ -99,7 +82,7 @@ You can find Troubleshooting in [gradle documentation page](https://docs.gradle.
 
 ### Unable to apply the plugin because the extension is already registered 
 
-```text
+```
 Caused by: java.lang.IllegalArgumentException: Cannot add extension with name, as there is an extension already registered with that name
 ```
 
@@ -108,7 +91,7 @@ Please, read the warning under [Importing a published catalog](#importing-a-publ
 
 ### Unable to apply a plugin from the version catalog due to a version conflict to the classpath
 
-```text
+```
 Caused by: org.gradle.plugin.management.internal.InvalidPluginRequestException: Plugin request for plugin already on the classpath must not include a version
 ```
 
@@ -129,8 +112,8 @@ You can suppress it with `@Suppress("DSL_SCOPE_VIOLATION")`
 
 ### Invalid catalog definition
 
-```text
- Problem: In version catalog libs, you can only import a single external catalog in a given catalog definition.
+```
+Problem: In version catalog libs, you can only import a single external catalog in a given catalog definition.
 ```
 
 Probably, you named a published version catalog as `libs`.
