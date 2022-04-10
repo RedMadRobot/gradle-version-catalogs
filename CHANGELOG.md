@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [2022.04.10] :warning:
+
 > #### :information_source: Note
 >
 > This update changes Kotlin version to `1.6.20` which is not compatible with Compose `1.1.1`.
@@ -324,7 +326,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.03.09..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.04.10..main
+[2022.04.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.03.09..2022.04.10
 [2022.03.09]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.02.20..2022.03.09
 [2022.02.20]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.02.11..2022.02.20
 [2022.02.11]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.01.28..2022.02.11
