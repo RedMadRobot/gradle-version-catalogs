@@ -54,8 +54,8 @@ gms-google-services = "4.3.10"
 # Gradle plugins
 android-cacheFix = "2.5.0"
 detekt = "1.19.0"
-gradleDoctor = "0.7.3"
-owasp-dependencycheck = "7.0.0"
+gradleDoctor = "0.8.0"
+owasp-dependencycheck = "7.0.4"
 versionsPlugin = "0.42.0"
 
 [libraries]

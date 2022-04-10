@@ -25,6 +25,8 @@
 - [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v29-3-0) `29.1.0` → `29.3.0`
 - [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-2-9) `18.2.8` → `18.2.9`
 - [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-0-2) `23.0.0` → `23.0.2`
+- [gradleDoctor](https://runningcode.github.io/gradle-doctor/changelog/#080) `0.7.3` → `0.8.0`
+- [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v7.0.4) `7.0.0` → `7.0.4`
 
 ### red_mad_robot
 
