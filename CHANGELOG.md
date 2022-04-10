@@ -7,6 +7,13 @@
 - [core](https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.0.0-beta02) `1.0.0-beta01` → `1.0.0-beta02`
 - [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.4.2) `2.4.1` → `2.4.2`
 
+### Stack
+
+- [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v20-1-2) `20.1.0` → `20.1.2`
+- [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v29-3-0) `29.1.0` → `29.3.0`
+- [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-2-9) `18.2.8` → `18.2.9`
+- [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-0-2) `23.0.0` → `23.0.2`
+
 ### red_mad_robot
 
 - [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.2.0) `1.1.3` → `1.2.0`
