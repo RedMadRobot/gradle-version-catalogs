@@ -7,6 +7,10 @@
 - [core](https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.0.0-beta02) `1.0.0-beta01` → `1.0.0-beta02`
 - [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.4.2) `2.4.1` → `2.4.2`
 
+### red_mad_robot
+
+- [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.2.0) `1.1.3` → `1.2.0`
+
 ## [2022.03.09] :warning:
 
 ### AndroidX
