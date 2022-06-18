@@ -1,21 +1,84 @@
 > **Symbols:** \
 > :sparkle: - Added dependency \
 > :arrow_up: - Updated dependency \
-> :x: - Removed dependency
+> :x: - Removed dependency \
+> :warning: - Be careful on update. Update may contain breaking changes or behaviour changes.
 
 ## [Unreleased]
 
 ### AndroidX
 
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.4.2) `1.4.1` → `1.4.2`
+  - :sparkle: [appcompat-resources](https://androidx.tech/artifacts/appcompat/appcompat-resources/1.4.2)
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.1.0-rc02) `1.1.0-beta03` → `1.1.0-rc02`
 - :arrow_up: [compose](https://developer.android.com/jetpack/androidx/releases/compose) `1.1.1` → `1.2.0-rc01` *(:warning: be careful on update)*
-- :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha13) `1.0.0-alpha09` → `1.0.0-alpha13`
+  - :sparkle: [compose-animation-core](https://developer.android.com/reference/kotlin/androidx/compose/animation/core/package-summary)
+  - :sparkle: [compose-animation-graphics](https://androidx.tech/artifacts/compose.animation/animation-graphics/)
+  - :sparkle: [compose-foundation-layout](https://androidx.tech/artifacts/compose.foundation/foundation-layout/)
+  - :sparkle: [compose-material-icons-core](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary)
+  - :sparkle: [compose-material-icons-extended](https://maven.google.com/web/index.html#androidx.compose.material:material-icons-extended:1.2.0-rc01)
+  - :sparkle: [compose-material-ripple](https://androidx.tech/artifacts/compose.material/material-ripple/)
+  - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha13) `1.0.0-alpha09` → `1.0.0-alpha13`
+  - :sparkle: [compose-material3-windowSizeClass](https://androidx.tech/artifacts/compose.material3/material3-window-size-class/) `1.0.0-alpha13`
+  - :sparkle: [compose-runtime-livedata](https://developer.android.com/jetpack/androidx/releases/compose-runtime)
+  - :sparkle: [compose-runtime-rxjava2](https://developer.android.com/reference/kotlin/androidx/compose/runtime/rxjava2/package-summary)
+  - :sparkle: [compose-runtime-rxjava3](https://developer.android.com/reference/kotlin/androidx/compose/runtime/rxjava3/package-summary)
+  - :sparkle: [compose-runtime-saveable](https://developer.android.com/reference/kotlin/androidx/compose/runtime/saveable/package-summary)
+  - :sparkle: [compose-ui-geometry](https://developer.android.com/reference/kotlin/androidx/compose/ui/geometry/package-summary)
+  - :sparkle: [compose-ui-graphics](https://developer.android.com/reference/kotlin/androidx/compose/ui/graphics/package-summary)
+  - :sparkle: [compose-ui-test](https://developer.android.com/reference/kotlin/androidx/compose/ui/test/package-summary)
+  - :sparkle: [compose-ui-test-junit4](https://developer.android.com/reference/kotlin/androidx/compose/ui/test/junit4/package-summary)
+  - :sparkle: [compose-ui-test-manifest](https://androidx.tech/artifacts/compose.ui/ui-test-manifest/)
+  - :sparkle: [compose-ui-text](https://developer.android.com/reference/kotlin/androidx/compose/ui/text/package-summary)
+  - :sparkle: [compose-ui-text-googleFonts](https://developer.android.com/jetpack/compose/text#downloadable-fonts)
+  - :sparkle: [compose-ui-tooling-data](https://developer.android.com/reference/kotlin/androidx/compose/ui/tooling/data/package-summary)
+  - :sparkle: [compose-ui-tooling-preview](https://developer.android.com/reference/kotlin/androidx/compose/ui/tooling/preview/package-summary)
+  - :sparkle: [compose-ui-unit](https://developer.android.com/reference/kotlin/androidx/compose/ui/unit/package-summary)
+  - :sparkle: [compose-ui-util](https://developer.android.com/reference/kotlin/androidx/compose/ui/util/package-summary)
+  - :sparkle: [compose-ui-viewbinding](https://developer.android.com/jetpack/compose/interop/interop-apis#views-in-compose)
 - :arrow_up: [constraintlayout](https://github.com/androidx/constraintlayout/wiki/What's-New-in-2.1#new-in-214) `2.1.3` → `2.1.4`
-- :arrow_up: [constraintlayout-compose](https://github.com/androidx/constraintlayout/wiki/What's-New-in-1.0-(Compose)#new-in-compose-101) `1.0.0` → `1.0.1`
+  - :arrow_up: [constraintlayout-compose](https://github.com/androidx/constraintlayout/wiki/What's-New-in-1.0-(Compose)#new-in-compose-101) `1.0.0` → `1.0.1`
+  - :sparkle: [constraintlayout-core](https://androidx.tech/artifacts/constraintlayout/constraintlayout-core/1.0.4) `1.0.4`
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.8.0) `1.7.0` → `1.8.0`
 - :arrow_up: [core-splashscreen](https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.0.0-rc01) `1.0.0-beta02` → `1.0.0-rc01`
-- :arrow_up: [paging-compose](https://developer.android.com/jetpack/androidx/releases/paging#1.0.0-alpha15) `1.0.0-alpha14` → `1.0.0-alpha15`
+- :sparkle: [core-googleShortcuts](https://developer.android.com/jetpack/androidx/releases/core#core-google-shortcuts-1.0.1) `1.0.1`
+- **datastore-preferences:**
+  - :sparkle: [datastore-preferences](https://developer.android.com/reference/kotlin/androidx/datastore/preferences/package-summary)
+  - :sparkle: [datastore-preferences-core](https://developer.android.com/reference/kotlin/androidx/datastore/preferences/core/package-summary)
+  - :sparkle: [datastore-preferences-rxjava2](https://developer.android.com/reference/kotlin/androidx/datastore/preferences/rxjava2/package-summary)
+  - :sparkle: [datastore-preferences-rxjava3](https://developer.android.com/reference/kotlin/androidx/datastore/preferences/rxjava3/package-summary)
+- **hilt:**
+  - :sparkle: [hilt-common](https://androidx.tech/artifacts/hilt/hilt-common/)
+  - :sparkle: [hilt-navigation](https://androidx.tech/artifacts/hilt/hilt-navigation/)
+- **lifecycle:**
+  - :sparkle: [lifecycle-common](https://androidx.tech/artifacts/lifecycle/lifecycle-common/)
+  - :sparkle: [lifecycle-common-java8](https://androidx.tech/artifacts/lifecycle/lifecycle-common-java8/)
+  - :sparkle: [lifecycle-compiler](https://androidx.tech/artifacts/lifecycle/lifecycle-compiler/)
+  - :sparkle: [lifecycle-livedata](https://androidx.tech/artifacts/lifecycle/lifecycle-livedata-ktx/)
+  - :sparkle: [lifecycle-livedata-core](https://androidx.tech/artifacts/lifecycle/lifecycle-livedata-core-ktx/)
+  - :sparkle: [lifecycle-process](https://androidx.tech/artifacts/lifecycle/lifecycle-process/)
+  - :sparkle: [lifecycle-reactivestreams](https://androidx.tech/artifacts/lifecycle/lifecycle-reactivestreams-ktx/)
+  - :sparkle: [lifecycle-runtime-testing](https://androidx.tech/artifacts/lifecycle/lifecycle-runtime-testing/)
+  - :sparkle: [lifecycle-service](https://androidx.tech/artifacts/lifecycle/lifecycle-service/)
+  - :sparkle: [lifecycle-viewmodel-savedstate](https://developer.android.com/topic/libraries/architecture/viewmodel-savedstate)
+- **navigation:**
+  - :sparkle: [navigation-common](https://androidx.tech/artifacts/navigation/navigation-common/)
+  - :sparkle: [navigation-dynamicFeatures-fragment](https://developer.android.com/guide/navigation/navigation-dynamic)
+  - :sparkle: [navigation-dynamicFeatures-runtime](https://androidx.tech/artifacts/navigation/navigation-dynamic-features-runtime/)
+  - :sparkle: [navigation-safeArgs-generator](https://androidx.tech/artifacts/navigation/navigation-safe-args-generator/)
+  - :sparkle: [navigation-safeArgs-gradlePlugin](https://developer.android.com/jetpack/androidx/releases/navigation#safe_args)
+  - :sparkle: [navigation-testing](https://developer.android.com/reference/androidx/navigation/testing/package-summary)
+  - :sparkle: **plugin:** `navigation-safeargs-kotlin`
+- **paging:**
+  - :sparkle: [paging-common](https://androidx.tech/artifacts/paging/paging-common/)
+  - :arrow_up: [paging-compose](https://developer.android.com/jetpack/androidx/releases/paging#1.0.0-alpha15) `1.0.0-alpha14` → `1.0.0-alpha15`
+  - :sparkle: [paging-guava](https://androidx.tech/artifacts/paging/paging-guava/)
+- :sparkle: [recyclerview-selection](https://developer.android.com/reference/androidx/recyclerview/selection/package-summary) `1.1.0`
+- **room:**
+  - :sparkle: [room-common](https://androidx.tech/artifacts/room/room-common/)
+  - :sparkle: [room-compiler-processing](https://androidx.tech/artifacts/room/room-compiler-processing/)
+  - :sparkle: [room-compiler-processing-testing](https://androidx.tech/artifacts/room/room-compiler-processing-testing/)
+  - :sparkle: [room-guava](https://androidx.tech/artifacts/room/room-guava/)
 
 ## [2022.04.10] :warning:
 
