@@ -1,16 +1,21 @@
+> **Symbols:** \
+> :sparkle: - Added dependency \
+> :arrow_up: - Updated dependency \
+> :x: - Removed dependency
+
 ## [Unreleased]
 
 ### AndroidX
 
-- [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.4.2) `1.4.1` → `1.4.2`
-- [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.1.0-rc02) `1.1.0-beta03` → `1.1.0-rc02`
-- [compose](https://developer.android.com/jetpack/androidx/releases/compose) `1.1.1` → `1.2.0-rc01` *(:warning: be careful on update)*
-- [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha13) `1.0.0-alpha09` → `1.0.0-alpha13`
-- [constraintlayout](https://github.com/androidx/constraintlayout/wiki/What's-New-in-2.1#new-in-214) `2.1.3` → `2.1.4`
-- [constraintlayout-compose](https://github.com/androidx/constraintlayout/wiki/What's-New-in-1.0-(Compose)#new-in-compose-101) `1.0.0` → `1.0.1`
-- [core](https://developer.android.com/jetpack/androidx/releases/core#1.8.0) `1.7.0` → `1.8.0`
-- [core-splashscreen](https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.0.0-rc01) `1.0.0-beta02` → `1.0.0-rc01`
-- [paging-compose](https://developer.android.com/jetpack/androidx/releases/paging#1.0.0-alpha15) `1.0.0-alpha14` → `1.0.0-alpha15`
+- :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.4.2) `1.4.1` → `1.4.2`
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.1.0-rc02) `1.1.0-beta03` → `1.1.0-rc02`
+- :arrow_up: [compose](https://developer.android.com/jetpack/androidx/releases/compose) `1.1.1` → `1.2.0-rc01` *(:warning: be careful on update)*
+- :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha13) `1.0.0-alpha09` → `1.0.0-alpha13`
+- :arrow_up: [constraintlayout](https://github.com/androidx/constraintlayout/wiki/What's-New-in-2.1#new-in-214) `2.1.3` → `2.1.4`
+- :arrow_up: [constraintlayout-compose](https://github.com/androidx/constraintlayout/wiki/What's-New-in-1.0-(Compose)#new-in-compose-101) `1.0.0` → `1.0.1`
+- :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.8.0) `1.7.0` → `1.8.0`
+- :arrow_up: [core-splashscreen](https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.0.0-rc01) `1.0.0-beta02` → `1.0.0-rc01`
+- :arrow_up: [paging-compose](https://developer.android.com/jetpack/androidx/releases/paging#1.0.0-alpha15) `1.0.0-alpha14` → `1.0.0-alpha15`
 
 ## [2022.04.10] :warning:
 
