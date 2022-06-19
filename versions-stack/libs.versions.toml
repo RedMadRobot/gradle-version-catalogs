@@ -1,6 +1,7 @@
 [versions]
 
 kotlin = "1.7.0"
+dokka = "1.6.21"
 
 # UI Tools
 accompanist = "0.24.11-rc"
@@ -79,6 +80,20 @@ kotlin-test-common = { module = "org.jetbrains.kotlin:kotlin-test-common", versi
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
 kotlin-test-junit5 = { module = "org.jetbrains.kotlin:kotlin-test-junit5", version.ref = "kotlin" }
 kotlin-test-testing = { module = "org.jetbrains.kotlin:kotlin-test-testing", version.ref = "kotlin" }
+
+dokka-base = { module = "org.jetbrains.dokka:dokka-base", version.ref = "dokka" }
+dokka-cli = { module = "org.jetbrains.dokka:dokka-cli", version.ref = "dokka" }
+dokka-core = { module = "org.jetbrains.dokka:dokka-core", version.ref = "dokka" }
+dokka-gradlePlugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
+dokka-plugin-allModulesPage = { module = "org.jetbrains.dokka:all-modules-page-plugin", version.ref = "dokka" }
+dokka-plugin-androidDocumentation = { module = "org.jetbrains.dokka:android-documentation-plugin", version.ref = "dokka" }
+dokka-plugin-gfm = { module = "org.jetbrains.dokka:gfm-plugin", version.ref = "dokka" }
+dokka-plugin-javadoc = { module = "org.jetbrains.dokka:javadoc-plugin", version.ref = "dokka" }
+dokka-plugin-jekyll = { module = "org.jetbrains.dokka:jekyll-plugin", version.ref = "dokka" }
+dokka-plugin-kotlinAsJava = { module = "org.jetbrains.dokka:kotlin-as-java-plugin", version.ref = "dokka" }
+dokka-plugin-mathjax = { module = "org.jetbrains.dokka:mathjax-plugin", version.ref = "dokka" }
+dokka-plugin-templating = { module = "org.jetbrains.dokka:templating-plugin", version.ref = "dokka" }
+dokka-plugin-versioning = { module = "org.jetbrains.dokka:versioning-plugin", version.ref = "dokka" }
 
 # UI Tools
 accompanist-appcompatTheme = { module = "com.google.accompanist:accompanist-appcompat-theme", version.ref = "accompanist" }
@@ -233,6 +248,9 @@ kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref 
 kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
 kotlin-scripting = { id = "org.jetbrains.kotlin.plugin.scripting", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
+dokka-android = { id = "org.jetbrains.dokka-android", version.ref = "dokka" }
 
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
 

@@ -112,7 +112,21 @@ dependencies {
   - :sparkle: [coil-video](https://coil-kt.github.io/coil/videos/)
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.42) `2.41` → `2.42` *(:warning: potentially breaking changes)*
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.21.0-RC1) `1.19.0` → `1.21.0-RC1`
-- :sparkle: [epoxy-annotations](https://github.com/airbnb/epoxy/tree/master/epoxy-annotations)
+- :sparkle: **dokka** `1.6.21`
+  - [dokka-base](https://kotlin.github.io/dokka/1.6.21/developer_guide/extension_points/#default-extensions-extension-points)
+  - [dokka-cli](https://kotlin.github.io/dokka/1.6.21/user_guide/cli/usage/)
+  - [dokka-core](https://kotlin.github.io/dokka/1.6.21/developer_guide/introduction/)
+  - [dokka-gradlePlugin](https://kotlin.github.io/dokka/1.6.21/user_guide/gradle/usage/#applying-plugins)
+  - [dokka-plugin-allModulesPage](https://github.com/Kotlin/dokka/tree/master/plugins/all-modules-page)
+  - [dokka-plugin-androidDocumentation](https://kotlin.github.io/dokka/1.6.21/user_guide/android-plugin/android-plugin/)
+  - [dokka-plugin-gfm](https://kotlin.github.io/dokka/1.6.21/user_guide/introduction/#plugins)
+  - [dokka-plugin-javadoc](https://kotlin.github.io/dokka/1.6.21/user_guide/introduction/#plugins)
+  - [dokka-plugin-jekyll](https://kotlin.github.io/dokka/1.6.21/user_guide/introduction/#plugins)
+  - [dokka-plugin-kotlinAsJava](https://kotlin.github.io/dokka/1.6.21/user_guide/introduction/#plugins)
+  - [dokka-plugin-mathjax](https://github.com/Kotlin/dokka/tree/master/plugins/mathjax)
+  - [dokka-plugin-templating](https://github.com/Kotlin/dokka/tree/master/plugins/templating)
+  - [dokka-plugin-versioning](https://kotlin.github.io/dokka/1.6.21/user_guide/versioning/versioning/)
+- :sparkle: [epoxy-annotations](https://github.com/airbnb/epoxy/tree/master/epoxy-annotations) `4.6.4`
 - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-0-0) `20.1.2` → `21.0.0`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v30-1-0) `29.3.0` → `30.1.0`
 - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v2-9-0) `2.8.1` → `2.9.0`
