@@ -24,6 +24,17 @@ dependencies {
 }
 ```
 
+### red_mad_robot
+
+- :sparkle: [flipper-firebaseConfig](https://github.com/RedMadRobot/flipper/tree/master/flipper-firebase-config) `2.0.1`
+- :arrow_up: [infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases) `0.15` → `0.16.2`
+  - :sparkle: infrastructure-android
+  - :sparkle: infrastructure-detekt
+  - :sparkle: infrastructure-kotlin
+  - :sparkle: infrastructure-publish
+- :sparkle: [mapmemory-kaptBugWorkaround](https://github.com/RedMadRobot/mapmemory#kapt-illegalstateexception-couldnt-find-declaration-file-on-delegate-with-inline-getvalue-operator) `2.0`
+- :sparkle: [pinkman-ui](https://github.com/RedMadRobot/PINkman#quick-start) `1.2.0`
+
 ### AndroidX
 
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.4.2) `1.4.1` → `1.4.2`
