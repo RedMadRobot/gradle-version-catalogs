@@ -160,6 +160,9 @@ dependencies {
   - :sparkle: [kotlinx-serialization-hocon](https://kotlin.github.io/kotlinx.serialization/kotlinx-serialization-hocon/index.html)
   - :sparkle: [kotlinx-serialization-properties](https://kotlin.github.io/kotlinx.serialization/kotlinx-serialization-properties/index.html)
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.0-1.0.6) `1.6.20-1.0.5` → `1.7.0-1.0.6`
+  - :warning: `ksp` → `ksp-api`
+  - :warning: `ksp` now points to `symbol-processing` instead of `symbol-processing-api`
+  - :sparkle: [ksp-gradlePlugin](https://kotlinlang.org/docs/ksp-quickstart.html)
 - :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-291-2022-04-20) `2.8.1` → `2.9.1` *(:warning: breaking changes)*
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.11) `1.0.6` → `1.0.11`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.11) `1.1.6` → `1.1.11`
