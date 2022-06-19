@@ -155,6 +155,7 @@ dependencies {
   - :sparkle: [kotlin-test-common](https://kotlinlang.org/api/latest/kotlin.test/)
   - :sparkle: [kotlin-test-junit5](https://kotlinlang.org/api/latest/kotlin.test/)
   - :sparkle: [kotlin-test-testing](https://kotlinlang.org/api/latest/kotlin.test/)
+- :sparkle: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator) `0.10.1`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.6.2) `1.6.1` → `1.6.2`
   - :sparkle: [kotlinx-coroutines-debug](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-debug/)
   - :sparkle: [kotlinx-coroutines-guava](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-guava/)
