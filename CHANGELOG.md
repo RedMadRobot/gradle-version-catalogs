@@ -7,6 +7,13 @@
 
 ## [Unreleased]
 
+## [2022.06.19] :warning:
+
+> #### :information_source: Note
+>
+> This update changes Kotlin version to `1.7.0` which is not compatible with Compose `1.2.0-rc01`.
+> If you use Compose in your project, you should [overwrite version](https://docs.gradle.org/current/userguide/platforms.html#sec:overwriting-catalog-versions) of Kotlin in `settings.gradle` file.
+
 This update makes plugins accessible both as a library and via `plugins` accessor.
 For example, you can apply a plugin using plugins block:
 
@@ -553,7 +560,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.04.10..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.19..main
+[2022.06.19]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.04.10..2022.06.19
 [2022.04.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.03.09..2022.04.10
 [2022.03.09]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.02.20..2022.03.09
 [2022.02.20]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.02.11..2022.02.20

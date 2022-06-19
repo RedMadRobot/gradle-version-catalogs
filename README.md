@@ -38,27 +38,27 @@ dependencyResolutionManagement {
     repositories {
         mavenCentral()
     }
-  
+
     versionCatalogs {
         create("rmr") {
-            from("com.redmadrobot.versions:versions-redmadrobot:2022.04.10")
+            from("com.redmadrobot.versions:versions-redmadrobot:2022.06.19")
         }
         create("androidx") {
-            from("com.redmadrobot.versions:versions-androidx:2022.04.10")
+            from("com.redmadrobot.versions:versions-androidx:2022.06.19")
         }
         create("stack") {
-            from("com.redmadrobot.versions:versions-stack:2022.04.10")
+            from("com.redmadrobot.versions:versions-stack:2022.06.19")
         }
     }
 }
-``` 
+```
 
 > :warning: Be careful with version catalogs naming.
 > Make sure selected name does not conflict with any of Gradle plugin extensions, otherwise your project will not sync.
 > For example, if you have [gradle-infrastructure](https://github.com/RedMadRobot/gradle-infrastructure) plugin, you cannot create version catalog named `redmadrobot`, because gradle-infrastructure contains an extension named `redmadrobot`.
 > Also you should not name the published version catalog as `libs` if you want to use the local version catalog, or you must rename the local version catalog.
 
-After sync the project gradle create accessors for dependencies like: 
+After sync the project gradle create accessors for dependencies like:
 
 ```kotlin
 plugins {
@@ -80,7 +80,7 @@ dependencies {
 
 You can find Troubleshooting in [gradle documentation page](https://docs.gradle.org/7.2/userguide/version_catalog_problems.html).
 
-### Unable to apply the plugin because the extension is already registered 
+### Unable to apply the plugin because the extension is already registered
 
 ```
 Caused by: java.lang.IllegalArgumentException: Cannot add extension with name, as there is an extension already registered with that name
@@ -96,7 +96,7 @@ Caused by: org.gradle.plugin.management.internal.InvalidPluginRequestException: 
 ```
 
 This exception can occur if the plugin has already been applied in the root **build.gradle**, or has a notation in the **buildscripts** section, or has a notation in the **plugins** section of the **settings.gradle** file.
-You can leave the plugin notation only in the modules you need, because `alias` applies the plugin version from the version catalog file. 
+You can leave the plugin notation only in the modules you need, because `alias` applies the plugin version from the version catalog file.
 If this is not possible, you can use the `id` extension instead of `alias` and get only **pluginId** from the accessor.
 
 ```kotlin
@@ -121,7 +121,7 @@ Please, read the warning under [Importing a published catalog](#importing-a-publ
 
 ### Invalid TOML catalog definition
 
-Check your Gradle wrapper version. The current catalog based on Gradle 7.2. 
+Check your Gradle wrapper version. The current catalog based on Gradle 7.2.
 
 ## Additional links
 
