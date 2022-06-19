@@ -1,7 +1,7 @@
 [versions]
 
 flipper = "2.0.1"
-gradle-infrastructure = "0.15"
+gradle-infrastructure = "0.16.2"
 itemsadapter = "1.1"
 ktx-core = "1.6.0-2"
 ktx-fragment = "1.3.6-0"
@@ -15,6 +15,11 @@ pinkman = "1.2.0"
 [libraries]
 
 flipper = { module = "com.redmadrobot:flipper", version.ref = "flipper" }
+flipper-firebaseConfig = { module = "com.redmadrobot:flipper-firebase-config", version.ref = "flipper" }
+infrastructure-android = { module = "com.redmadrobot.build:infrastructure-android", version.ref = "gradle-infrastructure" }
+infrastructure-detekt = { module = "com.redmadrobot.build:infrastructure-detekt", version.ref = "gradle-infrastructure" }
+infrastructure-kotlin = { module = "com.redmadrobot.build:infrastructure-kotlin", version.ref = "gradle-infrastructure" }
+infrastructure-publish = { module = "com.redmadrobot.build:infrastructure-publish", version.ref = "gradle-infrastructure" }
 itemsadapter = { module = "com.redmadrobot.itemsadapter:itemsadapter", version.ref = "itemsadapter" }
 itemsadapter-viewbinding = { module = "com.redmadrobot.itemsadapter:itemsadapter-viewbinding", version.ref = "itemsadapter" }
 ktx-core = { module = "com.redmadrobot.extensions:core-ktx", version.ref = "ktx-core" }
@@ -25,12 +30,14 @@ ktx-resources = { module = "com.redmadrobot.extensions:resources-ktx", version.r
 ktx-viewbinding = { module = "com.redmadrobot.extensions:viewbinding-ktx", version.ref = "ktx-viewbinding" }
 mapmemory = { module = "com.redmadrobot.mapmemory:mapmemory", version.ref = "mapmemory" }
 mapmemory-coroutines = { module = "com.redmadrobot.mapmemory:mapmemory-coroutines", version.ref = "mapmemory" }
+mapmemory-kaptBugWorkaround = { module = "com.redmadrobot.mapmemory:mapmemory-kapt-bug-workaround", version.ref = "mapmemory" }
 mapmemory-rxjava2 = { module = "com.redmadrobot.mapmemory:mapmemory-rxjava2", version.ref = "mapmemory" }
 mapmemory-rxjava3 = { module = "com.redmadrobot.mapmemory:mapmemory-rxjava3", version.ref = "mapmemory" }
 mapmemory-test = { module = "com.redmadrobot.mapmemory:mapmemory-test", version.ref = "mapmemory" }
 pinkman = { module = "com.redmadrobot:pinkman", version.ref = "pinkman" }
 pinkman-coroutines = { module = "com.redmadrobot:pinkman-coroutines", version.ref = "pinkman" }
 pinkman-rx3 = { module = "com.redmadrobot:pinkman-rx3", version.ref = "pinkman" }
+pinkman-ui = { module = "com.redmadrobot:pinkman-ui", version.ref = "pinkman" }
 
 [plugins]
 
