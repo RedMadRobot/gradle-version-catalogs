@@ -101,9 +101,18 @@ dependencies {
 ### Stack
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases) `0.23.1` → `0.24.11-rc` *(:warning: requires `compose:1.2.0-rc01`)*
+  - :sparkle: [accompanist-webview](https://google.github.io/accompanist/webview/)
+  - :warning: [accompanist-insets](https://google.github.io/accompanist/insets/) is deprecated
 - :arrow_up: [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#210---may-17-2022) `2.0.0-rc02` → `2.1.0`
+  - :sparkle: [coil-base](https://coil-kt.github.io/coil/api/coil-base/index.html)
+  - :sparkle: [coil-bom](https://coil-kt.github.io/coil/getting_started/#artifacts)
+  - :sparkle: [coil-compose-base](https://coil-kt.github.io/coil/api/coil-compose-base/index.html)
+  - :sparkle: [coil-gif](https://coil-kt.github.io/coil/gifs/)
+  - :sparkle: [coil-svg](https://coil-kt.github.io/coil/svgs/)
+  - :sparkle: [coil-video](https://coil-kt.github.io/coil/videos/)
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.42) `2.41` → `2.42` *(:warning: potentially breaking changes)*
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.21.0-RC1) `1.19.0` → `1.21.0-RC1`
+- :sparkle: [epoxy-annotations](https://github.com/airbnb/epoxy/tree/master/epoxy-annotations)
 - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-0-0) `20.1.2` → `21.0.0`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v30-1-0) `29.3.0` → `30.1.0`
 - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v2-9-0) `2.8.1` → `2.9.0`
@@ -111,18 +120,78 @@ dependencies {
 - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-0-5) `23.0.2` → `23.0.5`
 - :arrow_up: [groupie](https://github.com/lisawray/groupie/releases/tag/2.10.1) `2.10.0` → `2.10.1`
 - :arrow_up: [kotest](https://kotest.io/docs/changelog.html#530-may-2022) `5.2.3` → `5.3.0`
-- :arrow_up: [kotlin-bom](https://kotlinlang.org/docs/whatsnew17.html) `1.6.20` → `1.7.0` *(:warning: be careful on update)*
+- :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew17.html) `1.6.20` → `1.7.0` *(:warning: be careful on update)*
+  - :sparkle: **plugin:** [kotlin-android](https://kotlinlang.org/docs/gradle.html#targeting-android)
+  - :sparkle: [kotlin-gradlePlugin](https://kotlinlang.org/docs/gradle.html)
+  - :sparkle: [kotlin-gradlePlugin-api](https://kotlinlang.org/docs/gradle.html)
+  - :sparkle: [kotlin-reflect](https://kotlinlang.org/docs/reflection.html)
+  - :sparkle: **plugin:** [kotlin-multiplatform](https://kotlinlang.org/docs/multiplatform-dsl-reference.html)
+  - :sparkle: **plugin:** [kotlin-scripting](https://kotlinlang.org/docs/custom-script-deps-tutorial.html)
+  - :sparkle: [kotlin-scripting-common](https://kotlinlang.org/docs/custom-script-deps-tutorial.html)
+  - :sparkle: [kotlin-scripting-dependencies-maven](https://kotlinlang.org/docs/custom-script-deps-tutorial.html)
+  - :sparkle: [kotlin-scripting-dependencies](https://kotlinlang.org/docs/custom-script-deps-tutorial.html)
+  - :sparkle: [kotlin-scripting-jvm](https://kotlinlang.org/docs/custom-script-deps-tutorial.html)
+  - :sparkle: [kotlin-serialization](https://kotlinlang.org/docs/serialization.html)
+  - :sparkle: [kotlin-stdlib](https://kotlinlang.org/api/latest/jvm/stdlib/)
+  - :sparkle: [kotlin-stdlib-common](https://kotlinlang.org/api/latest/jvm/stdlib/)
+  - :sparkle: [kotlin-stdlib-jdk7](https://kotlinlang.org/api/latest/jvm/stdlib/)
+  - :sparkle: [kotlin-stdlib-jdk8](https://kotlinlang.org/api/latest/jvm/stdlib/)
+  - :sparkle: [kotlin-test](https://kotlinlang.org/api/latest/kotlin.test/)
+  - :sparkle: [kotlin-test-annotations-common](https://kotlinlang.org/api/latest/kotlin.test/)
+  - :sparkle: [kotlin-test-common](https://kotlinlang.org/api/latest/kotlin.test/)
+  - :sparkle: [kotlin-test-junit5](https://kotlinlang.org/api/latest/kotlin.test/)
+  - :sparkle: [kotlin-test-testing](https://kotlinlang.org/api/latest/kotlin.test/)
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.6.2) `1.6.1` → `1.6.2`
+  - :sparkle: [kotlinx-coroutines-debug](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-debug/)
+  - :sparkle: [kotlinx-coroutines-guava](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-guava/)
+  - :sparkle: [kotlinx-coroutines-javafx](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-javafx/)
+  - :sparkle: [kotlinx-coroutines-jdk8](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-jdk8/)
+  - :sparkle: [kotlinx-coroutines-jdk9](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-jdk9/)
+  - :sparkle: [kotlinx-coroutines-playServices](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-play-services/)
+  - :sparkle: [kotlinx-coroutines-reactive](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-reactive/)
+  - :sparkle: [kotlinx-coroutines-reactor](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-reactor/)
+  - :sparkle: [kotlinx-coroutines-rx2](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-rx2/)
+  - :sparkle: [kotlinx-coroutines-rx3](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-rx3/)
+  - :sparkle: [kotlinx-coroutines-slf4j](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-slf4j/)
+  - :sparkle: [kotlinx-coroutines-swing](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-swing/)
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.3.3) `1.3.2` → `1.3.3`
+  - :sparkle: [kotlinx-serialization-cbor](https://kotlin.github.io/kotlinx.serialization/kotlinx-serialization-cbor/index.html)
+  - :sparkle: [kotlinx-serialization-core](https://kotlin.github.io/kotlinx.serialization/kotlinx-serialization-core/index.html)
+  - :sparkle: [kotlinx-serialization-hocon](https://kotlin.github.io/kotlinx.serialization/kotlinx-serialization-hocon/index.html)
+  - :sparkle: [kotlinx-serialization-properties](https://kotlin.github.io/kotlinx.serialization/kotlinx-serialization-properties/index.html)
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.0-1.0.6) `1.6.20-1.0.5` → `1.7.0-1.0.6`
 - :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-291-2022-04-20) `2.8.1` → `2.9.1` *(:warning: breaking changes)*
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.11) `1.0.6` → `1.0.11`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.11) `1.1.6` → `1.1.11`
 - :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.6.1) `1.5.0` → `1.6.1`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.12.4) `1.12.3` → `1.12.4`
+  - :sparkle: [mockk-agent-android](https://github.com/mockk/mockk/tree/master/agent/android)
+  - :sparkle: [mockk-agent-api](https://github.com/mockk/mockk/tree/master/agent/api)
+  - :sparkle: [mockk-agent-common](https://github.com/mockk/mockk/tree/master/agent/common)
+  - :sparkle: [mockk-agent-jvm](https://mockk.io/#installation)
+  - :sparkle: [mockk-android](https://mockk.io/#installation)
+  - :sparkle: [mockk-common](https://mockk.io/#installation)
 - :arrow_up: [okhttp](https://square.github.io/okhttp/changelogs/changelog_4x/#version-4100) `4.9.3` → `4.10.0`
+  - :sparkle: [okhttp-brotli](https://square.github.io/okhttp/4.x/okhttp-brotli/okhttp3.brotli/)
+  - :sparkle: [okhttp-dnsoverhttps](https://square.github.io/okhttp/4.x/okhttp-dnsoverhttps/okhttp3.dnsoverhttps/)
+  - :sparkle: [okhttp-sse](https://square.github.io/okhttp/4.x/okhttp-sse/okhttp3.sse/)
+  - :sparkle: [okhttp-tls](https://square.github.io/okhttp/4.x/okhttp-tls/okhttp3.tls/)
+  - :sparkle: [okhttp-urlconnection](https://square.github.io/okhttp/4.x/okhttp-urlconnection/okhttp3/)
+  - :sparkle: [okhttp-mockwebserver](https://github.com/square/okhttp/tree/master/mockwebserver)
+  - :x: okhttp-mockwebserver3-* *(it will be available only since okhttp 5.0.0)*
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v7.1.1) `7.0.4` → `7.1.1`
 - :arrow_up: [reactivex-rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.5) `3.1.3` → `3.1.5`
+- **retrofit:**
+  - :sparkle: [retrofit-converter-gson](https://github.com/square/retrofit/tree/master/retrofit-converters/gson)
+  - :sparkle: [retrofit-converter-guava](https://github.com/square/retrofit/tree/master/retrofit-converters/guava)
+  - :sparkle: [retrofit-converter-jackson](https://github.com/square/retrofit/tree/master/retrofit-converters/jackson)
+  - :sparkle: [retrofit-converter-jaxb](https://github.com/square/retrofit/tree/master/retrofit-converters/jaxb)
+  - :sparkle: [retrofit-converter-protobuf](https://github.com/square/retrofit/tree/master/retrofit-converters/protobuf)
+  - :sparkle: [retrofit-converter-scalars](https://github.com/square/retrofit/tree/master/retrofit-converters/scalars)
+  - :sparkle: [retrofit-converter-wire](https://github.com/square/retrofit/tree/master/retrofit-converters/wire)
+  - :sparkle: [retrofit-adapter-guava](https://github.com/square/retrofit/tree/master/retrofit-adapters/guava)
+  - :sparkle: [retrofit-adapter-rxjava2](https://github.com/square/retrofit/tree/master/retrofit-adapters/rxjava2)
+  - :sparkle: [retrofit-adapter-rxjava3](https://github.com/square/retrofit/tree/master/retrofit-adapters/rxjava3)
 - :arrow_up: :memo: android-cacheFix `2.5.0` → [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.5.5) `2.5.5`
   - :memo: **version:** `android-cacheFix` → `gradle-android-cacheFix`
 - :arrow_up: :memo: gradleDoctor `0.8.0` → [doctor](https://github.com/detekt/detekt/releases/tag/v1.21.0-RC1) `0.8.1`
