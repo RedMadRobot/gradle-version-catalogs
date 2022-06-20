@@ -1,7 +1,7 @@
 [versions]
 
 kotlin = "1.7.0"
-dokka = "1.6.21"
+dokka = "1.7.0"
 
 # UI Tools
 accompanist = "0.24.11-rc"

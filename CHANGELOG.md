@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### Stack
+
+- :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.0) `1.6.21` → `1.7.0`
+
 ## [2022.06.20]
 
 > Finally implemented catalogs validation and it works!
