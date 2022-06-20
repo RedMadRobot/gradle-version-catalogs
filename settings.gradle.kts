@@ -1,5 +1,3 @@
-enableFeaturePreview("VERSION_CATALOGS")
-
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -9,6 +7,7 @@ pluginManagement {
 
 rootProject.name = "versions"
 
+includeBuild("version-catalog-extensions")
 include(
     "versions-androidx",
     "versions-redmadrobot",
