@@ -62,17 +62,17 @@ After sync the project gradle create accessors for dependencies like:
 
 ```kotlin
 plugins {
-    alias(rmr.plugins.android.application)
-    alias(androidx.plugins.navigation.safeargs)
+    alias(rmr.plugins.application)
+    alias(androidx.plugins.navigation.safeargs.kotlin)
 }
 
 dependencies {
-    implementation(androidx.core.ktx)
+    implementation(androidx.core)
     implementation(androidx.fragment)
 
-    implementation(rmr.extension.fragment)
+    implementation(rmr.ktx.fragment)
 
-    implementation(core.dagger)
+    implementation(stack.dagger)
 }
 ```
 
@@ -101,7 +101,7 @@ If this is not possible, you can use the `id` extension instead of `alias` and g
 
 ```kotlin
 plugins {
-  id(rmr.plugins.infrastructure.detekt.get().pluginId)
+  id(rmr.plugins.detekt.get().pluginId)
 }
 ```
 
