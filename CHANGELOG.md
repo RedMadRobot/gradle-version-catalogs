@@ -10,6 +10,7 @@
 ### Stack
 
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.0) `1.6.21` → `1.7.0`
+- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.6.3) `1.6.2` → `1.6.3`
 
 ## [2022.06.20]
 

@@ -14,7 +14,7 @@ material-compose-themeAdapter = "1.1.11"
 material-compose-themeAdapter3 = "1.0.11"
 
 # Multithreading
-kotlinx-coroutines = "1.6.2"
+kotlinx-coroutines = "1.6.3"
 reactivex-rxjava2 = "2.2.21"
 reactivex-rxjava3 = "3.1.5"
 
