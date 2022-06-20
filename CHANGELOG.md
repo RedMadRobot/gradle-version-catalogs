@@ -7,6 +7,19 @@
 
 ## [Unreleased]
 
+> Finally implemented catalogs validation and it works!
+> This is hotfix update.
+
+### AndroidX
+
+- :memo: `paging-common` and `paging-guava` now use `paging` version instead of `paging-compose` (`1.0.0-alpha15` → `3.1.1`)
+
+### Stack
+
+- :memo: `gms-googleServices` module coordinate fixed
+- :memo: `junit-platform-*` `5.8.2` → `1.8.2` *(fix)*
+- :memo: `kotlin-test-testing` → `kotlin-test-testng`
+
 ## [2022.06.19] :warning:
 
 > #### :information_source: Note

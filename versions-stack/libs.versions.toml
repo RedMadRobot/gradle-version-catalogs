@@ -33,6 +33,7 @@ dagger = "2.42"
 
 # Test
 junit = "5.8.2"
+junit-platform = "1.8.2"
 junit4 = "4.13.2"
 kotest = "5.3.0"
 mockk = "1.12.4"
@@ -80,7 +81,7 @@ kotlin-test-annotations-common = { module = "org.jetbrains.kotlin:kotlin-test-an
 kotlin-test-common = { module = "org.jetbrains.kotlin:kotlin-test-common", version.ref = "kotlin" }
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
 kotlin-test-junit5 = { module = "org.jetbrains.kotlin:kotlin-test-junit5", version.ref = "kotlin" }
-kotlin-test-testing = { module = "org.jetbrains.kotlin:kotlin-test-testing", version.ref = "kotlin" }
+kotlin-test-testng = { module = "org.jetbrains.kotlin:kotlin-test-testng", version.ref = "kotlin" }
 
 dokka-base = { module = "org.jetbrains.dokka:dokka-base", version.ref = "dokka" }
 dokka-cli = { module = "org.jetbrains.dokka:dokka-cli", version.ref = "dokka" }
@@ -200,8 +201,8 @@ junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.re
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
 junit-jupiter-migrationsupport = { module = "org.junit.jupiter:junit-jupiter-migrationsupport", version.ref = "junit" }
 junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit" }
-junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit" }
-junit-platform-runner = { module = "org.junit.platform:junit-platform-runner", version.ref = "junit" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform" }
+junit-platform-runner = { module = "org.junit.platform:junit-platform-runner", version.ref = "junit-platform" }
 junit-vintage-engine = { module = "org.junit.vintage:junit-vintage-engine", version.ref = "junit" }
 junit4 = { module = "junit:junit", version.ref = "junit4" }
 kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
@@ -230,7 +231,7 @@ firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "fir
 firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx", version.ref = "firebase-crashlytics" }
 firebase-crashlytics-gradle = { module = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "firebase-crashlytics-gradle" }
 firebase-messaging = { module = "com.google.firebase:firebase-messaging-ktx", version.ref = "firebase-messaging" }
-gms-googleServices = { module = "com.google.gms:googleServices", version.ref = "gms-googleServices" }
+gms-googleServices = { module = "com.google.gms:google-services", version.ref = "gms-googleServices" }
 
 # Plugins
 gradle-android-cacheFixGradlePlugin = { module = "gradle.plugin.org.gradle.android:android-cache-fix-gradle-plugin", version.ref = "gradle-android-cacheFix" }
