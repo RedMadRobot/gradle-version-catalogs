@@ -7,8 +7,13 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [compose](https://android.googlesource.com/platform/frameworks/support/+log/2d8badfd263991345376562fc0f247bc76ca6312..8328bd32e5ca96bc5a53d6369130e856cd2ca80b/compose) `1.2.0-rc01` → `1.2.0-rc02`
+
 ### Stack
 
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases) `0.24.11-rc` → `0.24.12-rc`
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.0) `1.6.21` → `1.7.0`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.6.3) `1.6.2` → `1.6.3`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.12) `1.1.11` → `1.1.12`

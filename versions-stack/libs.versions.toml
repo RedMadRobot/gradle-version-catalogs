@@ -4,7 +4,7 @@ kotlin = "1.7.0"
 dokka = "1.7.0"
 
 # UI Tools
-accompanist = "0.24.11-rc"
+accompanist = "0.24.12-rc"
 coil = "2.1.0"
 epoxy = "4.6.4"
 groupie = "2.10.1"
