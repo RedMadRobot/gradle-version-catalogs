@@ -10,6 +10,7 @@
 ### AndroidX
 
 - :arrow_up: [compose](https://android.googlesource.com/platform/frameworks/support/+log/2d8badfd263991345376562fc0f247bc76ca6312..8328bd32e5ca96bc5a53d6369130e856cd2ca80b/compose) `1.2.0-rc01` → `1.2.0-rc02`
+- :x: **version:** `compose-compiler` *(use `compose` version instead or specify the desired version manually)*
 
 ### Stack
 
