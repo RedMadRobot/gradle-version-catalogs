@@ -15,6 +15,16 @@
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases) `0.24.11-rc` → `0.24.12-rc`
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.0) `1.6.21` → `1.7.0`
+- :arrow_up: [kotest](https://kotest.io/docs/changelog.html#532-june-2022) `5.3.0` → `5.3.2`
+  - :memo: `kotest-assertions` -> `kotest-assertions-core`
+  - :sparkle: [kotest-assertions-api](https://github.com/kotest/kotest/tree/master/kotest-assertions/kotest-assertions-api)
+  - :sparkle: [kotest-assertions-json](https://kotest.io/docs/assertions/json/json-overview.html)
+  - :sparkle: `kotest-bom`
+  - :sparkle: `kotest-framework-api`
+  - :sparkle: [kotest-framework-concurrency](https://kotest.io/docs/framework/concurrency/eventually.html)
+  - :sparkle: [kotest-framework-discovery](https://kotest.io/docs/framework/discovery-extensions.html)
+  - :sparkle: [kotest-property](https://kotest.io/docs/proptest/property-based-testing.html)
+  - :sparkle: `kotest-runner-junit4`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.6.3) `1.6.2` → `1.6.3`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.12) `1.1.11` → `1.1.12`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.12) `1.0.11` → `1.0.12`

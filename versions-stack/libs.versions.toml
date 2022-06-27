@@ -35,7 +35,7 @@ dagger = "2.42"
 junit = "5.8.2"
 junit-platform = "1.8.2"
 junit4 = "4.13.2"
-kotest = "5.3.0"
+kotest = "5.3.2"
 mockk = "1.12.4"
 
 # Debug Tools
@@ -205,8 +205,16 @@ junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher
 junit-platform-runner = { module = "org.junit.platform:junit-platform-runner", version.ref = "junit-platform" }
 junit-vintage-engine = { module = "org.junit.vintage:junit-vintage-engine", version.ref = "junit" }
 junit4 = { module = "junit:junit", version.ref = "junit4" }
-kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest-assertions-api = { module = "io.kotest:kotest-assertions-api", version.ref = "kotest" }
+kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest-assertions-json = { module = "io.kotest:kotest-assertions-json", version.ref = "kotest" }
+kotest-bom = { module = "io.kotest:kotest-bom", version.ref = "kotest" }
+kotest-framework-api = { module = "io.kotest:kotest-framework-api", version.ref = "kotest" }
+kotest-framework-concurrency = { module = "io.kotest:kotest-framework-concurrency", version.ref = "kotest" }
 kotest-framework-datatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
+kotest-framework-discovery = { module = "io.kotest:kotest-framework-discovery", version.ref = "kotest" }
+kotest-property = { module = "io.kotest:kotest-property", version.ref = "kotest" }
+kotest-runner-junit4 = { module = "io.kotest:kotest-runner-junit4", version.ref = "kotest" }
 kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 mockk-agent-android = { module = "io.mockk:mockk-agent-android", version.ref = "mockk" }
