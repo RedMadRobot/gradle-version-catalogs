@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.06.27] :warning:
+
 ### red_mad_robot
 
 - :sparkle: [inputmask](https://github.com/RedMadRobot/input-mask-android) `6.1.0`
@@ -602,7 +604,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.12..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.27..main
+[2022.06.27]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.20..2022.06.27
 [2022.06.20]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.19..2022.06.20
 [2022.06.19]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.04.10..2022.06.19
 [2022.04.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.03.09..2022.04.10
