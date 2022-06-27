@@ -2,6 +2,7 @@
 
 flipper = "2.0.1"
 gradle-infrastructure = "0.16.2"
+inputmask = "6.1.0"
 itemsadapter = "1.1"
 ktx-core = "1.6.0-2"
 ktx-fragment = "1.3.6-0"
@@ -20,6 +21,7 @@ infrastructure-android = { module = "com.redmadrobot.build:infrastructure-androi
 infrastructure-detekt = { module = "com.redmadrobot.build:infrastructure-detekt", version.ref = "gradle-infrastructure" }
 infrastructure-kotlin = { module = "com.redmadrobot.build:infrastructure-kotlin", version.ref = "gradle-infrastructure" }
 infrastructure-publish = { module = "com.redmadrobot.build:infrastructure-publish", version.ref = "gradle-infrastructure" }
+inputmask = { module = "com.redmadrobot:input-mask-android", version.ref = "inputmask" }
 itemsadapter = { module = "com.redmadrobot.itemsadapter:itemsadapter", version.ref = "itemsadapter" }
 itemsadapter-viewbinding = { module = "com.redmadrobot.itemsadapter:itemsadapter-viewbinding", version.ref = "itemsadapter" }
 ktx-core = { module = "com.redmadrobot.extensions:core-ktx", version.ref = "ktx-core" }
