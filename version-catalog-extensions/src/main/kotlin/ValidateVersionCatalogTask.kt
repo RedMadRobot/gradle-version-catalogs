@@ -10,11 +10,17 @@ import org.gradle.api.provider.Property
 import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.TaskAction
 import org.gradle.kotlin.dsl.named
+import org.gradle.language.base.plugins.LifecycleBasePlugin
 
 abstract class ValidateVersionCatalogTask : DefaultTask() {
 
     @get:Input
     abstract val dependenciesModel: Property<DefaultVersionCatalog>
+
+    init {
+        group = LifecycleBasePlugin.VERIFICATION_GROUP
+        description = "Validates version catalog"
+    }
 
     @TaskAction
     fun validate() {
@@ -23,10 +29,10 @@ abstract class ValidateVersionCatalogTask : DefaultTask() {
         // Check libraries in catalog are resolvable
         val configuration = createConfiguration()
         configuration.addLibraries(catalog)
-        println("Resolved dependencies:")
+        logger.debug("Resolved dependencies:")
         configuration.resolvedConfiguration
             .firstLevelModuleDependencies
-            .forEach { println("- ${it.name}") }
+            .forEach { logger.debug("- ${it.name}") }
 
         catalog.checkVersionsUsed()
     }
