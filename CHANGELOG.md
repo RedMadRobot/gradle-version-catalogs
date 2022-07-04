@@ -7,6 +7,17 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.5.0) `1.4.0` → `1.5.0`
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.1.0) `1.1.0-rc02` → `1.1.0`
+- :arrow_up: [compose](https://android.googlesource.com/platform/frameworks/support/+log/8328bd32e5ca96bc5a53d6369130e856cd2ca80b..e8af23f4f30713a3f6073d57558e7cde0f3056e9/compose) `1.2.0-rc02` → `1.2.0-rc03`
+  - :sparkle: **version:** [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.2.0) `1.2.0`
+  - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha14) `1.0.0-alpha13` → `1.0.0-alpha14`
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.0) `1.4.1` → `1.5.0`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.5.0) `2.4.1` → `2.5.0`
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.5.0) `2.4.2` → `2.5.0`
+
 ## [2022.06.27] :warning:
 
 ### red_mad_robot
