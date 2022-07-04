@@ -22,6 +22,13 @@
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.5.0) `2.4.1` → `2.5.0`
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.5.0) `2.4.2` → `2.5.0`
 
+### Stack
+
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases) `0.24.12-rc` → `0.24.13-rc`
+- :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.21.0-RC2) `1.21.0-RC1` → `1.21.0-RC2`
+- :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.14) `1.1.12` → `1.1.14`
+- :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.14) `1.0.12` → `1.0.14`
+
 ## [2022.06.27] :warning:
 
 ### red_mad_robot

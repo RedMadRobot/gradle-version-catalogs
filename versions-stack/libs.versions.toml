@@ -4,14 +4,14 @@ kotlin = "1.7.0"
 dokka = "1.7.0"
 
 # UI Tools
-accompanist = "0.24.12-rc"
+accompanist = "0.24.13-rc"
 coil = "2.1.0"
 epoxy = "4.6.4"
 groupie = "2.10.1"
 insetter = "0.6.1"
 material = "1.6.1"
-material-compose-themeAdapter = "1.1.12"
-material-compose-themeAdapter3 = "1.0.12"
+material-compose-themeAdapter = "1.1.14"
+material-compose-themeAdapter3 = "1.0.14"
 
 # Multithreading
 kotlinx-coroutines = "1.6.3"
@@ -55,7 +55,7 @@ gms-googleServices = "4.3.10"
 
 # Gradle plugins
 gradle-android-cacheFix = "2.5.5"
-detekt = "1.21.0-RC1"
+detekt = "1.21.0-RC2"
 doctorPlugin = "0.8.1"
 kotlinx-binaryCompatibilityValidator = "0.10.1"
 owasp-dependencycheck = "7.1.1"
