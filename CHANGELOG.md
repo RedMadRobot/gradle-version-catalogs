@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### red_mad_robot
+
+- :arrow_up: [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.3.0) `1.2.0`  → `1.3.0`
+
 ### AndroidX
 
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.5.0) `1.4.0` → `1.5.0`
