@@ -23,8 +23,10 @@ redmadrobot {
             }
 
             developers {
-                developer(id = "rwqwr", name = "Roman Ivanov", email = "r.ivanov@redmadrobot.com")
                 developer(id = "osipxd", name = "Osip Fatkullin", email = "o.fatkullin@redmadrobot.com")
+            }
+            contributors {
+                contributor(name = "Roman Ivanov", email = "r.ivanov@redmadrobot.com")
             }
         }
     }
