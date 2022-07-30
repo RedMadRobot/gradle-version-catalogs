@@ -4,14 +4,14 @@ kotlin = "1.7.0"
 dokka = "1.7.0"
 
 # UI Tools
-accompanist = "0.24.13-rc"
+accompanist = "0.25.0"
 coil = "2.1.0"
 epoxy = "4.6.4"
 groupie = "2.10.1"
 insetter = "0.6.1"
 material = "1.6.1"
-material-compose-themeAdapter = "1.1.14"
-material-compose-themeAdapter3 = "1.0.14"
+material-compose-themeAdapter = "1.1.15"
+material-compose-themeAdapter3 = "1.0.15"
 
 # Multithreading
 kotlinx-coroutines = "1.6.3"

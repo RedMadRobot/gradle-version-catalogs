@@ -12,6 +12,18 @@
 - :arrow_up: [infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases) `0.16.2` → `0.17` *(:warning: potentially breaking changes)*
 - :arrow_up: [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.3.1) `1.3.0` → `1.3.1`
 
+### AndroidX
+
+- :arrow_up: [compose](https://android-developers.googleblog.com/2022/07/jetpack-compose-1-2-is-now-stable.html) `1.2.0-rc03` → `1.2.0`
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.3.0-rc01) `1.2.0` → `1.3.0-rc01`
+- :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha15) `1.0.0-alpha14` → `1.0.0-alpha15`
+
+### Stack
+
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.25.0) `0.24.13-rc` → `0.25.0`
+- :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.15) `1.1.14` → `1.1.15`
+- :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.15) `1.0.14` → `1.0.15`
+
 ## [2022.07.03]
 
 ### red_mad_robot
