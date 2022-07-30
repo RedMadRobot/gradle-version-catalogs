@@ -14,9 +14,15 @@
 
 ### AndroidX
 
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.5.1) `1.5.0` → `1.5.1`
 - :arrow_up: [compose](https://android-developers.googleblog.com/2022/07/jetpack-compose-1-2-is-now-stable.html) `1.2.0-rc03` → `1.2.0`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.3.0-rc01) `1.2.0` → `1.3.0-rc01`
 - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha15) `1.0.0-alpha14` → `1.0.0-alpha15`
+- :arrow_up: [core-splashscreen](https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.0.0) `1.0.0-rc01` → `1.0.0`
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.1) `1.5.0` → `1.5.1`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.5.1) `2.5.0` → `2.5.1`
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.5.1) `2.5.0` → `2.5.1`
+- :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.4.3) `2.4.2` → `2.4.3`
 
 ### Stack
 
