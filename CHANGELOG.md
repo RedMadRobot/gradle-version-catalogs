@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.07.30]
+
 > Be careful if you use detekt with type resolution!
 > This catalog update bumps Kotlin to 1.7.10, which is not supported by type resolution mode in detekt.
 > Detekt [will support](https://github.com/detekt/detekt/pull/4821) Kotlin 1.7.10 in 1.22.0
@@ -673,7 +675,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.07.03..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.07.30..main
+[2022.07.30]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.07.03..2022.07.30
 [2022.07.03]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.27..2022.07.03
 [2022.06.27]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.20..2022.06.27
 [2022.06.20]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.19..2022.06.20
