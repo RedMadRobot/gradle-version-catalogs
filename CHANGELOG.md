@@ -7,11 +7,16 @@
 
 ## [Unreleased]
 
+### red_mad_robot
+
+- :arrow_up: [infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases) `0.16.2` → `0.17` *(:warning: potentially breaking changes)*
+- :arrow_up: [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.3.1) `1.3.0` → `1.3.1`
+
 ## [2022.07.03]
 
 ### red_mad_robot
 
-- :arrow_up: [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.3.0) `1.2.0`  → `1.3.0`
+- :arrow_up: [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.3.0) `1.2.0` → `1.3.0`
 
 ### AndroidX
 
