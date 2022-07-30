@@ -46,13 +46,14 @@ timber = "5.0.1"
 # Annotations procesing
 ksp = "1.7.10-1.0.6"
 
-# Services
-firebase-analytics = "21.0.0"
-firebase-bom = "30.1.0"
-firebase-crashlytics = "18.2.11"
-firebase-crashlytics-gradle = "2.9.0"
-firebase-messaging = "23.0.5"
-gms-googleServices = "4.3.10"
+# Firebase Services
+# https://firebase.google.com/support/release-notes/android
+firebase-analytics = "21.1.0"
+firebase-bom = "30.3.1"
+firebase-crashlytics = "18.2.12"
+firebase-crashlytics-gradle = "2.9.1"
+firebase-messaging = "23.0.6"
+gms-googleServices = "4.3.13"
 
 # Gradle plugins
 gradle-android-cacheFix = "2.5.6"

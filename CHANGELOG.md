@@ -29,6 +29,12 @@
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.25.0) `0.24.13-rc` → `0.25.0`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases) `2.42` → `2.43.1` *(:warning: potentially breaking changes in hilt)*
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.10) `1.7.0` → `1.7.10`
+- :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-1-0) `21.0.0` → `21.1.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v30-3-1) `30.1.0` → `30.3.1`
+- :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v2-9-1) `2.9.0` → `2.9.1`
+- :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-2-12) `18.2.11` → `19.2.12`
+- :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-0-6) `23.0.5` → `23.0.6`
+- :arrow_up: [gms-googleServices](https://firebase.google.com/support/release-notes/android#google-services_plugin_v4-3-13) `4.3.12` → `4.3.13`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.9.0/release-notes/) `5.8.2` → `5.9.0`
 - :arrow_up: [kotest](https://kotest.io/docs/changelog.html#540-july-2022) `5.3.2` → `5.4.1`
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.7.10) `1.7.0` → `1.7.10`
