@@ -27,10 +27,12 @@
 ### Stack
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.25.0) `0.24.13-rc` → `0.25.0`
+- :arrow_up: [dagger](https://github.com/google/dagger/releases) `2.42` → `2.43.1` *(:warning: potentially breaking changes in hilt)*
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.10) `1.7.0` → `1.7.10`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.9.0/release-notes/) `5.8.2` → `5.9.0`
 - :arrow_up: [kotest](https://kotest.io/docs/changelog.html#540-july-2022) `5.3.2` → `5.4.1`
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.7.10) `1.7.0` → `1.7.10`
+- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.6.4) `1.6.3` → `1.6.4`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.10-1.0.6) `1.7.0-1.0.6` → `1.7.10-1.0.6`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.15) `1.1.14` → `1.1.15`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.15) `1.0.14` → `1.0.15`
