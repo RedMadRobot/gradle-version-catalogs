@@ -3,8 +3,8 @@ import com.redmadrobot.build.dsl.*
 plugins {
     `version-catalog`
     `maven-publish`
-    id("com.redmadrobot.publish-config") version "0.15"
-    id("com.redmadrobot.publish") version "0.15" apply false
+    id("com.redmadrobot.publish-config") version "0.17"
+    id("com.redmadrobot.publish") version "0.17" apply false
 }
 
 repositories {
@@ -34,8 +34,8 @@ redmadrobot {
 
 subprojects {
     apply {
-        plugin("com.redmadrobot.publish")
         plugin("org.gradle.version-catalog")
+        plugin("com.redmadrobot.publish")
     }
 
     group = "com.redmadrobot.versions"
