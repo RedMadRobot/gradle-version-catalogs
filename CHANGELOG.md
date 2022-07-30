@@ -29,6 +29,9 @@
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.25.0) `0.24.13-rc` → `0.25.0`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.15) `1.1.14` → `1.1.15`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.15) `1.0.14` → `1.0.15`
+- :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.21.0) `1.21.0-RC2` → `1.21.0`
+- :arrow_up: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.5.6) `2.5.5` → `2.5.6`
+- :arrow_up: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.11.0) `0.10.1` → `0.11.0`
 
 ## [2022.07.03]
 
