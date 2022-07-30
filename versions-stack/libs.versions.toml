@@ -1,7 +1,7 @@
 [versions]
 
-kotlin = "1.7.0"
-dokka = "1.7.0"
+kotlin = "1.7.10"
+dokka = "1.7.10"
 
 # UI Tools
 accompanist = "0.25.0"
@@ -43,7 +43,7 @@ leakcanary = "2.9.1"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "1.7.0-1.0.6"
+ksp = "1.7.10-1.0.6"
 
 # Services
 firebase-analytics = "21.0.0"

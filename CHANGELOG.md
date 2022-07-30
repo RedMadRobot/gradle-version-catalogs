@@ -27,6 +27,9 @@
 ### Stack
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.25.0) `0.24.13-rc` → `0.25.0`
+- :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.10) `1.7.0` → `1.7.10`
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.7.10) `1.7.0` → `1.7.10`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.10-1.0.6) `1.7.0-1.0.6` → `1.7.10-1.0.6`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.15) `1.1.14` → `1.1.15`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.15) `1.0.14` → `1.0.15`
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.21.0) `1.21.0-RC2` → `1.21.0`
