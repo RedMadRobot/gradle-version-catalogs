@@ -1,1 +1,7 @@
-description = "Version catalog with common red_mad_robot libraries"
+import com.redmadrobot.build.dsl.jitpack
+
+description = "Version catalog with red_mad_robot libraries"
+
+repositories {
+    jitpack()
+}
