@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### red_mad_robot
+
+- :arrow_up: [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.3.2) `1.3.1` → `1.3.2`
+
 ## [2022.07.30]
 
 > Be careful if you use detekt with type resolution!
