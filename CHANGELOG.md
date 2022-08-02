@@ -11,6 +11,11 @@
 
 - :arrow_up: [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.3.2) `1.3.1` → `1.3.2`
 
+### AndroidX
+
+- :sparkle: [customview](https://developer.android.com/jetpack/androidx/releases/customview) `1.1.0`
+- :sparkle: [customview-poolingcontainer](https://developer.android.com/jetpack/androidx/releases/customview#customview-poolingcontainer-1.0.0) `1.0.0`
+
 ## [2022.07.30]
 
 > Be careful if you use detekt with type resolution!

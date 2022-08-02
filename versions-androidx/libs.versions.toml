@@ -14,6 +14,8 @@ coordinatorlayout = "1.2.0"
 core = "1.8.0"
 core-googleShortcuts = "1.0.1"
 core-splashscreen = "1.0.0"
+customview = "1.1.0"
+customview-poolingcontainer = "1.0.0"
 datastore = "1.0.0"
 fragment = "1.5.1"
 hilt = "1.0.0"
@@ -77,6 +79,8 @@ coordinatorlayout = { module = "androidx.coordinatorlayout:coordinatorlayout", v
 core = { module = "androidx.core:core-ktx", version.ref = "core" }
 core-googleShortcuts = { module = "androidx.core:core-google-shortcuts", version.ref = "core-googleShortcuts" }
 core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "core-splashscreen" }
+customview = { module = "androidx.customview:customview", version.ref = "customview" }
+customview-poolingcontainer = { module = "androidx.customview:customview-poolingcontainer", version.ref = "customview-poolingcontainer" }
 datastore = { module = "androidx.datastore:datastore", version.ref = "datastore" }
 datastore-core = { module = "androidx.datastore:datastore-core", version.ref = "datastore" }
 datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
