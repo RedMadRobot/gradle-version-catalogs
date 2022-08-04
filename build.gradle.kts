@@ -5,6 +5,7 @@ plugins {
     `maven-publish`
     id("com.redmadrobot.publish-config") version "0.17"
     id("com.redmadrobot.publish") version "0.17" apply false
+    id("com.redmadrobot.version-catalog-extensions") version "0.1" apply false
 }
 
 repositories {
@@ -36,6 +37,7 @@ subprojects {
     apply {
         plugin("org.gradle.version-catalog")
         plugin("com.redmadrobot.publish")
+        plugin("com.redmadrobot.version-catalog-extensions")
     }
 
     group = "com.redmadrobot.versions"
