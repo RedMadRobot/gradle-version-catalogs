@@ -16,6 +16,10 @@
 - :sparkle: [customview](https://developer.android.com/jetpack/androidx/releases/customview) `1.1.0`
 - :sparkle: [customview-poolingcontainer](https://developer.android.com/jetpack/androidx/releases/customview#customview-poolingcontainer-1.0.0) `1.0.0`
 
+### Stack
+
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.43.2) `2.43.1` → `2.43.2`
+
 ## [2022.07.30]
 
 > Be careful if you use detekt with type resolution!
