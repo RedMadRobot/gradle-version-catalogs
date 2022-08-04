@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.08.04]
+
 ### red_mad_robot
 
 - :arrow_up: [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/1.3.2) `1.3.1` → `1.3.2`
@@ -688,7 +690,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.07.30..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.04..main
+[2022.08.04]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.07.30..2022.08.04
 [2022.07.30]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.07.03..2022.07.30
 [2022.07.03]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.27..2022.07.03
 [2022.06.27]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.06.20..2022.06.27
