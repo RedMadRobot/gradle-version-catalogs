@@ -8,10 +8,6 @@ plugins {
     id("com.redmadrobot.version-catalog-extensions") version "0.1" apply false
 }
 
-repositories {
-    mavenCentral()
-}
-
 redmadrobot {
     publishing {
         signArtifacts.set(true)
