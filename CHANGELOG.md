@@ -19,6 +19,8 @@
 ### Stack
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.25.1) `0.25.0` → `0.25.1`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v30-3-2) `30.3.1` → `30.3.2`
+- :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-0-7) `23.0.6` → `23.0.7`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.16) `1.1.15` → `1.1.16`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.16) `1.0.15` → `1.0.16`
 - :arrow_up: [tink](https://github.com/google/tink/releases/tag/v1.7.0) `1.6.1` → `1.7.0`
