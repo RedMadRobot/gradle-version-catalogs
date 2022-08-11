@@ -27,7 +27,7 @@ retrofit = "2.9.0"
 retrofit-converter-kotlinxSerialization = "0.8.0"
 
 # Security
-tink = "1.6.1"
+tink = "1.7.0"
 
 # DI
 dagger = "2.43.2"

@@ -19,6 +19,7 @@
 ### Stack
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.25.1) `0.25.0` → `0.25.1`
+- :arrow_up: [tink](https://github.com/google/tink/releases/tag/v1.7.0) `1.6.1` → `1.7.0`
 
 ## [2022.08.04]
 
