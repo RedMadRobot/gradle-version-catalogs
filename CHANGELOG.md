@@ -16,6 +16,10 @@
 - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha16) `1.0.0-alpha15` → `1.0.0-alpha16`
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.2) `1.5.1` → `1.5.2`
 
+### Stack
+
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.25.1) `0.25.0` → `0.25.1`
+
 ## [2022.08.04]
 
 ### red_mad_robot

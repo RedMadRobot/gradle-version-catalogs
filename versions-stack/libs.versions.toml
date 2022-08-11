@@ -5,7 +5,7 @@ kotlinx-datetime = "0.4.0"
 dokka = "1.7.10"
 
 # UI Tools
-accompanist = "0.25.0"
+accompanist = "0.25.1"
 coil = "2.1.0"
 epoxy = "4.6.4"
 groupie = "2.10.1"
