@@ -13,7 +13,7 @@
 
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.5.0) `1.4.2` → `1.5.0`
 - :arrow_up: [compose](https://android.googlesource.com/platform/frameworks/support/+log/1e0793130863c72dc4a2d02bc975128f3ef0158b..3c2d5397fb8ef697bb04bfc7e98721e2dc0aa255/compose) `1.2.0` → `1.2.1`
-- :sparkle: [compose-compiler](https://android.googlesource.com/platform/frameworks/support/+log/a7f0710ad21f556f0dde9bf7bdab6d2135170fd4..ebb3487237935f82b9c7fe593e85aa9cd8f7d33e/compose/compiler) `1.3.0-rc01` → `1.3.0`
+- :arrow_up: [compose-compiler](https://android.googlesource.com/platform/frameworks/support/+log/a7f0710ad21f556f0dde9bf7bdab6d2135170fd4..ebb3487237935f82b9c7fe593e85aa9cd8f7d33e/compose/compiler) `1.3.0-rc01` → `1.3.0`
   - :sparkle: Since now `compose-compiler` listed not only in **versions** but also in **libraries** section
 - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-alpha16) `1.0.0-alpha15` → `1.0.0-alpha16`
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.2) `1.5.1` → `1.5.2`
