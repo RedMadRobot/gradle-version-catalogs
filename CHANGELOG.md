@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### Stack
+
+- :arrow_up: [kotest](https://github.com/kotest/kotest/compare/v5.4.1...v5.4.2) `5.4.1` → `5.4.2`
+
 ## [2022.08.11]
 
 ### AndroidX
