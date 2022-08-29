@@ -37,7 +37,7 @@ junit = "5.9.0"
 junit-platform = "1.9.0"
 junit4 = "4.13.2"
 kotest = "5.4.2"
-mockk = "1.12.5"
+mockk = "1.12.7"
 
 # Debug Tools
 leakcanary = "2.9.1"
@@ -222,10 +222,8 @@ kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref 
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 mockk-agent-android = { module = "io.mockk:mockk-agent-android", version.ref = "mockk" }
 mockk-agent-api = { module = "io.mockk:mockk-agent-api", version.ref = "mockk" }
-mockk-agent-common = { module = "io.mockk:mockk-agent-common", version.ref = "mockk" }
 mockk-agent-jvm = { module = "io.mockk:mockk-agent-jvm", version.ref = "mockk" }
 mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockk" }
-mockk-common = { module = "io.mockk:mockk-common", version.ref = "mockk" }
 
 # Debug Tools
 leakcanary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanary" }

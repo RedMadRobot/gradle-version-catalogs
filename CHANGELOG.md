@@ -11,6 +11,9 @@
 
 - :arrow_up: [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#220---august-16-2022) `2.1.0` → `2.2.0`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/compare/v5.4.1...v5.4.2) `5.4.1` → `5.4.2`
+- :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.12.7) `1.12.5` → `1.12.7`
+  - :x: `mockk-common` (:warning: see [mockk/mockk#854](https://github.com/mockk/mockk/issues/854))
+  - :x: `mockk-agent-common` (:warning: see [mockk/mockk#854](https://github.com/mockk/mockk/issues/854))
 
 ## [2022.08.11]
 
