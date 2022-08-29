@@ -9,6 +9,7 @@
 
 ### Stack
 
+- :sparkle: [detekt-rules-compose](https://github.com/appKODE/detekt-rules-compose) `1.2.1`
 - :arrow_up: [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#220---august-16-2022) `2.1.0` → `2.2.0`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/compare/v5.4.1...v5.4.2) `5.4.1` → `5.4.2`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.4.0) `1.3.3` → `1.4.0`
