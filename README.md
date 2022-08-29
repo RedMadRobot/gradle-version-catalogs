@@ -40,14 +40,15 @@ dependencyResolutionManagement {
     }
 
     versionCatalogs {
+        val version = "2022.08.29"
         create("rmr") {
-            from("com.redmadrobot.versions:versions-redmadrobot:2022.08.11")
+            from("com.redmadrobot.versions:versions-redmadrobot:$version")
         }
         create("androidx") {
-            from("com.redmadrobot.versions:versions-androidx:2022.08.11")
+            from("com.redmadrobot.versions:versions-androidx:$version")
         }
         create("stack") {
-            from("com.redmadrobot.versions:versions-stack:2022.08.11")
+            from("com.redmadrobot.versions:versions-stack:$version")
         }
     }
 }

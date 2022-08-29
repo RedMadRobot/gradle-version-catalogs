@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.08.29]
+
 ### Stack
 
 - :sparkle: [detekt-rules-compose](https://github.com/appKODE/detekt-rules-compose) `1.2.1`
@@ -721,7 +723,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.11..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.29..main
+[2022.08.29]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.11..2022.08.29
 [2022.08.11]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.04..2022.08.11
 [2022.08.04]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.07.30..2022.08.04
 [2022.07.30]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.07.03..2022.07.30
