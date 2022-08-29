@@ -15,6 +15,7 @@
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.12.7) `1.12.5` → `1.12.7`
   - :x: `mockk-common` (:warning: see [mockk/mockk#854](https://github.com/mockk/mockk/issues/854))
   - :x: `mockk-agent-common` (:warning: see [mockk/mockk#854](https://github.com/mockk/mockk/issues/854))
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v7.1.2) `7.1.1` → `7.1.2`
 
 ## [2022.08.11]
 
