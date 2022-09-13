@@ -18,6 +18,7 @@
 
 ### Stack
 
+- :arrow_up: [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#221---september-8-2022) `2.2.0` → `2.2.1`
 - :arrow_up: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.11.1) `0.11.0` → `0.11.1`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.18) `1.1.16` → `1.1.18`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.18) `1.0.16` → `1.0.18`
