@@ -23,6 +23,7 @@
 - :arrow_up: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.11.1) `0.11.0` → `0.11.1`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.18) `1.1.16` → `1.1.18`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.18) `1.0.16` → `1.0.18`
+- :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1140) `1.13.0` → `1.14.0`
 - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-1-1) `21.1.0` → `21.1.1`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v30-4-1) `30.3.2` → `30.4.1`
 - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-2-13) `18.2.12` → `18.2.13`
