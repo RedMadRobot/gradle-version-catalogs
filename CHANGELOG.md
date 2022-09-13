@@ -18,10 +18,15 @@
 
 ### Stack
 
+- :sparkle: [firebase-config](https://firebase.google.com/docs/remote-config) `21.1.2`
 - :arrow_up: [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#221---september-8-2022) `2.2.0` → `2.2.1`
 - :arrow_up: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.11.1) `0.11.0` → `0.11.1`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.18) `1.1.16` → `1.1.18`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.18) `1.0.16` → `1.0.18`
+- :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-1-1) `21.1.0` → `21.1.1`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v30-4-1) `30.3.2` → `30.4.1`
+- :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-2-13) `18.2.12` → `18.2.13`
+- :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-0-8) `23.0.7` → `23.0.8`
 
 ## [2022.08.29]
 
