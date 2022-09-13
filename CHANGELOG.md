@@ -7,6 +7,15 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.5.1) `1.5.0` → `1.5.1`
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.3.1) `1.3.0` → `1.3.1`
+- :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-beta02) `1.0.0-alpha16` → `1.0.0-beta02`
+- :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.9.0) `1.8.0` → `1.9.0`
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.5.2) `2.5.1` → `2.5.1`
+- :arrow_up: [paging-compose](https://developer.android.com/jetpack/androidx/releases/paging#1.0.0-alpha16) `1.0.0-alpha15` → `1.0.0-alpha16`
+
 ## [2022.08.29]
 
 ### Stack
