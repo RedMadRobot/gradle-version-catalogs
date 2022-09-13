@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.09.13]
+
 ### AndroidX
 
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.5.1) `1.5.0` → `1.5.1`
@@ -745,7 +747,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.29..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.13..main
+[2022.09.13]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.29..2022.09.13
 [2022.08.29]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.11..2022.08.29
 [2022.08.11]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.04..2022.08.11
 [2022.08.04]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.07.30..2022.08.04
