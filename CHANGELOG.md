@@ -16,6 +16,11 @@
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.5.2) `2.5.1` → `2.5.1`
 - :arrow_up: [paging-compose](https://developer.android.com/jetpack/androidx/releases/paging#1.0.0-alpha16) `1.0.0-alpha15` → `1.0.0-alpha16`
 
+### Stack
+
+- :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.18) `1.1.16` → `1.1.18`
+- :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.18) `1.0.16` → `1.0.18`
+
 ## [2022.08.29]
 
 ### Stack
