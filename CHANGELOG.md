@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.09.23]
+
 ### AndroidX
 
 - :sparkle: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation) `1.5.0`
@@ -766,7 +768,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.13..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.23..main
+[2022.09.23]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.13..2022.09.23
 [2022.09.13]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.29..2022.09.13
 [2022.08.29]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.11..2022.08.29
 [2022.08.11]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.04..2022.08.11

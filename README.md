@@ -40,7 +40,7 @@ dependencyResolutionManagement {
     }
 
     versionCatalogs {
-        val version = "2022.09.13"
+        val version = "2022.09.23"
         create("rmr") {
             from("com.redmadrobot.versions:versions-redmadrobot:$version")
         }
@@ -88,7 +88,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot add extension with name, a
 ```
 
 Probably, you named a version catalog as one of the gradle plugin extensions.
-Please, read the warning under [Importing a published catalog](#importing-a-published-catalog) section.
+Please, read the warning under [Usage](#usage) section.
 
 ### Unable to apply a plugin from the version catalog due to a version conflict to the classpath
 
@@ -118,7 +118,7 @@ Problem: In version catalog libs, you can only import a single external catalog 
 ```
 
 Probably, you named a published version catalog as `libs`.
-Please, read the warning under [Importing a published catalog](#importing-a-published-catalog) section.
+Please, read the warning under [Usage](#usage) section.
 
 ### Invalid TOML catalog definition
 
