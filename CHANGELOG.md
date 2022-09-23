@@ -19,6 +19,7 @@
 
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.44) `2.43.2` → `2.44` *(:warning: potentially breaking changes)*
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.22.0-RC1) `1.21.0` → `1.22.0-RC1`
+- :arrow_up: [junit](https://junit.org/junit5/docs/5.9.1/release-notes/) `5.9.0` → `5.9.1`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.19) `1.1.18` → `1.1.19`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.19) `1.0.18` → `1.0.19`
 
