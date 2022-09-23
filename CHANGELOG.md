@@ -12,7 +12,13 @@
 - :sparkle: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation) `1.5.0`
 - :sparkle: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation) `1.3.0`
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.6.0) `1.5.1` → `1.6.0`
+- :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0-beta03) `1.0.0-beta02` → `1.0.0-beta03`
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.3) `1.5.2` → `1.5.3`
+
+### Stack
+
+- :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.19) `1.1.18` → `1.1.19`
+- :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.19) `1.0.18` → `1.0.19`
 
 ## [2022.09.13]
 
