@@ -22,6 +22,7 @@
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.9.1/release-notes/) `5.9.0` → `5.9.1`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.19) `1.1.18` → `1.1.19`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.19) `1.0.18` → `1.0.19`
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases) `7.1.2` → `7.2.1`
 
 ## [2022.09.13]
 
