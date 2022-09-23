@@ -7,6 +7,11 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :sparkle: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation) `1.5.0`
+- :sparkle: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation) `1.3.0`
+
 ## [2022.09.13]
 
 ### AndroidX
