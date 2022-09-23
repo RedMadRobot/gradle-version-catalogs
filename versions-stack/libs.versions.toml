@@ -30,7 +30,7 @@ retrofit-converter-kotlinxSerialization = "0.8.0"
 tink = "1.7.0"
 
 # DI
-dagger = "2.43.2"
+dagger = "2.44"
 
 # Test
 junit = "5.9.0"

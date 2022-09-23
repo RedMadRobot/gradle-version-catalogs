@@ -17,6 +17,7 @@
 
 ### Stack
 
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.44) `2.43.2` → `2.44` *(:warning: potentially breaking changes)*
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.19) `1.1.18` → `1.1.19`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.19) `1.0.18` → `1.0.19`
 
