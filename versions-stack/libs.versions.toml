@@ -2,6 +2,7 @@
 
 kotlin = "1.7.10"
 kotlinx-datetime = "0.4.0"
+kotlinx-collections-immutable = "0.3.5"
 dokka = "1.7.10"
 
 # UI Tools
@@ -86,6 +87,7 @@ kotlin-test-common = { module = "org.jetbrains.kotlin:kotlin-test-common", versi
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
 kotlin-test-junit5 = { module = "org.jetbrains.kotlin:kotlin-test-junit5", version.ref = "kotlin" }
 kotlin-test-testng = { module = "org.jetbrains.kotlin:kotlin-test-testng", version.ref = "kotlin" }
+kotlinx-collections-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinx-collections-immutable" }
 kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
 
 dokka-base = { module = "org.jetbrains.dokka:dokka-base", version.ref = "dokka" }

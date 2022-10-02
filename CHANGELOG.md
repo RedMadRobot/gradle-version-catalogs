@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### Stack
+
+- :sparkle: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable) `0.3.5`
+
 ## [2022.09.23]
 
 ### AndroidX
