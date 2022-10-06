@@ -19,6 +19,7 @@
 - :arrow_up: [detekt-rules-compose](https://github.com/appKODE/detekt-rules-compose/releases/tag/v1.2.2) `1.2.1` → `1.2.2`
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.0.0) `4.6.4` → `5.0.0` *(:warning: migrated to KSP)*
   - :sparkle: [epoxy-compose](https://github.com/airbnb/epoxy/tree/master/epoxy-compose/src/main/java/com/airbnb/epoxy)
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v30-5-0) `30.4.1` → `30.5.0`
 - :arrow_up: [kotest](https://kotest.io/docs/changelog.html#550-october-2022) `5.4.2` → `5.5.0`
 - :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew1720.html) `1.7.10` → `1.7.20` *(:warning:)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.20-1.0.6) `1.7.10-1.0.6` → `1.7.20-1.0.6`
