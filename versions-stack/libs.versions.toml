@@ -7,7 +7,7 @@ dokka = "1.7.10"
 
 # UI Tools
 accompanist = "0.25.1"
-coil = "2.2.1"
+coil = "2.2.2"
 epoxy = "5.0.0"
 groupie = "2.10.1"
 insetter = "0.6.1"
