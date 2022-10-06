@@ -7,9 +7,15 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.3.2) `1.3.1` → `1.3.2`
+
 ### Stack
 
 - :sparkle: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable) `0.3.5`
+- :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew1720.html) `1.7.10` → `1.7.20` *(:warning:)*
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.20-1.0.6) `1.7.10-1.0.6` → `1.7.20-1.0.6`
 
 ## [2022.09.23]
 
