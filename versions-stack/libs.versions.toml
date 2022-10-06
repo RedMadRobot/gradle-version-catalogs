@@ -8,7 +8,7 @@ dokka = "1.7.10"
 # UI Tools
 accompanist = "0.25.1"
 coil = "2.2.1"
-epoxy = "4.6.4"
+epoxy = "5.0.0"
 groupie = "2.10.1"
 insetter = "0.6.1"
 material = "1.6.1"
@@ -130,6 +130,7 @@ coil-svg = { module = "io.coil-kt:coil-svg", version.ref = "coil" }
 coil-video = { module = "io.coil-kt:coil-video", version.ref = "coil" }
 epoxy = { module = "com.airbnb.android:epoxy", version.ref = "epoxy" }
 epoxy-annotations = { module = "com.airbnb.android:epoxy-annotations", version.ref = "epoxy" }
+epoxy-compose = { module = "com.airbnb.android:epoxy-compose", version.ref = "epoxy" }
 epoxy-paging3 = { module = "com.airbnb.android:epoxy-paging3", version.ref = "epoxy" }
 epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref = "epoxy" }
 groupie = { module = "com.github.lisawray.groupie:groupie", version.ref = "groupie" }
