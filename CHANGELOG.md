@@ -16,6 +16,7 @@
 - :sparkle: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable) `0.3.5`
 - :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew1720.html) `1.7.10` → `1.7.20` *(:warning:)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.20-1.0.6) `1.7.10-1.0.6` → `1.7.20-1.0.6`
+- :arrow_up: [mockk](https://github.com/mockk/mockk/releases/) `1.12.8` → `1.13.2`
 
 ## [2022.09.23]
 
