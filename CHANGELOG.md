@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.10.06]
+
 ### AndroidX
 
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.3.2) `1.3.1` → `1.3.2`
@@ -788,7 +790,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.23..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.10.06..main
+[2022.10.06]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.23..2022.10.06
 [2022.09.23]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.13..2022.09.23
 [2022.09.13]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.29..2022.09.13
 [2022.08.29]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.08.11..2022.08.29
