@@ -22,6 +22,8 @@
 - :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew1720.html) `1.7.10` → `1.7.20` *(:warning:)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.20-1.0.6) `1.7.10-1.0.6` → `1.7.20-1.0.6`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/) `1.12.8` → `1.13.2`
+- :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.20) `1.1.19` → `1.1.20`
+- :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.20) `1.0.19` → `1.0.20`
 
 ## [2022.09.23]
 
