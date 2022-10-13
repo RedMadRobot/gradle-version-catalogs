@@ -3,7 +3,7 @@
 kotlin = "1.7.20"
 kotlinx-datetime = "0.4.0"
 kotlinx-collections-immutable = "0.3.5"
-dokka = "1.7.10"
+dokka = "1.7.20"
 
 # UI Tools
 accompanist = "0.25.1"
