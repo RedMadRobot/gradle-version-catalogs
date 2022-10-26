@@ -6,14 +6,14 @@ kotlinx-collections-immutable = "0.3.5"
 dokka = "1.7.20"
 
 # UI Tools
-accompanist = "0.25.1"
+accompanist = "0.27.0"
 coil = "2.2.2"
 epoxy = "5.0.0"
 groupie = "2.10.1"
 insetter = "0.6.1"
 material = "1.6.1"
-material-compose-themeAdapter = "1.1.19"
-material-compose-themeAdapter3 = "1.0.19"
+material-compose-themeAdapter = "1.1.21"
+material-compose-themeAdapter3 = "1.0.21"
 
 # Multithreading
 kotlinx-coroutines = "1.6.4"
@@ -105,6 +105,7 @@ dokka-plugin-templating = { module = "org.jetbrains.dokka:templating-plugin", ve
 dokka-plugin-versioning = { module = "org.jetbrains.dokka:versioning-plugin", version.ref = "dokka" }
 
 # UI Tools
+accompanist-adaptive = { module = "com.google.accompanist:accompanist-adaptive", version.ref = "accompanist" }
 accompanist-appcompatTheme = { module = "com.google.accompanist:accompanist-appcompat-theme", version.ref = "accompanist" }
 accompanist-drawablepainter = { module = "com.google.accompanist:accompanist-drawablepainter", version.ref = "accompanist" }
 accompanist-flowlayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }

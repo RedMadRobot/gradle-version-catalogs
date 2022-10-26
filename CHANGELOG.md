@@ -9,12 +9,26 @@
 
 ### AndroidX
 
+> :warning: **Breaking change:** Google has announced separated versioning for each `compose-*` artifact.
+> So, since this version, version ref `compose` was removed in favor of separated version refs `compose-animation`, `compose-foundation` etc.
+
+- :sparkle: [compose-bom](https://developer.android.com/jetpack/compose/setup#using-the-bom) `2022.10.00`
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.6.1) `1.6.0` → `1.6.1`
+- :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.3.0) `1.2.1` → `1.3.0`
+- :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.3.0) `1.2.1` → `1.3.0`
+- :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.3.0) `1.2.1` → `1.3.0`
+- :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.0) `1.0.0-rc01` → `1.0.0`
+- :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.3.0) `1.2.1` → `1.3.0`
+- :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.3.0) `1.2.1` → `1.3.0`
 
 ### Stack
 
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.27.0) `0.25.1` → `0.27.0`
+  - :sparkle: [accompanist-adaptive](https://google.github.io/accompanist/adaptive/)
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.20) `1.7.10` → `1.7.20`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.5.2) `5.5.0` → `5.5.2`
+- :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.21) `1.1.19` → `1.1.21`
+- :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.21) `1.0.19` → `1.0.21`
 
 ## [2022.10.06]
 
@@ -35,8 +49,6 @@
 - :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew1720.html) `1.7.10` → `1.7.20` *(:warning:)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.20-1.0.6) `1.7.10-1.0.6` → `1.7.20-1.0.6`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/) `1.12.8` → `1.13.2`
-- :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.20) `1.1.19` → `1.1.20`
-- :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.20) `1.0.19` → `1.0.20`
 
 ## [2022.09.23]
 
