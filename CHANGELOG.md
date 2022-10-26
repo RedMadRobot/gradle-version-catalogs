@@ -39,6 +39,7 @@
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.21) `1.0.19` → `1.0.21`
 - :arrow_up: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.6.0) `2.5.7` → `2.6.0`
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v7.3.0) `7.2.1` → `7.3.0`
+- :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.22.0-RC2) `1.22.0-RC1` → `1.22.0-RC2`
 
 ## [2022.10.06]
 
