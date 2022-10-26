@@ -30,6 +30,7 @@
   - :sparkle: [accompanist-adaptive](https://google.github.io/accompanist/adaptive/)
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.20) `1.7.10` → `1.7.20`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.5.2) `5.5.0` → `5.5.2`
+- :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.4.1) `1.4.0` → `1.4.1`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.21) `1.1.19` → `1.1.21`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.21) `1.0.19` → `1.0.21`
 
