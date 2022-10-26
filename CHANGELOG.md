@@ -37,6 +37,7 @@
 - :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.7.0) `1.6.1` → `1.7.0`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.21) `1.1.19` → `1.1.21`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.21) `1.0.19` → `1.0.21`
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v7.3.0) `7.2.1` → `7.3.0`
 
 ## [2022.10.06]
 
