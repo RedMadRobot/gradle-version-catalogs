@@ -21,6 +21,7 @@
 - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.3.0) `1.2.1` → `1.3.0`
 - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.3.0) `1.2.1` → `1.3.0`
 - :arrow_up: [core-googleShortcuts](https://developer.android.com/jetpack/androidx/releases/core#core-google-shortcuts-1.1.0) `1.0.1` → `1.1.0`
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.4) `1.5.3` → `1.5.4`
 
 ### Stack
 
