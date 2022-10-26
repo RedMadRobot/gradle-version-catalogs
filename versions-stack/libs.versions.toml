@@ -59,7 +59,7 @@ gms-googleServices = "4.3.13"
 
 # Gradle plugins
 gradle-android-cacheFix = "2.6.0"
-detekt = "1.22.0-RC2"
+detekt = "1.22.0-RC3"
 detekt-rules-compose = "1.2.2"
 doctorPlugin = "0.8.1"
 kotlinx-binaryCompatibilityValidator = "0.12.1"
@@ -254,6 +254,8 @@ gradle-android-cacheFixGradlePlugin = { module = "gradle.plugin.org.gradle.andro
 detekt-gradlePlugin = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 detekt-rules-compose = { module = "ru.kode:detekt-rules-compose", version.ref = "detekt-rules-compose" }
+detekt-rules-libraries = { module = "io.gitlab.arturbosch.detekt:detekt-rules-libraries", version.ref = "detekt" }
+detekt-rules-ruleauthors = { module = "io.gitlab.arturbosch.detekt:detekt-rules-ruleauthors", version.ref = "detekt" }
 doctorPlugin = { module = "com.osacky.doctor:doctor-plugin", version.ref = "doctorPlugin" }
 kotlinx-binaryCompatibilityValidator = { module = "org.jetbrains.kotlinx:binary-compatibility-validator", version.ref = "kotlinx-binaryCompatibilityValidator" }
 owasp-dependencyCheck-gradle = { module = "org.owasp:dependency-check-gradle", version.ref = "owasp-dependencycheck"  }
