@@ -29,6 +29,7 @@
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.27.0) `0.25.1` → `0.27.0`
   - :sparkle: [accompanist-adaptive](https://google.github.io/accompanist/adaptive/)
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.20) `1.7.10` → `1.7.20`
+- :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.0) `5.0.0` → `5.1.0`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.5.2) `5.5.0` → `5.5.2`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.4.1) `1.4.0` → `1.4.1`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.7.20-1.0.7) `1.7.20-1.0.6` → `1.7.20-1.0.7`
