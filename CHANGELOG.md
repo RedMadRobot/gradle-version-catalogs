@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.6.1) `1.6.0` → `1.6.1`
+
 ### Stack
 
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.7.20) `1.7.10` → `1.7.20`
