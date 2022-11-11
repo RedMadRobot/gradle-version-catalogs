@@ -13,6 +13,7 @@
   - :sparkle: [detekt-rules-libraries](https://detekt.dev/docs/next/rules/libraries)
   - :sparkle: [detekt-rules-ruleauthors](https://detekt.dev/docs/next/rules/ruleauthors)
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.7.21) `1.7.20` → `1.7.21`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/) `1.7.20-1.0.7` → `1.7.21-1.0.8`
 
 ## [2022.10.26]
 
