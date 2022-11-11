@@ -7,6 +7,12 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose#2022.11.00) `2022.10.00` → `2022.11.00`
+- :arrow_up: [compose-*](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.3.1) `1.3.0` → `1.3.1`
+- :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.1) `1.0.0` → `1.0.1`
+
 ### Stack
 
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.22.0-RC3) `1.22.0-RC2` → `1.22.0-RC1`
