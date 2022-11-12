@@ -10,6 +10,7 @@
 ### AndroidX
 
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose#2022.11.00) `2022.10.00` → `2022.11.00`
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.0-alpha02) `1.3.2` → `1.4.0-alpha02` *(:warning: Alpha version used to support Kotlin 1.7.21)*
 - :arrow_up: [compose-*](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.3.1) `1.3.0` → `1.3.1`
 - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.0.1) `1.0.0` → `1.0.1`
 
