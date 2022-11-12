@@ -31,6 +31,7 @@
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.22.0-RC3) `1.22.0-RC2` → `1.22.0-RC1`
   - :sparkle: [detekt-rules-libraries](https://detekt.dev/docs/next/rules/libraries)
   - :sparkle: [detekt-rules-ruleauthors](https://detekt.dev/docs/next/rules/ruleauthors)
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.44.1) `2.44.0` → `2.44.1`
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.1) `5.1.0` → `5.1.1`
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.7.21) `1.7.20` → `1.7.21`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases) `5.5.2` → `5.5.4` *(:warning: JUnit 5.8+ is required)*
