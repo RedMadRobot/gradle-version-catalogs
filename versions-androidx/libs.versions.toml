@@ -35,6 +35,16 @@ recyclerview-selection = "1.1.0"
 room = "2.4.3"
 security-crypto = "1.0.0"
 swiperefreshlayout = "1.1.0"
+test-annotation = "1.0.1"
+test-core = "1.5.0"
+test-espresso = "3.5.0"
+test-ext-junit = "1.1.4"
+test-ext-truth = "1.5.0"
+test-monitor = "1.6.0"
+test-orchestrator = "1.4.2"
+test-runner = "1.5.0"
+test-rules = "1.5.0"
+test-services = "1.4.2"
 
 [libraries]
 
@@ -151,6 +161,25 @@ room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "room" }
 room-testing = { module = "androidx.room:room-testing", version.ref = "room" }
 security-crypto = { module = "androidx.security:security-crypto", version.ref = "security-crypto" }
 swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+test-annotation = { module = "androidx.test:annotation", version.ref = "test.annotation" }
+test-core = { module = "androidx.test:core-ktx", version.ref = "test.core" }
+test-espresso-accessibility = { module = "androidx.test.espresso:espresso-accessibility", version.ref = "test.espresso" }
+test-espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "test.espresso" }
+test-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "test.espresso" }
+test-espresso-idlingResource = { module = "androidx.test.espresso:espresso-idling-resource", version.ref = "test.espresso" }
+test-espresso-idling-concurrent = { module = "androidx.test.espresso.idling:idling-concurrent", version.ref = "test.espresso" }
+test-espresso-idling-net = { module = "androidx.test.espresso.idling:idling-net", version.ref = "test.espresso" }
+test-espresso-intents = { module = "androidx.test.espresso:espresso-intents", version.ref = "test.espresso" }
+test-espresso-remote = { module = "androidx.test.espresso:espresso-remote", version.ref = "test.espresso" }
+test-espresso-web = { module = "androidx.test.espresso:espresso-web", version.ref = "test.espresso" }
+test-ext-junit = { module = "androidx.test.ext:junit-ktx", version.ref = "test.ext.junit" }
+test-ext-truth = { module = "androidx.test.ext:truth", version.ref = "test.ext.truth" }
+test-monitor = { module = "androidx.test:monitor", version.ref = "test.monitor" }
+test-orchestrator = { module = "androidx.test:orchestrator", version.ref = "test.orchestrator" }
+test-rules = { module = "androidx.test:rules", version.ref = "test.rules" }
+test-runner = { module = "androidx.test:runner", version.ref = "test.runner" }
+test-services = { module = "androidx.test.services:test-services", version.ref = "test.services" }
+test-services-storage = { module = "androidx.test.services:storage", version.ref = "test.services" }
 
 [plugins]
 

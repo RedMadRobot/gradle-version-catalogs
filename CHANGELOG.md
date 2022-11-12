@@ -9,6 +9,17 @@
 
 ### AndroidX
 
+- :sparkle: **AndroidX test**:
+  - :sparkle: [test-annotation](https://developer.android.com/reference/kotlin/androidx/test/annotation/package-summary) `1.0.1`
+  - :sparkle: [test-core](https://developer.android.com/training/testing/instrumented-tests/androidx-test-libraries/test-setup) `1.5.0`
+  - :sparkle: [test-espresso](https://developer.android.com/training/testing/espresso) `3.5.0`
+  - :sparkle: [test-ext-junit](https://developer.android.com/training/testing/instrumented-tests/androidx-test-libraries/test-setup) `1.1.4`
+  - :sparkle: [test-ext-truth](https://developer.android.com/training/testing/instrumented-tests/androidx-test-libraries/test-setup) `1.5.0`
+  - :sparkle: [test-monitor](https://cs.android.com/androidx/android-test/+/master:runner/monitor/java/androidx/test/) `1.6.0`
+  - :sparkle: [test-orchestrator](https://developer.android.com/training/testing/instrumented-tests/androidx-test-libraries/runner#use-android) `1.4.2`
+  - :sparkle: [test-runner](https://developer.android.com/training/testing/instrumented-tests/androidx-test-libraries/runner) `1.5.0`
+  - :sparkle: [test-rules](https://developer.android.com/training/testing/instrumented-tests/androidx-test-libraries/rules) `1.5.0`
+  - :sparkle: [test-services](https://developer.android.com/training/testing/instrumented-tests/androidx-test-libraries/test-setup) `1.4.2`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose#2022.11.00) `2022.10.00` → `2022.11.00`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.0-alpha02) `1.3.2` → `1.4.0-alpha02` *(:warning: Alpha version used to support Kotlin 1.7.21)*
 - :arrow_up: [compose-*](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.3.1) `1.3.0` → `1.3.1`
