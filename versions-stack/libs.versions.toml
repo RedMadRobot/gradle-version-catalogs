@@ -12,8 +12,8 @@ epoxy = "5.1.0"
 groupie = "2.10.1"
 insetter = "0.6.1"
 material = "1.7.0"
-material-compose-themeAdapter = "1.1.21"
-material-compose-themeAdapter3 = "1.0.21"
+material-compose-themeAdapter = "1.1.22"
+material-compose-themeAdapter3 = "1.0.22"
 
 # Multithreading
 kotlinx-coroutines = "1.6.4"

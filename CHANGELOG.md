@@ -33,6 +33,8 @@
   - :sparkle: [detekt-rules-ruleauthors](https://detekt.dev/docs/next/rules/ruleauthors)
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.7.21) `1.7.20` → `1.7.21`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/) `1.7.20-1.0.7` → `1.7.21-1.0.8`
+- :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.22) `1.1.21` → `1.1.22`
+- :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.22) `1.0.21` → `1.0.22`
 
 ## [2022.10.26]
 
