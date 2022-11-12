@@ -30,7 +30,7 @@
 
 ### Stack
 
-- :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.22.0-RC3) `1.22.0-RC2` → `1.22.0-RC1`
+- :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.22.0-RC3) `1.22.0-RC2` → `1.22.0-RC3`
   - :sparkle: [detekt-rules-libraries](https://detekt.dev/docs/next/rules/libraries)
   - :sparkle: [detekt-rules-ruleauthors](https://detekt.dev/docs/next/rules/ruleauthors)
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.44.1) `2.44.0` → `2.44.1`
