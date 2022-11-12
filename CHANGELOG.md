@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.11.12]
+
 ### AndroidX
 
 - :sparkle: **AndroidX test**:
@@ -864,7 +866,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.10.26..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.11.12..main
+[2022.11.12]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.10.26..2022.11.12
 [2022.10.26]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.10.06..2022.10.26
 [2022.10.06]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.23..2022.10.06
 [2022.09.23]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.13..2022.09.23
