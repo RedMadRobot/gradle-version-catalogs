@@ -41,7 +41,7 @@ kotest = "5.5.4"
 mockk = "1.13.2"
 
 # Debug Tools
-leakcanary = "2.9.1"
+leakcanary = "2.10"
 timber = "5.0.1"
 
 # Annotations procesing
