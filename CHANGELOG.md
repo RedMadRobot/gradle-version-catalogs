@@ -45,6 +45,7 @@
 - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-3-2) `18.2.13` → `18.3.2`
 - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-1-0) `23.0.8` → `23.1.0`
 - :arrow_up: [gms-googleServices](https://firebase.google.com/support/release-notes/android#google-services_plugin_v4-3-14) `4.3.13` → `4.3.14`
+- :arrow_up: [versionsPlugin](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.44.0) `0.42.0` → `0.44.0`
 
 ## [2022.10.26]
 
