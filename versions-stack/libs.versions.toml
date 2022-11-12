@@ -37,7 +37,7 @@ dagger = "2.44"
 junit = "5.9.1"
 junit-platform = "1.9.1"
 junit4 = "4.13.2"
-kotest = "5.5.2"
+kotest = "5.5.4"
 mockk = "1.13.2"
 
 # Debug Tools
