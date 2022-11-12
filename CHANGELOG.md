@@ -39,6 +39,12 @@
 - :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-210-2022-11-10) `2.9.1` → `2.10.0`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.1.22) `1.1.21` → `1.1.22`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.0.22) `1.0.21` → `1.0.22`
+- :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-2-0) `21.1.1` → `21.2.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v31-0-3) `30.5.0` → `31.0.3`
+- :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#config_v21-2-0) `21.1.2` → `21.2.0`
+- :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-3-2) `18.2.13` → `18.3.2`
+- :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-1-0) `23.0.8` → `23.1.0`
+- :arrow_up: [gms-googleServices](https://firebase.google.com/support/release-notes/android#google-services_plugin_v4-3-14) `4.3.13` → `4.3.14`
 
 ## [2022.10.26]
 
