@@ -9,6 +9,7 @@
 
 ### Stack
 
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.27.1) `0.27.0` → `0.27.1`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.44.2) `2.44.1` → `2.44.2`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.2.0) `1.1.22` → `1.2.0`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.1.0) `1.0.22` → `1.1.0`
