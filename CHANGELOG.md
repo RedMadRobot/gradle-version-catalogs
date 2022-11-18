@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.11.18]
+
 ### Stack
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.27.1) `0.27.0` → `0.27.1`
@@ -874,7 +876,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.11.12..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.11.18..main
+[2022.11.18]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.11.12..2022.11.18
 [2022.11.12]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.10.26..2022.11.12
 [2022.10.26]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.10.06..2022.10.26
 [2022.10.06]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.09.23..2022.10.06
