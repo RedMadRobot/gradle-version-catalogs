@@ -12,6 +12,7 @@
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.44.2) `2.44.1` → `2.44.2`
 - :arrow_up: [material-compose-themeAdapter](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material-v1.2.0) `1.1.22` → `1.2.0`
 - :arrow_up: [material-compose-themeAdapter3](https://github.com/material-components/material-components-android-compose-theme-adapter/releases/tag/material3-v1.1.0) `1.0.22` → `1.1.0`
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v7.3.2) `7.3.0` → `7.3.2`
 
 ## [2022.11.12]
 
