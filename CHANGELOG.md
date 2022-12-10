@@ -10,6 +10,10 @@
 ### AndroidX
 
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.2.0) `1.1.0` → `1.2.0`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose#2022.12.00) `2022.11.00` → `2022.12.00`
+- :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.2.0) `1.3.1` → `1.3.2`
+- :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.2.0) `1.3.1` → `1.3.2`
+- :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.2.0) `1.3.1` → `1.3.2`
 
 ## [2022.11.18]
 
