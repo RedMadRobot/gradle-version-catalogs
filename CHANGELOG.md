@@ -20,6 +20,7 @@
 
 - :x: `material-compose-themeAdapter` _(use `accompanist-themeadapter-material` instead)_
 - :x: `material-compose-themeAdapter3` _(use `accompanist-themeadapter-material3` instead)_
+- :sparkle: [javax-inject](https://docs.oracle.com/javaee/6/api/javax/inject/package-summary.html) `1`
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.28.0) `0.27.1` → `0.28.0`
   - :x: `accompanist-insets` _(use compose insets instead)_
   - :sparkle: [accompanist-testharness](https://google.github.io/accompanist/testharness/)

@@ -32,6 +32,7 @@ tink = "1.7.0"
 
 # DI
 dagger = "2.44.2"
+javax-inject = "1"
 
 # Test
 junit = "5.9.1"
@@ -202,6 +203,7 @@ dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = 
 dagger-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "dagger" }
 dagger-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "dagger" }
 dagger-hilt-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "dagger" }
+javax-inject = { module = "javax.inject:javax.inject", version.ref = "javax-inject" }
 
 # Test
 junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
