@@ -20,6 +20,7 @@
 
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.22.0) `1.22.0-RC3` → `1.22.0`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.3) `1.13.2` → `1.13.3`
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases) `7.3.2` → `7.4.1`
 
 ## [2022.11.18]
 
