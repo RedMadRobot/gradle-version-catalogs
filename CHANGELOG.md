@@ -14,6 +14,7 @@
 - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.2.0) `1.3.1` → `1.3.2`
 - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.2.0) `1.3.1` → `1.3.2`
 - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.2.0) `1.3.1` → `1.3.2`
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.5) `1.5.4` → `1.5.5`
 
 ## [2022.11.18]
 
