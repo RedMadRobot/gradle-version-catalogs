@@ -6,7 +6,7 @@ kotlinx-collections-immutable = "0.3.5"
 dokka = "1.7.20"
 
 # UI Tools
-accompanist = "0.27.1"
+accompanist = "0.28.0"
 coil = "2.2.2"
 epoxy = "5.1.1"
 groupie = "2.10.1"
@@ -106,11 +106,8 @@ dokka-plugin-versioning = { module = "org.jetbrains.dokka:versioning-plugin", ve
 
 # UI Tools
 accompanist-adaptive = { module = "com.google.accompanist:accompanist-adaptive", version.ref = "accompanist" }
-accompanist-appcompatTheme = { module = "com.google.accompanist:accompanist-appcompat-theme", version.ref = "accompanist" }
 accompanist-drawablepainter = { module = "com.google.accompanist:accompanist-drawablepainter", version.ref = "accompanist" }
 accompanist-flowlayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }
-accompanist-insets = { module = "com.google.accompanist:accompanist-insets", version.ref = "accompanist" }
-accompanist-insets-ui = { module = "com.google.accompanist:accompanist-insets-ui", version.ref = "accompanist" }
 accompanist-navigation-animation = { module = "com.google.accompanist:accompanist-navigation-animation", version.ref = "accompanist" }
 accompanist-navigation-material = { module = "com.google.accompanist:accompanist-navigation-material", version.ref = "accompanist" }
 accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist" }
@@ -120,6 +117,11 @@ accompanist-placeholder = { module = "com.google.accompanist:accompanist-placeho
 accompanist-placeholder-material = { module = "com.google.accompanist:accompanist-placeholder-material", version.ref = "accompanist" }
 accompanist-swiperefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanist" }
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" }
+accompanist-testharness = { module = "com.google.accompanist:accompanist-testharness", version.ref = "accompanist" }
+accompanist-themeadapter-appcompat = { module = "com.google.accompanist:accompanist-themeadapter-appcompat", version.ref = "accompanist" }
+accompanist-themeadapter-core = { module = "com.google.accompanist:accompanist-themeadapter-core", version.ref = "accompanist" }
+accompanist-themeadapter-material = { module = "com.google.accompanist:accompanist-themeadapter-material", version.ref = "accompanist" }
+accompanist-themeadapter-material3 = { module = "com.google.accompanist:accompanist-themeadapter-material3", version.ref = "accompanist" }
 accompanist-webview = { module = "com.google.accompanist:accompanist-webview", version.ref = "accompanist" }
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 coil-base = { module = "io.coil-kt:coil-base", version.ref = "coil" }
@@ -137,8 +139,6 @@ epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref =
 groupie = { module = "com.github.lisawray.groupie:groupie", version.ref = "groupie" }
 insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "insetter" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
-material-compose-themeAdapter = { module = "com.google.android.material:compose-theme-adapter", version.ref = "material-compose-themeAdapter" }
-material-compose-themeAdapter3 = { module = "com.google.android.material:compose-theme-adapter-3", version.ref = "material-compose-themeAdapter3" }
 
 # Multithreading
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }

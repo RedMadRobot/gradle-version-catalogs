@@ -18,6 +18,15 @@
 
 ### Stack
 
+- :x: `material-compose-themeAdapter` _(use `accompanist-themeadapter-material` instead)_
+- :x: `material-compose-themeAdapter3` _(use `accompanist-themeadapter-material3` instead)_
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.28.0) `0.27.1` → `0.28.0`
+  - :x: `accompanist-insets` _(use compose insets instead)_
+  - :sparkle: [accompanist-testharness](https://google.github.io/accompanist/testharness/)
+  - :sparkle: [accompanist-themeadapter-core](https://google.github.io/accompanist/themeadapter-core/)
+  - :sparkle: [accompanist-themeadapter-material](https://google.github.io/accompanist/themeadapter-material/)
+  - :sparkle: [accompanist-themeadapter-material3](https://google.github.io/accompanist/themeadapter-material3/)
+  - :memo: `accompanist-appcompatTheme` → `accompanist-themeadapter-appcompat`
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.22.0) `1.22.0-RC3` → `1.22.0`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.3) `1.13.2` → `1.13.3`
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases) `7.3.2` → `7.4.1`
