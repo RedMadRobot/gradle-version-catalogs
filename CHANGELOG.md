@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.2.0) `1.1.0` → `1.2.0`
+
 ## [2022.11.18]
 
 ### Stack
