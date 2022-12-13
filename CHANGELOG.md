@@ -31,6 +31,8 @@
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.22.0) `1.22.0-RC3` → `1.22.0`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.3) `1.13.2` → `1.13.3`
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases) `7.3.2` → `7.4.1`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v31-1-1) `31.0.3` → `31.1.1`
+- :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-1-1) `23.1.0` → `23.1.1`
 
 ## [2022.11.18]
 
