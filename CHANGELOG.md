@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2022.12.13]
+
 ### AndroidX
 
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.2.0) `1.1.0` → `1.2.0`
@@ -903,7 +905,8 @@ gradle-infrastructure plugins `0.15`:
 
 Initial release
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.11.18..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.12.13..main
+[2022.12.13]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.11.18..2022.12.13
 [2022.11.18]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.11.12..2022.11.18
 [2022.11.12]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.10.26..2022.11.12
 [2022.10.26]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.10.06..2022.10.26
