@@ -7,6 +7,11 @@
 
 ## [Unreleased]
 
+### Stack
+
+- :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew18.html) `1.7.21` → `1.8.0` *(:warning:)*
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.0-1.0.8) `1.7.21-1.0.8` → `1.8.0-1.0.8`
+
 ## [2022.12.13]
 
 ### AndroidX

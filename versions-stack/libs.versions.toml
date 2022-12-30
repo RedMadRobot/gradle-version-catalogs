@@ -1,6 +1,6 @@
 [versions]
 
-kotlin = "1.7.21"
+kotlin = "1.8.0"
 kotlinx-datetime = "0.4.0"
 kotlinx-collections-immutable = "0.3.5"
 dokka = "1.7.20"
@@ -46,7 +46,7 @@ leakcanary = "2.10"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "1.7.21-1.0.8"
+ksp = "1.8.0-1.0.8"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
