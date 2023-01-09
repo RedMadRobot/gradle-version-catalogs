@@ -10,6 +10,7 @@
 ### AndroidX
 
 - :arrow_up: [test-espresso](https://developer.android.com/jetpack/androidx/releases/test#espresso-3.5.1) `3.5.0` → `3.5.1`
+- :arrow_up: [test-ext-junit](https://developer.android.com/jetpack/androidx/releases/test#ext.junit-1.1.5) `1.1.4` → `1.1.5`
 - :arrow_up: [test-monitor](https://developer.android.com/jetpack/androidx/releases/test#monitor-1.6.1) `1.6.0` → `1.6.1`
 - :arrow_up: [test-runner](https://developer.android.com/jetpack/androidx/releases/test#runner-1.5.2) `1.5.0` → `1.5.2`
 
