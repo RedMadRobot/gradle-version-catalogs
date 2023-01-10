@@ -7,6 +7,13 @@
 
 ## [Unreleased]
 
+> #### :information_source: Note
+>
+> This update changes Kotlin version to `1.8.0` which is not compatible with compose-compiler `1.4.0-alpha02`.
+> If you use Jetpack Compose in your project, you can either:
+> - [overwrite version](https://docs.gradle.org/current/userguide/platforms.html#sec:overwriting-catalog-versions) of Kotlin in `settings.gradle`
+> - or use [prerelease version of compose-compiler](https://androidx.dev/storage/compose-compiler/repository)
+
 ### AndroidX
 
 - :arrow_up: [test-espresso](https://developer.android.com/jetpack/androidx/releases/test#espresso-3.5.1) `3.5.0` → `3.5.1`
