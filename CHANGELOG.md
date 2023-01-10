@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2023.01.10]
+
 > #### :information_source: Note
 >
 > This update changes Kotlin version to `1.8.0` which is not compatible with compose-compiler `1.4.0-alpha02`.
@@ -36,4 +38,5 @@
 
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.12.13..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.01.10..main
+[2023.01.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.12.13..2023.01.10
