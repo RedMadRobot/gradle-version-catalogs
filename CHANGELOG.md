@@ -19,6 +19,7 @@
 - **dagger-hilt:**
   - :memo: `dagger-hilt-testing` → `dagger-hilt-android-testing` - renamed to follow package name
   - :sparkle: `dagger-hilt-android-compiler`
+  - :sparkle: plugin [dagger-hilt-android](https://dagger.dev/hilt/gradle-setup#hilt-gradle-plugin) and library `dagger-hilt-android-gradlePlugin`
 - :arrow_up: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.6.1) `2.6.0` → `2.6.1`
 - :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew18.html) `1.7.21` → `1.8.0` *(:warning:)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.0-1.0.8) `1.7.21-1.0.8` → `1.8.0-1.0.8`
