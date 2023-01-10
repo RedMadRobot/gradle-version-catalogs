@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### Stack
+
+- :arrow_up: [junit](https://junit.org/junit5/docs/5.9.2/release-notes/) `5.9.1` → `5.9.2`
+
 ## [2023.01.10]
 
 > #### :information_source: Note
