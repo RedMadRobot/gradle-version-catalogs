@@ -24,6 +24,7 @@
 
 - :arrow_up: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.6.2) `2.6.1` → `2.6.2`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.9.2/release-notes/) `5.9.1` → `5.9.2`
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v8.0.0) `7.4.4` → `8.0.1` _(:warning: Breaking changes!)_
 
 ## [2023.01.10]
 
