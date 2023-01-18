@@ -9,8 +9,11 @@
 
 ### AndroidX
 
-- **compose:**
-  - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.0) `1.4.0-alpha02` → `1.4.0`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/setup#bom-version-mapping) `2022.12.00` → `2023.01.00`
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.3.3) `1.3.2` → `1.3.3`
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.3.3) `1.3.2` → `1.3.3`
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.3.3) `1.3.2` → `1.3.3`
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.0) `1.4.0-alpha02` → `1.4.0`
 
 ### Stack
 
