@@ -7,6 +7,11 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- **compose:**
+  - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.0) `1.4.0-alpha02` → `1.4.0`
+
 ### Stack
 
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.9.2/release-notes/) `5.9.1` → `5.9.2`
