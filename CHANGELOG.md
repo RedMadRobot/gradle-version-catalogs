@@ -15,6 +15,10 @@
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.3.3) `1.3.2` → `1.3.3`
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.3.3) `1.3.2` → `1.3.3`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.0) `1.4.0-alpha02` → `1.4.0`
+- :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.5.0) `2.4.3` → `2.5.0`
+  - :sparkle: `room-paging-guava`
+  - :sparkle: `room-paging-rxjava2`
+  - :sparkle: `room-paging-rxjava3`
 
 ### Stack
 
