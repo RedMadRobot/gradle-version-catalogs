@@ -22,6 +22,7 @@
 
 ### Stack
 
+- :arrow_up: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.6.2) `2.6.1` → `2.6.2`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.9.2/release-notes/) `5.9.1` → `5.9.2`
 
 ## [2023.01.10]
