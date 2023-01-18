@@ -9,6 +9,7 @@
 
 ### AndroidX
 
+- :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.6.0) `1.5.1` → `1.6.0`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/setup#bom-version-mapping) `2022.12.00` → `2023.01.00`
   - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.3.3) `1.3.2` → `1.3.3`
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.3.3) `1.3.2` → `1.3.3`
