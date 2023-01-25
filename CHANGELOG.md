@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2023.01.25]
+
 ### AndroidX
 
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.6.0) `1.5.1` → `1.6.0`
@@ -63,5 +65,6 @@
 
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.01.10..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.01.25..main
+[2023.01.25]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.01.10..2023.01.25
 [2023.01.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.12.13..2023.01.10
