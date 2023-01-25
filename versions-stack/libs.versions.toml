@@ -16,7 +16,7 @@ material = "1.7.0"
 # Multithreading
 kotlinx-coroutines = "1.6.4"
 reactivex-rxjava2 = "2.2.21"
-reactivex-rxjava3 = "3.1.5"
+reactivex-rxjava3 = "3.1.6"
 
 # Network & Serialization
 kotlinx-serialization = "1.4.1"
