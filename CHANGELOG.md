@@ -27,6 +27,10 @@
 - :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.8.0) `1.7.0` → `1.8.0` :warning:
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v8.0.0) `7.4.4` → `8.0.1` _(:warning: Breaking changes!)_
 - :arrow_up: [reactivex-rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.6) `3.1.5` → `3.1.6`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v31-2-0) `31.1.1` → `31.2.0`
+  - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v21-2-1) `21.2.0` → `21.2.1`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-3-3) `18.3.2` → `18.3.3`
+- :arrow_up: [gms-googleServices](https://firebase.google.com/support/release-notes/android#google-services_plugin_v4-3-15) `4.3.14` → `4.3.15`
 
 ## [2023.01.10]
 

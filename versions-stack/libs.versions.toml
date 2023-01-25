@@ -49,12 +49,12 @@ ksp = "1.8.0-1.0.8"
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
 firebase-analytics = "21.2.0"
-firebase-bom = "31.1.1"
-firebase-config = "21.2.0"
-firebase-crashlytics = "18.3.2"
+firebase-bom = "31.2.0"
+firebase-config = "21.2.1"
+firebase-crashlytics = "18.3.3"
 firebase-crashlytics-gradle = "2.9.2"
 firebase-messaging = "23.1.1"
-gms-googleServices = "4.3.14"
+gms-googleServices = "4.3.15"
 
 # Gradle plugins
 gradle-android-cacheFix = "2.6.2"
