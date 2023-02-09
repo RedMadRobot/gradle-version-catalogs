@@ -29,6 +29,7 @@
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.5.5) `5.5.4` → `5.5.5`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/v1.13.4) `1.13.3` → `1.13.4`
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v8.0.2) `8.0.1` → `8.0.2`
+- :arrow_up: [versionsPlugin](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.45.0) `0.44.0` → `0.45.0`
 
 ## [2023.01.25]
 
