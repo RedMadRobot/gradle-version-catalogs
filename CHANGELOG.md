@@ -9,6 +9,13 @@
 
 ### AndroidX
 
+- :sparkle: [work](https://developer.android.com/topic/libraries/architecture/workmanager) `2.8.0`
+  - :sparkle: [work-gcm](https://developer.android.com/guide/background/persistent/migrate-from-legacy/gcm)
+  - :sparkle: [work-multiprocess](https://developer.android.com/topic/libraries/architecture/workmanager)
+  - :sparkle: [work-runtime](https://developer.android.com/guide/background/persistent/getting-started)
+  - :sparkle: [work-rxjava2](https://developer.android.com/guide/background/persistent/threading/rxworker)
+  - :sparkle: [work-rxjava3](https://developer.android.com/guide/background/persistent/threading/rxworker)
+  - :sparkle: [work-testing](https://developer.android.com/guide/background/testing/persistent/integration-testing)
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.6.1) `1.6.0` → `1.6.1`
 - :arrow_up: [browser](https://developer.android.com/jetpack/androidx/releases/browser#1.5.0) `1.4.0` → `1.5.0`
 
