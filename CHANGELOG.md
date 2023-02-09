@@ -25,6 +25,7 @@
 
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.8.10) `1.8.0` → `1.8.10` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.10-1.0.9) `1.8.0-1.0.8` → `1.8.10-1.0.9`
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.5.5) `5.5.4` → `5.5.5`
 
 ## [2023.01.25]
 

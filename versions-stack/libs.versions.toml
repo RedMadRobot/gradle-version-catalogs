@@ -36,7 +36,7 @@ javax-inject = "1"
 junit = "5.9.2"
 junit-platform = "1.9.2"
 junit4 = "4.13.2"
-kotest = "5.5.4"
+kotest = "5.5.5"
 mockk = "1.13.3"
 
 # Debug Tools
