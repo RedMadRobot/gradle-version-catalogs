@@ -9,6 +9,7 @@
 
 ### AndroidX
 
+- :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.6.1) `1.6.0` → `1.6.1`
 - :arrow_up: [browser](https://developer.android.com/jetpack/androidx/releases/browser#1.5.0) `1.4.0` → `1.5.0`
 
 ## [2023.01.25]
