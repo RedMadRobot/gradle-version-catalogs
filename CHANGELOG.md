@@ -28,6 +28,7 @@
 ### Stack
 
 - :arrow_up: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases) `2.6.2` → `2.6.5`
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.45) `2.44.2` → `2.45`
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.8.10) `1.8.0` → `1.8.10` :warning:
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.5.0-RC) `1.4.1` → `v1.5.0-RC` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.10-1.0.9) `1.8.0-1.0.8` → `1.8.10-1.0.9`
