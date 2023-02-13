@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### Stack
+
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v8.1.2) `8.0.2` → `8.1.2`
+
 ## [2023.02.13]
 
 ### AndroidX
