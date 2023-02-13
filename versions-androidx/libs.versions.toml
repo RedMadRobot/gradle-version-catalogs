@@ -156,9 +156,10 @@ room-compiler-processing = { module = "androidx.room:room-compiler-processing", 
 room-compiler-processing-testing = { module = "androidx.room:room-compiler-processing-testing", version.ref = "room" }
 room-guava = { module = "androidx.room:room-guava", version.ref = "room" }
 room-paging = { module = "androidx.room:room-paging", version.ref = "room" }
-room-paging-guava = { module = "androidx.room:room-paging-guava", version.ref = "room" }
-room-paging-rxjava2 = { module = "androidx.room:room-paging-rxjava2", version.ref = "room" }
-room-paging-rxjava3 = { module = "androidx.room:room-paging-rxjava3", version.ref = "room" }
+# TODO: Uncoment after fix of https://issuetracker.google.com/issues/269010533
+#room-paging-guava = { module = "androidx.room:room-paging-guava", version.ref = "room" }
+#room-paging-rxjava2 = { module = "androidx.room:room-paging-rxjava2", version.ref = "room" }
+#room-paging-rxjava3 = { module = "androidx.room:room-paging-rxjava3", version.ref = "room" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-rxjava2 = { module = "androidx.room:room-rxjava2", version.ref = "room" }
 room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "room" }

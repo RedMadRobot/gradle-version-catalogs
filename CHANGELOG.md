@@ -16,6 +16,10 @@
   - :sparkle: [work-rxjava2](https://developer.android.com/guide/background/persistent/threading/rxworker)
   - :sparkle: [work-rxjava3](https://developer.android.com/guide/background/persistent/threading/rxworker)
   - :sparkle: [work-testing](https://developer.android.com/guide/background/testing/persistent/integration-testing)
+- **room:**
+  - :x: room-paging-guava (see [b/269010533](https://issuetracker.google.com/issues/269010533))
+  - :x: room-paging-rxjava2 (see [b/269010533](https://issuetracker.google.com/issues/269010533))
+  - :x: room-paging-rxjava3 (see [b/269010533](https://issuetracker.google.com/issues/269010533))
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.6.1) `1.6.0` → `1.6.1`
 - :arrow_up: [browser](https://developer.android.com/jetpack/androidx/releases/browser#1.5.0) `1.4.0` → `1.5.0`
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.2.1) `1.2.0` → `1.2.1`
