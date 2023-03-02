@@ -13,6 +13,7 @@
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v8.1.2) `8.0.2` → `8.1.2`
 - :arrow_up: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.13.0) `0.12.1` → `0.13.0`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.5.0-RC) `1.5.0-RC` → `1.5.0`
+- :arrow_up: [versionsPlugin](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.46.0) `0.45.0` → `0.46.0`
 
 ## [2023.02.13]
 
