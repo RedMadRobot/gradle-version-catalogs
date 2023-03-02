@@ -7,6 +7,13 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- **room:** (issue [b/269010533](https://issuetracker.google.com/issues/269010533) fixed)
+  - :sparkle: `room-paging-guava`
+  - :sparkle: `room-paging-rxjava2`
+  - :sparkle: `room-paging-rxjava3`
+
 ### Stack
 
 - :arrow_up: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.7.0) `2.6.5` → `2.7.0`
