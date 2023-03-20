@@ -14,6 +14,7 @@
   - :sparkle: `room-paging-rxjava2`
   - :sparkle: `room-paging-rxjava3`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.0) `2.5.1` → `2.6.0` *(:warning: converted to Kotlin)*
+- :arrow_up: [recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview#1.3.0) `1.2.1` → `1.3.0` *(:warning: requires migration if used with Compose)*
 
 ### Stack
 
