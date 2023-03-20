@@ -19,6 +19,7 @@
 
 ### Stack
 
+- :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.8.10) `1.7.20` → `1.8.10`
 - :arrow_up: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.7.0) `2.6.5` → `2.7.0`
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v8.1.2) `8.0.2` → `8.1.2`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v31-2-2) `31.2.0` → `31.2.2`
