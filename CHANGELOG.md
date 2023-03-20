@@ -13,6 +13,7 @@
   - :sparkle: `room-paging-guava`
   - :sparkle: `room-paging-rxjava2`
   - :sparkle: `room-paging-rxjava3`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.0) `2.5.1` → `2.6.0` *(:warning: converted to Kotlin)*
 
 ### Stack
 
