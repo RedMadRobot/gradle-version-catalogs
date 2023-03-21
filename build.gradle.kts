@@ -3,8 +3,8 @@ import com.redmadrobot.build.dsl.*
 plugins {
     `version-catalog`
     `maven-publish`
-    id("com.redmadrobot.publish-config") version "0.17"
-    id("com.redmadrobot.publish") version "0.17" apply false
+    id("com.redmadrobot.publish-config") version "0.18"
+    id("com.redmadrobot.publish") version "0.18" apply false
     id("com.redmadrobot.version-catalog-extensions") version "0.1" apply false
 }
 
