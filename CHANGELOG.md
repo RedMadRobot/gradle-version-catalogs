@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [21.03.2023]
+
 ### red_mad_robot
 
 - :arrow_up: [infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases/tag/v0.18) `0.17` → `0.18` *(:warning: read changelog)*
@@ -124,7 +126,8 @@
 
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.02.13..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.03.21..main
+[2023.03.21]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.02.13..2023.03.21
 [2023.02.13]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.01.25..2023.02.13
 [2023.01.25]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.01.10..2023.01.25
 [2023.01.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2022.12.13..2023.01.10
