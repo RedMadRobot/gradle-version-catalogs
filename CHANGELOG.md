@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### red_mad_robot
+
+- :arrow_up: [infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases/tag/v0.18) `0.17` → `0.18` *(:warning: read changelog)*
+
 ### AndroidX
 
 - **room:** (issue [b/269010533](https://issuetracker.google.com/issues/269010533) fixed)
