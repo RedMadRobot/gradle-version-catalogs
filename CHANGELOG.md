@@ -22,6 +22,7 @@
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.6) `1.5.5` → `1.5.6`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.1) `2.6.0` → `2.6.1`
 - :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.5.1) `2.5.0` → `2.5.1`
+- :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.8.1) `2.8.0` → `2.8.1`
 
 ### Stack
 
