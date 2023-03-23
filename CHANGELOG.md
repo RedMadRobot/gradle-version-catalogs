@@ -12,6 +12,7 @@
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.7.0) `1.6.1` → `1.7.0` *(:warning: converted to Kotlin)*
 - :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.6.0) `1.5.0` → `1.6.0` *(:warning: converted to KMP library)*
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.2.2) `1.2.1` → `1.2.2`
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.4) `1.4.2` → `1.4.4`
 
 ## [2023.03.21]
 
