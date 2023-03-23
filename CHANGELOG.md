@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.7.0) `1.6.1` → `1.7.0` *(:warning: converted to Kotlin)*
+
 ## [2023.03.21]
 
 ### red_mad_robot
