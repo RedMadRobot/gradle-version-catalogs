@@ -13,6 +13,12 @@
 - :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.6.0) `1.5.0` → `1.6.0` *(:warning: converted to KMP library)*
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.2.2) `1.2.1` → `1.2.2`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.4) `1.4.2` → `1.4.4`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.01.00` → `2023.03.00` :warning:
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.4.0) `1.3.3` → `1.4.0`
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.4.0) `1.3.1` → `1.4.0`
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.4.0) `1.3.1` → `1.4.0`
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.4.0) `1.3.3` → `1.4.0`
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.0) `1.3.3` → `1.4.0`
 
 ## [2023.03.21]
 
