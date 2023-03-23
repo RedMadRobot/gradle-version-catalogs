@@ -20,6 +20,11 @@
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.4.0) `1.3.3` → `1.4.0`
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.0) `1.3.3` → `1.4.0`
 
+### Stack
+
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.30.0) `0.28.0` → `0.30.0`
+  - :warning: [accompanist-pager](https://google.github.io/accompanist/pager/#migration) is deprecated and may be removed soon
+
 ## [2023.03.21]
 
 ### red_mad_robot
