@@ -19,6 +19,7 @@
   - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.4.0) `1.3.1` → `1.4.0`
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.4.0) `1.3.3` → `1.4.0`
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.0) `1.3.3` → `1.4.0`
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.6) `1.5.5` → `1.5.6`
 
 ### Stack
 
