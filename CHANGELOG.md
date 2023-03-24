@@ -28,6 +28,7 @@
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.30.0) `0.28.0` → `0.30.0`
   - :warning: [accompanist-pager](https://google.github.io/accompanist/pager/#migration) is deprecated and may be removed soon
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v8.2.1) `8.1.2` → `8.2.1`
 
 ## [2023.03.21]
 
