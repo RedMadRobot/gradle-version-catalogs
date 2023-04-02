@@ -51,6 +51,10 @@
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.30.0) `0.28.0` → `0.30.0`
   - :warning: [accompanist-pager](https://google.github.io/accompanist/pager/#migration) is deprecated and may be removed soon
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v31-4-0) `31.2.3` → `31.4.0`
+  - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-2-1) `21.2.0` → `21.2.1`
+  - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v21-3-0) `21.2.1` → `21.3.0`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-3-6) `18.3.5` → `18.3.6`
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v8.2.1) `8.1.2` → `8.2.1`
 
 ## [2023.03.21]
