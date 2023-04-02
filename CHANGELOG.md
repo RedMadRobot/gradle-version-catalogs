@@ -42,6 +42,7 @@
   - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.4.0) `1.3.1` → `1.4.0`
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.4.0) `1.3.3` → `1.4.0`
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.0) `1.3.3` → `1.4.0`
+  > [What’s new in the Jetpack Compose March ’23 release](https://android-developers.googleblog.com/2023/03/whats-new-in-jetpack-compose-march-23-release.html)
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.6) `1.5.5` → `1.5.6`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.1) `2.6.0` → `2.6.1`
 - :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.5.1) `2.5.0` → `2.5.1`
