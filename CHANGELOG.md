@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2023.04.02]
+
 ### AndroidX
 
 - :sparkle: [media3](https://android-developers.googleblog.com/2023/03/media3-is-ready-to-play.html) `1.0.0`
@@ -177,7 +179,8 @@
 
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.03.21..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.02..main
+[2023.04.02]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.03.21..2023.04.02
 [2023.03.21]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.02.13..2023.03.21
 [2023.02.13]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.01.25..2023.02.13
 [2023.01.25]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.01.10..2023.01.25
