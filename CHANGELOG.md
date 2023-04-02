@@ -9,6 +9,29 @@
 
 ### AndroidX
 
+- :sparkle: [media3](https://android-developers.googleblog.com/2023/03/media3-is-ready-to-play.html) `1.0.0`
+  - media3-cast
+  - media3-common
+  - media3-database
+  - media3-datasource
+  - media3-datasource-cronet
+  - media3-datasource-okhttp
+  - media3-datasource-rtmp
+  - media3-decoder
+  - media3-effect
+  - media3-exoplayer
+  - media3-exoplayer-dash
+  - media3-exoplayer-hls
+  - media3-exoplayer-ima
+  - media3-exoplayer-rtsp
+  - media3-exoplayer-smoothstreaming
+  - media3-exoplayer-workmanager
+  - media3-extractor
+  - media3-session
+  - media3-test-utils
+  - media3-test-utils
+  - media3-ui
+  - media3-ui-leanback
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.7.0) `1.6.1` → `1.7.0` *(:warning: converted to Kotlin)*
 - :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.6.0) `1.5.0` → `1.6.0` *(:warning: converted to KMP library)*
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.2.2) `1.2.1` → `1.2.2`
