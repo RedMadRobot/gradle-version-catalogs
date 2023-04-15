@@ -18,6 +18,10 @@
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.1) `1.4.0` → `1.4.1`
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.10.0) `1.9.0` → `1.10.0` :warning:
 
+### Stack
+
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.30.1) `0.30.0` → `0.30.1`
+
 ## [2023.04.02]
 
 ### AndroidX
