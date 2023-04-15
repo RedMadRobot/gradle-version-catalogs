@@ -20,6 +20,8 @@
 
 ### Stack
 
+- :arrow_up: [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#230---march-25-2023) `2.2.2` → `2.3.0`
+  - :sparkle: [coil-test](https://coil-kt.github.io/coil/testing/)
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.30.1) `0.30.0` → `0.30.1`
 - :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew1820.html) `1.8.10` → `1.8.20` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.20-1.0.10) `1.8.10-1.0.9` → `1.8.20-1.0.10` *(:warning: You may experience problems with incremental builds)*
