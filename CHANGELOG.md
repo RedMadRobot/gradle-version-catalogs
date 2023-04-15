@@ -15,6 +15,7 @@
   - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.4.1) `1.4.0` → `1.4.1`
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.4.1) `1.4.0` → `1.4.1`
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.1) `1.4.0` → `1.4.1`
+- :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.10.0) `1.9.0` → `1.10.0` :warning:
 
 ## [2023.04.02]
 
