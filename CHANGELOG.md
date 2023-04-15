@@ -9,6 +9,7 @@
 
 ### AndroidX
 
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.5) `1.4.4` → `1.4.5` *(:warning: Kotlin 1.8.20 support, requires Java 17+)*
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.03.00` → `2023.04.00`
   - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.4.1) `1.4.0` → `1.4.1`
   - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.4.1) `1.4.0` → `1.4.1`
