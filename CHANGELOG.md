@@ -22,6 +22,16 @@
 
 - :arrow_up: [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#230---march-25-2023) `2.2.2` → `2.3.0`
   - :sparkle: [coil-test](https://coil-kt.github.io/coil/testing/)
+- :arrow_up: [kotest](https://kotest.io/docs/changelog.html) `5.5.5` → `5.6.0`
+  - :sparkle: [kotest-extensions](https://kotest.io/docs/extensions/system_extensions.html)
+  - :sparkle: [kotest-extensions-blockhound](https://github.com/kotest/kotest/tree/v5.6.0/kotest-extensions/kotest-extensions-blockhound)
+  - :sparkle: [kotest-extensions-htmlreporter](https://kotest.io/docs/extensions/html_reporter.html)
+  - :sparkle: [kotest-extensions-http](https://github.com/kotest/kotest/tree/v5.6.0/kotest-extensions/kotest-extensions-http)
+  - :sparkle: [kotest-extensions-junit5](https://github.com/kotest/kotest/tree/v5.6.0/kotest-extensions/kotest-extensions-junit5)
+  - :sparkle: [kotest-extensions-junitxml](https://kotest.io/docs/extensions/junit_xml.html)
+  - :sparkle: [kotest-extensions-now](https://kotest.io/docs/extensions/instant.html)
+  - :sparkle: [kotest-framework-engine](https://github.com/kotest/kotest/tree/v5.6.0/kotest-framework/kotest-framework-engine)
+  - :sparkle: [kotest-property-lifecycle](https://github.com/kotest/kotest/tree/v5.6.0/kotest-property/kotest-property-lifecycle)
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.30.1) `0.30.0` → `0.30.1`
 - :arrow_up: [kotlin](https://kotlinlang.org/docs/whatsnew1820.html) `1.8.10` → `1.8.20` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.20-1.0.10) `1.8.10-1.0.9` → `1.8.20-1.0.10` *(:warning: You may experience problems with incremental builds)*

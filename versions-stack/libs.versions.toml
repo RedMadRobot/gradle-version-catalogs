@@ -36,7 +36,7 @@ javax-inject = "1"
 junit = "5.9.2"
 junit-platform = "1.9.2"
 junit4 = "4.13.2"
-kotest = "5.5.5"
+kotest = "5.6.0"
 mockk = "1.13.4"
 
 # Debug Tools
@@ -221,11 +221,20 @@ kotest-assertions-api = { module = "io.kotest:kotest-assertions-api", version.re
 kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 kotest-assertions-json = { module = "io.kotest:kotest-assertions-json", version.ref = "kotest" }
 kotest-bom = { module = "io.kotest:kotest-bom", version.ref = "kotest" }
+kotest-extensions = { module = "io.kotest:kotest-extensions", version.ref = "kotest" }
+kotest-extensions-blockhound = { module = "io.kotest:kotest-extensions-blockhound", version.ref = "kotest" }
+kotest-extensions-htmlreporter = { module = "io.kotest:kotest-extensions-htmlreporter", version.ref = "kotest" }
+kotest-extensions-http = { module = "io.kotest:kotest-extensions-http", version.ref = "kotest" }
+kotest-extensions-junit5 = { module = "io.kotest:kotest-extensions-junit5", version.ref = "kotest" }
+kotest-extensions-junitxml = { module = "io.kotest:kotest-extensions-junitxml", version.ref = "kotest" }
+kotest-extensions-now = { module = "io.kotest:kotest-extensions-now", version.ref = "kotest" }
 kotest-framework-api = { module = "io.kotest:kotest-framework-api", version.ref = "kotest" }
 kotest-framework-concurrency = { module = "io.kotest:kotest-framework-concurrency", version.ref = "kotest" }
 kotest-framework-datatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
 kotest-framework-discovery = { module = "io.kotest:kotest-framework-discovery", version.ref = "kotest" }
+kotest-framework-engine = { module = "io.kotest:kotest-framework-engine", version.ref = "kotest" }
 kotest-property = { module = "io.kotest:kotest-property", version.ref = "kotest" }
+kotest-property-lifecycle = { module = "io.kotest:kotest-property-lifecycle", version.ref = "kotest" }
 kotest-runner-junit4 = { module = "io.kotest:kotest-runner-junit4", version.ref = "kotest" }
 kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
