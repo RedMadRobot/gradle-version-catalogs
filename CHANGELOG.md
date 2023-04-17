@@ -37,6 +37,7 @@
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.20-1.0.10) `1.8.10-1.0.9` → `1.8.20-1.0.10` *(:warning: You may experience problems with incremental builds)*
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.12) `5.1.1` → `5.1.2`
 - :arrow_up: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v2.7.1) `2.7.0` → `2.7.1`
+- :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.5) `1.13.4` → `1.13.5`
 
 ## [2023.04.02]
 
