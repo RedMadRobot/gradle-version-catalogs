@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### red_mad_robot
+
+- :arrow_up: [inputmask](https://github.com/RedMadRobot/input-mask-android/releases) *:warning:*
+
 ## [2023.04.17]
 
 ### AndroidX

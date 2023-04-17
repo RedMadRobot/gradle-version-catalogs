@@ -2,7 +2,7 @@
 
 flipper = "2.0.1"
 gradle-infrastructure = "0.18"
-inputmask = "6.1.0"
+inputmask = "7.1.1"
 itemsadapter = "1.1"
 ktx-core = "1.6.0-2"
 ktx-fragment = "1.3.6-0"
