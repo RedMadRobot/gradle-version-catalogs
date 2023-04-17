@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2023.04.17]
+
 ### AndroidX
 
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.5) `1.4.4` → `1.4.5` *(:warning: Kotlin 1.8.20 support, requires Java 17+)*
@@ -213,7 +215,8 @@
 
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.02..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.17..main
+[2023.04.17]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.02..2023.04.17
 [2023.04.02]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.03.21..2023.04.02
 [2023.03.21]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.02.13..2023.03.21
 [2023.02.13]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.01.25..2023.02.13
