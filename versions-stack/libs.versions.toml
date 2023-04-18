@@ -44,7 +44,7 @@ leakcanary = "2.10"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "1.8.20-1.0.10"
+ksp = "1.8.20-1.0.11"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android

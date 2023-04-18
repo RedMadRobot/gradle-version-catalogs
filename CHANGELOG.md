@@ -11,6 +11,10 @@
 
 - :arrow_up: [inputmask](https://github.com/RedMadRobot/input-mask-android/releases) *:warning:*
 
+### Stack
+
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.20-1.0.10) `1.8.10-1.0.9` → `1.8.20-1.0.11`
+
 ## [2023.04.17]
 
 ### AndroidX
