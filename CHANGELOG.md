@@ -9,6 +9,7 @@
 
 ### red_mad_robot
 
+- :arrow_up: [infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases/tag/v0.18.1) `0.18` → `0.18.1`
 - :arrow_up: [inputmask](https://github.com/RedMadRobot/input-mask-android/releases) `6.1.0` → `7.2.4` *:warning:*
 
 ### Stack
