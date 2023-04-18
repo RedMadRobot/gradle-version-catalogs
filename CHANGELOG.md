@@ -9,7 +9,7 @@
 
 ### red_mad_robot
 
-- :arrow_up: [inputmask](https://github.com/RedMadRobot/input-mask-android/releases) *:warning:*
+- :arrow_up: [inputmask](https://github.com/RedMadRobot/input-mask-android/releases) `6.1.0` → `7.2.4` *:warning:*
 
 ### Stack
 
