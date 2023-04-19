@@ -23,7 +23,7 @@ kotlinx-serialization = "1.5.0"
 moshi = "1.14.0" # https://github.com/square/moshi/blob/master/CHANGELOG.md
 okhttp = "4.10.0" # https://github.com/square/okhttp/blob/master/CHANGELOG.md
 retrofit = "2.9.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
-retrofit-converter-kotlinxSerialization = "0.8.0"
+retrofit-converter-kotlinxSerialization = "1.0.0"
 
 # Security
 tink = "1.7.0"
