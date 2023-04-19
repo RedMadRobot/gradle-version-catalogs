@@ -15,6 +15,7 @@
 ### Stack
 
 - :arrow_up: [kotest](https://kotest.io/docs/changelog.html#561-april-2023) `5.6.0` → `5.6.1`
+- :arrow_up: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.13.1) `0.13.0` → `0.13.1`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.20-1.0.10) `1.8.10-1.0.9` → `1.8.20-1.0.11`
 - :arrow_up: [retrofit-converter-kotlinxSerialization](https://github.com/JakeWharton/retrofit2-kotlinx-serialization-converter/releases/tag/1.0.0) `0.8.0` → `1.0.0`
 
