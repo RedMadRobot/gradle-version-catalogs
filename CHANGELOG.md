@@ -14,6 +14,7 @@
 
 ### Stack
 
+- :arrow_up: [kotest](https://kotest.io/docs/changelog.html#561-april-2023) `5.6.0` → `5.6.1`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.20-1.0.10) `1.8.10-1.0.9` → `1.8.20-1.0.11`
 - :arrow_up: [retrofit-converter-kotlinxSerialization](https://github.com/JakeWharton/retrofit2-kotlinx-serialization-converter/releases/tag/1.0.0) `0.8.0` → `1.0.0`
 
@@ -34,7 +35,7 @@
 
 - :arrow_up: [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#230---march-25-2023) `2.2.2` → `2.3.0`
   - :sparkle: [coil-test](https://coil-kt.github.io/coil/testing/)
-- :arrow_up: [kotest](https://kotest.io/docs/changelog.html) `5.5.5` → `5.6.0`
+- :arrow_up: [kotest](https://kotest.io/docs/changelog.html#560-april-2023) `5.5.5` → `5.6.0` *(:warning: breaking changes)*
   - :sparkle: [kotest-extensions](https://kotest.io/docs/extensions/system_extensions.html)
   - :sparkle: [kotest-extensions-blockhound](https://github.com/kotest/kotest/tree/v5.6.0/kotest-extensions/kotest-extensions-blockhound)
   - :sparkle: [kotest-extensions-htmlreporter](https://kotest.io/docs/extensions/html_reporter.html)
