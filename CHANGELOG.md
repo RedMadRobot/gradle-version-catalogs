@@ -15,6 +15,13 @@
 ### AndroidX
 
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.7.1) `1.7.0` → `1.7.1`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.04.00` → `2023.04.01`
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.4.2) `1.4.1` → `1.4.2` *(no changes)*
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.4.2) `1.4.1` → `1.4.2` *(no changes)*
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.4.2) `1.4.1` → `1.4.2` *(no changes)*
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.4.2) `1.4.1` → `1.4.2`
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.2) `1.4.1` → `1.4.2`
+
 
 ### Stack
 
