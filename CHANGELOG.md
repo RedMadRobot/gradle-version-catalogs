@@ -23,6 +23,7 @@
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.2) `1.4.1` → `1.4.2`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.6) `1.4.5` → `1.4.6` *(Depends on JDK 11 instead of JDK 17)*
 - :arrow_up: [core-splashscreen](https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.0.1) `1.0.0` → `1.0.1`
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.5.7) `1.5.6` → `1.5.7`
 
 ### Stack
 
