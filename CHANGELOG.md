@@ -12,6 +12,10 @@
 - :arrow_up: [infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases/tag/v0.18.1) `0.18` → `0.18.1`
 - :arrow_up: [inputmask](https://github.com/RedMadRobot/input-mask-android/releases) `6.1.0` → `7.2.4` *:warning:*
 
+### AndroidX
+
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.7.1) `1.7.0` → `1.7.1`
+
 ### Stack
 
 - :arrow_up: [kotest](https://kotest.io/docs/changelog.html#561-april-2023) `5.6.0` → `5.6.1`
