@@ -21,7 +21,7 @@
   - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.4.2) `1.4.1` → `1.4.2` *(no changes)*
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.4.2) `1.4.1` → `1.4.2`
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.2) `1.4.1` → `1.4.2`
-
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.6) `1.4.5` → `1.4.6` *(Depends on JDK 11 instead of JDK 17)*
 
 ### Stack
 
