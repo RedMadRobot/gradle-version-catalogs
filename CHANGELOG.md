@@ -7,6 +7,11 @@
 
 ## [Unreleased]
 
+### Stack
+
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.8.21) `1.8.20` → `1.8.21`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.21-1.0.11) `1.8.20-1.0.11` → `1.8.21-1.0.11`
+
 ## [2023.04.25]
 
 ### red_mad_robot
