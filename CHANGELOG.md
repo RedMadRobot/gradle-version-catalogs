@@ -10,6 +10,7 @@
 ### red_mad_robot
 
 - :arrow_up: [inputmask](https://github.com/RedMadRobot/input-mask-android/releases/tag/7.2.6) `7.2.4` → `7.2.6`
+- :arrow_up: [mapmemory](https://github.com/RedMadRobot/mapmemory/releases/tag/v2.1) `2.0` → `2.1` :warning:
 
 ### AndroidX
 
