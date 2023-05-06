@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2023.05.06]
+
 ### red_mad_robot
 
 - :arrow_up: [inputmask](https://github.com/RedMadRobot/input-mask-android/releases/tag/7.2.6) `7.2.4` → `7.2.6`
@@ -273,7 +275,8 @@
 
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.25..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.05.06..main
+[2023.05.06]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.25..2023.05.06
 [2023.04.25]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.17..2023.04.25
 [2023.04.17]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.02..2023.04.17
 [2023.04.02]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.03.21..2023.04.02
