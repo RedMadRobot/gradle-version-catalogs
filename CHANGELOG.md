@@ -28,6 +28,7 @@
 
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.46) `2.45` → `2.46`
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.8.21) `1.8.20` → `1.8.21`
+- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.7.0) `1.6.4` → `1.7.0` *(:warning: breaking changes)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.21-1.0.11) `1.8.20-1.0.11` → `1.8.21-1.0.11`
 - :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.9.0) `1.8.0` → `1.9.0`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.9.3/release-notes/#release-notes-5.9.3) `5.9.2` → `5.9.3`

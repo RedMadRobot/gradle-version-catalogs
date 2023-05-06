@@ -14,7 +14,7 @@ insetter = "0.6.1"
 material = "1.9.0"
 
 # Multithreading
-kotlinx-coroutines = "1.6.4"
+kotlinx-coroutines = "1.7.0"
 reactivex-rxjava2 = "2.2.21"
 reactivex-rxjava3 = "3.1.6"
 
