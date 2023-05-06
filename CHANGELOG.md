@@ -7,12 +7,6 @@
 
 ## [Unreleased]
 
-### Stack
-
-- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.8.21) `1.8.20` → `1.8.21`
-- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.21-1.0.11) `1.8.20-1.0.11` → `1.8.21-1.0.11`
-- :arrow_up: [junit](https://junit.org/junit5/docs/5.9.3/release-notes/#release-notes-5.9.3) `5.9.2` → `5.9.3`
-
 ### AndroidX
 
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.04.01` → `2023.05.00`
@@ -23,6 +17,12 @@
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.3) `1.4.2` → `1.4.3`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.7) `1.4.6` → `1.4.7`
 - :arrow_up: [paging-compose](https://developer.android.com/jetpack/androidx/releases/paging#1.0.0-alpha19) `1.0.0-alpha18` → `1.0.0-alpha19` *(:warning: Requires migration)*
+
+### Stack
+
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.8.21) `1.8.20` → `1.8.21`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.21-1.0.11) `1.8.20-1.0.11` → `1.8.21-1.0.11`
+- :arrow_up: [junit](https://junit.org/junit5/docs/5.9.3/release-notes/#release-notes-5.9.3) `5.9.2` → `5.9.3`
 
 ## [2023.04.25]
 
