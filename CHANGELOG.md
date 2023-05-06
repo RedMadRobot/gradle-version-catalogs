@@ -22,6 +22,7 @@
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.4.3) `1.4.2` → `1.4.3` *(no changes)*
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.3) `1.4.2` → `1.4.3`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.4.7) `1.4.6` → `1.4.7`
+- :arrow_up: [paging-compose](https://developer.android.com/jetpack/androidx/releases/paging#1.0.0-alpha19) `1.0.0-alpha18` → `1.0.0-alpha19` *(:warning: Requires migration)*
 
 ## [2023.04.25]
 
