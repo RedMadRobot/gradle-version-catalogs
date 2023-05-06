@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### red_mad_robot
+
+- :arrow_up: [inputmask](https://github.com/RedMadRobot/input-mask-android/releases/tag/7.2.6) `7.2.4` → `7.2.6`
+
 ### AndroidX
 
 - :sparkle: [profileinstaller](https://developer.android.com/topic/performance/baselineprofiles/overview#get-started) `1.3.1`
