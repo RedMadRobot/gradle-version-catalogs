@@ -32,6 +32,10 @@
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.21-1.0.11) `1.8.20-1.0.11` → `1.8.21-1.0.11`
 - :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.9.0) `1.8.0` → `1.9.0`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.9.3/release-notes/#release-notes-5.9.3) `5.9.2` → `5.9.3`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v32-0-0) `31.5.0` → `32.0.0`
+  - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v21-4-0) `21.3.0` → `21.4.0`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-3-7) `18.3.6` → `18.3.7`
+  - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v2-9-5) `2.9.4` → `2.9.5`
 
 ## [2023.04.25]
 
