@@ -13,6 +13,15 @@
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.8.21-1.0.11) `1.8.20-1.0.11` → `1.8.21-1.0.11`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.9.3/release-notes/#release-notes-5.9.3) `5.9.2` → `5.9.3`
 
+### AndroidX
+
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.04.01` → `2023.05.00`
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.4.3) `1.4.2` → `1.4.3` *(no changes)*
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.4.3) `1.4.2` → `1.4.3` *(no changes)*
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.4.3) `1.4.2` → `1.4.3` *(no changes)*
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.4.3) `1.4.2` → `1.4.3` *(no changes)*
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.4.3) `1.4.2` → `1.4.3`
+
 ## [2023.04.25]
 
 ### red_mad_robot
