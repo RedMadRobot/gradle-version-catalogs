@@ -13,6 +13,10 @@
   - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.1.0) `1.0.1` → `1.1.0`
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.10.1) `1.10.0` → `1.10.1`
 
+### Stack
+
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.6.2) `5.6.1` → `5.6.2`
+
 ## [2023.05.06]
 
 ### red_mad_robot
