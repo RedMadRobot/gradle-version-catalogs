@@ -16,6 +16,7 @@
 ### Stack
 
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.6.2) `5.6.1` → `5.6.2`
+- :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.5.1) `1.5.0` → `1.5.1`
 
 ## [2023.05.06]
 
