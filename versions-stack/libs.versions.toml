@@ -29,7 +29,7 @@ retrofit-converter-kotlinxSerialization = "1.0.0"
 tink = "1.7.0"
 
 # DI
-dagger = "2.46"
+dagger = "2.46.1"
 javax-inject = "1"
 
 # Test
