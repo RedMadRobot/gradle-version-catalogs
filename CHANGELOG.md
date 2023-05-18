@@ -12,6 +12,7 @@
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.05.00` → `2023.05.01`
   - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.1.0) `1.0.1` → `1.1.0`
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.10.1) `1.10.0` → `1.10.1`
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.0.2) `1.0.1` → `1.0.2`
 
 ### Stack
 
