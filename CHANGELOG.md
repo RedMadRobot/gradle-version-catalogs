@@ -20,6 +20,7 @@
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.6.2) `5.6.1` → `5.6.2`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.7.1) `1.7.0` → `1.7.1`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.5.1) `1.5.0` → `1.5.1`
+- :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-211-2023-05-17) `2.10` → `2.11`
 
 ## [2023.05.06]
 
