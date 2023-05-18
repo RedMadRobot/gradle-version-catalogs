@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2023.05.18]
+
 ### AndroidX
 
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.05.00` → `2023.05.01`
@@ -291,7 +293,8 @@
 
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.05.06..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.05.18..main
+[2023.05.18]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.05.06..2023.05.18
 [2023.05.06]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.25..2023.05.06
 [2023.04.25]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.17..2023.04.25
 [2023.04.17]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.04.02..2023.04.17
