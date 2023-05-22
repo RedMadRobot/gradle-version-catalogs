@@ -11,6 +11,7 @@
 
 - :arrow_up: [coil](https://coil-kt.github.io/coil/changelog/#250-october-30-2023) `2.3.0` → `2.5.0`
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.3) `5.1.2` → `5.1.3`
+- :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1150) `1.14.0` → `1.15.0` *(:warning: KAPT deprecated)*
 - :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md#version-4120) `4.10.0` → `4.12.0`
 
 ## [2023.05.18]
