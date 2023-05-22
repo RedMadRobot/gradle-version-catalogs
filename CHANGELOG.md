@@ -9,6 +9,7 @@
 
 ### Stack
 
+- :arrow_up: [coil](https://coil-kt.github.io/coil/changelog/#250-october-30-2023) `2.3.0` → `2.5.0`
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.3) `5.1.2` → `5.1.3`
 
 ## [2023.05.18]
