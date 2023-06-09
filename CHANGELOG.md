@@ -14,6 +14,7 @@
   - [Whats new in Kotlin 1.9.20](https://kotlinlang.org/docs/whatsnew1920.html)
 - :arrow_up: [coil](https://coil-kt.github.io/coil/changelog/#250-october-30-2023) `2.3.0` → `2.5.0`
 - :arrow_up: [detekt](https://detekt.dev/changelog#1234---2023-11-26) `1.22.0` → `1.23.4` :warning:
+- :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.8.20) `1.8.10` → `1.9.10` *(:warning: Breaking changes affecting HTML customization)*
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.3) `5.1.2` → `5.1.3`
 - :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1150) `1.14.0` → `1.15.0` *(:warning: KAPT deprecated)*
 - :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md#version-4120) `4.10.0` → `4.12.0`
