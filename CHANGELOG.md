@@ -9,6 +9,9 @@
 
 ### Stack
 
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.21) `1.8.21` → `1.9.21` :warning::warning::warning:
+  - [Whats new in Kotlin 1.9.0](https://kotlinlang.org/docs/whatsnew19.html)
+  - [Whats new in Kotlin 1.9.20](https://kotlinlang.org/docs/whatsnew1920.html)
 - :arrow_up: [coil](https://coil-kt.github.io/coil/changelog/#250-october-30-2023) `2.3.0` → `2.5.0`
 - :arrow_up: [detekt](https://detekt.dev/changelog#1234---2023-11-26) `1.22.0` → `1.23.4` :warning:
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.3) `5.1.2` → `5.1.3`
