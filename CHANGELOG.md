@@ -15,6 +15,7 @@
 - :arrow_up: [coil](https://coil-kt.github.io/coil/changelog/#250-october-30-2023) `2.3.0` → `2.5.0`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases) `2.46.1` → `2.50` *(:warning: KSP support, breaking changes, AGP 7.0+ required)
 - :arrow_up: [detekt](https://detekt.dev/changelog#1234---2023-11-26) `1.22.0` → `1.23.4` :warning:
+- :arrow_up: [detekt-rules-compose](https://github.com/appKODE/detekt-rules-compose/releases/tag/v1.3.0) `1.2.2` → `1.3.0`
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.8.20) `1.8.10` → `1.9.10` *(:warning: Breaking changes affecting HTML customization)*
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.3) `5.1.2` → `5.1.3`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.1/release-notes/) `5.9.3` → `5.10.1` *(:warning: Breaking changes in 5.10.0)*
