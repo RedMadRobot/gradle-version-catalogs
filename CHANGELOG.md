@@ -19,6 +19,8 @@
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.3) `5.1.2` → `5.1.3`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.1/release-notes/) `5.9.3` → `5.10.1` *(:warning: Breaking changes in 5.10.0)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.9.21-1.0.16) `1.8.21-1.0.11` → `1.9.21-1.0.16`
+- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0-RC) `1.7.1` → `1.8.0-RC` *(:warning: Release Candidate)*
+  - :sparkle: `kotlinx-coroutines-bom`
 - :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1150) `1.14.0` → `1.15.0` *(:warning: KAPT deprecated)*
 - :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md#version-4120) `4.10.0` → `4.12.0`
 
