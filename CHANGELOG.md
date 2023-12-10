@@ -26,6 +26,7 @@
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.6.2) `1.5.1` → `1.6.2`
 - :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1150) `1.14.0` → `1.15.0` *(:warning: KAPT deprecated)*
 - :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md#version-4120) `4.10.0` → `4.12.0`
+- :arrow_up: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.50.0) `0.46.0` → `0.50.0`
 
 ## [2023.05.18]
 
