@@ -29,6 +29,7 @@
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.8) `1.13.5` → `1.13.8`
 - :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1150) `1.14.0` → `1.15.0` *(:warning: KAPT deprecated)*
 - :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md#version-4120) `4.10.0` → `4.12.0`
+- :arrow_up: [rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.8) `3.1.6` → `3.1.8`
 - :arrow_up: plugin: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0) `2.7.1` → `3.0` *(:warning: `room` workaround removed)*
 - :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-907-2023-12-18) `8.2.1` → `9.0.7` *(:warning: Breaking changes in 9.0.0)*
 - :arrow_up: plugin: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.50.0) `0.46.0` → `0.50.0`
