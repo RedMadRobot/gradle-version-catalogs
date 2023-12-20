@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.7) `1.4.7` → `1.5.7`
+
 ### Stack
 
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.21) `1.8.21` → `1.9.21` :warning::warning::warning:
