@@ -22,21 +22,21 @@
   - :warning: `accompanist-webview` is deprecated. The library is unmaintained but still may be copied into project, forked or used "as is".
   - :x: `accompanist-swiperefresh` was deprecated and now removed from the catalog.
 - :arrow_up: [coil](https://coil-kt.github.io/coil/changelog/#250-october-30-2023) `2.3.0` → `2.5.0`
-- :arrow_up: [dagger](https://github.com/google/dagger/releases) `2.46.1` → `2.50` (:warning: KSP support, breaking changes, AGP 7.0+ required)
+- :arrow_up: [dagger](https://github.com/google/dagger/releases) `2.46.1` → `2.50` :warning: *(KSP support, breaking changes, AGP 7.0+ required)*
 - :arrow_up: [detekt](https://detekt.dev/changelog#1234---2023-11-26) `1.22.0` → `1.23.4` :warning:
 - :arrow_up: [detekt-rules-compose](https://github.com/appKODE/detekt-rules-compose/releases/tag/v1.3.0) `1.2.2` → `1.3.0`
-- :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.8.20) `1.8.10` → `1.9.10` (:warning: Breaking changes affecting HTML customization)
+- :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.8.20) `1.8.10` → `1.9.10` :warning: *(Breaking changes affecting HTML customization)*
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.3) `5.1.2` → `5.1.3`
-- :arrow_up: [junit](https://junit.org/junit5/docs/5.10.1/release-notes/) `5.9.3` → `5.10.1` (:warning: Breaking changes in 5.10.0)
+- :arrow_up: [junit](https://junit.org/junit5/docs/5.10.1/release-notes/) `5.9.3` → `5.10.1` :warning: *(Breaking changes in 5.10.0)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.9.21-1.0.16) `1.8.21-1.0.11` → `1.9.21-1.0.16`
-- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0-RC) `1.7.1` → `1.8.0-RC` (:warning: Release Candidate)
+- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0-RC) `1.7.1` → `1.8.0-RC` :warning: *(Release Candidate)*
   - :sparkle: `kotlinx-coroutines-bom`
 - :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.5.0) `0.4.0` → `0.5.0`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.6.2) `1.5.1` → `1.6.2`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.8.0) `5.6.2` → `5.8.0`
-- :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.11.0) `1.9.0` → `1.11.0` (:warning: Compile SDK 34)
+- :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.11.0) `1.9.0` → `1.11.0` :warning: *(Compile SDK 34)*
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.8) `1.13.5` → `1.13.8`
-- :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1150) `1.14.0` → `1.15.0` (:warning: KAPT deprecated)
+- :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1150) `1.14.0` → `1.15.0` :warning: *(KAPT deprecated)*
 - :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md#version-4120) `4.10.0` → `4.12.0`
 - :arrow_up: [rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.8) `3.1.6` → `3.1.8`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v32-7-0) `32.0.0` → `32.6.0`
@@ -46,9 +46,9 @@
   - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-6-0) `18.3.7` → `18.6.0`
   - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v2-9-9) `2.9.5` → `2.9.9`
   - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-4-0) `23.1.2` → `23.4.0`
+- :arrow_up: plugin: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0) `2.7.1` → `3.0` :warning: *(`room` workaround removed)*
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-907-2023-12-18) `8.2.1` → `9.0.7` :warning: *(Breaking changes in 9.0.0)*
 - :arrow_up: plugin: [gms-googleServices](https://developers.google.com/android/guides/google-services-plugin) `4.3.15` → `4.4.0`
-- :arrow_up: plugin: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0) `2.7.1` → `3.0` (:warning: `room` workaround removed)
-- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-907-2023-12-18) `8.2.1` → `9.0.7` (:warning: Breaking changes in 9.0.0)
 - :arrow_up: plugin: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.50.0) `0.46.0` → `0.50.0`
 
 ## [2023.05.18]
