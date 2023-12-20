@@ -12,6 +12,15 @@
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.21) `1.8.21` → `1.9.21` :warning::warning::warning:
   - [Whats new in Kotlin 1.9.0](https://kotlinlang.org/docs/whatsnew19.html)
   - [Whats new in Kotlin 1.9.20](https://kotlinlang.org/docs/whatsnew1920.html)
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.32.0) `0.30.1` → `0.32.0` *:warning:*
+  - [An update on Jetpack Compose Accompanist libraries — August 2023](https://medium.com/androiddevelopers/ac4cbbf059f1)
+  - :warning: `accompanist-flowlayout` is deprecated. [Migrate to Compose APIs](https://google.github.io/accompanist/flowlayout/#migration-guide-to-the-official-flowlayouts)
+  - :warning: `accompanist-navigation-animation` is deprecated. [Migrate to navigation 2.7.0+](https://google.github.io/accompanist/navigation-animation/#migration)
+  - :warning: `accompanist-placeholder` is deprecated. [Why?](https://github.com/google/accompanist/pull/1672#issuecomment-1622937217)
+  - :warning: `accompanist-systemuicontroller` is deprecated. [For edge-to-edge migrate to Activity 1.8.0](https://google.github.io/accompanist/systemuicontroller/#migration)
+  - :warning: `accompanist-themeadapter-*` are deprecated. [Migrate to Compose Material](https://google.github.io/accompanist/themeadapter-material3/#migration)
+  - :warning: `accompanist-webview` is deprecated. The library is unmaintained but still may be copied into project, forked or used "as is".
+  - :x: `accompanist-swiperefresh` was deprecated and now removed from the catalog.
 - :arrow_up: [coil](https://coil-kt.github.io/coil/changelog/#250-october-30-2023) `2.3.0` → `2.5.0`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases) `2.46.1` → `2.50` *(:warning: KSP support, breaking changes, AGP 7.0+ required)
 - :arrow_up: [detekt](https://detekt.dev/changelog#1234---2023-11-26) `1.22.0` → `1.23.4` :warning:
