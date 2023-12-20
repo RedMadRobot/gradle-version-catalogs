@@ -39,6 +39,14 @@
 - :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1150) `1.14.0` → `1.15.0` *(:warning: KAPT deprecated)*
 - :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md#version-4120) `4.10.0` → `4.12.0`
 - :arrow_up: [rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.8) `3.1.6` → `3.1.8`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v32-7-0) `32.0.0` → `32.6.0`
+  - :warning: [Changed package of all kotlin extensions](https://firebase.google.com/docs/android/kotlin-migration?#ktx-apis-to-main-how-to-migrate)
+  - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-5-0) `21.2.2` → `21.5.0`
+  - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v21-6-0) `21.4.0` → `21.6.0`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-6-0) `18.3.7` → `18.6.0`
+  - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v2-9-9) `2.9.5` → `2.9.9`
+  - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-4-0) `23.1.2` → `23.4.0`
+- :arrow_up: plugin: [gms-googleServices](https://developers.google.com/android/guides/google-services-plugin) `4.3.15` → `4.4.0`
 - :arrow_up: plugin: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0) `2.7.1` → `3.0` *(:warning: `room` workaround removed)*
 - :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-907-2023-12-18) `8.2.1` → `9.0.7` *(:warning: Breaking changes in 9.0.0)*
 - :arrow_up: plugin: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.50.0) `0.46.0` → `0.50.0`
