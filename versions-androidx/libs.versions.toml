@@ -47,7 +47,7 @@ test-orchestrator = "1.4.2"
 test-runner = "1.5.2"
 test-rules = "1.5.0"
 test-services = "1.4.2"
-work = "2.8.1"
+work = "2.9.0"
 
 [libraries]
 
@@ -214,7 +214,7 @@ test-services = { module = "androidx.test.services:test-services", version.ref =
 test-services-storage = { module = "androidx.test.services:storage", version.ref = "test.services" }
 work-gcm = { module = "androidx.work:work-gcm", version.ref = "work" }
 work-multiprocess = { module = "androidx.work:work-multiprocess", version.ref = "work" }
-work-runtime = { module = "androidx.work:work-runtime-ktx", version.ref = "work" }
+work-runtime = { module = "androidx.work:work-runtime", version.ref = "work" }
 work-rxjava2 = { module = "androidx.work:work-rxjava2", version.ref = "work" }
 work-rxjava3 = { module = "androidx.work:work-rxjava3", version.ref = "work" }
 work-testing = { module = "androidx.work:work-testing", version.ref = "work" }

@@ -36,6 +36,7 @@
 - :arrow_up: [recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview#recyclerview-1.3.2) `1.3.0` → `1.3.2`
 - :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.6.1) `2.5.1` → `2.6.1` :warning:
   - :sparkle: plugin: [room](https://developer.android.com/jetpack/androidx/releases/room#2.6.0-alpha02)
+- :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.9.0) `2.8.1` → `2.9.0` :warning:
 
 ### Stack
 
