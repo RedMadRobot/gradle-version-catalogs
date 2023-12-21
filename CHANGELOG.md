@@ -33,6 +33,7 @@
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.7.6) `2.5.3` → `2.7.6` :warning:
 - :arrow_up: [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.2.1) `3.1.1` → `3.2.1` :warning:
   - :x: version: `paging-compose` (version `paging` used both for compose and non-compose dependencies
+- :arrow_up: [recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview#recyclerview-1.3.2) `1.3.0` → `1.3.2`
 
 ### Stack
 
