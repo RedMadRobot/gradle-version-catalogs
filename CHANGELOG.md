@@ -12,6 +12,7 @@
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.8.2) `1.7.1` → `1.8.2`
 - :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.7.1) `1.6.0` → `1.7.1`
 - :arrow_up: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.3.1) `1.3.0` → `1.3.1`
+- :arrow_up: [browser](https://developer.android.com/jetpack/androidx/releases/browser#1.7.0) `1.5.0` → `1.7.0`
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.3.1) `1.2.2` → `1.3.1`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.05.01` → `2023.10.01` :warning:
   - [What’s new in the Jetpack Compose August ’23 release](https://android-developers.googleblog.com/2023/08/whats-new-in-jetpack-compose-august-23-release.html)
