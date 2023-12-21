@@ -9,6 +9,7 @@
 
 ### AndroidX
 
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.8.2) `1.7.1` → `1.8.2`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.05.01` → `2023.10.01` :warning:
   - [What’s new in the Jetpack Compose August ’23 release](https://android-developers.googleblog.com/2023/08/whats-new-in-jetpack-compose-august-23-release.html)
   - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.5.4) `1.4.3` → `1.5.4`
