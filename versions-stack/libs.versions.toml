@@ -41,7 +41,7 @@ mockk = "1.13.8"
 turbine = "0.13.0"
 
 # Debug Tools
-leakcanary = "2.11"
+leakcanary = "2.12"
 timber = "5.0.1"
 
 # Annotations procesing
