@@ -27,6 +27,7 @@
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.12.0) `1.10.1` → `1.12.0` :warning:
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.6.2) `1.5.7` → `1.6.2` :warning:
   - :sparkle: [fragment-testing-manifest](https://developer.android.com/jetpack/androidx/releases/fragment#1.6.0)
+- :arrow_up: [hilt](https://developer.android.com/jetpack/androidx/releases/hilt#1.1.0) `1.0.0` → `1.1.0` :warning: *(KSP support)*
 
 ### Stack
 
