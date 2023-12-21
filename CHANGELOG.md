@@ -9,6 +9,14 @@
 
 ### AndroidX
 
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.05.01` → `2023.10.01` :warning:
+  - [What’s new in the Jetpack Compose August ’23 release](https://android-developers.googleblog.com/2023/08/whats-new-in-jetpack-compose-august-23-release.html)
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.5.4) `1.4.3` → `1.5.4`
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.5.4) `1.4.3` → `1.5.4`
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.5.4) `1.4.3` → `1.5.4`
+  - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.1.2) `1.1.0` → `1.1.2`
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.5.4) `1.4.3` → `1.5.4`
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.5.4) `1.4.3` → `1.5.4`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.7) `1.4.7` → `1.5.7`
 
 ### Stack
