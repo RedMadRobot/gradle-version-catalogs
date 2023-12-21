@@ -20,6 +20,7 @@ constraintlayout-core = "1.0.4"
 coordinatorlayout = "1.2.0"
 core = "1.12.0"
 core-googleShortcuts = "1.1.0"
+core-remoteviews = "1.0.0"
 core-splashscreen = "1.0.1"
 customview = "1.1.0"
 customview-poolingcontainer = "1.0.0"
@@ -102,6 +103,7 @@ constraintlayout-core = { module = "androidx.constraintlayout:constraintlayout-c
 coordinatorlayout = { module = "androidx.coordinatorlayout:coordinatorlayout", version.ref = "coordinatorlayout" }
 core = { module = "androidx.core:core-ktx", version.ref = "core" }
 core-googleShortcuts = { module = "androidx.core:core-google-shortcuts", version.ref = "core-googleShortcuts" }
+core-remoteviews = { module = "androidx.core:core-remoteviews", version.ref = "core-remoteviews" }
 core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "core-splashscreen" }
 customview = { module = "androidx.customview:customview", version.ref = "customview" }
 customview-poolingcontainer = { module = "androidx.customview:customview-poolingcontainer", version.ref = "customview-poolingcontainer" }

@@ -9,6 +9,7 @@
 
 ### AndroidX
 
+- :sparkle: [core-remoteviews](https://developer.android.com/jetpack/androidx/releases/core#core-remoteviews-1.0.0-alpha02) `1.0.0`
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.8.2) `1.7.1` → `1.8.2`
 - :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.7.1) `1.6.0` → `1.7.1`
 - :arrow_up: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.3.1) `1.3.0` → `1.3.1`
