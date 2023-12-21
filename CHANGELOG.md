@@ -29,6 +29,7 @@
   - :sparkle: [fragment-testing-manifest](https://developer.android.com/jetpack/androidx/releases/fragment#1.6.0)
 - :arrow_up: [hilt](https://developer.android.com/jetpack/androidx/releases/hilt#1.1.0) `1.0.0` → `1.1.0` :warning: *(KSP support)*
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2) `2.6.1` → `2.6.2`
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.2.0) `1.0.2` → `1.2.0` :warning:
 
 ### Stack
 
