@@ -25,7 +25,7 @@ core-splashscreen = "1.0.1"
 customview = "1.1.0"
 customview-poolingcontainer = "1.0.0"
 datastore = "1.0.0"
-fragment = "1.5.7"
+fragment = "1.6.2"
 hilt = "1.0.0"
 lifecycle = "2.6.1"
 media3 = "1.0.2"
@@ -117,6 +117,7 @@ datastore-rxjava2 = { module = "androidx.datastore:datastore-rxjava2", version.r
 datastore-rxjava3 = { module = "androidx.datastore:datastore-rxjava3", version.ref = "datastore" }
 fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
 fragment-testing = { module = "androidx.fragment:fragment-testing", version.ref = "fragment" }
+fragment-testing-manifest = { module = "androidx.fragment:fragment-testing-manifest", version.ref = "fragment" }
 hilt-common = { module = "androidx.hilt:hilt-common", version.ref = "hilt" }
 hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hilt" }
 hilt-navigation = { module = "androidx.hilt:hilt-navigation", version.ref = "hilt" }

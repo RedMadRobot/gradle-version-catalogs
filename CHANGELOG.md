@@ -25,6 +25,8 @@
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.5.4) `1.4.3` → `1.5.4`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.7) `1.4.7` → `1.5.7`
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.12.0) `1.10.1` → `1.12.0` :warning:
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.6.2) `1.5.7` → `1.6.2` :warning:
+  - :sparkle: [fragment-testing-manifest](https://developer.android.com/jetpack/androidx/releases/fragment#1.6.0)
 
 ### Stack
 
