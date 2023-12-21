@@ -30,6 +30,7 @@
 - :arrow_up: [hilt](https://developer.android.com/jetpack/androidx/releases/hilt#1.1.0) `1.0.0` → `1.1.0` :warning: *(KSP support)*
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2) `2.6.1` → `2.6.2`
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.2.0) `1.0.2` → `1.2.0` :warning:
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.7.6) `2.5.3` → `2.7.6` :warning:
 
 ### Stack
 
