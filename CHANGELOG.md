@@ -10,6 +10,7 @@
 ### Stack
 
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.13.2) `0.13.1` → `0.13.2`
+- :arrow_up: plugin: [doctor](https://runningcode.github.io/gradle-doctor/changelog/#091) `0.8.1` → `0.9.1`
 
 ## [2023.12.21]
 
