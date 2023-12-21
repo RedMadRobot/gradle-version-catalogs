@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2023.12.21]
+
 ### AndroidX
 
 - :sparkle: [core-remoteviews](https://developer.android.com/jetpack/androidx/releases/core#core-remoteviews-1.0.0-alpha02) `1.0.0`

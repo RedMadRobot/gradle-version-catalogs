@@ -37,7 +37,7 @@ subprojects {
     }
 
     group = "com.redmadrobot.versions"
-    version = "2023.05.18"
+    version = "2023.12.21"
 
     catalog {
         versionCatalog {
