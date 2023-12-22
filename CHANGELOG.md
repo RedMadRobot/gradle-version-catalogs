@@ -9,6 +9,7 @@
 
 ### Stack
 
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.22) `1.9.21` → `1.9.22`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0-RC2) `1.8.0-RC` → `1.8.0-RC2`
 - :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-212-2023-06-29) `2.11` → `2.12`
 - :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.0.0) `0.13.0` → `1.0.0`
