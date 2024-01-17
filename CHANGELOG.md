@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :sparkle: [core-performance](https://developer.android.com/jetpack/androidx/releases/core#core_performance_version_10_2) `1.0.0`
+
 ### Stack
 
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.22) `1.9.21` → `1.9.22`
