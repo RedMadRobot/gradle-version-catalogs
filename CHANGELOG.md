@@ -16,6 +16,7 @@
 - :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.0.0) `0.13.0` → `1.0.0`
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.13.2) `0.13.1` → `0.13.2`
 - :arrow_up: plugin: [doctor](https://runningcode.github.io/gradle-doctor/changelog/#091) `0.8.1` → `0.9.1`
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-909-2024-01-17) `9.0.7` → `9.0.9`
 
 ## Changelogs for previous years
 
