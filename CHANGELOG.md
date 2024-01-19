@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2024.01.19]
+
 ### AndroidX
 
 - :sparkle: [core-performance](https://developer.android.com/jetpack/androidx/releases/core#core_performance_version_10_2) `1.0.0`
@@ -31,4 +33,5 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.12.21..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.01.19..main
+[2024.01.19]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.12.21..2024.01.19
