@@ -19,6 +19,7 @@ dependencyResolutionManagement {
 rootProject.name = "versions"
 
 includeBuild("version-catalog-extensions")
+includeBuild("build-logic")
 include(
     "versions-androidx",
     "versions-redmadrobot",
