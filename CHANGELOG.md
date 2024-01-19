@@ -11,6 +11,7 @@
 
 - :sparkle: [core-performance](https://developer.android.com/jetpack/androidx/releases/core#core_performance_version_10_2) `1.0.0`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.8) `1.5.7` → `1.5.8`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.7.0) `2.6.2` → `2.7.0` :warning: (proguard rules changed)
 
 ### Stack
 
