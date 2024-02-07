@@ -7,6 +7,17 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.10.01` → `2024.01.00` :warning:
+  - [What’s new in the Jetpack Compose January ’24 release](https://android-developers.googleblog.com/2024/01/whats-new-in-jetpack-compose-january-24-release.html)
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0) `1.5.4` → `1.6.0`
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0) `1.5.4` → `1.6.0`
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0) `1.5.4` → `1.6.0`
+  - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-rc01) `1.1.2` → `1.2.0-rc01` :warning: *(workaround for the issue: [#322214617](https://issuetracker.google.com/issues/322214617))*
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0) `1.5.4` → `1.6.0`
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0) `1.5.4` → `1.6.0`
+
 ## [2024.01.19]
 
 ### AndroidX
