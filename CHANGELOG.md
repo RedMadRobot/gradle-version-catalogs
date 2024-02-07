@@ -22,6 +22,7 @@
 ### Stack
 
 - :arrow_up: [detekt](https://detekt.dev/changelog#1235---2024-01-31) `1.23.4` → `1.23.5`
+- :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.4) `5.1.3` → `5.1.4`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.2/release-notes/) `5.10.1` → `5.10.2` :warning: *(breaking changes)*
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.14.0) `0.13.2` → `0.14.0` :warning: *(changes potentially affecting dump's content)*
 
