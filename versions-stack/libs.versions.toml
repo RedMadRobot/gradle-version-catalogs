@@ -6,7 +6,7 @@ kotlinx-collections-immutable = "0.3.5"
 dokka = "1.9.10"
 
 # UI Tools
-accompanist = "0.32.0"
+accompanist = "0.34.0"
 coil = "2.5.0"
 epoxy = "5.1.4"
 groupie = "2.10.1"
@@ -107,11 +107,8 @@ dokka-plugin-versioning = { module = "org.jetbrains.dokka:versioning-plugin", ve
 # UI Tools
 accompanist-adaptive = { module = "com.google.accompanist:accompanist-adaptive", version.ref = "accompanist" }
 accompanist-drawablepainter = { module = "com.google.accompanist:accompanist-drawablepainter", version.ref = "accompanist" }
-accompanist-flowlayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" } # Deprecated (implemented in Compose 1.4)
 accompanist-navigation-animation = { module = "com.google.accompanist:accompanist-navigation-animation", version.ref = "accompanist" } # Deprecated (implemented in navigation 2.7.0)
 accompanist-navigation-material = { module = "com.google.accompanist:accompanist-navigation-material", version.ref = "accompanist" }
-accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist" } # Deprecated (implemented in Compose 1.4)
-accompanist-pager-indicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanist" } # Deprecated (implemented in Compose 1.4)
 accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
 accompanist-placeholder = { module = "com.google.accompanist:accompanist-placeholder", version.ref = "accompanist" } # Deprecated (discontinued)
 accompanist-placeholder-material = { module = "com.google.accompanist:accompanist-placeholder-material", version.ref = "accompanist" } # Deprecated (discontinued)

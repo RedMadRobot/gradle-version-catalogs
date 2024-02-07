@@ -21,6 +21,8 @@
 
 ### Stack
 
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.34.0) `0.32.0` → `0.34.0`
+  - :x: Removed deprecated artifacts implemented in Compose 1.4 - `accompanist-flowlayout`, `accompanist-pager-*`
 - :arrow_up: [detekt](https://detekt.dev/changelog#1235---2024-01-31) `1.23.4` → `1.23.5`
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.4) `5.1.3` → `5.1.4`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.2/release-notes/) `5.10.1` → `5.10.2` :warning: *(breaking changes)*
