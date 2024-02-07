@@ -9,6 +9,7 @@
 
 ### AndroidX
 
+- :sparkle: [webkit](https://developer.android.com/develop/ui/views/layout/webapps/managing-webview) `1.10.0`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2023.10.01` → `2024.01.00` :warning:
   - [What’s new in the Jetpack Compose January ’24 release](https://android-developers.googleblog.com/2024/01/whats-new-in-jetpack-compose-january-24-release.html)
   - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0) `1.5.4` → `1.6.0`
