@@ -19,6 +19,10 @@
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0) `1.5.4` → `1.6.0`
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0) `1.5.4` → `1.6.0`
 
+### Stack
+
+- :arrow_up: [junit](https://junit.org/junit5/docs/5.10.2/release-notes/) `5.10.1` → `5.10.2` :warning: *(breaking changes)*
+
 ## [2024.01.19]
 
 ### AndroidX
