@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2024.02.07]
+
 ### AndroidX
 
 - :sparkle: [webkit](https://developer.android.com/develop/ui/views/layout/webapps/managing-webview) `1.10.0`
@@ -58,5 +60,6 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.01.19..main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.02.07..main
+[2024.02.07]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.01.19..2024.02.07
 [2024.01.19]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.12.21..2024.01.19
