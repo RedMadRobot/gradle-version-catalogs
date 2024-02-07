@@ -20,7 +20,7 @@ reactivex-rxjava3 = "3.1.8"
 
 # Network & Serialization
 kotlinx-serialization = "1.6.2"
-moshi = "1.15.0" # https://github.com/square/moshi/blob/master/CHANGELOG.md
+moshi = "1.15.1" # https://github.com/square/moshi/blob/master/CHANGELOG.md
 okhttp = "4.12.0" # https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md
 retrofit = "2.9.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 retrofit-converter-kotlinxSerialization = "1.0.0"
