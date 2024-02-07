@@ -25,6 +25,7 @@
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.4) `5.1.3` → `5.1.4`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.2/release-notes/) `5.10.1` → `5.10.2` :warning: *(breaking changes)*
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.14.0) `0.13.2` → `0.14.0` :warning: *(changes potentially affecting dump's content)*
+- :arrow_up: plugin: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.51.0) `0.50.0` → `0.51.0`
 
 ## [2024.01.19]
 
