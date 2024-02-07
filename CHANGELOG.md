@@ -25,6 +25,8 @@
   - :x: Removed deprecated artifacts implemented in Compose 1.4 - `accompanist-flowlayout`, `accompanist-pager-*`
 - :arrow_up: [detekt](https://detekt.dev/changelog#1235---2024-01-31) `1.23.4` → `1.23.5`
 - :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.1.4) `5.1.3` → `5.1.4`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v32-7-1) `32.7.0` → `32.7.1`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-6-1) `18.6.0` → `18.6.1`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.2/release-notes/) `5.10.1` → `5.10.2` :warning: *(breaking changes)*
 - :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1151) `1.15.0` → `1.15.1`
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.14.0) `0.13.2` → `0.14.0` :warning: *(changes potentially affecting dump's content)*
