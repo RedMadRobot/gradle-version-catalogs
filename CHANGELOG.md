@@ -9,6 +9,14 @@
 
 ### AndroidX
 
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.01.00` → `2024.02.01` :warning:
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.2) `1.6.0` → `1.6.2`
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.2) `1.6.0` → `1.6.2`
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.2) `1.6.0` → `1.6.2`
+  - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0) `1.2.0-rc01` → `1.2.0` :warning: *(many new components)* \
+    Article: [Material Design 3 for Compose 1.2](https://material.io/blog/material-3-compose-1-2)
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.2) `1.6.0` → `1.6.2`
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.2) `1.6.0` → `1.6.2`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.10) `1.5.8` → `1.5.10`
 
 ## [2024.02.07]
