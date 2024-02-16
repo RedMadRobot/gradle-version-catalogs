@@ -20,6 +20,10 @@
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.10) `1.5.8` → `1.5.10`
 - :arrow_up: [hilt](https://developer.android.com/jetpack/androidx/releases/hilt#hilt_version_12_2) `1.1.0` → `1.2.0`
 
+### Stack
+
+- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0) `1.8.0-RC2` → `1.8.0`
+
 ## [2024.02.07]
 
 ### AndroidX
