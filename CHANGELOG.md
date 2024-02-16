@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.10) `1.5.8` → `1.5.10`
+
 ## [2024.02.07]
 
 ### AndroidX
