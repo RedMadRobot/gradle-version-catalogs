@@ -23,6 +23,7 @@
 ### Stack
 
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0) `1.8.0-RC2` → `1.8.0`
+- :arrow_up: plugin: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0.1) `3.0` → `3.0.1`
 
 ## [2024.02.07]
 
