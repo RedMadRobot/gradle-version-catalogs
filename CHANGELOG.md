@@ -23,6 +23,12 @@
 ### Stack
 
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0) `1.8.0-RC2` → `1.8.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v32-7-2) `32.7.1` → `32.7.3`
+  - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-5-1) `21.5.0` → `21.5.1`
+  - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v21-6-2) `21.6.0` → `21.6.2`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-6-2) `18.6.1` → `18.6.2`
+  - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v23-4-1) `23.4.0` → `23.4.1`
+- :arrow_up: [gms-googleServices](https://developers.google.com/android/guides/releases#february_08_2024) `4.4.0` → `4.4.1`
 - :arrow_up: plugin: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0.1) `3.0` → `3.0.1`
 
 ## [2024.02.07]
