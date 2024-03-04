@@ -33,6 +33,10 @@
 - :arrow_up: [gms-googleServices](https://developers.google.com/android/guides/releases#february_08_2024) `4.4.0` → `4.4.1`
 - :arrow_up: plugin: [gradle-android-cacheFix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0.1) `3.0` → `3.0.1`
 
+Skipped versions:
+
+- [mockk](https://github.com/mockk/mockk/releases/tag/1.13.10) `1.13.10` - because of [mockk/mockk#1225](https://github.com/mockk/mockk/issues/1225)
+
 ## [2024.02.07]
 
 ### AndroidX
