@@ -18,6 +18,7 @@
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.2) `1.6.0` → `1.6.2`
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.2) `1.6.0` → `1.6.2`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.10) `1.5.8` → `1.5.10`
+- :arrow_up: [hilt](https://developer.android.com/jetpack/androidx/releases/hilt#hilt_version_12_2) `1.1.0` → `1.2.0`
 
 ## [2024.02.07]
 
