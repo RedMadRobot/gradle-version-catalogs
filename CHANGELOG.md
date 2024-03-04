@@ -25,6 +25,7 @@
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.51) `2.50` → `2.51` :warning: *(potentially breaking changes)*
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.9.20) `1.9.10` → `1.9.20`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0) `1.8.0-RC2` → `1.8.0`
+- :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.6.3) `1.6.2` → `1.6.3`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v32-7-2) `32.7.1` → `32.7.3`
   - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-5-1) `21.5.0` → `21.5.1`
   - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v21-6-2) `21.6.0` → `21.6.2`
