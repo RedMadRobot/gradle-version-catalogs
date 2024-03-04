@@ -22,6 +22,7 @@
 
 ### Stack
 
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.51) `2.50` → `2.51` :warning: *(potentially breaking changes)*
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v1.9.20) `1.9.10` → `1.9.20`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0) `1.8.0-RC2` → `1.8.0`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v32-7-2) `32.7.1` → `32.7.3`
