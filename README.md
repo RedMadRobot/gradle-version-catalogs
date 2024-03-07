@@ -2,7 +2,7 @@
 [![Version](https://img.shields.io/maven-central/v/com.redmadrobot.versions/versions-redmadrobot?style=flat-square)][mavenCentral]
 
 [Shared catalogs](https://docs.gradle.org/current/userguide/platforms.html#sec:sharing-catalogs) used in red_mad_robot android team.
-Gradle 7.4 required.
+Gradle 7.4+ is required.
 
 ---
 
@@ -267,9 +267,11 @@ There are a few cases when it is not possible or not recommended to follow libra
 
    > :white_check_mark: **Good hierarchy**
    >
-   > - `org.jetbrains.dokka:dokka-gradle-plugin` → `dokka-gradlePlugin` (this one stays the same)
+   > - `org.jetbrains.dokka:dokka-gradle-plugin` → `dokka-gradlePlugin` (this one stays the same to separate gradle plugin from dokka plugins)
    > - `org.jetbrains.dokka:javadoc-plugin` → `dokka-plugin-javadoc`
    > - `org.jetbrains.dokka:android-documentation-plugin` → `dokka-plugin-androidDocumentation`
+   >
+   > After this change we can list all available dokka plugins using autocompletion.
 
 #### Versions
 
@@ -333,6 +335,7 @@ For more information about version catalogs, consult the following resources.
 [versions-redmadrobot]: versions-redmadrobot/libs.versions.toml
 [versions-androidx]: versions-androidx/libs.versions.toml
 [versions-stack]: versions-stack/libs.versions.toml
+[changelog]: CHANGELOG.md
 [issue]: https://github.com/RedMadRobot/gradle-version-catalogs/issues/new
 
 [docs]: https://docs.gradle.org/current/userguide/platforms.html
