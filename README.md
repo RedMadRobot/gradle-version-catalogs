@@ -10,6 +10,7 @@ Gradle 7.4+ is required.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Catalogs](#catalogs)
+  - [Motivation](#motivation)
 - [Usage](#usage)
   - [Where can I find the version of a dependency?](#where-can-i-find-the-version-of-a-dependency)
   - [How can I change a dependency version?](#how-can-i-change-a-dependency-version)
@@ -29,15 +30,45 @@ Gradle 7.4+ is required.
 
 ## Catalogs
 
-These are catalogs just containing libraries from the same group.
+There are two groups of catalogs.
+The first group is **catalogs containing libraries from the same group**.
 They are not specific to red_mad_robot, so feel free to use them.
 
 - [redmadrobot][versions-redmadrobot] - contains [red_mad_robot libraries](https://github.com/RedMadRobot)
 - [androidx][versions-androidx] - contains [AndroidX libraries](https://developer.android.com/jetpack/androidx/versions)
 
-These catalogs are internal, so use them only if you are red_mad_robot team member.
+The second group is **internal catalogs**.
+Use them only if you are red_mad_robot team member.
 
 - [stack][versions-stack] - contains libraries according to tech stack used in red_mad_robot android team
+
+### Motivation
+
+Why to prefer version catalogs over the declaring dependencies via `buildSrc`?
+
+- If you have multiple projects
+  - **and** you want to share the same set of dependencies (considered as your tech stack) between multiple projects.
+    It also allows you to start new projects quickly.
+  - **and** you want to reduce effort on dependencies updating, and update them in one place.
+    So, you have to ensure all dependencies are compatible to each other only once.
+- If you want to share dependencies between project and `buildSrc` or [composite builds][docs-composite-builds].
+- If you don't want to trigger recompilation of all build scripts when the only thing you did was change a dependency version.
+- If you want to [create bundles](#how-can-i-make-a-bundle-of-dependencies) for dependencies frequently used together.
+
+> [!TIP]
+>
+> If you use the catalogs from this repository, you can look at the [changelog] containing links to release notes for each updated dependency.
+> Updates requiring your attention are marked with :warning:.
+
+Before switching to version catalogs, take into account the following drawbacks:
+
+- Version catalogs are not quite popular yet, so you need to guide your team on how to use and modify catalogs.
+  ["Usage"](#usage) section of this guide is a good starting point.
+- If you use external version catalogs, it may be harder to update catalogs if you skip several updates.
+  There is a cumulative effect.
+  The more updated dependencies require the more effort on update to honor all breaking changes.
+  Although this problem exists even if you don't use version catalogs, it is simpler to handle when you update dependencies one-by-one without catalog.
+- If version catalogs are shared between multiple projects, they should be continuously maintained to keep them up-to-date and to not block consumers from updating dependencies (see ["Catalogs Principles"](#catalogs-principles)).
 
 ## Usage
 
@@ -341,4 +372,5 @@ For more information about version catalogs, consult the following resources.
 [docs]: https://docs.gradle.org/current/userguide/platforms.html
 [docs-importing]: https://docs.gradle.org/current/userguide/platforms.html#sec:importing-published-catalog
 [docs-problems]: https://docs.gradle.org/current/userguide/version_catalog_problems.html
+[docs-composite-builds]: https://docs.gradle.org/current/userguide/composite_builds.html
 [mavenCentral]: https://search.maven.org/search?q=com.redmadrobot.versions
