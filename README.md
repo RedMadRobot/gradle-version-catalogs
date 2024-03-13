@@ -258,7 +258,7 @@ To make accessors' hierarchy shorter, large groups of dependencies (for example,
 The name of the catalog should be equal to common part of group.
 
 > **Example:**\
-> `com.redmadrobot:flipper` → `redmadrobot` (catalog) + `flipper` (alias) = `redmadrobot.catalog` (accessor)
+> `com.redmadrobot:flipper` → `redmadrobot` (catalog) + `flipper` (alias) = `redmadrobot.flipper` (accessor)
 
 In catalogs containing libraries from different groups (like [stack catalog][versions-stack] or local project catalog) it is allowed to omit library group fully or partially if the library name is pretty unique to be used without group.
 
