@@ -19,6 +19,7 @@
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.4) `1.6.2` → `1.6.4` *(no changes)*
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.4) `1.6.2` → `1.6.4` *(no changes)*
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.11) `1.5.10` → `1.5.11`
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.3.0) `1.2.1` → `1.3.0`
 
 ### Stack
 
