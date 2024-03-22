@@ -22,6 +22,7 @@
     -import com.jakewharton.retrofit2.converter.kotlinx.serialization.*
     +import retrofit2.converter.kotlinx.serialization.*
     ```
+- :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.1.0) `1.0.0` → `1.1.0` :warning: *(may require tests fixing)*
 
 ## [2024.03.04]
 
