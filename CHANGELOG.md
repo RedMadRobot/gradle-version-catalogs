@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [2024.03.22]
+
 ### AndroidX
 
 - :arrow_up: [browser](https://developer.android.com/jetpack/androidx/releases/browser#1.8.0) `1.7.0` → `1.8.0`
@@ -129,7 +131,8 @@ Skipped versions:
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.03.04.main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.03.22.main
+[2024.03.22]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.03.04..2024.03.22
 [2024.03.04]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.02.07..2024.03.04
 [2024.02.07]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.01.19..2024.02.07
 [2024.01.19]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.12.21..2024.01.19
