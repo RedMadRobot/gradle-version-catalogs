@@ -23,6 +23,10 @@
     +import retrofit2.converter.kotlinx.serialization.*
     ```
 - :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.1.0) `1.0.0` → `1.1.0` :warning: *(may require tests fixing)*
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v32-8-0) `32.7.3` → `32.8.0`
+  - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v21-6-1) `21.5.1` → `21.6.1`
+  - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v21-6-3) `21.6.2` → `21.6.3`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v18-6-3) `18.6.2` → `18.6.3`
 
 ## [2024.03.04]
 
