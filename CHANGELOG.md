@@ -11,6 +11,7 @@
 
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.23) `1.9.22` → `1.9.23` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.9.23-1.0.19) `1.9.22-1.0.17` → `1.9.23-1.0.19`
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-9010-2024-03-15) `9.0.7` → `9.0.10`
 - :arrow_up: [retrofit](https://github.com/square/retrofit/releases/tag/2.10.0) `2.9.0` → `2.10.0` :warning: *(read the changelog)*
   - :sparkle: [retrofit-bom](https://github.com/square/retrofit/tree/2.10.0/retrofit-bom)
   - :sparkle: [retrofit-converter-jabx3](https://github.com/square/retrofit/tree/2.10.0/retrofit-converters/jaxb3)
