@@ -11,6 +11,15 @@
 
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.23) `1.9.22` → `1.9.23` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.9.23-1.0.19) `1.9.22-1.0.17` → `1.9.23-1.0.19`
+- :arrow_up: [retrofit](https://github.com/square/retrofit/releases/tag/2.10.0) `2.9.0` → `2.10.0` :warning: *(read the changelog)*
+  - :sparkle: [retrofit-bom](https://github.com/square/retrofit/tree/2.10.0/retrofit-bom)
+  - :sparkle: [retrofit-converter-jabx3](https://github.com/square/retrofit/tree/2.10.0/retrofit-converters/jaxb3)
+  - :x: version: `retrofit-converter-kotlinxSerialization` - this converter was moved to retrofit repository and shares version with retrofit
+  - :warning: Packages of kotlinx.serialization converter was changed:
+    ```diff
+    -import com.jakewharton.retrofit2.converter.kotlinx.serialization.*
+    +import retrofit2.converter.kotlinx.serialization.*
+    ```
 
 ## [2024.03.04]
 

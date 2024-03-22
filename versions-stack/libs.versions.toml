@@ -22,8 +22,7 @@ reactivex-rxjava3 = "3.1.8"
 kotlinx-serialization = "1.6.3"
 moshi = "1.15.1" # https://github.com/square/moshi/blob/master/CHANGELOG.md
 okhttp = "4.12.0" # https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md
-retrofit = "2.9.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
-retrofit-converter-kotlinxSerialization = "1.0.0"
+retrofit = "2.10.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 
 # Security
 tink = "1.7.0"
@@ -180,7 +179,8 @@ retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", ve
 retrofit-converter-guava = { module = "com.squareup.retrofit2:converter-guava", version.ref = "retrofit" }
 retrofit-converter-jackson = { module = "com.squareup.retrofit2:converter-jackson", version.ref = "retrofit" }
 retrofit-converter-jaxb = { module = "com.squareup.retrofit2:converter-jaxb", version.ref = "retrofit" }
-retrofit-converter-kotlinxSerialization = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter", version.ref = "retrofit-converter-kotlinxSerialization" }
+retrofit-converter-jaxb3 = { module = "com.squareup.retrofit2:converter-jaxb3", version.ref = "retrofit" }
+retrofit-converter-kotlinxSerialization = { module = "com.squareup.retrofit2:converter-kotlinx-serialization", version.ref = "retrofit" }
 retrofit-converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
 retrofit-converter-protobuf = { module = "com.squareup.retrofit2:converter-protobuf", version.ref = "retrofit" }
 retrofit-converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "retrofit" }
