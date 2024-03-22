@@ -35,7 +35,7 @@ javax-inject = "1"
 junit = "5.10.2"
 junit-platform = "1.10.2"
 junit4 = "4.13.2"
-kotest = "5.8.0"
+kotest = "5.8.1"
 mockk = "1.13.9" # Skip 1.13.10 because of https://github.com/mockk/mockk/issues/1225
 turbine = "1.0.0"
 
