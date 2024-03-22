@@ -7,6 +7,11 @@
 
 ## [Unreleased]
 
+### Stack
+
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.23) `1.9.22` → `1.9.23` :warning:
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.9.23-1.0.19) `1.9.22-1.0.17` → `1.9.23-1.0.19`
+
 ## [2024.03.04]
 
 ### AndroidX
