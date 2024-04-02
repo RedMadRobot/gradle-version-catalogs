@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+### Stack
+
+- :arrow_up: [retrofit](https://github.com/square/retrofit/releases/tag/2.11.0) `2.10.0` → `2.11.0`
+
 ## [2024.03.22]
 
 ### AndroidX
