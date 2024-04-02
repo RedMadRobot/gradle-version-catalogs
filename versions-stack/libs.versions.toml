@@ -25,7 +25,7 @@ okhttp = "4.12.0" # https://github.com/square/okhttp/blob/master/docs/changelogs
 retrofit = "2.11.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 
 # Security
-tink = "1.7.0"
+tink = "1.13.0"
 
 # DI
 dagger = "2.51"

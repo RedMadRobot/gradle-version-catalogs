@@ -10,6 +10,7 @@
 ### Stack
 
 - :arrow_up: [retrofit](https://github.com/square/retrofit/releases/tag/2.11.0) `2.10.0` → `2.11.0`
+- :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases) `1.7.0` → `1.13.0` :warning: *(huge version jump)*
 
 ## [2024.03.22]
 
