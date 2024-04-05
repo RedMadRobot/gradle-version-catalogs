@@ -9,6 +9,7 @@
 
 ### AndroidX
 
+- :arrow_up: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.4.1) `1.3.1` → `1.4.1`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.03.00` → `2024.04.00`
   - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.5) `1.6.4` → `1.6.5` *(no changes)*
   - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.5) `1.6.4` → `1.6.5`
