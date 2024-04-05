@@ -7,6 +7,15 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.03.00` → `2024.04.00`
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.5) `1.6.4` → `1.6.5` *(no changes)*
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.5) `1.6.4` → `1.6.5`
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.5) `1.6.4` → `1.6.5` *(no changes)*
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.5) `1.6.4` → `1.6.5` *(no changes)*
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.5) `1.6.4` → `1.6.5` *(no changes)*
+
 ### Stack
 
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.51.1) `2.51` → `2.51.1`
