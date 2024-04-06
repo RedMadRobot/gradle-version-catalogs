@@ -40,7 +40,7 @@ mockk = "1.13.9" # Skip 1.13.10 because of https://github.com/mockk/mockk/issues
 turbine = "1.1.0"
 
 # Debug Tools
-leakcanary = "2.12"
+leakcanary = "2.13"
 timber = "5.0.1"
 
 # Annotations procesing
