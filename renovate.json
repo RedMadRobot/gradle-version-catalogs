@@ -1,0 +1,34 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":pathSemanticCommitType(versions-androidx/libs.versions.toml, androidx)",
+    ":pathSemanticCommitType(versions-redmadrobot/libs.versions.toml, rmr)",
+    ":pathSemanticCommitType(versions-stack/libs.versions.toml, stack)",
+    ":assignee(osipxd)",
+    ":reviewer(team:android-infrastructure)"
+  ],
+  "packageRules": [
+    {
+      "description": "Dependency update commit format for shared catalogs",
+      "matchFileNames": ["versions-*/libs.versions.toml"],
+      "extends": [":semanticCommitScopeDisabled"],
+      "commitMessageAction": null,
+      "commitMessageTopic": "{{depName}}",
+      "commitMessageExtra": "{{newVersion}}"
+    },
+    {
+      "description": "Group together all Jetpack Compose components",
+      "matchPackagePrefixes": [
+        "androidx.compose:",
+        "androidx.compose.animation:",
+        "androidx.compose.foundation:",
+        "androidx.compose.material:",
+        "androidx.compose.material3:",
+        "androidx.compose.runtime:",
+        "androidx.compose.ui:"
+      ],
+      "groupName": "compose"
+    }
+  ]
+}
