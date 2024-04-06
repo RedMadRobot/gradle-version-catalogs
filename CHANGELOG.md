@@ -24,6 +24,7 @@
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.51.1) `2.51` → `2.51.1`
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.23.6) `1.23.5` → `1.23.6`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.9.23-1.0.20) `1.9.23-1.0.19` → `1.9.23-1.0.20`
+- :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-213-2024-01-03) `2.12` → `2.13`
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-910-2024-03-31) `9.0.10` → `9.1.0`
 - :arrow_up: [retrofit](https://github.com/square/retrofit/releases/tag/2.11.0) `2.10.0` → `2.11.0`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases) `1.7.0` → `1.13.0` :warning: *(huge version jump)*
