@@ -23,6 +23,7 @@
 
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.51.1) `2.51` → `2.51.1`
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.23.6) `1.23.5` → `1.23.6`
+- :arrow_up: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/releases/tag/v0.3.7) `0.3.5` → `0.3.7`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.9.23-1.0.20) `1.9.23-1.0.19` → `1.9.23-1.0.20`
 - :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-213-2024-01-03) `2.12` → `2.13`
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-910-2024-03-31) `9.0.10` → `9.1.0`
