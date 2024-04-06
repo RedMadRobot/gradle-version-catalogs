@@ -26,6 +26,7 @@
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-910-2024-03-31) `9.0.10` → `9.1.0`
 - :arrow_up: [retrofit](https://github.com/square/retrofit/releases/tag/2.11.0) `2.10.0` → `2.11.0`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases) `1.7.0` → `1.13.0` :warning: *(huge version jump)*
+- :arrow_up: **plugin:** [doctor](https://runningcode.github.io/gradle-doctor/changelog/#092) `0.9.1` → `0.9.2`
 
 ## [2024.03.22]
 
