@@ -29,6 +29,17 @@
         "androidx.compose.ui:"
       ],
       "groupName": "compose"
+    },
+    {
+      "description": "Disable lookup for Gradle plugins published without marker",
+      "matchPackageNames": [
+        "androidx.navigation.safeargs:androidx.navigation.safeargs.gradle.plugin",
+        "androidx.navigation.safeargs.kotlin:androidx.navigation.safeargs.kotlin.gradle.plugin",
+        "androidx.room:androidx.room.gradle.plugin",
+        "com.google.firebase.crashlytics:com.google.firebase.crashlytics.gradle.plugin",
+        "com.google.gms.google-services:com.google.gms.google-services.gradle.plugin"
+      ],
+      "enabled": false
     }
   ]
 }
