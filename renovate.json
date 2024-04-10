@@ -40,6 +40,13 @@
         "com.google.gms.google-services:com.google.gms.google-services.gradle.plugin"
       ],
       "enabled": false
+    },
+    {
+      "description": "Configure dependencies to be looked up in Maven Central repository strictly",
+      "matchPackagePrefixes": [
+        "com.redmadrobot:pinkman"
+      ],
+      "registryUrls": ["https://repo.maven.apache.org/maven2"]
     }
   ]
 }
