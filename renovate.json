@@ -47,7 +47,8 @@
     {
       "description": "Configure dependencies to be looked up in Maven Central repository strictly",
       "matchPackagePrefixes": [
-        "com.redmadrobot:pinkman"
+        "com.redmadrobot:pinkman",
+        "com.google.dagger"
       ],
       "registryUrls": ["https://repo.maven.apache.org/maven2"]
     }
