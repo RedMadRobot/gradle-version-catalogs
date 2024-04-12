@@ -31,6 +31,11 @@
       "groupName": "compose"
     },
     {
+      "description": "Group together all Firebase components",
+      "matchPackagePrefixes": ["com.google.firebase"],
+      "groupName": "firebase"
+    },
+    {
       "description": "Disable lookup for Gradle plugins published without marker",
       "matchPackageNames": [
         "androidx.navigation.safeargs:androidx.navigation.safeargs.gradle.plugin",
