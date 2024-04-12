@@ -36,15 +36,13 @@
       "groupName": "firebase"
     },
     {
-      "description": "Disable lookup for Gradle plugins published without marker",
-      "matchPackageNames": [
-        "androidx.navigation.safeargs:androidx.navigation.safeargs.gradle.plugin",
-        "androidx.navigation.safeargs.kotlin:androidx.navigation.safeargs.kotlin.gradle.plugin",
-        "androidx.room:androidx.room.gradle.plugin",
-        "com.google.firebase.crashlytics:com.google.firebase.crashlytics.gradle.plugin",
-        "com.google.gms.google-services:com.google.gms.google-services.gradle.plugin"
+      "description": "Configure repository for Google's plugins",
+      "matchDepTypes": ["plugin"],
+      "matchPackagePrefixes": [
+        "androidx.",
+        "com.google."
       ],
-      "enabled": false
+      "registryUrls": ["https://dl.google.com/android/maven2"]
     },
     {
       "description": "Configure dependencies to be looked up in Maven Central repository strictly",
