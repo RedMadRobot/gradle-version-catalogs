@@ -28,12 +28,12 @@
         "androidx.compose.runtime:",
         "androidx.compose.ui:"
       ],
-      "groupName": "compose"
+      "groupName": "compose-bom"
     },
     {
       "description": "Group together all Firebase components",
       "matchPackagePrefixes": ["com.google.firebase"],
-      "groupName": "firebase"
+      "groupName": "firebase-bom"
     },
     {
       "description": "Configure repository for Google's plugins",
