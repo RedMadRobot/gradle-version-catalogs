@@ -28,12 +28,20 @@
         "androidx.compose.runtime:",
         "androidx.compose.ui:"
       ],
-      "groupName": "compose"
+      "groupName": "compose",
+      "group": {
+        "commitMessageTopic": "compose-bom",
+        "commitMessageExtra": "{{#each upgrades as |upgrade|}}{{#if (equals upgrade.packageName 'androidx.compose:compose-bom')}}{{{upgrade.newVersion}}}{{/if}}{{/each}}"
+      }
     },
     {
       "description": "Group together all Firebase components",
       "matchPackagePrefixes": ["com.google.firebase"],
-      "groupName": "firebase"
+      "groupName": "firebase",
+      "group": {
+        "commitMessageTopic": "firebase-bom",
+        "commitMessageExtra": "{{upgrades}}"
+      }
     },
     {
       "description": "Configure repository for Google's plugins",
