@@ -22,7 +22,7 @@
 
 ### Stack
 
-- *no changes yet*
+- :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-214-2024-04-17) `2.13` → `2.14`
 
 ## [2024.04.10]
 
