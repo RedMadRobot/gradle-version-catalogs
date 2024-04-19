@@ -9,6 +9,7 @@
 
 ### AndroidX
 
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.9.0) `1.8.2` → `1.9.0`
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.3.3) `1.3.2` → `1.3.3`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.04.00` → `2024.04.01`
   - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.6) `1.6.5` → `1.6.6` *(no changes)*
