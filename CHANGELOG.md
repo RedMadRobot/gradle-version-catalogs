@@ -21,6 +21,7 @@
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.13.1) `1.12.0` → `1.13.1` :warning: *(`minSdk` bumped to 19, `FingerprintManagerCompat` removed)*
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0) `1.6.2` → `1.7.0`
   - :sparkle: [fragment-compose](https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0)
+- :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.11.0) `1.10.0` → `1.11.0`
 
 ### Stack
 
