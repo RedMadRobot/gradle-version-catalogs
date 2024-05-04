@@ -18,7 +18,7 @@
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.6) `1.6.5` → `1.6.6` *(no changes)*
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.6) `1.6.5` → `1.6.6`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.13) `1.5.11` → `1.5.13` :warning: *(Strong Skipping Mode is not experimental anymore)*
-- :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.13.0) `1.12.0` → `1.13.0` :warning: *(`minSdk` bumped to 19, `FingerprintManagerCompat` removed)*
+- :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.13.1) `1.12.0` → `1.13.1` :warning: *(`minSdk` bumped to 19, `FingerprintManagerCompat` removed)*
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0) `1.6.2` → `1.7.0`
   - :sparkle: [fragment-compose](https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0)
 
