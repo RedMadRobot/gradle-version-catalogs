@@ -28,6 +28,7 @@
 ### Stack
 
 - :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-214-2024-04-17) `2.13` → `2.14`
+- :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.12.0) `1.11.0` → `1.12.0` :warning: *(`minSdk` bumped to 19)*
 - :arrow_up: **plugin:** [doctor](https://runningcode.github.io/gradle-doctor/changelog/#0100) `0.9.2` → `0.10.0`
 
 ## [2024.04.10]
