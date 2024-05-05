@@ -9,6 +9,16 @@
 
 ### AndroidX
 
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2024.05.05]
+
+### AndroidX
+
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.9.0) `1.8.2` → `1.9.0`
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.3.3) `1.3.2` → `1.3.3`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.04.00` → `2024.05.00`
@@ -187,9 +197,10 @@ Skipped versions:
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.04.10..main
-[2024.04.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.03.22..2024.04.10
-[2024.03.22]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.03.04..2024.03.22
-[2024.03.04]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.02.07..2024.03.04
-[2024.02.07]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.01.19..2024.02.07
-[2024.01.19]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.12.21..2024.01.19
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.05.05...main
+[2024.05.05]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.04.10...2024.05.05
+[2024.04.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.03.22...2024.04.10
+[2024.03.22]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.03.04...2024.03.22
+[2024.03.04]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.02.07...2024.03.04
+[2024.02.07]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.01.19...2024.02.07
+[2024.01.19]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2023.12.21...2024.01.19
