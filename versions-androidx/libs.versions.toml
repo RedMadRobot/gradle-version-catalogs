@@ -53,7 +53,7 @@ work = "2.9.0"
 
 [libraries]
 
-activity = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+activity = { module = "androidx.activity:activity", version.ref = "activity" }
 activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
 annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
 annotation-experimental = { module = "androidx.annotation:annotation-experimental", version.ref = "annotation-experimental" }
