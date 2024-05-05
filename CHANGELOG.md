@@ -11,16 +11,17 @@
 
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.9.0) `1.8.2` → `1.9.0`
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.3.3) `1.3.2` → `1.3.3`
-- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.04.00` → `2024.04.01`
-  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.6) `1.6.5` → `1.6.6` *(no changes)*
-  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.6) `1.6.5` → `1.6.6`
-  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.6) `1.6.5` → `1.6.6` *(no changes)*
-  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.6) `1.6.5` → `1.6.6` *(no changes)*
-  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.6) `1.6.5` → `1.6.6`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.04.00` → `2024.05.00`
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.7) `1.6.5` → `1.6.7` *(no changes)*
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.7) `1.6.5` → `1.6.7`
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.7) `1.6.5` → `1.6.7` *(no changes)*
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.7) `1.6.5` → `1.6.7` *(no changes)*
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.7) `1.6.5` → `1.6.7`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.13) `1.5.11` → `1.5.13` :warning: *(Strong Skipping Mode is not experimental anymore)*
-- :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.13.0) `1.12.0` → `1.13.0` :warning: *(`minSdk` bumped to 19, `FingerprintManagerCompat` removed)*
+- :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.13.1) `1.12.0` → `1.13.1` :warning: *(`minSdk` bumped to 19, `FingerprintManagerCompat` removed)*
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0) `1.6.2` → `1.7.0`
   - :sparkle: [fragment-compose](https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0)
+- :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.11.0) `1.10.0` → `1.11.0`
 
 ### Stack
 
