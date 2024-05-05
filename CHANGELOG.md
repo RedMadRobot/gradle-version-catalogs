@@ -29,6 +29,12 @@
 
 - :arrow_up: [leakcanary](https://square.github.io/leakcanary/changelog/#version-214-2024-04-17) `2.13` → `2.14`
 - :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.12.0) `1.11.0` → `1.12.0` :warning: *(`minSdk` bumped to 19)*
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v33-0-0) `32.8.0` → `33.0.0` :warning: *(`compileSdk` = 34, `minSdk` = 21)*
+  - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v22-0-0) `21.6.1` → `22.0.0`
+  - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v22-0-0) `21.6.3` → `22.0.0`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19-0-0) `18.6.3` → `19.0.0`
+  - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v3-0-0) `2.9.9` → `3.0.0` :warning: *(breaking changes, requires AGP 8.1+)*
+  - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v24-0-0) `23.4.1` → `24.0.0`
 - :arrow_up: **plugin:** [doctor](https://runningcode.github.io/gradle-doctor/changelog/#0100) `0.9.2` → `0.10.0`
 
 ## [2024.04.10]
