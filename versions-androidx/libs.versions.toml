@@ -25,7 +25,7 @@ core-remoteviews = "1.0.0"
 core-splashscreen = "1.0.1"
 customview = "1.1.0"
 customview-poolingcontainer = "1.0.0"
-datastore = "1.0.0"
+datastore = "1.1.1"
 fragment = "1.7.0"
 hilt = "1.2.0"
 lifecycle = "2.7.0"
@@ -113,6 +113,7 @@ customview = { module = "androidx.customview:customview", version.ref = "customv
 customview-poolingcontainer = { module = "androidx.customview:customview-poolingcontainer", version.ref = "customview-poolingcontainer" }
 datastore = { module = "androidx.datastore:datastore", version.ref = "datastore" }
 datastore-core = { module = "androidx.datastore:datastore-core", version.ref = "datastore" }
+datastore-core-okio = { module = "androidx.datastore:datastore-core-okio", version.ref = "datastore" }
 datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
 datastore-preferences-core = { module = "androidx.datastore:datastore-preferences-core", version.ref = "datastore" }
 datastore-preferences-rxjava2 = { module = "androidx.datastore:datastore-preferences-rxjava2", version.ref = "datastore" }
