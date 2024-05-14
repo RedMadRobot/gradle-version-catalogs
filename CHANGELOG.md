@@ -15,6 +15,10 @@
 
 - *No changes*
 
+### red_mad_robot
+
+- :sparkle: [textvalue](https://github.com/RedMadRobot/textvalue) `1.0.0`
+
 ## [2024.05.05]
 
 ### AndroidX

@@ -12,6 +12,7 @@ ktx-resources = "1.3.1-0"
 ktx-viewbinding = "4.2.1-0"
 mapmemory = "2.1"
 pinkman = "1.3.2"
+textvalue = "1.0.0"
 
 [libraries]
 
@@ -40,6 +41,8 @@ pinkman = { module = "com.redmadrobot:pinkman", version.ref = "pinkman" }
 pinkman-coroutines = { module = "com.redmadrobot:pinkman-coroutines", version.ref = "pinkman" }
 pinkman-rx3 = { module = "com.redmadrobot:pinkman-rx3", version.ref = "pinkman" }
 pinkman-ui = { module = "com.redmadrobot:pinkman-ui", version.ref = "pinkman" }
+textvalue = { module = "com.redmadrobot.textvalue:textvalue", version.ref = "textvalue" }
+textvalue-compose = { module = "com.redmadrobot.textvalue:textvalue-compose", version.ref = "textvalue" }
 
 [plugins]
 
