@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
+    ":disableRateLimiting",
     ":pathSemanticCommitType(versions-androidx/libs.versions.toml, androidx)",
     ":pathSemanticCommitType(versions-redmadrobot/libs.versions.toml, rmr)",
     ":pathSemanticCommitType(versions-stack/libs.versions.toml, stack)",
