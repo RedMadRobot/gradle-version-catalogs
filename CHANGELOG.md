@@ -11,6 +11,7 @@
 
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.7.0) `1.6.1` → `1.7.0`
 - :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.14) `1.5.13` → `1.5.14`
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.7.1) `1.7.0` → `1.7.1`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.0) `2.7.0` → `2.8.1` :warning: *(potentially breaking changes, KMP support)*
   - :x: `lifecycle-common-java8` removed, use `lifecycle-common` instead 
 - :arrow_up: [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.3.0) `3.2.1` → `3.3.0` (KMP support)
