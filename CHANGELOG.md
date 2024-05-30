@@ -7,6 +7,9 @@
 
 ## [Unreleased]
 
+> [!NOTE]
+> This is the last release of the catalogs before Kotlin is moved to 2.0.
+
 ### AndroidX
 
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.7.0) `1.6.1` → `1.7.0`
@@ -18,7 +21,7 @@
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.24) `1.9.23` → `1.9.24` :warning:
 
 ### red_mad_robot
 
