@@ -1,6 +1,6 @@
 [versions]
 
-kotlin = "1.9.24"
+kotlin = "2.0.0"
 kotlinx-datetime = "0.6.0"
 kotlinx-collections-immutable = "0.3.7"
 dokka = "1.9.20"
