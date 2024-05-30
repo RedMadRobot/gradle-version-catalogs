@@ -28,6 +28,7 @@
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.9.24-1.0.20) `1.9.23-1.0.20` → `1.9.24-1.0.20`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.9.0) `5.8.1` → `5.9.0`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.11) `1.13.9` → `1.13.11`
+- :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-920-2024-05-15) `9.1.0` → `9.2.0`
 
 ### red_mad_robot
 
