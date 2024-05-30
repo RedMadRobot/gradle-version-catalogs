@@ -10,6 +10,7 @@
 ### AndroidX
 
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.7.0) `1.6.1` → `1.7.0`
+- :arrow_up: [compose-compiler](https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.14) `1.5.13` → `1.5.14`
 
 ### Stack
 
