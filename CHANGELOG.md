@@ -24,6 +24,7 @@
 
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v1.9.24) `1.9.23` → `1.9.24` :warning:
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.1) `1.8.0` → `1.8.1`
+- :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.6.0) `0.5.0` → `0.6.0` :warning: *(breaking changes)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/1.9.24-1.0.20) `1.9.23-1.0.20` → `1.9.24-1.0.20`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.9.0) `5.8.1` → `5.9.0`
 
