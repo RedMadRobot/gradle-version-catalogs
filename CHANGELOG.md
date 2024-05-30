@@ -33,6 +33,7 @@
   - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v22-0-1) `22.0.0` → `22.0.1`
   - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19-0-1) `19.0.0` → `19.0.1`
   - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v3-0-1) `3.0.0` → `3.0.1`
+- :arrow_up: [gms-googleServices](https://developers.google.com/android/guides/releases#may_29_2024) `4.4.1` → `4.4.2`
 
 ### red_mad_robot
 
