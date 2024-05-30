@@ -9,7 +9,7 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.7.0) `1.6.1` → `1.7.0`
 
 ### Stack
 
