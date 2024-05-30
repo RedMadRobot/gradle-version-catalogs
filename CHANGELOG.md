@@ -28,6 +28,7 @@
 ### Stack
 
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.9.1) `5.9.0` → `5.9.1`
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.0.0) `1.9.24` → `2.0.0` :warning: *(breaking changes)*
 
 ## [2024.06.03]
 
