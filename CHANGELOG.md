@@ -29,6 +29,10 @@
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v5.9.0) `5.8.1` → `5.9.0`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.11) `1.13.9` → `1.13.11`
 - :arrow_up: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-920-2024-05-15) `9.1.0` → `9.2.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v33-1-0) `33.0.0` → `33.1.0`
+  - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v22-0-1) `22.0.0` → `22.0.1`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19-0-1) `19.0.0` → `19.0.1`
+  - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v3-0-1) `3.0.0` → `3.0.1`
 
 ### red_mad_robot
 
