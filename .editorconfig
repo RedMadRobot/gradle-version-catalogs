@@ -13,3 +13,13 @@ indent_size = 2
 
 [*.json]
 indent_size = 2
+
+[{*.yaml,*.yml}]
+indent_size = 2
+ij_yaml_keep_indents_on_empty_lines = unset
+ij_yaml_keep_line_breaks = true
+ij_yaml_spaces_within_brackets = false
+
+[{*.bash,*.sh,*.zsh}]
+indent_size = 2
+tab_width = 2
