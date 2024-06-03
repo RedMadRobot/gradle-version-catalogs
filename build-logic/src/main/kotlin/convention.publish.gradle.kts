@@ -1,33 +1,33 @@
-import com.redmadrobot.build.dsl.*
+import com.redmadrobot.build.dsl.contributor
+import com.redmadrobot.build.dsl.developer
+import com.redmadrobot.build.dsl.mit
+import com.redmadrobot.build.dsl.setGitHubProject
+import com.vanniktech.maven.publish.SonatypeHost
 
 plugins {
-    id("com.redmadrobot.publish-config")
-    id("com.redmadrobot.publish")
+    id("com.vanniktech.maven.publish")
+    signing
 }
 
-redmadrobot {
-    publishing {
-        signArtifacts.set(true)
+mavenPublishing {
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
+    signAllPublications()
 
-        pom {
-            setGitHubProject("RedMadRobot/gradle-version-catalogs")
+    coordinates(artifactId = project.name)
 
-            licenses {
-                mit()
-            }
+    pom {
+        name = project.name
+        description = project.description
 
-            developers {
-                developer(id = "osipxd", name = "Osip Fatkullin", email = "o.fatkullin@redmadrobot.com")
-            }
-            contributors {
-                contributor(name = "Roman Ivanov", email = "r.ivanov@redmadrobot.com")
-            }
+        setGitHubProject("RedMadRobot/gradle-version-catalogs")
+        licenses {
+            mit()
         }
-    }
-}
-
-publishing {
-    repositories {
-        if (credentialsExist("ossrh")) ossrh()
+        developers {
+            developer(id = "osipxd", name = "Osip Fatkullin", email = "o.fatkullin@redmadrobot.com")
+        }
+        contributors {
+            contributor(name = "Roman Ivanov", email = "r.ivanov@redmadrobot.com")
+        }
     }
 }

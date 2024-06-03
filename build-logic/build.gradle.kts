@@ -4,6 +4,7 @@ plugins {
 
 dependencies {
     implementation(rmr.infrastructure.publish)
+    implementation(stack.mavenPublishPlugin)
     implementation(rmr.versionCatalogExtensions)
 }
 
