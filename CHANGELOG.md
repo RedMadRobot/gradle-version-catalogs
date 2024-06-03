@@ -7,6 +7,16 @@
 
 ## [Unreleased]
 
+### AndroidX
+
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2024.06.03]
+
 > [!NOTE]
 > This is the last release of the catalogs before Kotlin is moved to 2.0.
 
@@ -221,7 +231,8 @@ Skipped versions:
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.05.05...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.06.03...main
+[2024.06.03]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.05.05...2024.06.03
 [2024.05.05]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.04.10...2024.05.05
 [2024.04.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.03.22...2024.04.10
 [2024.03.22]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.03.04...2024.03.22
