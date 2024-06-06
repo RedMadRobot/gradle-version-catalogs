@@ -2,15 +2,15 @@
 
 set -euo pipefail
 
-# Script could be run from any directory.
+# The script could be run from any directory.
 cd "$(dirname "$0")"
 
 # Configure the script
 properties="gradle.properties"
 changelog="CHANGELOG.md"
 readme="README.md"
-repository_url="https://github.com/RedMadRobot/gradle-version-catalogs"
 files_to_update_version=("$properties" "$readme")
+github_repository_url="https://github.com/RedMadRobot/gradle-version-catalogs"
 
 #region Utils
 function property {
@@ -27,38 +27,41 @@ function replace() {
 }
 
 function diff_link() {
-  echo -n "$repository_url/compare/${1}...${2}"
+  echo -n "$github_repository_url/compare/${1}...${2}"
 }
 #endregion
 
 # 0. Fetch remote changes
-echo "Updating local repository..."
-git fetch -p origin
-git switch main
-git pull --rebase origin
-echo "Repository updated."
+echo "️⏳ Updating local repository..."
+git fetch --quiet -p origin
+git switch --quiet main
+git pull --quiet --rebase origin
+echo "✅ Repository updated."
 echo
 
 # 1. Calculate version values for later
 last_version=$(property "version")
 version=$(date "+%Y.%m.%d")
-echo "## Update $last_version -> $version"
-echo
-
 if [[ "$last_version" == "$version" ]]; then
-  echo "UP-TO-DATE."
+  echo "🤔 Version $version is already set."
   exit 0
 fi
+echo "🚀 Update $last_version -> $version"
+echo
 
 # 2. Update version everywhere
 for file in "${files_to_update_version[@]}" ; do
   replace "$last_version" "$version" "$file"
-  echo "* Updated version in $file"
+  echo "✅ Updated version in $file"
 done
 
 # 3. Update header in CHANGELOG.md
 header_replacement=\
 "## [Unreleased]
+
+### red_mad_robot
+
+- *No changes*
 
 ### AndroidX
 
@@ -70,26 +73,29 @@ header_replacement=\
 
 ## [$version]"
 replace "^## \[Unreleased\].*" "$header_replacement" "$changelog"
-echo "* Updated CHANGELOG.md header"
+echo "✅ Updated CHANGELOG.md header"
 
 # 4. Add link to version diff
 unreleased_diff_link="[unreleased]: $(diff_link "$version" "main")"
 version_diff_link="[$version]: $(diff_link "$last_version" "$version")"
 replace "^\[unreleased\]:.*" "$unreleased_diff_link\n$version_diff_link" "$changelog"
-echo "* Added a diff link to CHANGELOG.md"
+echo "✅ Added a diff link to CHANGELOG.md"
 
 # 5. Ask if the changes should be pushed to remote branch
 echo
-echo "Do you want to commit changes and create release tag?"
-read -p "Enter 'yes' to continue: " -r input
+echo "Do you want to commit the changes and create a release tag?"
+echo "The release tag push will trigger a release workflow on CI."
+read -p " Enter 'yes' to continue: " -r input
 if [[ "$input" != "yes" ]]; then
-  echo "DONE."
+  echo "👌 DONE."
   exit 0
 fi
 
 # 6. Push changes and trigger release on CI
+echo
+echo "⏳ Pushing the changes to the remote repository..."
 git add "$readme" "$changelog" "$properties"
-git commit -m "version: $version"
+git commit --quiet --message "version: $version"
 git tag "$version"
-git push origin HEAD "$version"
-echo "DONE."
+git push --quiet origin HEAD "$version"
+echo "🎉 DONE."
