@@ -13,7 +13,7 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.0) `1.7.1` → `1.8.0`
 
 ### Stack
 
