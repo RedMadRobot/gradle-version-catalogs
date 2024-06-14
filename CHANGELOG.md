@@ -13,6 +13,7 @@
 
 ### AndroidX
 
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.3.4) `1.3.3` → `1.3.4`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.05.00` → `2024.06.00`
   - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.8) `1.6.7` → `1.6.8` *(no changes)*
   - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.8) `1.6.7` → `1.6.8` *(no changes)*
