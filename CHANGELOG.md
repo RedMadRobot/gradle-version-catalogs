@@ -20,6 +20,7 @@
   - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.8) `1.6.7` → `1.6.8` *(no changes)*
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.8) `1.6.7` → `1.6.8` *(no changes)*
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.8) `1.6.7` → `1.6.8`
+  - :x: `compose-compiler` removed, use compose compiler gradle plugin instead. [Migration guide](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-compiler.html#migrating-a-jetpack-compose-project) might be helpful.
 - :arrow_up: [core-remote-views](https://developer.android.com/jetpack/androidx/releases/core#core_remote_views_version_11_2) `1.0.0` → `1.1.0`
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.0) `1.7.1` → `1.8.0`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.2) `2.8.1` → `2.8.2`
