@@ -48,11 +48,11 @@ ksp = "2.0.0-1.0.22"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
-firebase-analytics = "22.0.1"
-firebase-bom = "33.1.0"
+firebase-analytics = "22.0.2"
+firebase-bom = "33.1.1"
 firebase-config = "22.0.0"
-firebase-crashlytics = "19.0.1"
-firebase-crashlytics-gradle = "3.0.1"
+firebase-crashlytics = "19.0.2"
+firebase-crashlytics-gradle = "3.0.2"
 firebase-messaging = "24.0.0"
 gms-googleServices = "4.4.2"
 

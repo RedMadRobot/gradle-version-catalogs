@@ -47,6 +47,10 @@
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.0-1.0.22) `1.9.24-1.0.20` → `2.0.0-1.0.22` :warning: *(breaking changes)*
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.14.0) `1.13.0` → `1.14.0`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.3/release-notes/) `5.10.2` → `5.10.3`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v33-1-1) `33.1.0` → `33.1.1`
+  - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v22-0-2) `22.0.1` → `22.0.2`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19-0-2) `19.0.1` → `19.0.2`
+  - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v3-0-2) `3.0.1` → `3.0.2`
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.15.0) `0.14.0` → `0.15.0` :warning: *(breaking changes)*
 - :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-1002-2024-07-06) `9.2.0` → `10.0.2` :warning: *(breaking changes)*
 
