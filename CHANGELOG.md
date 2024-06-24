@@ -27,6 +27,7 @@
 - :arrow_up: [test-ext-junit](https://developer.android.com/jetpack/androidx/releases/test#ext.junit-1.2.1) `1.1.5` → `1.2.0`
 - :arrow_up: [test-ext-truth](https://developer.android.com/jetpack/androidx/releases/test#ext.truth-1.6.0) `1.5.0` → `1.6.0`
 - :arrow_up: [test-orchestrator](https://developer.android.com/jetpack/androidx/releases/test#orchestrator-1.5.0) `1.4.2` → `1.5.0`
+- :arrow_up: [test-services](https://developer.android.com/jetpack/androidx/releases/test#services-1.5.0) `1.4.2` → `1.5.0`
 
 ### Stack
 
