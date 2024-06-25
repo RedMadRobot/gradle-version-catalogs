@@ -43,6 +43,7 @@
   - :x: `kotlin-stdlib-common`, `kotlin-stdlib-jdk7` and `kotlin-stdlib-jdk8` removed, use `kotlin-stdlib` instead
   - :x: `kotlin-test-annotations-common` and `kotlin-test-common` removed, use `kotlin-test` instead
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.9.0-RC) `1.8.1` → `1.9.0-RC` :warning: *(breaking changes)*
+- :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.7.1) `1.6.3` → `1.7.1` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.0-1.0.22) `1.9.24-1.0.20` → `2.0.0-1.0.22` :warning: *(breaking changes)*
 
 
