@@ -29,6 +29,7 @@
 - :arrow_up: [test-ext-truth](https://developer.android.com/jetpack/androidx/releases/test#ext.truth-1.6.0) `1.5.0` → `1.6.0`
 - :arrow_up: [test-monitor](https://developer.android.com/jetpack/androidx/releases/test#monitor-1.7.1) `1.6.1` → `1.7.1`
 - :arrow_up: [test-orchestrator](https://developer.android.com/jetpack/androidx/releases/test#orchestrator-1.5.0) `1.4.2` → `1.5.0`
+- :arrow_up: [test-runner](https://developer.android.com/jetpack/androidx/releases/test#runner-1.6.1) `1.5.2` → `1.6.1`
 - :arrow_up: [test-services](https://developer.android.com/jetpack/androidx/releases/test#services-1.5.0) `1.4.2` → `1.5.0`
 
 ### Stack
