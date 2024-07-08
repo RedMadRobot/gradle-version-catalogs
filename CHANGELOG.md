@@ -48,6 +48,7 @@
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.14.0) `1.13.0` → `1.14.0`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.3/release-notes/) `5.10.2` → `5.10.3`
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.15.0) `0.14.0` → `0.15.0` :warning: *(breaking changes)*
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-1002-2024-07-06) `9.2.0` → `10.0.2` :warning: *(breaking changes)*
 
 ## [2024.06.03]
 
