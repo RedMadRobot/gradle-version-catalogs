@@ -47,7 +47,7 @@
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.0-1.0.22) `1.9.24-1.0.20` → `2.0.0-1.0.22` :warning: *(breaking changes)*
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.14.0) `1.13.0` → `1.14.0`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.3/release-notes/) `5.10.2` → `5.10.3`
-
+- :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.15.0) `0.14.0` → `0.15.0` :warning: *(breaking changes)*
 
 ## [2024.06.03]
 
