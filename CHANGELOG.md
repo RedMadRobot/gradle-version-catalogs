@@ -45,6 +45,7 @@
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.9.0-RC) `1.8.1` → `1.9.0-RC` :warning: *(breaking changes)*
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.7.1) `1.6.3` → `1.7.1` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.0-1.0.22) `1.9.24-1.0.20` → `2.0.0-1.0.22` :warning: *(breaking changes)*
+- :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.14.0) `1.13.0` → `1.14.0`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.10.3/release-notes/) `5.10.2` → `5.10.3`
 
 
