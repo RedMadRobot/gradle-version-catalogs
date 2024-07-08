@@ -23,7 +23,7 @@
   - :x: `compose-compiler` removed, use compose compiler gradle plugin instead. [Migration guide](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-compiler.html#migrating-a-jetpack-compose-project) might be helpful.
 - :arrow_up: [core-remote-views](https://developer.android.com/jetpack/androidx/releases/core#core_remote_views_version_11_2) `1.0.0` → `1.1.0`
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.1) `1.7.1` → `1.8.1`
-- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.2) `2.8.1` → `2.8.2`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.3) `2.8.1` → `2.8.3`
 - :arrow_up: [test-core](https://developer.android.com/jetpack/androidx/releases/test#core-1.6.1) `1.5.0` → `1.6.1`
 - :arrow_up: [test-espresso](https://developer.android.com/jetpack/androidx/releases/test#espresso-3.6.1) `3.5.1` → `3.6.1`
   - :sparkle: [test-espresso-device](https://developer.android.com/jetpack/androidx/releases/test#espresso-device-1.0.0) `1.0.1`
