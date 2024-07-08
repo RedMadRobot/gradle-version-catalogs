@@ -40,6 +40,7 @@ swiperefreshlayout = "1.1.0"
 test-annotation = "1.0.1"
 test-core = "1.6.1"
 test-espresso = "3.6.1"
+test-espresso-device = "1.0.1"
 test-ext-junit = "1.2.1"
 test-ext-truth = "1.6.0"
 test-monitor = "1.7.1"
@@ -202,6 +203,7 @@ test-core = { module = "androidx.test:core-ktx", version.ref = "test-core" }
 test-espresso-accessibility = { module = "androidx.test.espresso:espresso-accessibility", version.ref = "test-espresso" }
 test-espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "test-espresso" }
 test-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "test-espresso" }
+test-espresso-device = { module = "androidx.test.espresso:espresso-device", version.ref = "test-espresso-device" }
 test-espresso-idlingResource = { module = "androidx.test.espresso:espresso-idling-resource", version.ref = "test-espresso" }
 test-espresso-idling-concurrent = { module = "androidx.test.espresso.idling:idling-concurrent", version.ref = "test-espresso" }
 test-espresso-idling-net = { module = "androidx.test.espresso.idling:idling-net", version.ref = "test-espresso" }
