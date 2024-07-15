@@ -28,6 +28,7 @@
   - :sparkle: plugin: [kotlin-compose](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.compose/2.0.0)
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.0-1.0.24) `2.0.0-1.0.22` → `2.0.0-1.0.24`
 - :arrow_up: [coil](https://github.com/coil-kt/coil/blob/main/CHANGELOG.md#270---july-17-2024) `2.6.0` → `2.7.0`
+- :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.12) `1.13.11` → `1.13.12`
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.16.2) `0.15.0` → `0.16.2`
 - :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-1003-2024-07-16) `10.0.2` → `10.0.3`
 
