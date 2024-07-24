@@ -19,6 +19,7 @@
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.2) `1.8.1` → `1.8.2`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.4) `2.8.3` → `2.8.4`
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.4.0) `1.3.1` → `1.4.0` :warning:
+- :arrow_up: [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.3.1) `3.3.0` → `3.3.1`
 
 ### Stack
 
