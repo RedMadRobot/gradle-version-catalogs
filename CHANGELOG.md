@@ -15,6 +15,7 @@
 ### AndroidX
 
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.9.1) `1.9.0` → `1.9.1`
+- :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.8.1) `1.8.0` → `1.8.1`
 
 ### Stack
 
