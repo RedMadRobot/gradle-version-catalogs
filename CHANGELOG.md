@@ -14,7 +14,7 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.9.1) `1.9.0` → `1.9.1`
 
 ### Stack
 
