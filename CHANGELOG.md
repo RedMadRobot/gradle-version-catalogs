@@ -26,6 +26,7 @@
 - **kotlin** `2.0.0`:
   - :sparkle: [kotlin-composeCompiler-gradlePlugin](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.compose/2.0.0)
   - :sparkle: plugin: [kotlin-compose](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.compose/2.0.0)
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.0-1.0.24) `2.0.0-1.0.22` → `2.0.0-1.0.24`
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.16.2) `0.15.0` → `0.16.2`
 
 ## [2024.07.08]
