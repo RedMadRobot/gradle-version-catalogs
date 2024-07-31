@@ -23,7 +23,9 @@
 
 ### Stack
 
-- *No changes*
+- **kotlin** `2.0.0`:
+  - :sparkle: [kotlin-composeCompiler-gradlePlugin](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.compose/2.0.0)
+  - :sparkle: plugin: [kotlin-compose](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.compose/2.0.0)
 
 ## [2024.07.08]
 
