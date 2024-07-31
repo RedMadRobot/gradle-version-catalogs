@@ -9,6 +9,7 @@
 
 ### red_mad_robot
 
+- :sparkle: [konfeature](https://github.com/RedMadRobot/Konfeature) `0.1.0`
 - :arrow_up: [infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases/tag/v0.19) `0.18.1` → `0.19.1` :warning: *(a lot of breaking changes)*
 
 ### AndroidX

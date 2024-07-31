@@ -4,6 +4,7 @@ flipper = "2.0.1"
 gradle-infrastructure = "0.19.1"
 inputmask = "7.2.6"
 itemsadapter = "1.1"
+konfeature = "0.1.0"
 ktx-core = "1.6.0-2"
 ktx-fragment = "1.3.6-0"
 ktx-fragment-args = "1.3.6-1"
@@ -25,6 +26,7 @@ infrastructure-publish = { module = "com.redmadrobot.build:infrastructure-publis
 inputmask = { module = "com.redmadrobot:input-mask-android", version.ref = "inputmask" }
 itemsadapter = { module = "com.redmadrobot.itemsadapter:itemsadapter", version.ref = "itemsadapter" }
 itemsadapter-viewbinding = { module = "com.redmadrobot.itemsadapter:itemsadapter-viewbinding", version.ref = "itemsadapter" }
+konfeature = { module = "com.redmadrobot.konfeature:konfeature", version.ref = "konfeature" }
 ktx-core = { module = "com.redmadrobot.extensions:core-ktx", version.ref = "ktx-core" }
 ktx-fragment = { module = "com.redmadrobot.extensions:fragment-ktx", version.ref = "ktx-fragment" }
 ktx-fragment-args = { module = "com.redmadrobot.extensions:fragment-args-ktx", version.ref = "ktx-fragment-args" }
