@@ -1,7 +1,7 @@
 [versions]
 
 flipper = "2.0.1"
-gradle-infrastructure = "0.18.1"
+gradle-infrastructure = "0.19.1"
 inputmask = "7.2.6"
 itemsadapter = "1.1"
 ktx-core = "1.6.0-2"
