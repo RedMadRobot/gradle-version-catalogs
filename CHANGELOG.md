@@ -37,7 +37,7 @@
 
 ### Stack
 
-- :sparkle: [android-gradlePlugin](https://developer.android.com/build/releases/gradle-plugin) `8.5.1`
+- :sparkle: [Android Gradle Plugin](https://developer.android.com/build/releases/gradle-plugin) `8.5.1`
   - :sparkle: `android-tools-build-gradle`
   - :sparkle: `android-tools-build-gradle-api`
   - :sparkle: plugin: `android-application`
