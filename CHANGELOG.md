@@ -23,6 +23,13 @@
 
 ### Stack
 
+- :sparkle: [android-gradlePlugin](https://developer.android.com/build/releases/gradle-plugin) `8.5.1`
+  - :sparkle: `android-tools-build-gradle`
+  - :sparkle: `android-tools-build-gradle-api`
+  - :sparkle: plugin: `android-application`
+  - :sparkle: plugin: `android-dynamicFeature`
+  - :sparkle: plugin: `android-kotlinMultiplatformLibrary`
+  - :sparkle: plugin: `android-library`
 - **kotlin** `2.0.0`:
   - :sparkle: [kotlin-composeCompiler-gradlePlugin](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.compose/2.0.0)
   - :sparkle: plugin: [kotlin-compose](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.compose/2.0.0)

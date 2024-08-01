@@ -1,5 +1,7 @@
 [versions]
 
+android-gradlePlugin = "8.5.1"
+
 kotlin = "2.0.0"
 kotlinx-datetime = "0.6.0"
 kotlinx-collections-immutable = "0.3.7"
@@ -66,6 +68,9 @@ owasp-dependencycheck = "10.0.3"
 versionsPlugin = "0.51.0"
 
 [libraries]
+
+android-tools-build-gradle = { module = "com.android.tools.build:gradle", version.ref = "android-gradlePlugin" }
+android-tools-build-gradle-api = { module = "com.android.tools.build:gradle-api", version.ref = "android-gradlePlugin" }
 
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "kotlin" }
 kotlin-composeCompiler-gradlePlugin = { module = "org.jetbrains.kotlin:compose-compiler-gradle-plugin", version.ref = "kotlin" }
@@ -269,6 +274,11 @@ owasp-dependencyCheck-gradle = { module = "org.owasp:dependency-check-gradle", v
 gradleVersionsPlugin = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "versionsPlugin"  }
 
 [plugins]
+
+android-application = { id = "com.android.application", version.ref = "android-gradlePlugin" }
+android-dynamicFeature = { id = "com.android.dynamic-feature", version.ref = "android-gradlePlugin" }
+android-kotlinMultiplatformLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "android-gradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "android-gradlePlugin" }
 
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
