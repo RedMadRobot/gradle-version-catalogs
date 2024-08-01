@@ -41,6 +41,7 @@
       "matchDepTypes": ["plugin"],
       "matchPackagePrefixes": [
         "androidx.",
+        "com.android.",
         "com.google."
       ],
       "registryUrls": ["https://dl.google.com/android/maven2"]
