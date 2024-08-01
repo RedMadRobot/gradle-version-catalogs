@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Prepares the catalogs for release.
+#
+# Usage: ./release.sh
+#
+# Original release script: https://github.com/RedMadRobot/android-library-template/blob/main/release.sh
 
 set -euo pipefail
 
@@ -33,9 +39,7 @@ function diff_link() {
 
 # 0. Fetch remote changes
 echo "️⏳ Updating local repository..."
-git fetch --quiet -p origin
-git switch --quiet main
-git pull --quiet --rebase origin
+git pull --quiet --rebase origin main
 echo "✅ Repository updated."
 echo
 
@@ -46,7 +50,7 @@ if [[ "$last_version" == "$version" ]]; then
   echo "🤔 Version $version is already set."
   exit 0
 fi
-echo "🚀 Update $last_version -> $version"
+echo "🚀 Update $last_version → $version"
 echo
 
 # 2. Update version everywhere
@@ -99,3 +103,4 @@ git commit --quiet --message "version: $version"
 git tag "$version"
 git push --quiet origin HEAD "$version"
 echo "🎉 DONE."
+echo "Create a Pull Request: $(diff_link "main" "$version")"
