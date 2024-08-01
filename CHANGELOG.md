@@ -9,6 +9,20 @@
 
 ### red_mad_robot
 
+- *No changes*
+
+### AndroidX
+
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2024.08.01]
+
+### red_mad_robot
+
 - :sparkle: [konfeature](https://github.com/RedMadRobot/Konfeature) `0.1.0`
 - :arrow_up: [infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases/tag/v0.19) `0.18.1` → `0.19.1` :warning: *(a lot of breaking changes)*
 
@@ -306,7 +320,8 @@ Skipped versions:
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.07.08...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.08.01...main
+[2024.08.01]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.07.08...2024.08.01
 [2024.07.08]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.06.03...2024.07.08
 [2024.06.03]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.05.05...2024.06.03
 [2024.05.05]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.04.10...2024.05.05
