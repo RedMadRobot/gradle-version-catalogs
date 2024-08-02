@@ -17,7 +17,7 @@
 
 ### Stack
 
-- *No changes*
+- :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.16.3) `0.16.2` → `0.16.3`
 
 ## [2024.08.01]
 
