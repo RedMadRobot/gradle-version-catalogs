@@ -49,7 +49,7 @@ test-runner = "1.6.1"
 test-rules = "1.6.1"
 test-services = "1.5.0"
 webkit = "1.11.0"
-work = "2.9.0"
+work = "2.9.1"
 
 [libraries]
 
