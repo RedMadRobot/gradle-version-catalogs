@@ -13,7 +13,7 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.8.2) `1.8.1` → `1.8.2`
 
 ### Stack
 
