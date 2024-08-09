@@ -6,7 +6,6 @@
     ":pathSemanticCommitType(versions-androidx/libs.versions.toml, androidx)",
     ":pathSemanticCommitType(versions-redmadrobot/libs.versions.toml, rmr)",
     ":pathSemanticCommitType(versions-stack/libs.versions.toml, stack)",
-    ":assignee(osipxd)",
     ":reviewer(team:android-infrastructure)"
   ],
   "packageRules": [
