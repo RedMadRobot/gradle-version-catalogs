@@ -27,6 +27,7 @@
   - :arrow_up: `com.android.tools.build:gradle-api`
   - :arrow_up: `com.android.tools.build:gradle`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.52) `2.51.1` → `2.51.2` :warning: *(Dagger KSP now requires at least KSP 1.9.24-1.0.20)*
+- :arrow_up: [junit](https://junit.org/junit5/docs/5.11.0/release-notes/) `5.10.3` → `5.11.0`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.9.0-RC.2) `1.9.0-RC` → `1.9.0-RC.2`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.20-1.0.24) `2.0.0-1.0.24` → `2.0.20-1.0.24`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.15.0) `1.14.0` → `1.15.0`
