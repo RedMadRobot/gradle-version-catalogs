@@ -31,6 +31,7 @@
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.52) `2.51.1` → `2.51.2` :warning: *(Dagger KSP now requires at least KSP 1.9.24-1.0.20)*
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.11.0/release-notes/) `5.10.3` → `5.11.0`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.9.0-RC.2) `1.9.0-RC` → `1.9.0-RC.2`
+- :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.6.1) `0.6.0` → `0.6.1`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.20-1.0.24) `2.0.0-1.0.24` → `2.0.20-1.0.24`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.15.0) `1.14.0` → `1.15.0`
 - :arrow_up: [rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.9) `3.1.8` → `3.1.9`
