@@ -18,6 +18,7 @@
 ### Stack
 
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.52) `2.51.1` → `2.51.2` :warning: *(Dagger KSP now requires at least KSP 1.9.24-1.0.20)*
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.20-1.0.24) `2.0.0-1.0.24` → `2.0.20-1.0.24`
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.16.3) `0.16.2` → `0.16.3`
 
 ## [2024.08.01]
