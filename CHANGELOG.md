@@ -30,6 +30,7 @@
   - :arrow_up: `com.android.tools.build:gradle-api`
   - :arrow_up: `com.android.tools.build:gradle`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.52) `2.51.1` → `2.51.2` :warning: *(Dagger KSP now requires at least KSP 1.9.24-1.0.20)*
+- :arrow_up: [detekt-rules-compose](https://github.com/appKODE/detekt-rules-compose/releases/tag/v1.4.0) `1.3.0` → `1.4.0` :warning: *(breaking changes)*
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.11.0/release-notes/) `5.10.3` → `5.11.0`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.9.0-RC.2) `1.9.0-RC` → `1.9.0-RC.2`
 - :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.6.1) `0.6.0` → `0.6.1`
