@@ -15,6 +15,7 @@
 
 - :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.8.2) `1.8.1` → `1.8.2`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.06.00` → `2024.08.00`
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.4.1) `1.4.0` → `1.4.1`
 - :arrow_up: [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.3.2) `3.3.1` → `3.3.2`
 - :arrow_up: [test-monitor](https://developer.android.com/jetpack/androidx/releases/test#monitor-1.7.2) `1.7.1` → `1.7.2`
 - :arrow_up: [test-runner](https://developer.android.com/jetpack/androidx/releases/test#runner-1.6.2) `1.6.1` → `1.6.2`
