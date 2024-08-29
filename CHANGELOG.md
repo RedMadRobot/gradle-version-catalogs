@@ -19,6 +19,13 @@
 
 ### Stack
 
+- :arrow_up: [Android Gradle Plugin](https://developer.android.com/build/releases/gradle-plugin) `8.6.0`
+  - :arrow_up: `com.android.library`
+  - :arrow_up: `com.android.kotlin.multiplatform.library`
+  - :arrow_up: `com.android.dynamic-feature`
+  - :arrow_up: `com.android.application`
+  - :arrow_up: `com.android.tools.build:gradle-api`
+  - :arrow_up: `com.android.tools.build:gradle`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.52) `2.51.1` → `2.51.2` :warning: *(Dagger KSP now requires at least KSP 1.9.24-1.0.20)*
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.0.20-1.0.24) `2.0.0-1.0.24` → `2.0.20-1.0.24`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.15.0) `1.14.0` → `1.15.0`
