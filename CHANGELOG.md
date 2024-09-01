@@ -42,6 +42,7 @@
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.15.0) `1.14.0` → `1.15.0`
 - :arrow_up: [rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.9) `3.1.8` → `3.1.9`
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.16.3) `0.16.2` → `0.16.3`
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-1004-2024-09-01) `10.0.3` → `10.0.4`
 
 ## [2024.08.01]
 
