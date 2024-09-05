@@ -17,6 +17,8 @@
 
 ### Stack
 
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.36.0) `0.34.0` → `0.36.0`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.1.0-1.0.29) `2.0.20-1.0.24` → `2.1.0-1.0.29`
 - :x: `org.jetbrains.dokka-android` removed, use `org.jetbrains.dokka`, because they were merged in [version 0.10.0](https://github.com/Kotlin/dokka/releases/tag/0.10.0)
 
 ## [2024.09.04]
