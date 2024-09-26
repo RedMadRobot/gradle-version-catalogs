@@ -20,6 +20,7 @@
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.36.0) `0.34.0` → `0.36.0`
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.23.7) `1.23.6` → `1.23.7`
 - :arrow_up: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/releases/tag/v0.3.8) `0.3.7` → `0.3.8`
+- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.9.0) `1.9.0-RC.2` → `1.9.0`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.7.3) `1.7.2` → `1.7.3`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.1.0-1.0.29) `2.0.20-1.0.24` → `2.1.0-1.0.29`
 - :x: `org.jetbrains.dokka-android` removed, use `org.jetbrains.dokka`, because they were merged in [version 0.10.0](https://github.com/Kotlin/dokka/releases/tag/0.10.0)
