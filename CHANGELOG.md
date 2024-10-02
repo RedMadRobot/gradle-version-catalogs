@@ -14,6 +14,7 @@
 ### AndroidX
 
 - :arrow_up: [profileinstaller](https://developer.android.com/topic/performance/baselineprofiles/overview#get-started) `1.3.1` -> `1.4.1`
+- :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.12.1) `1.11.0` → `1.12.1`
 
 ### Stack
 
