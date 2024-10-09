@@ -38,7 +38,7 @@ junit = "5.11.0"
 junit-platform = "1.11.0"
 junit4 = "4.13.2"
 kotest = "5.9.1"
-mockk = "1.13.12"
+mockk = "1.13.13"
 turbine = "1.1.0"
 
 # Debug Tools
