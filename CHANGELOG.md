@@ -22,6 +22,7 @@
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.36.0) `0.34.0` → `0.36.0`
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.23.7) `1.23.6` → `1.23.7`
+- :arrow_up: [junit](https://junit.org/junit5/docs/5.11.3/release-notes/) `5.11.0` → `5.11.3`
 - :arrow_up: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/releases/tag/v0.3.8) `0.3.7` → `0.3.8`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.9.0) `1.9.0-RC.2` → `1.9.0`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.7.3) `1.7.2` → `1.7.3`
