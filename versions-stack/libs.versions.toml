@@ -290,7 +290,6 @@ kotlin-scripting = { id = "org.jetbrains.kotlin.plugin.scripting", version.ref =
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 
 dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
-dokka-android = { id = "org.jetbrains.dokka-android", version.ref = "dokka" }
 
 dagger-hilt-android = { id = "com.google.dagger.hilt.android" , version.ref = "dagger" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
