@@ -26,9 +26,10 @@ abstract class ValidateVersionCatalogTask : DefaultTask() {
     fun validate() {
         val catalog = dependenciesModel.get()
 
-        // Check libraries in catalog are resolvable
+        // Check libraries and plugins in catalog are resolvable
         val configuration = createConfiguration()
         configuration.addLibraries(catalog)
+        configuration.addPlugins(catalog)
         logger.debug("Resolved dependencies:")
         configuration.resolvedConfiguration
             .firstLevelModuleDependencies
@@ -58,6 +59,15 @@ abstract class ValidateVersionCatalogTask : DefaultTask() {
             .forEach { dependency ->
                 val dependencyNotation = "${dependency.group}:${dependency.name}:${dependency.version}"
                 project.dependencies.add(name, dependencyNotation)
+            }
+    }
+
+    private fun Configuration.addPlugins(catalog: DefaultVersionCatalog) {
+        catalog.plugins
+            .forEach { plugin ->
+                // Used plugin marker https://docs.gradle.org/current/userguide/plugins.html#sec:plugin_markers
+                val pluginNotation = "${plugin.id}:${plugin.id}.gradle.plugin:${plugin.version}"
+                project.dependencies.add(name, pluginNotation)
             }
     }
 

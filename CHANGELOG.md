@@ -17,7 +17,7 @@
 
 ### Stack
 
-- *No changes*
+- :x: `org.jetbrains.dokka-android` removed, use `org.jetbrains.dokka`, because they were merged in [version 0.10.0](https://github.com/Kotlin/dokka/releases/tag/0.10.0)
 
 ## [2024.09.04]
 
