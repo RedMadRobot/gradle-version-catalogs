@@ -14,7 +14,8 @@
 ### AndroidX
 
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.9.3) `1.9.1` → `1.9.3`
-- :arrow_up: [constraintlayout-compose](https://github.com/androidx/constraintlayout/wiki/What's-New-in-1.1-(Compose)) `1.0.1` → `1.1.0`
+- :arrow_up: [constraintlayout-compose](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.0) `1.0.1` → `1.1.0` :warning:
+- :arrow_up: [constraintlayout-core](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.0) `1.0.4`-> `1.1.0` :warning:
 - :arrow_up: [profileinstaller](https://developer.android.com/topic/performance/baselineprofiles/overview#get-started) `1.3.1` -> `1.4.1`
 - :arrow_up: [test-orchestrator](https://developer.android.com/jetpack/androidx/releases/test#orchestrator-1.5.1) `1.5.0` → `1.5.1`
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.12.1) `1.11.0` → `1.12.1`
