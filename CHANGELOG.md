@@ -19,6 +19,7 @@
 - :arrow_up: [profileinstaller](https://developer.android.com/topic/performance/baselineprofiles/overview#get-started) `1.3.1` -> `1.4.1`
 - :arrow_up: [test-orchestrator](https://developer.android.com/jetpack/androidx/releases/test#orchestrator-1.5.1) `1.5.0` → `1.5.1`
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.12.1) `1.11.0` → `1.12.1`
+- :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.10.0) `2.9.1` → `2.10.0`
 
 ### Stack
 
