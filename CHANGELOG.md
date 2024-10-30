@@ -14,6 +14,7 @@
 ### AndroidX
 
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.9.3) `1.9.1` → `1.9.3`
+- :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.9.1) `1.8.2` → `1.9.1`
 - :arrow_up: [constraintlayout-compose](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.0) `1.0.1` → `1.1.0` :warning:
 - :arrow_up: [constraintlayout-core](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.0) `1.0.4`-> `1.1.0` :warning:
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.5) `1.8.2` → `1.8.5`
