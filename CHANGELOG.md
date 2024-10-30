@@ -15,8 +15,9 @@
 
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.9.3) `1.9.1` → `1.9.3`
 - :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.9.1) `1.8.2` → `1.9.1`
-- :arrow_up: [constraintlayout-compose](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.0) `1.0.1` → `1.1.0` :warning:
-- :arrow_up: [constraintlayout-core](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.0) `1.0.4`-> `1.1.0` :warning:
+- :arrow_up: [constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout#constraintlayout-2.2.0) `2.1.4` → `2.2.0`
+  - :arrow_up: [constraintlayout-compose](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.0) `1.0.1` → `1.1.0` :warning:
+  - :arrow_up: [constraintlayout-core](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.0) `1.0.4`-> `1.1.0` :warning:
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.5) `1.8.2` → `1.8.5`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.7) `2.8.4` → `2.8.7`
 - :arrow_up: [profileinstaller](https://developer.android.com/topic/performance/baselineprofiles/overview#get-started) `1.3.1` -> `1.4.1`
