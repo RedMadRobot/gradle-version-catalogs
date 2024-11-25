@@ -21,6 +21,7 @@
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.15.0) `1.13.1` → `1.15.0` :warning:
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.5) `1.8.2` → `1.8.5`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.7) `2.8.4` → `2.8.7`
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.5.0) `1.4.1` → `1.5.0` :warning: (increase minSdk to 21, possible breaking changes)
 - :arrow_up: [profileinstaller](https://developer.android.com/topic/performance/baselineprofiles/overview#get-started) `1.3.1` -> `1.4.1`
 - :arrow_up: [test-orchestrator](https://developer.android.com/jetpack/androidx/releases/test#orchestrator-1.5.1) `1.5.0` → `1.5.1`
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.12.1) `1.11.0` → `1.12.1`
