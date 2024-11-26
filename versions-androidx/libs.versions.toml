@@ -48,7 +48,7 @@ test-orchestrator = "1.5.0"
 test-runner = "1.6.2"
 test-rules = "1.6.1"
 test-services = "1.5.0"
-webkit = "1.11.0"
+webkit = "1.12.1"
 work = "2.9.1"
 
 [libraries]
