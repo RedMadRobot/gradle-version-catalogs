@@ -38,6 +38,7 @@
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.7.3) `1.7.2` → `1.7.3`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.1.0-1.0.29) `2.0.20-1.0.24` → `2.1.0-1.0.29`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.13) `1.13.12` → `1.13.13`
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-1111-2024-12-04) `10.0.4` → `11.1.1` :warning: (breaking change)
 - :arrow_up: [reactivex-rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.10) `3.1.9` → `3.1.10`
 - :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.2.0) `1.1.0` → `1.2.0`
 - :x: `org.jetbrains.dokka-android` removed, use `org.jetbrains.dokka`, because they were merged in [version 0.10.0](https://github.com/Kotlin/dokka/releases/tag/0.10.0)
