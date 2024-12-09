@@ -30,6 +30,7 @@
 ### Stack
 
 - :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.36.0) `0.34.0` → `0.36.0`
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.53.1) `2.52` → `2.53.1` :warning: *(Potentially breaking changes)*
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.23.7) `1.23.6` → `1.23.7`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v33-7-0) `33.2.0` → `33.7.0`
   - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v22-1-2) `22.1.0` → `22.1.2`
@@ -37,7 +38,7 @@
   - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19-3-0) `19.0.3` → `19.3.0`
   - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v24-1-0) `24.0.1` → `24.1.0`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.11.3/release-notes/) `5.11.0` → `5.11.3`
-- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.1.0) `2.0.20` → `2.1.0` :warning: (massive update, possible breaking changes)
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.1.0) `2.0.20` → `2.1.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/releases/tag/v0.3.8) `0.3.7` → `0.3.8`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.9.0) `1.9.0-RC.2` → `1.9.0`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.7.3) `1.7.2` → `1.7.3`
