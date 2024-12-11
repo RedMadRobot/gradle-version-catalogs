@@ -23,6 +23,7 @@
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.7) `2.8.4` → `2.8.7`
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.8.5) `2.7.7` → `2.8.5` :warning: *(Potentially breaking changes)*
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.5.0) `1.4.1` → `1.5.0` :warning: *(Potentially breaking changes)*
+- :arrow_up: [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.3.5) `3.3.2` → `3.3.5`
 - :arrow_up: [profileinstaller](https://developer.android.com/topic/performance/baselineprofiles/overview#get-started) `1.3.1` -> `1.4.1`
 - :arrow_up: [test-orchestrator](https://developer.android.com/jetpack/androidx/releases/test#orchestrator-1.5.1) `1.5.0` → `1.5.1`
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.12.1) `1.11.0` → `1.12.1`
