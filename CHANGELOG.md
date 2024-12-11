@@ -21,7 +21,8 @@
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.15.0) `1.13.1` → `1.15.0` :warning:
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.5) `1.8.2` → `1.8.5`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.7) `2.8.4` → `2.8.7`
-- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.5.0) `1.4.1` → `1.5.0` :warning: (increase minSdk to 21, possible breaking changes)
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.8.5) `2.7.7` → `2.8.5` :warning: *(Potentially breaking changes)*
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.5.0) `1.4.1` → `1.5.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [profileinstaller](https://developer.android.com/topic/performance/baselineprofiles/overview#get-started) `1.3.1` -> `1.4.1`
 - :arrow_up: [test-orchestrator](https://developer.android.com/jetpack/androidx/releases/test#orchestrator-1.5.1) `1.5.0` → `1.5.1`
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.12.1) `1.11.0` → `1.12.1`
@@ -45,7 +46,7 @@
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.1.0-1.0.29) `2.0.20-1.0.24` → `2.1.0-1.0.29`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.13) `1.13.12` → `1.13.13`
 - :arrow_up: [moshi](https://github.com/square/moshi/blob/master/CHANGELOG.md#version-1152) `1.15.1` → `1.15.2`
-- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-1111-2024-12-04) `10.0.4` → `11.1.1` :warning: (breaking change)
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-1111-2024-12-04) `10.0.4` → `11.1.1` :warning: *(Potentially breaking changes)*
 - :arrow_up: [reactivex-rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.10) `3.1.9` → `3.1.10`
 - :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.2.0) `1.1.0` → `1.2.0`
 - :x: `org.jetbrains.dokka-android` removed, use `org.jetbrains.dokka`, because they were merged in [version 0.10.0](https://github.com/Kotlin/dokka/releases/tag/0.10.0)
