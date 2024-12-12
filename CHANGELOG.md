@@ -13,6 +13,20 @@
 
 ### AndroidX
 
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2024.12.12]
+
+### red_mad_robot
+
+- *No changes*
+
+### AndroidX
+
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.9.3) `1.9.1` → `1.9.3`
 - :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.9.1) `1.8.2` → `1.9.1`
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.4.1) `1.3.4` → `1.4.1` :warning: *(Potentially breaking changes)*
@@ -402,7 +416,8 @@ Skipped versions:
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.09.04...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.12.12...main
+[2024.12.12]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.09.04...2024.12.12
 [2024.09.04]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.08.01...2024.09.04
 [2024.08.01]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.07.08...2024.08.01
 [2024.07.08]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.06.03...2024.07.08
