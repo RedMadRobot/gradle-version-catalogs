@@ -22,6 +22,7 @@
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.16.0) `1.15.0` → `1.16.0`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.17) `1.13.13` → `1.13.17`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.55) `2.53.1` → `2.55` :warning:
+- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.10.1) `1.9.0` → `1.10.1` :warning:
 
 ## Changelogs for previous years
 
