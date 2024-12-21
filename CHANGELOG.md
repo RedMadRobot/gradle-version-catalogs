@@ -23,6 +23,7 @@
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.17) `1.13.13` → `1.13.17`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.55) `2.53.1` → `2.55` :warning:
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.10.1) `1.9.0` → `1.10.1` :warning:
+- :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.17.0) `0.16.3` → `0.17.0`
 
 ## Changelogs for previous years
 
