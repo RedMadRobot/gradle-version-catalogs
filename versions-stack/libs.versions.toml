@@ -63,7 +63,7 @@ gradle-android-cacheFix = "3.0.1"
 detekt = "1.23.7"
 detekt-rules-compose = "1.4.0"
 doctorPlugin = "0.10.0"
-kotlinx-binaryCompatibilityValidator = "0.16.3"
+kotlinx-binaryCompatibilityValidator = "0.17.0"
 owasp-dependencycheck = "11.1.1"
 versionsPlugin = "0.51.0"
 
