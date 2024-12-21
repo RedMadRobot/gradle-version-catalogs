@@ -13,7 +13,7 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.5.1) `1.5.0` → `1.5.1`
 
 ### Stack
 
