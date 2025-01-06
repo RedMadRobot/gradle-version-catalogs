@@ -24,6 +24,7 @@
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.55) `2.53.1` → `2.55` :warning:
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.10.1) `1.9.0` → `1.10.1` :warning:
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.17.0) `0.16.3` → `0.17.0`
+- :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.8.0) `1.7.3` → `1.8.0`
 
 ## Changelogs for previous years
 
