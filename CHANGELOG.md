@@ -40,6 +40,7 @@
   - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v22-1-0) `22.0.1` → `22.1.0`
   - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19-4-1) `19.3.0` → `19.4.1`
   - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v3-0-3) `3.0.2` → `3.0.3`
+- :arrow_up: plugin: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.52.0) `0.51.0` → `0.52.0` :warning: *(Kotlin 1.x is no longer supported)*
 
 ## Changelogs for previous years
 
