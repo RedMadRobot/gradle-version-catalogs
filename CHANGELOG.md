@@ -44,6 +44,7 @@
 - :arrow_up: plugin: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.52.0) `0.51.0` → `0.52.0` :warning: *(Kotlin 1.x is no longer supported)*
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.1.10) `2.1.0` → `2.1.10`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.1.10-1.0.31) `2.1.0-1.0.29` → `2.1.10-1.0.31`
+- :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.6.2) `0.6.1` → `0.6.2`
 
 ## Changelogs for previous years
 
