@@ -24,6 +24,7 @@
   - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.7.8) `1.7.6` → `1.7.8`
   - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.7.8) `1.7.6` → `1.7.8`
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.8.8) `2.8.5` → `2.8.8`
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.6) `1.8.5` → `1.8.6`
 
 ### Stack
 
