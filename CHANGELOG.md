@@ -17,6 +17,12 @@
 - :arrow_up: [datastore](https://developer.android.com/jetpack/androidx/releases/datastore#1.1.3) `1.1.1` → `1.1.3`
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.10.1) `1.9.3` → `1.10.1`
 - :arrow_up: [recyclerview](https://developer.android.com/jetpack/androidx/releases/recyclerview#recyclerview-1.4.0) `1.3.2` → `1.4.0`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2024.12.01` → `2024.02.00`
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.7.8) `1.7.6` → `1.7.8`
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.7.8) `1.7.6` → `1.7.8`
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.7.8) `1.7.6` → `1.7.8`
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.7.8) `1.7.6` → `1.7.8`
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.7.8) `1.7.6` → `1.7.8`
 
 ### Stack
 
