@@ -25,6 +25,7 @@
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.10.1) `1.9.0` → `1.10.1` :warning:
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.17.0) `0.16.3` → `0.17.0`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.8.0) `1.7.3` → `1.8.0`
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/dependency-check/DependencyCheck/blob/main/CHANGELOG.md#version-1210-2025-02-16) `11.1.1` → `12.1.0` :warning: *(Potentially breaking changes)*
 
 ## Changelogs for previous years
 
