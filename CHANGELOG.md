@@ -17,7 +17,7 @@
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [junit](https://junit.org/junit5/docs/5.12.0/release-notes/) `5.11.3` → `5.12.0` :warning: *(Potentially breaking changes)*
 
 ## Changelogs for previous years
 
