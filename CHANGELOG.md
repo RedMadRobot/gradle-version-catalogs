@@ -52,6 +52,8 @@
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.1.10-1.0.31) `2.1.0-1.0.29` → `2.1.10-1.0.31`
 - :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.6.2) `0.6.1` → `0.6.2`
 - :arrow_up: [detekt](https://github.com/detekt/detekt/releases/tag/v1.23.8) `1.23.7` → `1.23.8`
+- :arrow_up: [accompanist](https://github.com/google/accompanist/releases/tag/v0.37.2) `0.36.0` → `0.37.2` :warning:
+  - :x: Removed deprecated artifacts implemented in Compose - `accompanist-navigation-*`, `accompanist-placeholder-*`, `accompanist-systemuicontroller`, `accompanist-testharness`, `accompanist-themeadapter-*`, `accompanist-webview`
 
 ## Changelogs for previous years
 
