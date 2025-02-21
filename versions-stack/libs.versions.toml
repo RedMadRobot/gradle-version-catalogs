@@ -60,7 +60,7 @@ gms-googleServices = "4.4.2"
 
 # Gradle plugins
 gradle-android-cacheFix = "3.0.1"
-detekt = "1.23.7"
+detekt = "1.23.8"
 detekt-rules-compose = "1.4.0"
 doctorPlugin = "0.10.0"
 kotlinx-binaryCompatibilityValidator = "0.16.3"
