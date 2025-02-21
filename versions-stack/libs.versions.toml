@@ -8,7 +8,7 @@ kotlinx-collections-immutable = "0.3.8"
 dokka = "2.0.0"
 
 # UI Tools
-accompanist = "0.36.0"
+accompanist = "0.37.2"
 coil = "2.7.0"
 epoxy = "5.1.4"
 groupie = "2.10.1"
@@ -107,18 +107,7 @@ dokka-plugin-versioning = { module = "org.jetbrains.dokka:versioning-plugin", ve
 # UI Tools
 accompanist-adaptive = { module = "com.google.accompanist:accompanist-adaptive", version.ref = "accompanist" }
 accompanist-drawablepainter = { module = "com.google.accompanist:accompanist-drawablepainter", version.ref = "accompanist" }
-accompanist-navigation-animation = { module = "com.google.accompanist:accompanist-navigation-animation", version.ref = "accompanist" } # Deprecated (implemented in navigation 2.7.0)
-accompanist-navigation-material = { module = "com.google.accompanist:accompanist-navigation-material", version.ref = "accompanist" }
 accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
-accompanist-placeholder = { module = "com.google.accompanist:accompanist-placeholder", version.ref = "accompanist" } # Deprecated (discontinued)
-accompanist-placeholder-material = { module = "com.google.accompanist:accompanist-placeholder-material", version.ref = "accompanist" } # Deprecated (discontinued)
-accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" } # Deprecated (edge-to-edge implemented in activity 1.8.0)
-accompanist-testharness = { module = "com.google.accompanist:accompanist-testharness", version.ref = "accompanist" }
-accompanist-themeadapter-appcompat = { module = "com.google.accompanist:accompanist-themeadapter-appcompat", version.ref = "accompanist" } # Deprecated (use Compose Material)
-accompanist-themeadapter-core = { module = "com.google.accompanist:accompanist-themeadapter-core", version.ref = "accompanist" } # Deprecated (use Compose Material)
-accompanist-themeadapter-material = { module = "com.google.accompanist:accompanist-themeadapter-material", version.ref = "accompanist" } # Deprecated (use Compose Material)
-accompanist-themeadapter-material3 = { module = "com.google.accompanist:accompanist-themeadapter-material3", version.ref = "accompanist" } # Deprecated (use Compose Material)
-accompanist-webview = { module = "com.google.accompanist:accompanist-webview", version.ref = "accompanist" } # Deprecated (discontinued)
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 coil-base = { module = "io.coil-kt:coil-base", version.ref = "coil" }
 coil-bom = { module = "io.coil-kt:coil-bom", version.ref = "coil" }
