@@ -26,6 +26,9 @@
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.8.8) `2.8.5` → `2.8.8`
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.6) `1.8.5` → `1.8.6`
 - :arrow_up: [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.3.6) `3.3.5` → `3.3.6`
+- :arrow_up: [constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout#constraintlayout-2.2.1) `2.2.0` → `2.2.1`
+  - :arrow_up: [constraintlayout-compose](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.1) `1.1.0` → `1.1.1`
+  - :arrow_up: [constraintlayout-core](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.1) `1.1.0`-> `1.1.1`
 
 ### Stack
 
