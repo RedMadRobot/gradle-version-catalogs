@@ -14,6 +14,7 @@
 ### AndroidX
 
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.5.1) `1.5.0` → `1.5.1`
+- :arrow_up: [datastore](https://developer.android.com/jetpack/androidx/releases/datastore#1.1.3) `1.1.1` → `1.1.3`
 
 ### Stack
 
