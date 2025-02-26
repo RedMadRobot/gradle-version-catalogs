@@ -29,6 +29,7 @@
 - :arrow_up: [constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout#constraintlayout-2.2.1) `2.2.0` → `2.2.1`
   - :arrow_up: [constraintlayout-compose](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.1) `1.1.0` → `1.1.1`
   - :arrow_up: [constraintlayout-core](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.1) `1.1.0`-> `1.1.1`
+- :arrow_up: [coordinatorlayout](https://developer.android.com/jetpack/androidx/releases/coordinatorlayout#1.3.0) `1.2.0` → `1.3.0` :warning:
 
 ### Stack
 
