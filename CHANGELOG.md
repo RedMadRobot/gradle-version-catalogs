@@ -43,6 +43,7 @@
   - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v3-0-3) `3.0.2` → `3.0.3`
 - :arrow_up: plugin: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.52.0) `0.51.0` → `0.52.0` :warning: *(Kotlin 1.x is no longer supported)*
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.1.10) `2.1.0` → `2.1.10`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.1.10-1.0.31) `2.1.0-1.0.29` → `2.1.10-1.0.31`
 
 ## Changelogs for previous years
 
