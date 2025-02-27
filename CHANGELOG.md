@@ -20,8 +20,7 @@
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.12.0/release-notes/) `5.11.3` → `5.12.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v2.0.0) `1.9.20` → `2.0.0` :warning: [Migration guide](https://kotlinlang.org/docs/dokka-migration.html)
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.16.0) `1.15.0` → `1.16.0`
-
-
+- :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.13.17) `1.13.13` → `1.13.17`
 
 ## Changelogs for previous years
 
