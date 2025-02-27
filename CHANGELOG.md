@@ -35,6 +35,11 @@
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.17.0) `0.16.3` → `0.17.0`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.8.0) `1.7.3` → `1.8.0`
 - :arrow_up: plugin: [owasp-dependencycheck](https://github.com/dependency-check/DependencyCheck/blob/main/CHANGELOG.md#version-1210-2025-02-16) `11.1.1` → `12.1.0` :warning: *(Potentially breaking changes)*
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v33-10-0) `33.7.0` → `33.10.0` :warning: *(Potentially breaking changes)*
+  - :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v22-3-0) `22.1.2` → `22.3.0`
+  - :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v22-1-0) `22.0.1` → `22.1.0`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19-4-1) `19.3.0` → `19.4.1`
+  - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v3-0-3) `3.0.2` → `3.0.3`
 
 ## Changelogs for previous years
 
