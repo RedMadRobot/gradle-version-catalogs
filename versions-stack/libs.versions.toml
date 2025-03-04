@@ -1,6 +1,6 @@
 [versions]
 
-android-gradlePlugin = "8.7.3"
+android-gradlePlugin = "8.9.0"
 
 kotlin = "2.1.0"
 kotlinx-datetime = "0.6.1"
