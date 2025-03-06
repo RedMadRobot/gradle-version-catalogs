@@ -5,7 +5,7 @@
 > :memo: - Dependency or version name changed \
 > :warning: - Be careful on update. Update may contain breaking changes or behaviour changes.
 
-## [Unreleased]
+## [2024.12.12]
 
 ### red_mad_robot
 
@@ -402,7 +402,7 @@ Skipped versions:
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.09.04...main
+[2024.12.12]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.09.04...2024.12.12
 [2024.09.04]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.08.01...2024.09.04
 [2024.08.01]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.07.08...2024.08.01
 [2024.07.08]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.06.03...2024.07.08
