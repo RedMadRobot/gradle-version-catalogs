@@ -6,7 +6,7 @@ dependencyResolutionManagement {
         }
         create("stack") {
             from(files("../versions-stack/libs.versions.toml"))
-            library("mavenPublishPlugin", "com.vanniktech:gradle-maven-publish-plugin:0.30.0")
+            library("mavenPublishPlugin", "com.vanniktech:gradle-maven-publish-plugin:0.31.0")
         }
     }
 }
