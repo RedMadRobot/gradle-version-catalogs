@@ -13,6 +13,20 @@
 
 ### AndroidX
 
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2025.03.10]
+
+### red_mad_robot
+
+- *No changes*
+
+### AndroidX
+
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.5.1) `1.5.0` → `1.5.1`
 - :arrow_up: [datastore](https://developer.android.com/jetpack/androidx/releases/datastore#1.1.3) `1.1.1` → `1.1.3`
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.10.1) `1.9.3` → `1.10.1`
@@ -61,4 +75,5 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.12.12...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.03.10...main
+[2025.03.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.12.12...2025.03.10
