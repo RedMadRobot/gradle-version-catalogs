@@ -13,6 +13,7 @@
 
 ### AndroidX
 
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.8.9) `2.8.8` → `2.8.9`
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.13.0) `1.12.1` → `1.13.0`
 
 ### Stack
