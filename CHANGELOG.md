@@ -18,7 +18,7 @@
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.17.0) `1.16.0` → `1.17.0`
 
 ## [2025.03.10]
 
