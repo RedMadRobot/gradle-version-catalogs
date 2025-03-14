@@ -13,7 +13,7 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.13.0) `1.12.1` → `1.13.0`
 
 ### Stack
 
