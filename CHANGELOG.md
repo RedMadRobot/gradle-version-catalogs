@@ -13,6 +13,7 @@
 
 ### AndroidX
 
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.4.2) `1.4.1` → `1.4.2`
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.8.9) `2.8.8` → `2.8.9`
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.13.0) `1.12.1` → `1.13.0`
 
