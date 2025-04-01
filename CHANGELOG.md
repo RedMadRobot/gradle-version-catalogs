@@ -20,6 +20,7 @@
 ### Stack
 
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.1.20) `2.1.10` → `2.1.20`
+- :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.8.1) `1.8.0` → `1.8.1`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.17.0) `1.16.0` → `1.17.0`
 
 ## [2025.03.10]
