@@ -34,8 +34,8 @@ dagger = "2.55"
 javax-inject = "1"
 
 # Test
-junit = "5.12.0"
-junit-platform = "1.12.0"
+junit = "5.12.2"
+junit-platform = "1.12.2"
 junit4 = "4.13.2"
 kotest = "5.9.1"
 mockk = "1.13.17"
