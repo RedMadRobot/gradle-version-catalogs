@@ -20,6 +20,7 @@
 
 ### Stack
 
+- :arrow_up: [junit](https://junit.org/junit5/docs/5.12.2/release-notes/) `5.12.0` → `5.12.2`
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.1.20) `2.1.10` → `2.1.20`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.10.2) `1.10.1` → `1.10.2`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.8.1) `1.8.0` → `1.8.1`
