@@ -15,6 +15,7 @@
 
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.4.2) `1.4.1` → `1.4.2`
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.16.0) `1.15.0` → `1.16.0`
+- :arrow_up: [customview](https://developer.android.com/jetpack/androidx/releases/customview#customview-1.2.0) `1.1.0` → `1.2.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [datastore](https://developer.android.com/jetpack/androidx/releases/datastore#1.1.5) `1.1.3` → `1.1.5`
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.6.1) `1.5.1` → `1.6.1` :warning: *(Potentially breaking changes)*
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.8.9) `2.8.8` → `2.8.9`
