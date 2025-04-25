@@ -35,6 +35,11 @@
 
 - :arrow_up: [Android Gradle Plugin](https://developer.android.com/build/releases/gradle-plugin) `8.9.0` → `8.9.2`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.56.2) `2.55` → `2.56.2` :warning: *(Potentially breaking changes)*
+- :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v22.4.0) `22.3.0` → `22.4.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v33.13.0) `33.10.0` → `33.13.0`
+- :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#config_v22.1.1) `22.1.0` → `22.1.1`
+- :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19.4.3) `19.4.1` → `19.4.3`
+- :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v24.1.1) `24.1.0` → `24.1.1`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.12.2/release-notes/) `5.12.0` → `5.12.2`
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.1.20) `2.1.10` → `2.1.20`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.10.2) `1.10.1` → `1.10.2`
