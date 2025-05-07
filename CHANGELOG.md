@@ -15,13 +15,13 @@
 
 - :arrow_up: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.5.0) `1.4.1` → `1.5.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.4.2) `1.4.1` → `1.4.2`
-- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2025.02.00` → `2025.04.01`
-  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.8.0) `1.7.8` → `1.8.0` :warning: *(Potentially breaking changes)*
-  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.8.0) `1.7.8` → `1.8.0` :warning: *(Potentially breaking changes)*
-  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.8.0) `1.7.8` → `1.8.0` :warning: *(Potentially breaking changes)*
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2025.02.00` → `2025.05.00`
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.8.0) `1.7.8` → `1.8.1` :warning: *(Potentially breaking changes)*
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.8.0) `1.7.8` → `1.8.1` :warning: *(Potentially breaking changes)*
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.8.0) `1.7.8` → `1.8.1` :warning: *(Potentially breaking changes)*
   - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.3.2) `1.3.1` → `1.3.2`
-  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.8.0) `1.7.8` → `1.8.0` :warning: *(Potentially breaking changes)*
-  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.8.0) `1.7.8` → `1.8.0` :warning: *(Potentially breaking changes)*
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.8.0) `1.7.8` → `1.8.1` :warning: *(Potentially breaking changes)*
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.8.0) `1.7.8` → `1.8.1` :warning: *(Potentially breaking changes)*
 - :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.16.0) `1.15.0` → `1.16.0`
 - :arrow_up: [customview](https://developer.android.com/jetpack/androidx/releases/customview#customview-1.2.0) `1.1.0` → `1.2.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [customview-poolingcontainer](https://developer.android.com/jetpack/androidx/releases/customview#customview-poolingcontainer-1.1.0) `1.0.0` → `1.1.0`
