@@ -13,6 +13,7 @@
 
 ### AndroidX
 
+- :arrow_up: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.5.0) `1.4.1` → `1.5.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.4.2) `1.4.1` → `1.4.2`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2025.02.00` → `2025.04.01`
   - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.8.0) `1.7.8` → `1.8.0` :warning: *(Potentially breaking changes)*
