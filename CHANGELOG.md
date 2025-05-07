@@ -26,6 +26,7 @@
 - :arrow_up: [customview](https://developer.android.com/jetpack/androidx/releases/customview#customview-1.2.0) `1.1.0` → `1.2.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [customview-poolingcontainer](https://developer.android.com/jetpack/androidx/releases/customview#customview-poolingcontainer-1.1.0) `1.0.0` → `1.1.0`
 - :arrow_up: [datastore](https://developer.android.com/jetpack/androidx/releases/datastore#1.1.6) `1.1.3` → `1.1.6`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.9.0) `2.8.7` → `2.9.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.6.1) `1.5.1` → `1.6.1` :warning: *(Potentially breaking changes)*
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.9.0) `2.8.9` → `2.9.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.7.1) `2.6.1` → `2.7.1` :warning: *(Potentially breaking changes)*
