@@ -41,7 +41,7 @@
 - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19.4.3) `19.4.1` → `19.4.3`
 - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v24.1.1) `24.1.0` → `24.1.1`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.12.2/release-notes/) `5.12.0` → `5.12.2`
-- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.1.20) `2.1.10` → `2.1.20`
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.1.21) `2.1.10` → `2.1.21`
 - :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.10.2) `1.10.1` → `1.10.2`
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.8.1) `1.8.0` → `1.8.1`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.1.20-2.0.1) `2.1.10-1.0.31` → `2.1.20-2.0.1`
