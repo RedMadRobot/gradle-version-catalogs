@@ -48,6 +48,7 @@
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.8.1) `1.8.0` → `1.8.1`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.1.21-2.0.1) `2.1.10-1.0.31` → `2.1.21-2.0.1`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.14.2) `1.13.17` → `1.14.2`
+- :arrow_up: [retrofit](https://github.com/square/retrofit/releases/tag/2.11.0) `2.11.0` → `3.0.0` - Upgrade to OkHttp 4.12 (from 3.14). The 3.x versions of Retrofit maintain forward binary-compatibility with the 2.x versions.
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.17.0) `1.16.0` → `1.17.0`
 - :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#version-1201-2025-01-19) `12.1.0` → `12.1.1`
 
