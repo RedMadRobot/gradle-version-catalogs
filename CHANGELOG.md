@@ -13,6 +13,20 @@
 
 ### AndroidX
 
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2025.05.16]
+
+### red_mad_robot
+
+- *No changes*
+
+### AndroidX
+
 - :arrow_up: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.5.0) `1.4.1` → `1.5.0` :warning: *(Potentially breaking changes)*
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.4.2) `1.4.1` → `1.4.2`
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2025.02.00` → `2025.05.00`
@@ -109,5 +123,6 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.03.10...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.05.16...main
+[2025.05.16]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.03.10...2025.05.16
 [2025.03.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2024.12.12...2025.03.10
