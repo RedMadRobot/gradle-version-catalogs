@@ -19,7 +19,7 @@
 
 ### Stack
 
-- *No changes*
+- :arrow_up: doctorPlugin [doctorPlugin](https://runningcode.github.io/gradle-doctor/changelog/) `0.10.0` → `0.11.0`
 
 ## [2025.05.16]
 
