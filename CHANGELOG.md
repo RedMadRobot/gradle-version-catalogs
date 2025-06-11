@@ -22,7 +22,8 @@
 
 ### Stack
 
-- :arrow_up: doctorPlugin [doctorPlugin](https://runningcode.github.io/gradle-doctor/changelog/) `0.10.0` → `0.11.0`
+- :arrow_up: plugin: [gradle-doctor](https://runningcode.github.io/gradle-doctor/changelog/) `0.10.0` → `0.11.0`
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/dependency-check/DependencyCheck/blob/main/CHANGELOG.md#version-1213-2025-06-10) `12.1.1` → `12.1.3`
 
 ## [2025.05.16]
 
