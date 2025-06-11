@@ -22,6 +22,7 @@
 
 ### Stack
 
+- :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.2.1) `1.2.0` → `1.2.1`
 - :arrow_up: plugin: [gradle-doctor](https://runningcode.github.io/gradle-doctor/changelog/) `0.10.0` → `0.11.0`
 - :arrow_up: plugin: [owasp-dependencycheck](https://github.com/dependency-check/DependencyCheck/blob/main/CHANGELOG.md#version-1213-2025-06-10) `12.1.1` → `12.1.3`
 
