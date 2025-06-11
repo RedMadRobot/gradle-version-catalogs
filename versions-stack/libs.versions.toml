@@ -39,7 +39,7 @@ junit-platform = "1.12.2"
 junit4 = "4.13.2"
 kotest = "5.9.1"
 mockk = "1.14.2"
-turbine = "1.2.0"
+turbine = "1.2.1"
 
 # Debug Tools
 leakcanary = "2.14"
