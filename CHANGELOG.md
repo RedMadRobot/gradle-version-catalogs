@@ -20,6 +20,7 @@
 - :arrow_up: [recyclerview-selection](https://developer.android.com/jetpack/androidx/releases/recyclerview#recyclerview-selection-1.2.0) `1.1.0` → `1.2.0`
 - :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.7.2) `2.7.1` → `2.7.2`
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.14.0) `1.13.0` → `1.14.0`
+- :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.10.2) `2.10.1` → `2.10.2`
 
 ### Stack
 
