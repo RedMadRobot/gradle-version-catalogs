@@ -25,6 +25,7 @@
 ### Stack
 
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.2.0) `2.1.21` → `2.2.0` :warning:
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/) `2.1.21-2.0.1` → `2.2.0-2.0.2` :warning:
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.18.0) `1.17.0` → `1.18.0`
 - :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.2.1) `1.2.0` → `1.2.1`
 - :arrow_up: plugin: [gradle-doctor](https://runningcode.github.io/gradle-doctor/changelog/) `0.10.0` → `0.11.0`
