@@ -3,7 +3,7 @@
 android-gradlePlugin = "8.10.0"
 
 kotlin = "2.1.21"
-kotlinx-datetime = "0.6.2"
+kotlinx-datetime = "0.7.0-0.6.x-compat"
 kotlinx-collections-immutable = "0.3.8"
 dokka = "2.0.0"
 
