@@ -56,7 +56,7 @@ firebase-config = "22.1.1"
 firebase-crashlytics = "19.4.3"
 firebase-crashlytics-gradle = "3.0.3"
 firebase-messaging = "24.1.1"
-gms-googleServices = "4.4.2"
+gms-googleServices = "4.4.3"
 
 # Gradle plugins
 gradle-android-cacheFix = "3.0.1"
