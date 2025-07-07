@@ -27,6 +27,7 @@
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.2.0) `2.1.21` → `2.2.0` :warning:
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.9.0) `1.8.1` → `1.9.0` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/) `2.1.21-2.0.1` → `2.2.0-2.0.2` :warning:
+- :arrow_up: [reactivex-rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.11) `3.1.10` → `3.1.11`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.18.0) `1.17.0` → `1.18.0`
 - :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.2.1) `1.2.0` → `1.2.1`
 - :arrow_up: plugin: [gms-googleServices](https://firebase.google.com/support/release-notes/android#google-services_plugin_v4-4-3) `4.4.2` → `4.4.3`
