@@ -32,6 +32,7 @@
 - :arrow_up: [reactivex-rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.11) `3.1.10` → `3.1.11`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.18.0) `1.17.0` → `1.18.0`
 - :arrow_up: [turbine](https://github.com/cashapp/turbine/releases/tag/1.2.1) `1.2.0` → `1.2.1`
+- :arrow_up: plugin: [Android Gradle Plugin](https://developer.android.com/build/releases/gradle-plugin) `8.10.0` → `8.11.1`
 - :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/) `0.17.0` → `0.18.1`
 - :arrow_up: plugin: [gms-googleServices](https://firebase.google.com/support/release-notes/android#google-services_plugin_v4-4-3) `4.4.2` → `4.4.3`
 - :arrow_up: plugin: [gradle-doctor](https://runningcode.github.io/gradle-doctor/changelog/) `0.10.0` → `0.11.0`
