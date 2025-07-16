@@ -32,6 +32,7 @@
 
 ### Stack
 
+- :arrow_up: [dagger](https://github.com/google/dagger/releases) `2.56.2` → `2.57` :warning:
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.2.0) `2.1.21` → `2.2.0` :warning:
 - :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.7.1) `0.6.2` → `0.7.1` :warning:
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.9.0) `1.8.1` → `1.9.0` :warning:
