@@ -13,6 +13,7 @@
 
 ### AndroidX
 
+- :arrow_up: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.5.1) `1.5.0` → `1.5.1` :warning:
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.7.1) `1.7.0` → `1.7.1`
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.8) `1.8.6` → `1.8.8`
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.7.1) `1.6.1` → `1.7.1`
