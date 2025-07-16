@@ -15,6 +15,12 @@
 
 - :arrow_up: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.5.1) `1.5.0` → `1.5.1` :warning:
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.7.1) `1.7.0` → `1.7.1`
+- :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.8.3) `1.8.1` → `1.8.3`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose#2025.07.00) `2025.05.00` → `2025.07.00`
+- :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.8.3) `1.8.1` → `1.8.3`
+- :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.8.3) `1.8.1` → `1.8.3`
+- :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.8.3) `1.8.1` → `1.8.3`
+- :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.8.3) `1.8.1` → `1.8.3`
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.8) `1.8.6` → `1.8.8`
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.7.1) `1.6.1` → `1.7.1`
 - :arrow_up: [datastore](https://developer.android.com/jetpack/androidx/releases/datastore#1.1.7) `1.1.6` → `1.1.7`
