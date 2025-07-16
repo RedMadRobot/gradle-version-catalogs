@@ -28,6 +28,7 @@
 - :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.7.1) `0.6.2` → `0.7.1` :warning:
 - :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.9.0) `1.8.1` → `1.9.0` :warning:
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/) `2.1.21-2.0.1` → `2.2.0-2.0.2` :warning:
+- :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.14.5) `1.14.2` → `1.14.5`
 - :arrow_up: [okhttp](https://github.com/square/okhttp/blob/parent-5.1.0/CHANGELOG.md#version-510) `4.12.0` → `5.1.0` :warning:
 - :arrow_up: [reactivex-rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.11) `3.1.10` → `3.1.11`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.18.0) `1.17.0` → `1.18.0`
