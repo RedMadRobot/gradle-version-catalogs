@@ -23,6 +23,7 @@
 - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.8.3) `1.8.1` → `1.8.3`
 - :arrow_up: [datastore](https://developer.android.com/jetpack/androidx/releases/datastore#1.1.7) `1.1.6` → `1.1.7`
 - :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.8.8) `1.8.6` → `1.8.8`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.9.2) `2.9.0` → `2.9.2`
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.7.1) `1.6.1` → `1.7.1`
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.9.2) `2.9.0` → `2.9.2`
 - :arrow_up: [recyclerview-selection](https://developer.android.com/jetpack/androidx/releases/recyclerview#recyclerview-selection-1.2.0) `1.1.0` → `1.2.0`
