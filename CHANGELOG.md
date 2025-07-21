@@ -34,6 +34,11 @@
 ### Stack
 
 - :arrow_up: [dagger](https://github.com/google/dagger/releases) `2.56.2` → `2.57` :warning:
+- :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v22.5.0) `22.4.0` → `22.5.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v33.16.0) `33.13.0` → `33.16.0`
+- :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#config_v22.1.2) `22.1.1` → `22.1.2`
+- :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v19.4.4) `19.4.3` → `19.4.4`
+- :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v24.1.2) `24.1.1` → `24.1.2`
 - :arrow_up: [junit](https://junit.org/junit5/docs/5.13.4/release-notes/) `5.12.2` → `5.13.4` :warning:
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.2.0) `2.1.21` → `2.2.0` :warning:
 - :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.7.1) `0.6.2` → `0.7.1` :warning:
