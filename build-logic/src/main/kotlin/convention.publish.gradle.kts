@@ -2,7 +2,6 @@ import com.redmadrobot.build.dsl.contributor
 import com.redmadrobot.build.dsl.developer
 import com.redmadrobot.build.dsl.mit
 import com.redmadrobot.build.dsl.setGitHubProject
-import com.vanniktech.maven.publish.SonatypeHost
 
 plugins {
     id("com.vanniktech.maven.publish")
@@ -10,7 +9,7 @@ plugins {
 }
 
 mavenPublishing {
-    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
+    publishToMavenCentral(automaticRelease = true)
     signAllPublications()
 
     coordinates(artifactId = project.name)
