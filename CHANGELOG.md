@@ -14,6 +14,7 @@
 ### AndroidX
 
 - :arrow_up: [browser](https://developer.android.com/jetpack/androidx/releases/browser#1.9.0) `1.8.0` → `1.9.0` :warning:
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.8.0) `1.7.1` → `1.8.0` :warning:
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.9.3) `2.9.2` → `2.9.3`
 - :arrow_up: [security-crypto](https://developer.android.com/jetpack/androidx/releases/security#security-crypto-1.1.0) `1.0.0` → `1.1.0` :warning:
 - :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.10.3) `2.10.2` → `2.10.3`
