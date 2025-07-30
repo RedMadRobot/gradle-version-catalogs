@@ -14,6 +14,7 @@
 ### AndroidX
 
 - :arrow_up: [browser](https://developer.android.com/jetpack/androidx/releases/browser#1.9.0) `1.8.0` → `1.9.0` :warning:
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.9.3) `2.9.2` → `2.9.3`
 - :arrow_up: [security-crypto](https://developer.android.com/jetpack/androidx/releases/security#security-crypto-1.1.0) `1.0.0` → `1.1.0` :warning:
 
 ### Stack
