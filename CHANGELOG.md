@@ -13,7 +13,7 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [browser](https://developer.android.com/jetpack/androidx/releases/browser#1.9.0) `1.8.0` → `1.9.0` :warning:
 
 ### Stack
 
