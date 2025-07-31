@@ -19,6 +19,7 @@
 - :arrow_up: [security-crypto](https://developer.android.com/jetpack/androidx/releases/security#security-crypto-1.1.0) `1.0.0` → `1.1.0` :warning:
 - :arrow_up: [test-core](https://developer.android.com/jetpack/androidx/releases/test#core-1.7.0) `1.6.1` → `1.7.0` :warning:
 - :arrow_up: [test-monitor](https://developer.android.com/jetpack/androidx/releases/test#monitor-1.8.0) `1.7.2` → `1.8.0` :warning:
+- :arrow_up: [test-runner](https://developer.android.com/jetpack/androidx/releases/test#runner-1.7.0) `1.6.2` → `1.7.0` :warning:
 - :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.10.3) `2.10.2` → `2.10.3`
 ### Stack
 
