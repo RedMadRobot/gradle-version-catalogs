@@ -31,7 +31,8 @@
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34.1.0) `34.0.0` → `34.1.0`
+- :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v3.0.6) `3.0.5` → `3.0.6`
 
 ## [2025.07.24]
 
