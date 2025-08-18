@@ -39,6 +39,7 @@
 
 ### Stack
 
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases) `5.9.1` → `6.0.0` :warning:
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.2.10) `2.2.0` → `2.2.10`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.2.10-2.0.2) `2.2.0-2.0.2` → `2.2.10-2.0.2`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34.1.0) `34.0.0` → `34.1.0`

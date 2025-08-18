@@ -37,7 +37,8 @@ javax-inject = "1"
 junit = "5.13.4"
 junit-platform = "1.13.4"
 junit4 = "4.13.2"
-kotest = "5.9.1"
+kotest = "6.0.0"
+kotest-prev = "5.9.1"
 mockk = "1.14.5"
 turbine = "1.2.1"
 
@@ -205,21 +206,21 @@ junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher
 junit-platform-runner = { module = "org.junit.platform:junit-platform-runner", version.ref = "junit-platform" }
 junit-vintage-engine = { module = "org.junit.vintage:junit-vintage-engine", version.ref = "junit" }
 junit4 = { module = "junit:junit", version.ref = "junit4" }
-kotest-assertions-api = { module = "io.kotest:kotest-assertions-api", version.ref = "kotest" }
+kotest-assertions-api = { module = "io.kotest:kotest-assertions-api", version.ref = "kotest-prev" }
 kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 kotest-assertions-json = { module = "io.kotest:kotest-assertions-json", version.ref = "kotest" }
 kotest-bom = { module = "io.kotest:kotest-bom", version.ref = "kotest" }
 kotest-extensions = { module = "io.kotest:kotest-extensions", version.ref = "kotest" }
 kotest-extensions-blockhound = { module = "io.kotest:kotest-extensions-blockhound", version.ref = "kotest" }
 kotest-extensions-htmlreporter = { module = "io.kotest:kotest-extensions-htmlreporter", version.ref = "kotest" }
-kotest-extensions-http = { module = "io.kotest:kotest-extensions-http", version.ref = "kotest" }
+kotest-extensions-http = { module = "io.kotest:kotest-extensions-http", version.ref = "kotest-prev" }
 kotest-extensions-junit5 = { module = "io.kotest:kotest-extensions-junit5", version.ref = "kotest" }
 kotest-extensions-junitxml = { module = "io.kotest:kotest-extensions-junitxml", version.ref = "kotest" }
 kotest-extensions-now = { module = "io.kotest:kotest-extensions-now", version.ref = "kotest" }
-kotest-framework-api = { module = "io.kotest:kotest-framework-api", version.ref = "kotest" }
-kotest-framework-concurrency = { module = "io.kotest:kotest-framework-concurrency", version.ref = "kotest" }
-kotest-framework-datatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
-kotest-framework-discovery = { module = "io.kotest:kotest-framework-discovery", version.ref = "kotest" }
+kotest-framework-api = { module = "io.kotest:kotest-framework-api", version.ref = "kotest-prev" }
+kotest-framework-concurrency = { module = "io.kotest:kotest-framework-concurrency", version.ref = "kotest-prev" }
+kotest-framework-datatest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest-prev" }
+kotest-framework-discovery = { module = "io.kotest:kotest-framework-discovery", version.ref = "kotest-prev" }
 kotest-framework-engine = { module = "io.kotest:kotest-framework-engine", version.ref = "kotest" }
 kotest-property = { module = "io.kotest:kotest-property", version.ref = "kotest" }
 kotest-property-lifecycle = { module = "io.kotest:kotest-property-lifecycle", version.ref = "kotest" }
