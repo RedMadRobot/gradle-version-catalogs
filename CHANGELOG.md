@@ -45,7 +45,8 @@
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.2.10-2.0.2) `2.2.0-2.0.2` → `2.2.10-2.0.2`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34.1.0) `34.0.0` → `34.1.0`
 - :arrow_up: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics_gradle_plugin_v3.0.6) `3.0.5` → `3.0.6`
-- :arrow_up: plugin: [Android Gradle Plugin](https://developer.android.com/build/releases/gradle-plugin) `8.11.1` → `8.12.1`
+- :arrow_up: plugin: [Android Gradle Plugin](https://github.com/runningcode/gradle-doctor/releases/tag/v0.12.0) `8.11.1` → `8.12.1`
+- :arrow_up: plugin: [gradleDoctor](https://github.com/runningcode/gradle-doctor) `0.11.0` → `0.12.0`
 
 ## [2025.07.24]
 
