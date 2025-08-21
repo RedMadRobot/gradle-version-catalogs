@@ -30,7 +30,7 @@ retrofit = "3.0.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 tink = "1.18.0"
 
 # DI
-dagger = "2.57"
+dagger = "2.57.1"
 javax-inject = "1"
 
 # Test

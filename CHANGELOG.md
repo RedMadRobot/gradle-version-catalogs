@@ -39,6 +39,7 @@
 
 ### Stack
 
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.57.1) `2.57` → `2.57.1`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases) `5.9.1` → `6.0.0` :warning:
 - :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.2.10) `2.2.0` → `2.2.10`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.2.10-2.0.2) `2.2.0-2.0.2` → `2.2.10-2.0.2`
