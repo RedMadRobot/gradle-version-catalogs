@@ -17,7 +17,7 @@
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases) `6.0.0` → `6.0.1`
 
 ## [2025.08.22]
 
