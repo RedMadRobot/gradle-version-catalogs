@@ -13,6 +13,7 @@
 
 ### AndroidX
 
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose#2025.08.01) `2025.08.00` → `2025.08.01`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.9.3) `2.9.2` → `2.9.3`
 
 ### Stack
