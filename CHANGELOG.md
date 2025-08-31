@@ -18,6 +18,8 @@
 
 ### Stack
 
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34.2.0) `34.1.0` → `34.2.0`
+- :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v20.0.1) `20.0.0` → `20.0.1`
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases) `6.0.0` → `6.0.1`
 - :arrow_up: plugin: [Android Gradle Plugin](https://developer.android.com/build/releases/gradle-plugin) `8.12.1` → `8.12.2`
 - :arrow_up: plugin: [gradleDoctor](https://github.com/runningcode/gradle-doctor/releases/) `0.12.0` → `0.12.1`
