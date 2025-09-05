@@ -13,6 +13,20 @@
 
 ### AndroidX
 
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2025.09.05]
+
+### red_mad_robot
+
+- *No changes*
+
+### AndroidX
+
 - :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose#2025.08.01) `2025.08.00` → `2025.08.01`
 - :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.9.3) `2.9.2` → `2.9.3`
 
@@ -221,7 +235,8 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.08.22...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.09.05...main
+[2025.09.05]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.08.22...2025.09.05
 [2025.08.22]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.07.24...2025.08.22
 [2025.07.24]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.05.16...2025.07.24
 [2025.05.16]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.03.10...2025.05.16
