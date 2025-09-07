@@ -13,11 +13,28 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.11.0) `1.10.1` → `1.11.0`
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.5.0) `1.4.2` → `1.5.0` :warning:
+- :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.9.1) `1.9.0` → `1.9.1`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose#2025.09.00) `2025.08.01` → `2025.09.00`
+- :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.9.1) `1.9.0` → `1.9.1`
+- :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.9.1) `1.9.0` → `1.9.1`
+- :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.9.1) `1.9.0` → `1.9.1`
+- :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.9.1) `1.9.0` → `1.9.1`
+- :arrow_up: [hilt](https://developer.android.com/jetpack/androidx/releases/hilt#1.3.0) `1.2.0` → `1.3.0`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.9.4) `2.9.3` → `2.9.4`
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.9.4) `2.9.3` → `2.9.4`
+- :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.8.0) `2.7.2` → `2.8.0` :warning:
+- :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.10.4) `2.10.3` → `2.10.4`
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34.3.0) `34.2.0` → `34.3.0`
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases) `6.0.1` → `6.0.3`
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.2.20) `2.2.10` → `2.2.20`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.2.20-2.0.3) `2.2.10-2.0.2` → `2.2.20-2.0.3`
+- :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.13.0) `1.12.0` → `1.13.0`
+- :arrow_up: plugin: [Android Gradle Plugin](https://developer.android.com/build/releases/gradle-plugin) `8.12.2` → `8.13.0`
 
 ## [2025.09.05]
 
