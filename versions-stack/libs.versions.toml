@@ -1,8 +1,8 @@
 [versions]
 
-android-gradlePlugin = "8.12.2"
+android-gradlePlugin = "8.13.0"
 
-kotlin = "2.2.10"
+kotlin = "2.2.20"
 kotlinx-datetime = "0.7.1"
 kotlinx-collections-immutable = "0.3.8"
 dokka = "2.0.0"
@@ -13,7 +13,7 @@ coil = "2.7.0"
 epoxy = "5.1.4"
 groupie = "2.10.1"
 insetter = "0.6.1"
-material = "1.12.0"
+material = "1.13.0"
 
 # Multithreading
 kotlinx-coroutines = "1.10.2"
@@ -37,7 +37,7 @@ javax-inject = "1"
 junit = "5.13.4"
 junit-platform = "1.13.4"
 junit4 = "4.13.2"
-kotest = "6.0.1"
+kotest = "6.0.3"
 kotest-prev = "5.9.1"
 mockk = "1.14.5"
 turbine = "1.2.1"
@@ -47,16 +47,16 @@ leakcanary = "2.14"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "2.2.10-2.0.2"
+ksp = "2.2.20-2.0.3"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
 firebase-analytics = "23.0.0"
-firebase-bom = "34.2.0"
-firebase-config = "23.0.0"
-firebase-crashlytics = "20.0.1"
+firebase-bom = "34.3.0"
+firebase-config = "23.0.1"
+firebase-crashlytics = "20.0.2"
 firebase-crashlytics-gradle = "3.0.6"
-firebase-messaging = "25.0.0"
+firebase-messaging = "25.0.1"
 gms-googleServices = "4.4.3"
 
 # Gradle plugins
