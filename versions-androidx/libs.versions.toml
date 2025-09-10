@@ -1,6 +1,6 @@
 [versions]
 
-activity = "1.10.1"
+activity = "1.11.0"
 annotation = "1.9.1"
 annotation-experimental = "1.5.1"
 appcompat = "1.7.1"
