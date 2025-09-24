@@ -9,15 +9,38 @@
 
 ### red_mad_robot
 
-- *No changes*
+- :arrow_up: [textvalue](https://github.com/RedMadRobot/TextValue/releases/tag/v1.0.2) `1.0.0` → `1.0.2`
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.5.1) `1.5.0` → `1.5.1`
+- :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.9.3) `1.9.1` → `1.9.3`
+- :arrow_up: [compose-bom](https://developer.android.com/develop/ui/compose/bom/bom-mapping) `2025.09.00` → `2025.10.00`
+- :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.9.3) `1.9.1` → `1.9.3`
+- :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.9.3) `1.9.1` → `1.9.3`
+- :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.4.0) `1.3.2` → `1.4.0` :warning:
+- :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.9.3) `1.9.1` → `1.9.3`
+- :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.9.3) `1.9.1` → `1.9.3`
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.9.5) `2.9.4` → `2.9.5`
+- :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.8.2) `2.8.0` → `2.8.2`
+- :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.10.5) `2.10.4` → `2.10.5`
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.57.2) `2.57.1` → `2.57.2`
+- :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v2.1.0) `2.0.0` → `2.1.0` :warning:
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34.4.0) `34.3.0` → `34.4.0`
+- :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v20.0.3) `20.0.2` → `20.0.3`
+- :arrow_up: [junit](https://junit.org/junit5/docs/6.0.0/release-notes/) `5.13.4` → `6.0.0` :warning:
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases) `6.0.3` → `6.0.4`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.2.20-2.0.4) `2.2.20-2.0.3` → `2.2.20-2.0.4`
+- :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.14.6) `1.14.5` → `1.14.6`
+- :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md#version-521) `5.1.0` → `5.2.1`
+- :arrow_up: [reactivex-rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.12) `3.1.11` → `3.1.12`
+- :arrow_up: plugin: [Android Cache Fix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0.2) `3.0.1` → `3.0.2`
+- :arrow_up: plugin: [gms-googleServices](https://firebase.google.com/support/release-notes/android#google-services_plugin_v4-4-4) `4.4.3` → `4.4.4`
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/dependency-check/DependencyCheck/blob/main/CHANGELOG.md#version-1218-2025-09-13) `12.1.3` → `12.1.8`
+- :arrow_up: plugin: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.53.0) `0.52.0` → `0.53.0`
 
 ## [2025.09.19]
 
