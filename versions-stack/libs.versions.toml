@@ -5,7 +5,7 @@ android-gradlePlugin = "8.13.0"
 kotlin = "2.2.20"
 kotlinx-datetime = "0.7.1"
 kotlinx-collections-immutable = "0.3.8"
-dokka = "2.0.0"
+dokka = "2.1.0"
 
 # UI Tools
 accompanist = "0.37.3"
