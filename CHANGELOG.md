@@ -21,6 +21,7 @@
 - :arrow_up: [compose-material3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.4.0) `1.3.2` → `1.4.0` :warning:
 - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.9.3) `1.9.1` → `1.9.3`
 - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.9.3) `1.9.1` → `1.9.3`
+- :sparkle: [lifecycle-runtime-compose](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.9.4)
 - :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.9.5) `2.9.4` → `2.9.5`
 - :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.8.2) `2.8.0` → `2.8.2`
 - :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.10.5) `2.10.4` → `2.10.5`
