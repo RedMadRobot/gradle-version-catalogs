@@ -48,6 +48,10 @@ timber = "5.0.1"
 # Annotations procesing
 ksp = "2.2.20-2.0.4"
 
+# Monitoring & Error Tracking
+sentry = "8.23.0"
+sentry-android-gradle = "5.12.1"
+
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
 firebase-analytics = "23.0.0"
@@ -71,6 +75,8 @@ versionsPlugin = "0.53.0"
 
 android-tools-build-gradle = { module = "com.android.tools.build:gradle", version.ref = "android-gradlePlugin" }
 android-tools-build-gradle-api = { module = "com.android.tools.build:gradle-api", version.ref = "android-gradlePlugin" }
+
+detekt-api = { module = "io.gitlab.arturbosch.detekt:detekt-api", version.ref = "detekt" }
 
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "kotlin" }
 kotlin-composeCompiler-gradlePlugin = { module = "org.jetbrains.kotlin:compose-compiler-gradle-plugin", version.ref = "kotlin" }
@@ -241,6 +247,19 @@ ksp = { module = "com.google.devtools.ksp:symbol-processing", version.ref = "ksp
 ksp-api = { module = "com.google.devtools.ksp:symbol-processing-api", version.ref = "ksp" }
 ksp-gradlePlugin = { module = "com.google.devtools.ksp:symbol-processing-gradle-plugin", version.ref = "ksp" }
 
+# Sentry
+sentry-android = { module = "io.sentry:sentry-android", version.ref = "sentry" }
+sentry-android-fragment = { module = "io.sentry:sentry-android-fragment", version.ref = "sentry" }
+sentry-android-navigation = { module = "io.sentry:sentry-android-navigation", version.ref = "sentry" }
+sentry-android-sqlite = { module = "io.sentry:sentry-android-sqlite", version.ref = "sentry" }
+sentry-android-timber = { module = "io.sentry:sentry-android-timber", version.ref = "sentry" }
+sentry-apollo = { module = "io.sentry:sentry-apollo", version.ref = "sentry" }
+sentry-apollo-3 = { module = "io.sentry:sentry-apollo-3", version.ref = "sentry" }
+sentry-apollo-4 = { module = "io.sentry:sentry-apollo-4", version.ref = "sentry" }
+sentry-compose-android = { module = "io.sentry:sentry-compose-android", version.ref = "sentry" }
+sentry-ktor-client = { module = "io.sentry:sentry-ktor-client", version.ref = "sentry" }
+sentry-okhttp = { module = "io.sentry:sentry-okhttp", version.ref = "sentry" }
+
 # Services
 firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase-analytics" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
@@ -253,6 +272,7 @@ gms-googleServices = { module = "com.google.gms:google-services", version.ref = 
 # Plugins
 gradle-android-cacheFixGradlePlugin = { module = "gradle.plugin.org.gradle.android:android-cache-fix-gradle-plugin", version.ref = "gradle-android-cacheFix" }
 detekt-gradlePlugin = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
+sentry-android-gradlePlugin = { module = "io.sentry:sentry-android-gradle-plugin", version.ref = "sentry-android-gradle" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 detekt-rules-compose = { module = "ru.kode:detekt-rules-compose", version.ref = "detekt-rules-compose" }
 detekt-rules-libraries = { module = "io.gitlab.arturbosch.detekt:detekt-rules-libraries", version.ref = "detekt" }
@@ -285,6 +305,8 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
 
 firebase-crashlitycs = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics-gradle"}
 gms-googleServices = { id = "com.google.gms.google-services", version.ref = "gms-googleServices"}
+
+sentry-android = { id = "io.sentry.android.gradle", version.ref = "sentry-android-gradle"}
 
 gradle-android-cacheFix = { id = "org.gradle.android.cache-fix", version.ref = "gradle-android-cacheFix" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
