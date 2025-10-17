@@ -9,6 +9,20 @@
 
 ### red_mad_robot
 
+- *No changes*
+
+### AndroidX
+
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2025.10.17]
+
+### red_mad_robot
+
 - :arrow_up: [textvalue](https://github.com/RedMadRobot/TextValue/releases/tag/v1.0.2) `1.0.0` → `1.0.2`
 
 ### AndroidX
@@ -304,7 +318,8 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.09.19...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.10.17...main
+[2025.10.17]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.09.19...2025.10.17
 [2025.09.19]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.09.05...2025.09.19
 [2025.09.05]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.08.22...2025.09.05
 [2025.08.22]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.07.24...2025.08.22
