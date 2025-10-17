@@ -29,6 +29,7 @@
 ### Stack
 
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.57.2) `2.57.1` → `2.57.2`
+- :sparkle: [detekt-api](https://github.com/detekt/detekt/releases/tag/v1.23.8)
 - :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v2.1.0) `2.0.0` → `2.1.0` :warning:
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34.4.0) `34.3.0` → `34.4.0`
 - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v20.0.3) `20.0.2` → `20.0.3`
@@ -38,8 +39,20 @@
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.14.6) `1.14.5` → `1.14.6`
 - :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md#version-521) `5.1.0` → `5.2.1`
 - :arrow_up: [reactivex-rxjava3](https://github.com/ReactiveX/RxJava/releases/tag/v3.1.12) `3.1.11` → `3.1.12`
+- :sparkle: [sentry-android](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-android-fragment](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-android-navigation](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-android-sqlite](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-android-timber](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-apollo](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-apollo-3](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-apollo-4](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-compose-android](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-ktor-client](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
+- :sparkle: [sentry-okhttp](https://github.com/getsentry/sentry-java/releases/tag/8.23.0) `8.23.0`
 - :arrow_up: plugin: [Android Cache Fix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0.2) `3.0.1` → `3.0.2`
 - :arrow_up: plugin: [gms-googleServices](https://firebase.google.com/support/release-notes/android#google-services_plugin_v4-4-4) `4.4.3` → `4.4.4`
+- :sparkle: plugin: [sentry-android](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/5.12.1) `5.12.1`
 - :arrow_up: plugin: [owasp-dependencycheck](https://github.com/dependency-check/DependencyCheck/blob/main/CHANGELOG.md#version-1218-2025-09-13) `12.1.3` → `12.1.8`
 - :arrow_up: plugin: [versions](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.53.0) `0.52.0` → `0.53.0`
 
