@@ -34,6 +34,7 @@
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34.4.0) `34.3.0` → `34.4.0`
 - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v20.0.3) `20.0.2` → `20.0.3`
 - :arrow_up: [junit](https://junit.org/junit5/docs/6.0.0/release-notes/) `5.13.4` → `6.0.0` :warning:
+- :x: [junit-platform-runner](https://docs.junit.org/6.0.0/release-notes/)
 - :arrow_up: [kotest](https://github.com/kotest/kotest/releases) `6.0.3` → `6.0.4`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.2.20-2.0.4) `2.2.20-2.0.3` → `2.2.20-2.0.4`
 - :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.14.6) `1.14.5` → `1.14.6`
