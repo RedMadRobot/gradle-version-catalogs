@@ -13,11 +13,35 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.12.0) `1.11.0` → `1.12.0`
+- :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.9.5) `1.9.3` → `1.9.5`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/compose/bom/bom-mapping) `2025.10.00` → `2025.11.01`
+- :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.9.5) `1.9.3` → `1.9.5`
+- :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.9.5) `1.9.3` → `1.9.5`
+- :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.9.5) `1.9.3` → `1.9.5`
+- :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.9.5) `1.9.3` → `1.9.5`
+- :arrow_up: [core-splashscreen](https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.2.0) `1.0.1` → `1.2.0` :warning:
+- :arrow_up: [datastore](https://developer.android.com/jetpack/androidx/releases/datastore#1.2.0) `1.1.7` → `1.2.0`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.10.0) `2.9.4` → `2.10.0`
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.9.6) `2.9.5` → `2.9.6`
+- :arrow_up: [room](https://developer.android.com/jetpack/androidx/releases/room#2.8.4) `2.8.2` → `2.8.4`
+- :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.11.0) `2.10.5` → `2.11.0` :warning:
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [epoxy](https://github.com/airbnb/epoxy/releases/tag/5.2.0) `5.1.4` → `5.2.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34-6-0) `34.4.0` → `34.6.0` :warning:
+- :arrow_up: [junit](https://junit.org/junit5/docs/6.0.1/release-notes/) `6.0.0` → `6.0.1`
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v6.0.5) `6.0.4` → `6.0.5`
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.2.21) `2.2.20` → `2.2.21`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.3.3) `2.2.20-2.0.4` → `2.3.3`
+- :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md#version-532) `5.2.1` → `5.3.2`
+- :arrow_up: [sentry](https://github.com/getsentry/sentry-java/releases/tag/8.27.1) `8.23.0` → `8.27.1` :warning:
+- :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.19.0) `1.18.0` → `1.19.0` :warning:
+- :arrow_up: plugin: [Android Cache Fix](https://github.com/gradle/android-cache-fix-gradle-plugin/releases/tag/v3.0.3) `3.0.2` → `3.0.3`
+- :arrow_up: plugin: [Android Gradle Plugin](https://developer.android.com/build/releases/gradle-plugin#8-13-1) `8.13.0` → `8.13.1`
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/dependency-check/DependencyCheck/blob/main/CHANGELOG.md#version-1219-2025-10-15) `12.1.8` → `12.1.9`
+- :arrow_up: plugin: [sentry-android](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/5.12.2) `5.12.1` → `5.12.2`
 
 ## [2025.10.17]
 
