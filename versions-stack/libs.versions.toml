@@ -63,7 +63,7 @@ firebase-messaging = "25.0.1"
 gms-googleServices = "4.4.4"
 
 # Gradle plugins
-gradle-android-cacheFix = "3.0.2"
+gradle-android-cacheFix = "3.0.3"
 detekt = "1.23.8"
 detekt-rules-compose = "1.4.0"
 doctorPlugin = "0.12.1"
