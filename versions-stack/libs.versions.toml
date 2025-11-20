@@ -46,7 +46,7 @@ leakcanary = "2.14"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "2.2.20-2.0.4"
+ksp = "2.3.3"
 
 # Monitoring & Error Tracking
 sentry = "8.23.0"
