@@ -10,7 +10,7 @@ dokka = "2.1.0"
 # UI Tools
 accompanist = "0.37.3"
 coil = "2.7.0"
-epoxy = "5.1.4"
+epoxy = "5.2.0"
 groupie = "2.10.1"
 insetter = "0.6.1"
 material = "1.13.0"
