@@ -1,8 +1,8 @@
 [versions]
 
-android-gradlePlugin = "8.13.1"
+android-gradlePlugin = "8.13.2"
 
-kotlin = "2.2.21"
+kotlin = "2.3.0"
 kotlinx-datetime = "0.7.1"
 kotlinx-collections-immutable = "0.3.8"
 dokka = "2.1.0"
@@ -27,7 +27,7 @@ okhttp = "5.3.2" # https://github.com/square/okhttp/blob/master/docs/changelogs/
 retrofit = "3.0.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 
 # Security
-tink = "1.19.0"
+tink = "1.20.0"
 
 # DI
 dagger = "2.57.2"
@@ -36,9 +36,9 @@ javax-inject = "1"
 # Test
 junit = "6.0.1"
 junit4 = "4.13.2"
-kotest = "6.0.5"
+kotest = "6.0.7"
 kotest-prev = "5.9.1"
-mockk = "1.14.6"
+mockk = "1.14.7"
 turbine = "1.2.1"
 
 # Debug Tools
@@ -46,16 +46,16 @@ leakcanary = "2.14"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "2.3.3"
+ksp = "2.3.4"
 
 # Monitoring & Error Tracking
-sentry = "8.27.1"
+sentry = "8.29.0"
 sentry-android-gradle = "5.12.2"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
 firebase-analytics = "23.0.0"
-firebase-bom = "34.6.0"
+firebase-bom = "34.7.0"
 firebase-config = "23.0.1"
 firebase-crashlytics = "20.0.3"
 firebase-crashlytics-gradle = "3.0.6"

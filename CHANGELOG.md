@@ -13,11 +13,23 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.12.2) `1.12.0` → `1.12.2`
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.5.2) `1.5.1` → `1.5.2`
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.9.0) `1.8.0` → `1.9.0` :warning:
+- :arrow_up: [swiperefreshlayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout#1.2.0) `1.1.0` → `1.2.0` :warning:
+- :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.15.0) `1.14.0` → `1.15.0` :warning:
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34-7-0) `34.6.0` → `34.7.0`
+  - :arrow_up: [firebase-ai](https://firebase.google.com/support/release-notes/android#ai_v17-7-0) `17.6.0` → `17.7.0`
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v6.0.7) `6.0.5` → `6.0.7`
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.3.0) `2.2.21` → `2.3.0` :warning:
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.3.4) `2.3.3` → `2.3.4`
+- :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.14.7) `1.14.6` → `1.14.7`
+- :arrow_up: [sentry](https://github.com/getsentry/sentry-java/releases/tag/8.29.0) `8.27.1` → `8.29.0` :warning:
+- :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.20.0) `1.19.0` → `1.20.0` :warning:
+- :arrow_up: plugin: [Android Gradle Plugin](https://developer.android.com/build/releases/gradle-plugin#8-13-2) `8.13.1` → `8.13.2`
 
 ## [2025.11.28]
 
