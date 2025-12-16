@@ -49,7 +49,7 @@ timber = "5.0.1"
 ksp = "2.3.3"
 
 # Monitoring & Error Tracking
-sentry = "8.27.1"
+sentry = "8.29.0"
 sentry-android-gradle = "5.12.2"
 
 # Firebase Services
