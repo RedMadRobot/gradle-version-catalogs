@@ -51,6 +51,7 @@ test-runner = "1.7.0"
 test-rules = "1.7.0"
 test-services = "1.6.0"
 webkit = "1.15.0"
+window = "1.5.1"
 work = "2.11.0"
 
 [libraries]
@@ -225,6 +226,11 @@ test-runner = { module = "androidx.test:runner", version.ref = "test-runner" }
 test-services = { module = "androidx.test.services:test-services", version.ref = "test-services" }
 test-services-storage = { module = "androidx.test.services:storage", version.ref = "test-services" }
 webkit = { module = "androidx.webkit:webkit", version.ref = "webkit" }
+window = { module = "androidx.window:window", version.ref = "window" }
+window-java = { module = "androidx.window:window-java", version.ref = "window" }
+window-rxjava2 = { module = "androidx.window:window-rxjava2", version.ref = "window" }
+window-rxjava3 = { module = "androidx.window:window-rxjava3", version.ref = "window" }
+window-testing = { module = "androidx.window:window-testing", version.ref = "window" }
 work-gcm = { module = "androidx.work:work-gcm", version.ref = "work" }
 work-multiprocess = { module = "androidx.work:work-multiprocess", version.ref = "work" }
 work-runtime = { module = "androidx.work:work-runtime", version.ref = "work" }
