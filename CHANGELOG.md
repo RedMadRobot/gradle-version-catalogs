@@ -21,6 +21,7 @@
 - :sparkle: [navigation3-ui](https://developer.android.com/jetpack/androidx/releases/navigation3#version_10_2) `1.0.0`
 - :arrow_up: [swiperefreshlayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout#1.2.0) `1.1.0` → `1.2.0` :warning:
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.15.0) `1.14.0` → `1.15.0` :warning:
+- :sparkle: [window](https://developer.android.com/jetpack/androidx/releases/window#1.5.1) `1.5.1`
 
 ### Stack
 
