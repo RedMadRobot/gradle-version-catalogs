@@ -15,7 +15,10 @@
 
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.12.2) `1.12.0` → `1.12.2`
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.5.2) `1.5.1` → `1.5.2`
+- :sparkle: [lifecycle-viewmodel-navigation3](https://developer.android.com/jetpack/androidx/releases/lifecycle#version_210_4) `2.10.0`
 - :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.9.0) `1.8.0` → `1.9.0` :warning:
+- :sparkle: [navigation3-runtime](https://developer.android.com/jetpack/androidx/releases/navigation3#version_10_2) `1.0.0`
+- :sparkle: [navigation3-ui](https://developer.android.com/jetpack/androidx/releases/navigation3#version_10_2) `1.0.0`
 - :arrow_up: [swiperefreshlayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout#1.2.0) `1.1.0` → `1.2.0` :warning:
 - :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.15.0) `1.14.0` → `1.15.0` :warning:
 
