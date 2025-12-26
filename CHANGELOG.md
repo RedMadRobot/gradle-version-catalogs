@@ -13,6 +13,20 @@
 
 ### AndroidX
 
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2025.12.26]
+
+### red_mad_robot
+
+- *No changes*
+
+### AndroidX
+
 - :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.12.2) `1.12.0` → `1.12.2`
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.5.2) `1.5.1` → `1.5.2`
 - :sparkle: [lifecycle-viewmodel-navigation3](https://developer.android.com/jetpack/androidx/releases/lifecycle#version_210_4) `2.10.0`
@@ -372,7 +386,8 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.11.28...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.12.26...main
+[2025.12.26]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.11.28...2025.12.26
 [2025.11.28]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.10.17...2025.11.28
 [2025.10.17]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.09.19...2025.10.17
 [2025.09.19]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.09.05...2025.09.19
