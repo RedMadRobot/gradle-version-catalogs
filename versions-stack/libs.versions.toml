@@ -68,7 +68,7 @@ detekt = "1.23.8"
 detekt-rules-compose = "1.4.0"
 doctorPlugin = "0.12.1"
 kotlinx-binaryCompatibilityValidator = "0.18.1"
-owasp-dependencycheck = "12.1.9"
+owasp-dependencycheck = "12.2.0"
 versionsPlugin = "0.53.0"
 
 [libraries]
