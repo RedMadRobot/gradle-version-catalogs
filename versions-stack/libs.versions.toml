@@ -21,7 +21,7 @@ reactivex-rxjava2 = "2.2.21"
 reactivex-rxjava3 = "3.1.12"
 
 # Network & Serialization
-kotlinx-serialization = "1.9.0"
+kotlinx-serialization = "1.10.0"
 moshi = "1.15.2" # https://github.com/square/moshi/blob/master/CHANGELOG.md
 okhttp = "5.3.2" # https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md
 retrofit = "3.0.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
