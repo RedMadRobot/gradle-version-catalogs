@@ -50,7 +50,7 @@ ksp = "2.3.4"
 
 # Monitoring & Error Tracking
 sentry = "8.29.0"
-sentry-android-gradle = "5.12.2"
+sentry-android-gradle = "6.0.0"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
