@@ -12,8 +12,12 @@ accompanist = "0.37.3"
 coil = "2.7.0"
 epoxy = "5.2.1"
 groupie = "2.10.1"
+haze = "1.7.2"
 insetter = "0.6.1"
+lottie = "6.7.1"
 material = "1.13.0"
+qrose = "1.1.2"
+rive-android = "11.1.1"
 
 # Multithreading
 kotlinx-coroutines = "1.10.2"
@@ -21,12 +25,15 @@ reactivex-rxjava2 = "2.2.21"
 reactivex-rxjava3 = "3.1.12"
 
 # Network & Serialization
+gson = "2.13.2"
+jsoup = "1.22.1"
 kotlinx-serialization = "1.10.0"
 moshi = "1.15.2" # https://github.com/square/moshi/blob/master/CHANGELOG.md
 okhttp = "5.3.2" # https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md
 retrofit = "3.0.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 
 # Security
+argon2kt = "1.6.0"
 tink = "1.20.0"
 
 # DI
@@ -51,6 +58,7 @@ ksp = "2.3.5"
 # Monitoring & Error Tracking
 sentry = "8.32.0"
 sentry-android-gradle = "6.0.0"
+sentry-kotlin-compiler = "6.0.0"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
@@ -61,6 +69,19 @@ firebase-crashlytics = "20.0.4"
 firebase-crashlytics-gradle = "3.0.6"
 firebase-messaging = "25.0.1"
 gms-googleServices = "4.4.4"
+
+# Google Play Services
+gms-adsidentifier = "18.3.0"
+gms-auth = "21.5.0"
+gms-auth-phone = "18.3.0"
+gms-barcodeScanning = "18.3.1"
+gms-base = "18.10.0"
+gms-location = "21.3.0"
+play-integrity = "1.6.0"
+
+# Third-party Services
+appsflyer = "6.17.5"
+facebook = "18.0.3"
 
 # Gradle plugins
 gradle-android-cacheFix = "3.0.3"
@@ -129,8 +150,14 @@ epoxy-compose = { module = "com.airbnb.android:epoxy-compose", version.ref = "ep
 epoxy-paging3 = { module = "com.airbnb.android:epoxy-paging3", version.ref = "epoxy" }
 epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref = "epoxy" }
 groupie = { module = "com.github.lisawray.groupie:groupie", version.ref = "groupie" }
+haze = { module = "dev.chrisbanes.haze:haze", version.ref = "haze" }
+haze-materials = { module = "dev.chrisbanes.haze:haze-materials", version.ref = "haze" }
 insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "insetter" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottie" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
+qrose = { module = "io.github.alexzhirkevich:qrose", version.ref = "qrose" }
+rive-android = { module = "app.rive:rive-android", version.ref = "rive-android" }
 
 # Multithreading
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
@@ -153,6 +180,8 @@ rxjava2 = { module = "io.reactivex.rxjava2:rxjava", version.ref = "reactivex-rxj
 rxjava3 = { module = "io.reactivex.rxjava3:rxjava", version.ref = "reactivex-rxjava3" }
 
 # Network & Serialization
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
 kotlinx-serialization-cbor = { module = "org.jetbrains.kotlinx:kotlinx-serialization-cbor", version.ref = "kotlinx-serialization" }
 kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx-serialization" }
 kotlinx-serialization-hocon = { module = "org.jetbrains.kotlinx:kotlinx-serialization-hocon", version.ref = "kotlinx-serialization" }
@@ -187,6 +216,7 @@ retrofit-adapter-rxjava3 = { module = "com.squareup.retrofit2:adapter-rxjava3", 
 retrofit-mock = { module = "com.squareup.retrofit2:retrofit-mock", version.ref = "retrofit" }
 
 # Security
+argon2kt = { module = "com.lambdapioneer.argon2kt:argon2kt", version.ref = "argon2kt" }
 tink = { module = "com.google.crypto.tink:tink", version.ref = "tink" }
 tink-android = { module = "com.google.crypto.tink:tink-android", version.ref = "tink" }
 
@@ -260,13 +290,23 @@ sentry-ktor-client = { module = "io.sentry:sentry-ktor-client", version.ref = "s
 sentry-okhttp = { module = "io.sentry:sentry-okhttp", version.ref = "sentry" }
 
 # Services
+appsflyer = { module = "com.appsflyer:af-android-sdk", version.ref = "appsflyer" }
+facebook-applinks = { module = "com.facebook.android:facebook-applinks", version.ref = "facebook" }
+facebook-core = { module = "com.facebook.android:facebook-core", version.ref = "facebook" }
 firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase-analytics" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
 firebase-config = { module = "com.google.firebase:firebase-config", version.ref = "firebase-config" }
 firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics", version.ref = "firebase-crashlytics" }
 firebase-crashlytics-gradle = { module = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "firebase-crashlytics-gradle" }
 firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebase-messaging" }
+gms-adsidentifier = { module = "com.google.android.gms:play-services-ads-identifier", version.ref = "gms-adsidentifier" }
+gms-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "gms-auth" }
+gms-auth-phone = { module = "com.google.android.gms:play-services-auth-api-phone", version.ref = "gms-auth-phone" }
+gms-barcodeScanning = { module = "com.google.android.gms:play-services-mlkit-barcode-scanning", version.ref = "gms-barcodeScanning" }
+gms-base = { module = "com.google.android.gms:play-services-base", version.ref = "gms-base" }
 gms-googleServices = { module = "com.google.gms:google-services", version.ref = "gms-googleServices" }
+gms-location = { module = "com.google.android.gms:play-services-location", version.ref = "gms-location" }
+play-integrity = { module = "com.google.android.play:integrity", version.ref = "play-integrity" }
 
 # Plugins
 gradle-android-cacheFixGradlePlugin = { module = "gradle.plugin.org.gradle.android:android-cache-fix-gradle-plugin", version.ref = "gradle-android-cacheFix" }
@@ -306,6 +346,7 @@ firebase-crashlitycs = { id = "com.google.firebase.crashlytics", version.ref = "
 gms-googleServices = { id = "com.google.gms.google-services", version.ref = "gms-googleServices"}
 
 sentry-android = { id = "io.sentry.android.gradle", version.ref = "sentry-android-gradle"}
+sentry-kotlin-compiler = { id = "io.sentry.kotlin.compiler.gradle", version.ref = "sentry-kotlin-compiler"}
 
 gradle-android-cacheFix = { id = "org.gradle.android.cache-fix", version.ref = "gradle-android-cacheFix" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
