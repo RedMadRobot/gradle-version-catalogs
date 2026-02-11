@@ -1,6 +1,6 @@
 [versions]
 
-android-gradlePlugin = "9.0.0"
+android-gradlePlugin = "9.0.1"
 
 kotlin = "2.3.10"
 kotlinx-datetime = "0.7.1"
@@ -17,7 +17,7 @@ insetter = "0.6.1"
 lottie = "6.7.1"
 material = "1.13.0"
 qrose = "1.1.2"
-rive-android = "11.1.1"
+rive-android = "11.1.2"
 
 # Multithreading
 kotlinx-coroutines = "1.10.2"
@@ -37,11 +37,11 @@ argon2kt = "1.6.0"
 tink = "1.20.0"
 
 # DI
-dagger = "2.59.1"
+dagger = "2.59.2"
 javax-inject = "1"
 
 # Test
-junit = "6.0.2"
+junit = "6.0.3"
 junit4 = "4.13.2"
 kotest = "6.1.3"
 kotest-prev = "5.9.1"
@@ -53,12 +53,12 @@ leakcanary = "2.14"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "2.3.5"
+ksp = "2.3.6"
 
 # Monitoring & Error Tracking
-sentry = "8.32.0"
-sentry-android-gradle = "6.0.0"
-sentry-kotlin-compiler = "6.0.0"
+sentry = "8.33.0"
+sentry-android-gradle = "6.1.0"
+sentry-kotlin-compiler = "6.1.0"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
@@ -72,7 +72,7 @@ gms-googleServices = "4.4.4"
 
 # Google Play Services
 gms-adsidentifier = "18.3.0"
-gms-auth = "21.5.0"
+gms-auth = "21.5.1"
 gms-auth-phone = "18.3.0"
 gms-barcodeScanning = "18.3.1"
 gms-base = "18.10.0"
@@ -81,7 +81,7 @@ play-integrity = "1.6.0"
 
 # Third-party Services
 appsflyer = "6.17.5"
-facebook = "18.0.3"
+facebook = "18.1.3"
 
 # Gradle plugins
 gradle-android-cacheFix = "3.0.3"
