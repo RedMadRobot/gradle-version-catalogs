@@ -4,6 +4,7 @@ activity = "1.12.3"
 annotation = "1.9.1"
 annotation-experimental = "1.5.1"
 appcompat = "1.7.1"
+biometric = "1.4.0-alpha05"
 browser = "1.9.0"
 camera = "1.5.3"
 compose-animation = "1.10.2"
@@ -38,6 +39,7 @@ recyclerview = "1.4.0"
 recyclerview-selection = "1.2.0"
 room = "2.8.4"
 security-crypto = "1.1.0"
+startup = "1.2.0"
 swiperefreshlayout = "1.2.0"
 test-annotation = "1.0.1"
 test-core = "1.7.0"
@@ -62,6 +64,7 @@ annotation = { module = "androidx.annotation:annotation", version.ref = "annotat
 annotation-experimental = { module = "androidx.annotation:annotation-experimental", version.ref = "annotation-experimental" }
 appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "appcompat" }
+biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
 browser = { module = "androidx.browser:browser", version.ref = "browser" }
 camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "camera" }
 camera-core = { module = "androidx.camera:camera-core", version.ref = "camera" }
@@ -204,6 +207,7 @@ room-rxjava2 = { module = "androidx.room:room-rxjava2", version.ref = "room" }
 room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "room" }
 room-testing = { module = "androidx.room:room-testing", version.ref = "room" }
 security-crypto = { module = "androidx.security:security-crypto", version.ref = "security-crypto" }
+startup = { module = "androidx.startup:startup-runtime", version.ref = "startup" }
 swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
 test-annotation = { module = "androidx.test:annotation", version.ref = "test-annotation" }
 test-core = { module = "androidx.test:core-ktx", version.ref = "test-core" }

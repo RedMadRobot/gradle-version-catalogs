@@ -1,5 +1,6 @@
 [versions]
 
+debug-panel = "0.9.3"
 flipper = "2.0.1"
 gradle-infrastructure = "0.19.1"
 inputmask = "7.2.6"
@@ -17,6 +18,11 @@ textvalue = "1.0.2"
 
 [libraries]
 
+debug-panel-accounts = { module = "com.redmadrobot.debug:plugin-accounts", version.ref = "debug-panel" }
+debug-panel-core = { module = "com.redmadrobot.debug:panel-core", version.ref = "debug-panel" }
+debug-panel-konfeature = { module = "com.redmadrobot.debug:plugin-konfeature", version.ref = "debug-panel" }
+debug-panel-noop = { module = "com.redmadrobot.debug:panel-no-op", version.ref = "debug-panel" }
+debug-panel-servers = { module = "com.redmadrobot.debug:plugin-servers", version.ref = "debug-panel" }
 flipper = { module = "com.redmadrobot:flipper", version.ref = "flipper" }
 flipper-firebaseConfig = { module = "com.redmadrobot:flipper-firebase-config", version.ref = "flipper" }
 infrastructure-android = { module = "com.redmadrobot.build:infrastructure-android", version.ref = "gradle-infrastructure" }
