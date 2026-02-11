@@ -11,6 +11,20 @@
 
 ### red_mad_robot
 
+- *No changes*
+
+### AndroidX
+
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2026.02.11]
+
+### red_mad_robot
+
 - :sparkle: [debug-panel](https://github.com/RedMadRobot/debug-panel-android/releases/tag/v0.9.3) `0.9.3`
 
 ### AndroidX
@@ -71,4 +85,5 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.12.26...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.02.11...main
+[2026.02.11]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.12.26...2026.02.11
