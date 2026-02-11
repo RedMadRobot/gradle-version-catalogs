@@ -11,15 +11,32 @@
 
 ### red_mad_robot
 
-- *No changes*
+- :arrow_up: [gradle-infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases/tag/v0.20.0) `0.19.1` → `0.20.0` :warning:
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.12.4) `1.12.3` → `1.12.4`
+- :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.10.3) `1.10.2` → `1.10.3`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose-bom#2026.02.00) `2026.01.01` → `2026.02.00`
+- :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.10.3) `1.10.2` → `1.10.3`
+- :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.10.3) `1.10.2` → `1.10.3`
+- :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.10.3) `1.10.2` → `1.10.3`
+- :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.10.3) `1.10.2` → `1.10.3`
+- :arrow_up: [navigation3-core](https://developer.android.com/jetpack/androidx/releases/navigation3#1.0.1) `1.0.0` → `1.0.1`
+- :arrow_up: [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.4.1) `3.4.0` → `3.4.1`
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.59.2) `2.59.1` → `2.59.2`
+- :arrow_up: [facebook](https://github.com/facebook/facebook-android-sdk/releases/tag/sdk-version-18.1.3) `18.0.3` → `18.1.3`
+- :arrow_up: [gms-auth](https://developers.google.com/android/guides/releases) `21.5.0` → `21.5.1`
+- :arrow_up: [junit](https://github.com/junit-team/junit5/releases/tag/r6.0.3) `6.0.2` → `6.0.3`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.3.6) `2.3.5` → `2.3.6`
+- :arrow_up: [rive-android](https://github.com/rive-app/rive-android/releases/tag/11.1.2) `11.1.1` → `11.1.2`
+- :arrow_up: [sentry](https://github.com/getsentry/sentry-java/releases/tag/8.33.0) `8.32.0` → `8.33.0`
+- :arrow_up: plugin: [android-gradlePlugin](https://developer.android.com/build/releases/gradle-plugin#9-0-1) `9.0.0` → `9.0.1`
+- :arrow_up: plugin: [sentry-android-gradle](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.1.0) `6.0.0` → `6.1.0` :warning:
+- :arrow_up: plugin: [sentry-kotlin-compiler](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.1.0) `6.0.0` → `6.1.0` :warning:
 
 ## [2026.02.11]
 
