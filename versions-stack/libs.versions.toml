@@ -72,7 +72,7 @@ gms-googleServices = "4.4.4"
 
 # Google Play Services
 gms-adsidentifier = "18.3.0"
-gms-auth = "21.5.0"
+gms-auth = "21.5.1"
 gms-auth-phone = "18.3.0"
 gms-barcodeScanning = "18.3.1"
 gms-base = "18.10.0"
