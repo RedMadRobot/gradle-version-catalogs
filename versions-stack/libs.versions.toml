@@ -37,7 +37,7 @@ argon2kt = "1.6.0"
 tink = "1.20.0"
 
 # DI
-dagger = "2.59.1"
+dagger = "2.59.2"
 javax-inject = "1"
 
 # Test
