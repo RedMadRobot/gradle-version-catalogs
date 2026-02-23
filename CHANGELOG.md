@@ -11,6 +11,20 @@
 
 ### red_mad_robot
 
+- *No changes*
+
+### AndroidX
+
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2026.02.23]
+
+### red_mad_robot
+
 - :arrow_up: [gradle-infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases/tag/v0.20.0) `0.19.1` → `0.20.0` :warning:
 
 ### AndroidX
@@ -102,5 +116,6 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.02.11...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.02.23...main
+[2026.02.23]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.02.11...2026.02.23
 [2026.02.11]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2025.12.26...2026.02.11
