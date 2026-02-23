@@ -1,11 +1,11 @@
 [versions]
 
-debug-panel = "0.9.3"
+debug-panel = "1.1.0"
 flipper = "2.0.1"
-gradle-infrastructure = "0.20.0"
+gradle-infrastructure = "0.20.1"
 inputmask = "7.2.6"
 itemsadapter = "1.1"
-konfeature = "0.1.0"
+konfeature = "1.0.0"
 ktx-core = "1.6.0-2"
 ktx-fragment = "1.3.6-0"
 ktx-fragment-args = "1.3.6-1"
@@ -13,14 +13,14 @@ ktx-livedata = "2.3.1-0"
 ktx-resources = "1.3.1-0"
 ktx-viewbinding = "4.2.1-0"
 mapmemory = "2.1"
-pinkman = "1.3.2"
+pinkman = "1.4.0"
 textvalue = "1.0.2"
 
 [libraries]
 
-debug-panel-accounts = { module = "com.redmadrobot.debug:plugin-accounts", version.ref = "debug-panel" }
 debug-panel-core = { module = "com.redmadrobot.debug:panel-core", version.ref = "debug-panel" }
 debug-panel-konfeature = { module = "com.redmadrobot.debug:plugin-konfeature", version.ref = "debug-panel" }
+debug-panel-about-app = { module = "com.redmadrobot.debug:plugin-about-app", version.ref = "debug-panel" }
 debug-panel-noop = { module = "com.redmadrobot.debug:panel-no-op", version.ref = "debug-panel" }
 debug-panel-servers = { module = "com.redmadrobot.debug:plugin-servers", version.ref = "debug-panel" }
 flipper = { module = "com.redmadrobot:flipper", version.ref = "flipper" }

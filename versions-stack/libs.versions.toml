@@ -1,49 +1,52 @@
 [versions]
 
-android-gradlePlugin = "9.0.1"
+android-gradlePlugin = "9.2.1"
 
-kotlin = "2.3.10"
+kotlin = "2.3.21"
 kotlinx-datetime = "0.7.1"
 kotlinx-collections-immutable = "0.3.8"
-dokka = "2.1.0"
+dokka = "2.2.0"
 
 # UI Tools
 accompanist = "0.37.3"
 coil = "2.7.0"
+coil3 = "3.4.0"
 epoxy = "5.2.1"
 groupie = "2.10.1"
 haze = "1.7.2"
 insetter = "0.6.1"
 lottie = "6.7.1"
-material = "1.13.0"
+markwon = "4.6.2"
+material = "1.14.0"
 qrose = "1.1.2"
-rive-android = "11.1.2"
+rive-android = "11.6.1"
 
 # Multithreading
-kotlinx-coroutines = "1.10.2"
+kotlinx-coroutines = "1.11.0"
 reactivex-rxjava2 = "2.2.21"
 reactivex-rxjava3 = "3.1.12"
 
 # Network & Serialization
-gson = "2.13.2"
-jsoup = "1.22.1"
-kotlinx-serialization = "1.10.0"
+gson = "2.14.0"
+jsoup = "1.22.2"
+kotlinx-serialization = "1.11.0"
 moshi = "1.15.2" # https://github.com/square/moshi/blob/master/CHANGELOG.md
 okhttp = "5.3.2" # https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md
 retrofit = "3.0.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 
 # Security
 argon2kt = "1.6.0"
-tink = "1.20.0"
+securityCryptoDatastore = "1.1.1-beta03"
+tink = "1.21.0"
 
 # DI
 dagger = "2.59.2"
 javax-inject = "1"
 
 # Test
-junit = "6.0.3"
+junit = "6.1.0"
 junit4 = "4.13.2"
-kotest = "6.1.3"
+kotest = "6.1.11"
 kotest-prev = "5.9.1"
 mockk = "1.14.9"
 turbine = "1.2.1"
@@ -53,26 +56,26 @@ leakcanary = "2.14"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "2.3.6"
+ksp = "2.3.9"
 
 # Monitoring & Error Tracking
-sentry = "8.33.0"
-sentry-android-gradle = "6.1.0"
-sentry-kotlin-compiler = "6.1.0"
+sentry = "8.43.0"
+sentry-android-gradle = "6.9.0"
+sentry-kotlin-compiler = "6.9.0"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
-firebase-analytics = "23.0.0"
-firebase-bom = "34.9.0"
-firebase-config = "23.0.1"
-firebase-crashlytics = "20.0.4"
-firebase-crashlytics-gradle = "3.0.6"
-firebase-messaging = "25.0.1"
+firebase-analytics = "23.2.0"
+firebase-bom = "34.14.0"
+firebase-config = "23.1.0"
+firebase-crashlytics = "20.0.6"
+firebase-crashlytics-gradle = "3.0.7"
+firebase-messaging = "25.0.2"
 gms-googleServices = "4.4.4"
 
 # Google Play Services
 gms-adsidentifier = "18.3.0"
-gms-auth = "21.5.1"
+gms-auth = "21.6.0"
 gms-auth-phone = "18.3.0"
 gms-barcodeScanning = "18.3.1"
 gms-base = "18.10.0"
@@ -80,8 +83,8 @@ gms-location = "21.3.0"
 play-integrity = "1.6.0"
 
 # Third-party Services
-appsflyer = "6.17.5"
-facebook = "18.1.3"
+appsflyer = "7.0.0"
+facebook = "18.2.3"
 
 # Gradle plugins
 gradle-android-cacheFix = "3.0.3"
@@ -89,8 +92,8 @@ detekt = "1.23.8"
 detekt-rules-compose = "1.4.0"
 doctorPlugin = "0.12.1"
 kotlinx-binaryCompatibilityValidator = "0.18.1"
-owasp-dependencycheck = "12.2.0"
-versionsPlugin = "0.53.0"
+owasp-dependencycheck = "12.2.2"
+versionsPlugin = "0.54.0"
 
 [libraries]
 
@@ -144,6 +147,10 @@ coil-gif = { module = "io.coil-kt:coil-gif", version.ref = "coil" }
 coil-svg = { module = "io.coil-kt:coil-svg", version.ref = "coil" }
 coil-test = { module = "io.coil-kt:coil-test", version.ref = "coil" }
 coil-video = { module = "io.coil-kt:coil-video", version.ref = "coil" }
+coil3 = { module = "io.coil-kt.coil3:coil", version.ref = "coil3" }
+coil3-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil3" }
+coil3-gif = { module = "io.coil-kt.coil3:coil-gif", version.ref = "coil3" }
+coil3-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coil3" }
 epoxy = { module = "com.airbnb.android:epoxy", version.ref = "epoxy" }
 epoxy-annotations = { module = "com.airbnb.android:epoxy-annotations", version.ref = "epoxy" }
 epoxy-compose = { module = "com.airbnb.android:epoxy-compose", version.ref = "epoxy" }
@@ -155,6 +162,14 @@ haze-materials = { module = "dev.chrisbanes.haze:haze-materials", version.ref = 
 insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "insetter" }
 lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
 lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottie" }
+markwon-core = { group = "io.noties.markwon", name = "core", version.ref = "markwon" }
+markwon-ext-latex = { group = "io.noties.markwon", name = "ext-latex", version.ref = "markwon" }
+markwon-ext-strikethrough = { group = "io.noties.markwon", name = "ext-strikethrough", version.ref = "markwon" }
+markwon-ext-tables = { group = "io.noties.markwon", name = "ext-tables", version.ref = "markwon" }
+markwon-ext-tasklist = { group = "io.noties.markwon", name = "ext-tasklist", version.ref = "markwon" }
+markwon-html = { group = "io.noties.markwon", name = "html", version.ref = "markwon" }
+markwon-linkify = { group = "io.noties.markwon", name = "linkify", version.ref = "markwon" }
+markwon-syntax-highlight = { group = "io.noties.markwon", name = "syntax-highlight", version.ref = "markwon" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
 qrose = { module = "io.github.alexzhirkevich:qrose", version.ref = "qrose" }
 rive-android = { module = "app.rive:rive-android", version.ref = "rive-android" }
@@ -219,6 +234,7 @@ retrofit-mock = { module = "com.squareup.retrofit2:retrofit-mock", version.ref =
 argon2kt = { module = "com.lambdapioneer.argon2kt:argon2kt", version.ref = "argon2kt" }
 tink = { module = "com.google.crypto.tink:tink", version.ref = "tink" }
 tink-android = { module = "com.google.crypto.tink:tink-android", version.ref = "tink" }
+security-crypto-datastore = { module = "io.github.osipxd:security-crypto-datastore", version.ref = "securityCryptoDatastore" }
 
 # DI
 dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
