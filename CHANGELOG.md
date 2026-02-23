@@ -11,15 +11,68 @@
 
 ### red_mad_robot
 
-- *No changes*
+- :x: [debug-panel-accounts](https://github.com/RedMadRobot/debug-panel-android)
+- :sparkle: [debug-panel-about-app](https://github.com/RedMadRobot/debug-panel-android/releases/tag/v1.1.0) `1.1.0`
+- :arrow_up: [debug-panel](https://github.com/RedMadRobot/debug-panel-android/releases/tag/v1.1.0) `0.9.3` → `1.1.0` :warning:
+- :arrow_up: [gradle-infrastructure](https://github.com/RedMadRobot/gradle-infrastructure/releases/tag/v0.20.1) `0.20.0` → `0.20.1`
+- :arrow_up: [konfeature](https://github.com/RedMadRobot/Konfeature/releases/tag/v1.0.0) `0.1.0` → `1.0.0` :warning:
+- :arrow_up: [pinkman](https://github.com/RedMadRobot/PINkman/releases/tag/v1.4.0) `1.3.2` → `1.4.0`
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [activity](https://developer.android.com/jetpack/androidx/releases/activity#1.13.0) `1.12.4` → `1.13.0`
+- :arrow_up: [annotation](https://developer.android.com/jetpack/androidx/releases/annotation#1.10.0) `1.9.1` → `1.10.0`
+- :arrow_up: [annotation-experimental](https://developer.android.com/jetpack/androidx/releases/annotation#1.6.0) `1.5.1` → `1.6.0`
+- :arrow_up: [biometric](https://developer.android.com/jetpack/androidx/releases/biometric#1.4.0-alpha07) `1.4.0-alpha05` → `1.4.0-alpha07`
+- :arrow_up: [browser](https://developer.android.com/jetpack/androidx/releases/browser#1.10.0) `1.9.0` → `1.10.0`
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.6.1) `1.5.3` → `1.6.1`
+- :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.11.2) `1.10.3` → `1.11.2`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose-bom#2026.05.01) `2026.02.00` → `2026.05.01` :warning:
+- :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.11.2) `1.10.3` → `1.11.2` :warning:
+- :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.11.2) `1.10.3` → `1.11.2` :warning:
+- :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.11.2) `1.10.3` → `1.11.2` :warning:
+- :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.11.2) `1.10.3` → `1.11.2` :warning:
+- :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.18.0) `1.17.0` → `1.18.0`
+- :arrow_up: [datastore](https://developer.android.com/jetpack/androidx/releases/datastore#1.2.1) `1.2.0` → `1.2.1`
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.10.1) `1.9.2` → `1.10.1`
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.9.8) `2.9.7` → `2.9.8`
+- :arrow_up: [navigation3-core](https://developer.android.com/jetpack/androidx/releases/navigation3#1.1.2) `1.0.1` → `1.1.2`
+- :arrow_up: [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.5.0) `3.4.1` → `3.5.0` :warning:
+- :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#1.16.0) `1.15.0` → `1.16.0`
+- :arrow_up: [work](https://developer.android.com/jetpack/androidx/releases/work#2.11.2) `2.11.1` → `2.11.2`
 
 ### Stack
 
-- *No changes*
+- :sparkle: [coil3](https://github.com/coil-kt/coil/releases/tag/3.4.0) `3.4.0`
+- :sparkle: [markwon](https://github.com/noties/Markwon/releases/tag/v4.6.2) `4.6.2`
+- :sparkle: [security-crypto-datastore](https://github.com/osipxd/encrypted-datastore/blob/main/CHANGELOG.md#111-beta03--20240513) `1.1.1-beta03`
+- :arrow_up: [appsflyer](https://support.appsflyer.com/hc/en-us/articles/115001256006-AppsFlyer-Android-SDK-release-notes#android-sdk-v7) `6.17.5` → `7.0.0` :warning:
+- :arrow_up: [dokka](https://github.com/Kotlin/dokka/releases/tag/v2.2.0) `2.1.0` → `2.2.0`
+- :arrow_up: [facebook](https://github.com/facebook/facebook-android-sdk/releases/tag/sdk-version-18.2.3) `18.1.3` → `18.2.3`
+- :arrow_up: [firebase-analytics](https://firebase.google.com/support/release-notes/android#analytics_v23-2-0) `23.0.0` → `23.2.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34-14-0) `34.9.0` → `34.14.0`
+- :arrow_up: [firebase-config](https://firebase.google.com/support/release-notes/android#remote-config_v23-1-0) `23.0.1` → `23.1.0`
+- :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android#crashlytics_v20-0-6) `20.0.4` → `20.0.6`
+- :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v25-0-2) `25.0.1` → `25.0.2`
+- :arrow_up: [gms-auth](https://developers.google.com/android/guides/releases) `21.5.1` → `21.6.0`
+- :arrow_up: [gson](https://github.com/google/gson/releases/tag/gson-parent-2.14.0) `2.13.2` → `2.14.0`
+- :arrow_up: [jsoup](https://github.com/jhy/jsoup/releases/tag/jsoup-1.22.2) `1.22.1` → `1.22.2`
+- :arrow_up: [junit](https://github.com/junit-team/junit5/releases/tag/r6.1.0) `6.0.3` → `6.1.0`
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v6.1.11) `6.1.3` → `6.1.11`
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.3.21) `2.3.10` → `2.3.21`
+- :arrow_up: [kotlinx-coroutines](https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.11.0) `1.10.2` → `1.11.0`
+- :arrow_up: [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.11.0) `1.10.0` → `1.11.0`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.3.9) `2.3.6` → `2.3.9`
+- :arrow_up: [material](https://github.com/material-components/material-components-android/releases/tag/1.14.0) `1.13.0` → `1.14.0`
+- :arrow_up: [rive-android](https://github.com/rive-app/rive-android/releases/tag/11.6.1) `11.1.2` → `11.6.1`
+- :arrow_up: [sentry](https://github.com/getsentry/sentry-java/releases/tag/8.43.0) `8.33.0` → `8.43.0`
+- :arrow_up: [tink](https://github.com/google/tink/releases/tag/v1.21.0) `1.20.0` → `1.21.0`
+- :arrow_up: plugin: [android-gradlePlugin](https://developer.android.com/build/releases/gradle-plugin#9-2-1) `9.0.1` → `9.2.1`
+- :arrow_up: plugin: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics-gradle_v3-0-7) `3.0.6` → `3.0.7`
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/jeremylong/DependencyCheck/releases/tag/v12.2.2) `12.2.0` → `12.2.2`
+- :arrow_up: plugin: [sentry-android-gradle](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.9.0) `6.1.0` → `6.9.0` :warning:
+- :arrow_up: plugin: [sentry-kotlin-compiler](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.9.0) `6.1.0` → `6.9.0` :warning:
+- :arrow_up: plugin: [versionsPlugin](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.54.0) `0.53.0` → `0.54.0`
 
 ## [2026.02.23]
 
