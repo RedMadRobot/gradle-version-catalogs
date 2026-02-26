@@ -17,7 +17,7 @@ insetter = "0.6.1"
 lottie = "6.7.1"
 material = "1.13.0"
 qrose = "1.1.2"
-rive-android = "11.1.2"
+rive-android = "11.2.0"
 
 # Multithreading
 kotlinx-coroutines = "1.10.2"
