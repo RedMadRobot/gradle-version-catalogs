@@ -63,7 +63,7 @@ sentry-kotlin-compiler = "6.1.0"
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
 firebase-analytics = "23.0.0"
-firebase-bom = "34.9.0"
+firebase-bom = "34.10.0"
 firebase-config = "23.0.1"
 firebase-crashlytics = "20.0.4"
 firebase-crashlytics-gradle = "3.0.6"
