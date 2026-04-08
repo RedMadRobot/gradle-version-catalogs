@@ -1,7 +1,7 @@
 [versions]
 
 activity = "1.12.4"
-annotation = "1.9.1"
+annotation = "1.10.0"
 annotation-experimental = "1.5.1"
 appcompat = "1.7.1"
 biometric = "1.4.0-alpha05"
