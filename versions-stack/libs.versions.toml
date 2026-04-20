@@ -26,7 +26,7 @@ reactivex-rxjava3 = "3.1.12"
 
 # Network & Serialization
 gson = "2.13.2"
-jsoup = "1.22.1"
+jsoup = "1.22.2"
 kotlinx-serialization = "1.10.0"
 moshi = "1.15.2" # https://github.com/square/moshi/blob/master/CHANGELOG.md
 okhttp = "5.3.2" # https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md
