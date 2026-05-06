@@ -52,7 +52,7 @@ test-orchestrator = "1.6.1"
 test-runner = "1.7.0"
 test-rules = "1.7.0"
 test-services = "1.6.0"
-webkit = "1.15.0"
+webkit = "1.16.0"
 window = "1.5.1"
 work = "2.11.1"
 
