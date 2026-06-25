@@ -84,7 +84,7 @@ play-integrity = "1.6.0"
 
 # Third-party Services
 appsflyer = "7.0.0"
-facebook = "18.2.3"
+facebook = "18.3.0"
 
 # Gradle plugins
 gradle-android-cacheFix = "3.0.3"
