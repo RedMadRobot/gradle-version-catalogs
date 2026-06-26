@@ -11,15 +11,39 @@
 
 ### red_mad_robot
 
-- *No changes*
+- :arrow_up: [debug-panel](https://github.com/RedMadRobot/debug-panel-android/releases/tag/v1.2.0) `1.1.0` → `1.2.0`
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.11.3) `1.11.2` → `1.11.3`
+- :arrow_up: [compose-bom](https://developer.android.com/jetpack/androidx/releases/compose-bom#2026.06.00) `2026.05.01` → `2026.06.00`
+- :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.11.3) `1.11.2` → `1.11.3`
+- :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.11.3) `1.11.2` → `1.11.3`
+- :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.11.3) `1.11.2` → `1.11.3`
+- :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.11.3) `1.11.2` → `1.11.3`
+- :arrow_up: [core](https://developer.android.com/jetpack/androidx/releases/core#1.19.0) `1.18.0` → `1.19.0`
+- :arrow_up: [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.11.0) `2.10.0` → `2.11.0`
+- :arrow_up: [navigation3-core](https://developer.android.com/jetpack/androidx/releases/navigation3#1.1.3) `1.1.2` → `1.1.3`
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [coil3](https://github.com/coil-kt/coil/releases/tag/3.5.0) `3.4.0` → `3.5.0` :warning:
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.60) `2.59.2` → `2.60` :warning:
+- :arrow_up: [facebook](https://github.com/facebook/facebook-android-sdk/releases/tag/sdk-version-18.3.0) `18.2.3` → `18.3.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34-15-0) `34.14.0` → `34.15.0`
+- :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android#messaging_v25-1-0) `25.0.2` → `25.1.0`
+- :arrow_up: [gms-location](https://developers.google.com/android/guides/releases) `21.3.0` → `21.4.0`
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v6.2.1) `6.1.11` → `6.2.1`
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.4.0) `2.3.21` → `2.4.0` :warning:
+- :arrow_up: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/releases/tag/v0.5.0) `0.3.8` → `0.5.0` :warning:
+- :arrow_up: [mockk](https://github.com/mockk/mockk/releases/tag/1.14.11) `1.14.9` → `1.14.11`
+- :arrow_up: [okhttp](https://github.com/square/okhttp/blob/master/CHANGELOG.md#version-540) `5.3.2` → `5.4.0` :warning:
+- :arrow_up: [rive-android](https://github.com/rive-app/rive-android/releases/tag/11.7.1) `11.6.1` → `11.7.1`
+- :arrow_up: [sentry](https://github.com/getsentry/sentry-java/releases/tag/8.46.0) `8.43.0` → `8.46.0`
+- :arrow_up: [tink](https://github.com/google/tink/releases/tag/v1.22.0) `1.21.0` → `1.22.0`
+- :arrow_up: plugin: [gms-googleServices](https://developers.google.com/android/guides/releases?hl=ru#june_16_2026) `4.4.4` → `4.5.0`
+- :arrow_up: plugin: [sentry-android-gradle](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.13.0) `6.9.0` → `6.13.0` :warning:
+- :arrow_up: plugin: [sentry-kotlin-compiler](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.13.0) `6.9.0` → `6.13.0` :warning:
 
 ## [2026.05.29]
 
