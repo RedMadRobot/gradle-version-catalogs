@@ -40,7 +40,7 @@ securityCryptoDatastore = "1.1.1-beta03"
 tink = "1.21.0"
 
 # DI
-dagger = "2.59.2"
+dagger = "2.60"
 javax-inject = "1"
 
 # Test
