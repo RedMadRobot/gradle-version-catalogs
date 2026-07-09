@@ -37,7 +37,7 @@ retrofit = "3.0.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 # Security
 argon2kt = "1.6.0"
 securityCryptoDatastore = "1.1.1-beta03"
-tink = "1.22.0"
+tink = "1.23.0"
 
 # DI
 dagger = "2.60"
