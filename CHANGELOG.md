@@ -26,6 +26,11 @@
 
 ### Stack
 
+- :sparkle: [compose-foundation](https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.11.1) `1.11.1`
+- :sparkle: [compose-material3](https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.9.0) `1.9.0`
+- :sparkle: [compose-resources](https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.11.1) `1.11.1`
+- :sparkle: [compose-runtime](https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.11.1) `1.11.1`
+- :sparkle: [compose-ui](https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.11.1) `1.11.1`
 - :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.60.1) `2.60` → `2.60.1`
 - :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android) `34.15.0` → `34.16.0`
   - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android) `20.0.6` → `20.1.0`
@@ -36,8 +41,12 @@
 - :arrow_up: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/releases/tag/v0.5.1) `0.5.0` → `0.5.1`
 - :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.8.0) `0.7.1` → `0.8.0`
 - :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.3.10) `2.3.9` → `2.3.10`
+- :sparkle: [lifecycle-viewmodel-compose](https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.10.3) `2.10.0`
+- :sparkle: [publish-gradlePlugin](https://github.com/vanniktech/gradle-maven-publish-plugin/releases/tag/0.37.0) `0.37.0`
 - :arrow_up: [sentry](https://github.com/getsentry/sentry-java/releases/tag/8.48.0) `8.46.0` → `8.48.0`
 - :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.23.0) `1.22.0` → `1.23.0`
+- :sparkle: plugin: [composeMultiplatform](https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.11.1) `1.11.1`
+- :sparkle: plugin: [poko](https://github.com/drewhamilton/Poko/releases/tag/0.23.1) `0.23.1`
 - :arrow_up: plugin: [sentry-android-gradle](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.14.0) `6.13.0` → `6.14.0`
 - :arrow_up: plugin: [sentry-kotlin-compiler](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.14.0) `6.13.0` → `6.14.0`
 

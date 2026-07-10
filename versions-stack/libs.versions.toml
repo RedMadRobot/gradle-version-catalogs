@@ -21,6 +21,11 @@ material = "1.14.0"
 qrose = "1.1.2"
 rive-android = "11.7.1"
 
+# Compose Multiplatform
+compose = "1.11.1"
+compose-material3 = "1.9.0"
+lifecycle = "2.10.0"
+
 # Multithreading
 kotlinx-coroutines = "1.11.0"
 reactivex-rxjava2 = "2.2.21"
@@ -93,6 +98,8 @@ detekt-rules-compose = "1.4.0"
 doctorPlugin = "0.12.1"
 kotlinx-binaryCompatibilityValidator = "0.18.1"
 owasp-dependencycheck = "12.2.2"
+poko = "0.23.1"
+publish-plugin = "0.37.0"
 versionsPlugin = "0.54.0"
 
 [libraries]
@@ -173,6 +180,14 @@ markwon-syntax-highlight = { group = "io.noties.markwon", name = "syntax-highlig
 material = { module = "com.google.android.material:material", version.ref = "material" }
 qrose = { module = "io.github.alexzhirkevich:qrose", version.ref = "qrose" }
 rive-android = { module = "app.rive:rive-android", version.ref = "rive-android" }
+
+# Compose Multiplatform
+compose-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "compose" }
+compose-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "compose" }
+compose-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "compose" }
+compose-material3 = { module = "org.jetbrains.compose.material3:material3", version.ref = "compose-material3" }
+compose-resources = { module = "org.jetbrains.compose.components:components-resources", version.ref = "compose" }
+lifecycle-viewmodel-compose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
 
 # Multithreading
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
@@ -335,6 +350,9 @@ detekt-rules-ruleauthors = { module = "io.gitlab.arturbosch.detekt:detekt-rules-
 doctorPlugin = { module = "com.osacky.doctor:doctor-plugin", version.ref = "doctorPlugin" }
 kotlinx-binaryCompatibilityValidator = { module = "org.jetbrains.kotlinx:binary-compatibility-validator", version.ref = "kotlinx-binaryCompatibilityValidator" }
 owasp-dependencyCheck-gradle = { module = "org.owasp:dependency-check-gradle", version.ref = "owasp-dependencycheck"  }
+poko-gradlePlugin = { module = "dev.drewhamilton.poko:dev.drewhamilton.poko.gradle.plugin", version.ref = "poko" }
+publish-gradlePlugin = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "publish-plugin" }
+composeMultiplatform-gradlePlugin = { module = "org.jetbrains.compose:org.jetbrains.compose.gradle.plugin", version.ref = "compose" }
 gradleVersionsPlugin = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "versionsPlugin"  }
 
 [plugins]
@@ -354,6 +372,9 @@ kotlin-scripting = { id = "org.jetbrains.kotlin.plugin.scripting", version.ref =
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 
 dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
+
+poko = { id = "dev.drewhamilton.poko", version.ref = "poko" }
+composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "compose" }
 
 dagger-hilt-android = { id = "com.google.dagger.hilt.android" , version.ref = "dagger" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
