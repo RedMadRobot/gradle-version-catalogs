@@ -15,6 +15,20 @@
 
 ### AndroidX
 
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2026.07.10]
+
+### red_mad_robot
+
+- *No changes*
+
+### AndroidX
+
 - :arrow_up: [compose-bom](https://developer.android.com/develop/ui/compose/bom/bom-mapping) `2026.06.00` → `2026.06.01`
   - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.11.4) `1.11.3` → `1.11.4`
   - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.11.4) `1.11.3` → `1.11.4`
@@ -250,7 +264,8 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.06.26...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.07.10...main
+[2026.07.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.06.26...2026.07.10
 [2026.06.26]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.05.29...2026.06.26
 [2026.05.29]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.02.23...2026.05.29
 [2026.02.23]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.02.11...2026.02.23
