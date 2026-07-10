@@ -15,11 +15,31 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [compose-bom](https://developer.android.com/develop/ui/compose/bom/bom-mapping) `2026.06.00` → `2026.06.01`
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.11.4) `1.11.3` → `1.11.4`
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.11.4) `1.11.3` → `1.11.4`
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.11.4) `1.11.3` → `1.11.4`
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.11.4) `1.11.3` → `1.11.4`
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.11.4) `1.11.3` → `1.11.4`
+- :arrow_up: [hilt](https://developer.android.com/jetpack/androidx/releases/hilt#1.4.0) `1.3.0` → `1.4.0`
+- :arrow_up: [navigation3-core](https://developer.android.com/jetpack/androidx/releases/navigation3#1.1.4) `1.1.3` → `1.1.4`
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [dagger](https://github.com/google/dagger/releases/tag/dagger-2.60.1) `2.60` → `2.60.1`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android) `34.15.0` → `34.16.0`
+  - :arrow_up: [firebase-crashlytics](https://firebase.google.com/support/release-notes/android) `20.0.6` → `20.1.0`
+  - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android) `25.1.0` → `25.1.1`
+- :arrow_up: [gms-auth-phone](https://developers.google.com/android/guides/releases) `18.3.0` → `18.3.1`
+- :arrow_up: [junit](https://github.com/junit-team/junit5/releases/tag/r6.1.1) `6.1.0` → `6.1.1`
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v6.2.2) `6.2.1` → `6.2.2`
+- :arrow_up: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/releases/tag/v0.5.1) `0.5.0` → `0.5.1`
+- :arrow_up: [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.8.0) `0.7.1` → `0.8.0`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.3.10) `2.3.9` → `2.3.10`
+- :arrow_up: [sentry](https://github.com/getsentry/sentry-java/releases/tag/8.48.0) `8.46.0` → `8.48.0`
+- :arrow_up: [tink](https://github.com/tink-crypto/tink-java/releases/tag/v1.23.0) `1.22.0` → `1.23.0`
+- :arrow_up: plugin: [sentry-android-gradle](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.14.0) `6.13.0` → `6.14.0`
+- :arrow_up: plugin: [sentry-kotlin-compiler](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.14.0) `6.13.0` → `6.14.0`
 
 ## [2026.06.26]
 

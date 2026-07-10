@@ -3,8 +3,8 @@
 android-gradlePlugin = "9.2.1"
 
 kotlin = "2.4.0"
-kotlinx-datetime = "0.7.1"
-kotlinx-collections-immutable = "0.5.0"
+kotlinx-datetime = "0.8.0"
+kotlinx-collections-immutable = "0.5.1"
 dokka = "2.2.0"
 
 # UI Tools
@@ -37,16 +37,16 @@ retrofit = "3.0.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 # Security
 argon2kt = "1.6.0"
 securityCryptoDatastore = "1.1.1-beta03"
-tink = "1.22.0"
+tink = "1.23.0"
 
 # DI
-dagger = "2.60"
+dagger = "2.60.1"
 javax-inject = "1"
 
 # Test
-junit = "6.1.0"
+junit = "6.1.1"
 junit4 = "4.13.2"
-kotest = "6.2.1"
+kotest = "6.2.2"
 kotest-prev = "5.9.1"
 mockk = "1.14.11"
 turbine = "1.2.1"
@@ -56,27 +56,27 @@ leakcanary = "2.14"
 timber = "5.0.1"
 
 # Annotations procesing
-ksp = "2.3.9"
+ksp = "2.3.10"
 
 # Monitoring & Error Tracking
-sentry = "8.46.0"
-sentry-android-gradle = "6.13.0"
-sentry-kotlin-compiler = "6.13.0"
+sentry = "8.48.0"
+sentry-android-gradle = "6.14.0"
+sentry-kotlin-compiler = "6.14.0"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
 firebase-analytics = "23.2.0"
-firebase-bom = "34.15.0"
+firebase-bom = "34.16.0"
 firebase-config = "23.1.0"
-firebase-crashlytics = "20.0.6"
+firebase-crashlytics = "20.1.0"
 firebase-crashlytics-gradle = "3.0.7"
-firebase-messaging = "25.1.0"
+firebase-messaging = "25.1.1"
 gms-googleServices = "4.5.0"
 
 # Google Play Services
 gms-adsidentifier = "18.3.0"
 gms-auth = "21.6.0"
-gms-auth-phone = "18.3.0"
+gms-auth-phone = "18.3.1"
 gms-barcodeScanning = "18.3.1"
 gms-base = "18.10.0"
 gms-location = "21.4.0"
