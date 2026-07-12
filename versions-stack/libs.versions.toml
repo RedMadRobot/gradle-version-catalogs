@@ -49,7 +49,7 @@ dagger = "2.60.1"
 javax-inject = "1"
 
 # Test
-junit = "6.1.1"
+junit = "6.1.2"
 junit4 = "4.13.2"
 kotest = "6.2.2"
 kotest-prev = "5.9.1"
