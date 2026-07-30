@@ -33,6 +33,8 @@ inputmask = { module = "com.redmadrobot:input-mask-android", version.ref = "inpu
 itemsadapter = { module = "com.redmadrobot.itemsadapter:itemsadapter", version.ref = "itemsadapter" }
 itemsadapter-viewbinding = { module = "com.redmadrobot.itemsadapter:itemsadapter-viewbinding", version.ref = "itemsadapter" }
 konfeature = { module = "com.redmadrobot.konfeature:konfeature", version.ref = "konfeature" }
+konfeature-ui = { module = "com.redmadrobot.konfeature:konfeature-ui", version.ref = "konfeature" }
+konfeature-ui-noop = { module = "com.redmadrobot.konfeature:konfeature-ui-noop", version.ref = "konfeature" }
 ktx-core = { module = "com.redmadrobot.extensions:core-ktx", version.ref = "ktx-core" }
 ktx-fragment = { module = "com.redmadrobot.extensions:fragment-ktx", version.ref = "ktx-fragment" }
 ktx-fragment-args = { module = "com.redmadrobot.extensions:fragment-args-ktx", version.ref = "ktx-fragment-args" }
