@@ -13,6 +13,8 @@
 
 - :arrow_up: [debug-panel](https://github.com/RedMadRobot/debug-panel-android/releases/tag/v1.3.0) `1.2.0` → `1.3.0`
 - :arrow_up: [konfeature](https://github.com/RedMadRobot/Konfeature/releases/tag/v1.1.0) `1.0.0` → `1.1.0`
+- :sparkle: [konfeature-ui](https://github.com/RedMadRobot/Konfeature/releases/tag/v1.1.0) `1.1.0`
+- :sparkle: [konfeature-ui-noop](https://github.com/RedMadRobot/Konfeature/releases/tag/v1.1.0) `1.1.0`
 
 ### AndroidX
 
