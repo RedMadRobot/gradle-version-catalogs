@@ -11,15 +11,32 @@
 
 ### red_mad_robot
 
-- *No changes*
+- :arrow_up: [debug-panel](https://github.com/RedMadRobot/debug-panel-android/releases/tag/v1.3.0) `1.2.0` → `1.3.0`
+- :arrow_up: [konfeature](https://github.com/RedMadRobot/Konfeature/releases/tag/v1.1.0) `1.0.0` → `1.1.0`
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [constraintlayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout#constraintlayout-2.2.2) `2.2.1` → `2.2.2`
+- :arrow_up: [constraintlayout-compose](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.2) `1.1.1` → `1.1.2`
+- :arrow_up: [constraintlayout-core](https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.2) `1.1.1` → `1.1.2`
+- :arrow_up: [navigation3-core](https://developer.android.com/jetpack/androidx/releases/navigation3#1.1.5) `1.1.4` → `1.1.5`
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [appsflyer](https://support.appsflyer.com/hc/en-us/articles/115001256006-AppsFlyer-Android-SDK-release-notes) `7.0.0` → `7.0.1`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android) `34.16.0` → `34.17.0`
+- :memo: [gradleVersionsPlugin](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.57.0) Module changed from `com.github.ben-manes:gradle-versions-plugin` to `io.github.ben-manes:gradle-versions-plugin`, published only in the Gradle Plugin Portal
+- :arrow_up: [jsoup](https://github.com/jhy/jsoup/releases/tag/jsoup-1.23.1) `1.22.2` → `1.23.1`
+- :arrow_up: [junit](https://github.com/junit-team/junit-framework/releases/tag/r6.1.2) `6.1.1` → `6.1.2`
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v6.2.3) `6.2.2` → `6.2.3`
+- :arrow_up: [kotlin](https://github.com/JetBrains/kotlin/releases/tag/v2.4.10) `2.4.0` → `2.4.10`
+- :arrow_up: [lifecycle-viewmodel-compose](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.11.0) `2.10.0` → `2.11.0`
+- :arrow_up: [rive-android](https://github.com/rive-app/rive-android/releases/tag/11.8.0) `11.7.1` → `11.8.0`
+- :arrow_up: [sentry](https://github.com/getsentry/sentry-java/releases/tag/8.51.0) `8.48.0` → `8.51.0`
+- :arrow_up: plugin: [android-gradlePlugin](https://developer.android.com/build/releases/agp-9-3-0-release-notes) `9.2.1` → `9.3.1`
+- :arrow_up: plugin: [sentry-android-gradle](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.17.0) `6.14.0` → `6.17.0`
+- :arrow_up: plugin: [sentry-kotlin-compiler](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.17.0) `6.14.0` → `6.17.0`
+- :arrow_up: plugin: [versionsPlugin](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.57.0) `0.54.0` → `0.57.0`
 
 ## [2026.07.10]
 
