@@ -1,6 +1,6 @@
 [versions]
 
-debug-panel = "1.2.0"
+debug-panel = "1.3.0"
 flipper = "2.0.1"
 gradle-infrastructure = "0.20.1"
 inputmask = "7.2.6"
