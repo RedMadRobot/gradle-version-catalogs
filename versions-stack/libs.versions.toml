@@ -1,8 +1,8 @@
 [versions]
 
-android-gradlePlugin = "9.2.1"
+android-gradlePlugin = "9.3.1"
 
-kotlin = "2.4.0"
+kotlin = "2.4.10"
 kotlinx-datetime = "0.8.0"
 kotlinx-collections-immutable = "0.5.1"
 dokka = "2.2.0"
@@ -19,12 +19,12 @@ lottie = "6.7.1"
 markwon = "4.6.2"
 material = "1.14.0"
 qrose = "1.1.2"
-rive-android = "11.7.1"
+rive-android = "11.8.0"
 
 # Compose Multiplatform
 compose = "1.11.1"
 compose-material3 = "1.9.0"
-lifecycle = "2.10.0"
+lifecycle = "2.11.0"
 
 # Multithreading
 kotlinx-coroutines = "1.11.0"
@@ -33,7 +33,7 @@ reactivex-rxjava3 = "3.1.12"
 
 # Network & Serialization
 gson = "2.14.0"
-jsoup = "1.22.2"
+jsoup = "1.23.1"
 kotlinx-serialization = "1.11.0"
 moshi = "1.15.2" # https://github.com/square/moshi/blob/master/CHANGELOG.md
 okhttp = "5.4.0" # https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md
@@ -49,9 +49,9 @@ dagger = "2.60.1"
 javax-inject = "1"
 
 # Test
-junit = "6.1.1"
+junit = "6.1.2"
 junit4 = "4.13.2"
-kotest = "6.2.2"
+kotest = "6.2.3"
 kotest-prev = "5.9.1"
 mockk = "1.14.11"
 turbine = "1.2.1"
@@ -64,14 +64,14 @@ timber = "5.0.1"
 ksp = "2.3.10"
 
 # Monitoring & Error Tracking
-sentry = "8.48.0"
-sentry-android-gradle = "6.14.0"
-sentry-kotlin-compiler = "6.14.0"
+sentry = "8.51.0"
+sentry-android-gradle = "6.17.0"
+sentry-kotlin-compiler = "6.17.0"
 
 # Firebase Services
 # https://firebase.google.com/support/release-notes/android
 firebase-analytics = "23.2.0"
-firebase-bom = "34.16.0"
+firebase-bom = "34.17.0"
 firebase-config = "23.1.0"
 firebase-crashlytics = "20.1.0"
 firebase-crashlytics-gradle = "3.0.7"
@@ -88,7 +88,7 @@ gms-location = "21.4.0"
 play-integrity = "1.6.0"
 
 # Third-party Services
-appsflyer = "7.0.0"
+appsflyer = "7.0.1"
 facebook = "18.3.0"
 
 # Gradle plugins
@@ -100,7 +100,7 @@ kotlinx-binaryCompatibilityValidator = "0.18.1"
 owasp-dependencycheck = "12.2.2"
 poko = "0.23.1"
 publish-plugin = "0.37.0"
-versionsPlugin = "0.54.0"
+versionsPlugin = "0.57.0"
 
 [libraries]
 
@@ -353,7 +353,7 @@ owasp-dependencyCheck-gradle = { module = "org.owasp:dependency-check-gradle", v
 poko-gradlePlugin = { module = "dev.drewhamilton.poko:dev.drewhamilton.poko.gradle.plugin", version.ref = "poko" }
 publish-gradlePlugin = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "publish-plugin" }
 composeMultiplatform-gradlePlugin = { module = "org.jetbrains.compose:org.jetbrains.compose.gradle.plugin", version.ref = "compose" }
-gradleVersionsPlugin = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "versionsPlugin"  }
+gradleVersionsPlugin = { module = "io.github.ben-manes:gradle-versions-plugin", version.ref = "versionsPlugin"  }
 
 [plugins]
 
