@@ -11,6 +11,20 @@
 
 ### red_mad_robot
 
+- *No changes*
+
+### AndroidX
+
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2026.07.31]
+
+### red_mad_robot
+
 - :arrow_up: [debug-panel](https://github.com/RedMadRobot/debug-panel-android/releases/tag/v1.3.0) `1.2.0` → `1.3.0`
 - :arrow_up: [konfeature](https://github.com/RedMadRobot/Konfeature/releases/tag/v1.1.0) `1.0.0` → `1.1.0`
 - :sparkle: [konfeature-ui](https://github.com/RedMadRobot/Konfeature/releases/tag/v1.1.0) `1.1.0`
@@ -283,7 +297,8 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.07.10...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.07.31...main
+[2026.07.31]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.07.10...2026.07.31
 [2026.07.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.06.26...2026.07.10
 [2026.06.26]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.05.29...2026.06.26
 [2026.05.29]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.02.23...2026.05.29
