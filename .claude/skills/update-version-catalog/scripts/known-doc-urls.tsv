@@ -1,0 +1,35 @@
+# Dependencies whose documentation cannot be resolved (or verified) the usual way.
+#
+# Why this file exists: the skill requires every CHANGELOG link to point at the
+# specific version and to be verified against the page. A few vendors publish
+# release notes that either have no per-version page at all, or render the recent
+# entries with JavaScript so a plain fetch never sees the version. Without this
+# list the flow would stop and ask the maintainer for a URL on every single
+# update of those dependencies.
+#
+# Columns (TAB-separated):
+#   1. alias-glob        matched against the CHANGELOG entry name (used by
+#                        check-doc-links.sh). Shell glob, e.g. gms-*
+#   2. coordinate-glob   matched against group:artifact (used by
+#                        resolve-doc-url.sh). Shell glob, e.g. com.google.firebase:*
+#   3. url-template      URL to use, with placeholders {version},
+#                        {version-dashes} (dots → dashes), {version-nodots}.
+#                        "-" means: no template, resolve the URL as usual and
+#                        only apply the flags below.
+#   4. flags             comma-separated:
+#                        skip-version-check  page need not mention the version,
+#                                            and the URL itself need not carry it
+#                        skip-anchor-check   #anchor need not exist in the HTML
+#                        skip-reachability   ignore the HTTP status (host blocks
+#                                            non-browser clients even with a
+#                                            browser user agent)
+#
+# First matching row wins — put specific aliases above broad globs.
+#
+# alias-glob	coordinate-glob	url-template	flags
+compose-bom	androidx.compose:compose-bom	https://developer.android.com/develop/ui/compose/bom/bom-mapping	skip-version-check,skip-anchor-check
+firebase-bom	com.google.firebase:firebase-bom	https://firebase.google.com/support/release-notes/android#bom_v{version-dashes}	skip-version-check,skip-anchor-check
+firebase-*	com.google.firebase:*	-	skip-version-check,skip-anchor-check
+appsflyer	com.appsflyer:*	https://support.appsflyer.com/hc/en-us/articles/115001256006-AppsFlyer-Android-SDK-release-notes	skip-version-check,skip-anchor-check
+gms-*	com.google.android.gms:*	https://developers.google.com/android/guides/releases	skip-version-check,skip-anchor-check
+gradle-doctor	com.osacky.doctor*	https://runningcode.github.io/gradle-doctor/changelog/	skip-version-check,skip-anchor-check

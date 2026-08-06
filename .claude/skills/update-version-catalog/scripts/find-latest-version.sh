@@ -19,12 +19,17 @@
 #   NOT_FOUND                             artifact is in no repository — ask the user
 #
 # Stable = no pre-release qualifier (alpha/beta/rc/M/dev/eap/snapshot/preview/cr).
-# READ-ONLY.
+# READ-ONLY. Portable to macOS (bash 3.2 + BSD userland) — see lib.sh: macOS
+# `sort` may not support -V, so version ordering goes through vsort/vge.
 set -euo pipefail
+. "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/lib.sh"
 
 [ "$#" -ge 1 ] || { echo "Usage: bash find-latest-version.sh <group:artifact>…"; exit 1; }
 
-PRE_RE='(alpha|beta|rc|snapshot|dev|eap|preview|milestone|[-.]M[0-9]|[-.]cr[0-9]?)'
+# A qualifier only counts when it starts a version segment — otherwise a version
+# that merely CONTAINS the letters (e.g. "…-source" contains "rc") would be
+# thrown away as a pre-release.
+PRE_RE='(^|[-._+0-9])(alpha|beta|rc|snapshot|dev|eap|preview|milestone|M[0-9]|cr[0-9]?)'
 
 stable_only() { grep -ivE "$PRE_RE" || true; }
 
@@ -46,8 +51,8 @@ for coord in "$@"; do
   while read -r name base; do
     versions=$(fetch_versions "$base" "$group" "$artifact")
     [ -n "$versions" ] || continue
-    latest=$(sort -V <<< "$versions" | tail -1)
-    stable=$(stable_only <<< "$versions" | sort -V | tail -1)
+    latest=$(vsort <<< "$versions" | tail -1)
+    stable=$(stable_only <<< "$versions" | vsort | tail -1)
     echo "  $name: latest=$latest latest_stable=${stable:-<none>}"
     combined+="$versions"$'\n'
   done <<'EOF'
@@ -62,7 +67,7 @@ EOF
     continue
   fi
 
-  all=$(sort -uV <<< "$combined" | sed '/^$/d')
+  all=$(sort -u <<< "$combined" | sed '/^$/d' | vsort)
   best_any=$(tail -1 <<< "$all")
   best_stable=$(stable_only <<< "$all" | tail -1)
 
@@ -71,12 +76,11 @@ EOF
   elif [ "$best_stable" = "$best_any" ]; then
     echo "  LATEST_STABLE $best_stable"
   else
-    # sort -V puts `X-rc1` AFTER `X`, so best_any may be a pre-release of the
+    # version sort puts `X-rc1` AFTER `X`, so best_any may be a pre-release of the
     # stable version itself (or of an older one) — that is not "newer". Only a
     # pre-release whose leading numeric base exceeds best_stable counts.
     base_any=$(grep -oE '^[0-9]+(\.[0-9]+)*' <<< "$best_any" || true)
-    if [ -n "$base_any" ] \
-       && [ "$(printf '%s\n%s\n' "$best_stable" "$base_any" | sort -V | tail -1)" = "$best_stable" ]; then
+    if [ -n "$base_any" ] && vge "$best_stable" "$base_any"; then
       echo "  LATEST_STABLE $best_stable"
     else
       echo "  STABLE $best_stable NEWER_PRERELEASE $best_any"

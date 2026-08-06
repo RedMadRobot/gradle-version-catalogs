@@ -1,2 +1,11 @@
 # These are explicitly windows files and should use crlf
 *.bat           text eol=crlf
+
+# Shell scripts must keep LF even when checked out on Windows: a CRLF copy is
+# committed sooner or later, and bash on macOS/Linux then fails on the \r
+# ("$'\r': command not found").
+*.sh            text eol=lf
+gradlew         text eol=lf
+
+# Data files read by those scripts (TAB-separated) — same reasoning
+*.tsv           text eol=lf

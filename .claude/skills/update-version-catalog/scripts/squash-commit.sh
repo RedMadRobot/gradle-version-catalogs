@@ -14,8 +14,9 @@
 # existing release commits on main.
 #
 # SAFETY: refuses to run unless HEAD is a dev-update-* branch and the working
-# tree is clean.
+# tree is clean. Never opens an editor.
 set -euo pipefail
+export GIT_EDITOR=true GIT_SEQUENCE_EDITOR=true
 cd "$(git rev-parse --show-toplevel)"
 
 cur=$(git branch --show-current)
@@ -42,12 +43,18 @@ fi
 
 # contiguous run of commits from HEAD down that do not touch CHANGELOG.md
 count=0
+stopped_at=""
 for c in $(git rev-list "$limit..HEAD"); do
   if git diff-tree --no-commit-id --name-only -r "$c" | grep -qx 'CHANGELOG.md'; then
+    stopped_at="$c"
     break
   fi
   count=$((count + 1))
 done
+if [ -n "$stopped_at" ]; then
+  echo "INFO: stopping above $(git log --oneline -1 "$stopped_at") — it touches CHANGELOG.md"
+  echo "      and therefore belongs to an earlier command; it is not rewritten."
+fi
 
 if [ "$count" -eq 0 ]; then
   echo "Nothing to squash (no bump commits on top of the branch)."
