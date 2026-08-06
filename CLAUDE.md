@@ -54,6 +54,17 @@ Renovate keeps each dependency bump on its own remote branch `origin/renovate/<d
 - Entry format: ``- :arrow_up: [alias](release-notes-url) `old` → `new` ``
 - Symbols: `:sparkle:` added, `:arrow_up:` updated, `:x:` removed, `:memo:` renamed, `:warning:` attention required (breaking/behaviour changes)
 
+The skill's git and verification steps are scripts in `.claude/skills/update-version-catalog/scripts/`; they are the source of truth for correctness, not a manual reading of the diff:
+
+- `lint-changelog.sh` — `[Unreleased]` vs the branch diff (coverage per alias, exact versions incl. nested BOM entries, format, sorting, renovate branches picked)
+- `check-doc-links.sh` — every added link: forbidden hosts, version-specific URL, reachability, version present on the page, `#anchor` exists. Vendors without per-version pages live in `known-doc-urls.tsv`
+- `show-version-diffs.sh` — catalog diff + automatic version-format guard
+- `bom-diff.sh` — component diff of two BOM releases, read from the BOMs' POMs
+- `finish-check.sh` — final gate (git state, commit count, lint, links, `:warning:` candidates)
+- `lib.sh` — shared helpers, sourced by the others
+
+Those scripts must keep running on both macOS and Windows/Git Bash, so they stay within bash 3.2 and BSD tool behaviour; the portability rules are documented at the top of `lib.sh`, and `.gitattributes` pins `*.sh` to LF.
+
 ## Editing Catalogs
 
 - Only stable versions; RC allowed for major-issue fixes or compatibility, pre-release allowed when no stable version exists

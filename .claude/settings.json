@@ -2,7 +2,20 @@
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "permissions": {
     "allow": [
-      "Bash(bash .claude/skills/update-version-catalog/scripts/:*)"
+      "Bash(bash .claude/skills/update-version-catalog/scripts/:*)",
+      "Bash(./gradlew validateCatalog)",
+      "Bash(./gradlew check)",
+      "Bash(git branch --show-current)",
+      "Bash(git branch:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git diff:*)",
+      "Bash(git fetch:*)",
+      "Bash(git ls-remote:*)",
+      "Bash(git cherry-pick --continue)",
+      "Bash(git add versions-*/libs.versions.toml)",
+      "Bash(git add CHANGELOG.md)"
     ]
   }
 }

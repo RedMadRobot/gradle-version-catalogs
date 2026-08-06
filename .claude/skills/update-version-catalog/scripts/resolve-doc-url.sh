@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Resolve the documentation URL for a newly added dependency — never invent it.
+# Resolve the documentation URL for a dependency — never invent it.
 #
 #   bash resolve-doc-url.sh <group:artifact> <version>
 #
@@ -8,29 +8,33 @@
 #   <plugin.id>:<plugin.id>.gradle.plugin
 #
 # Resolution order (matches SKILL.md step 6 / "Adding a new dependency" step 5):
-#   1. Read the HomePage of the artifact from its POM (<url>, falling back to
-#      <scm><url>) in Google Maven / Maven Central / the Gradle Plugin Portal.
-#   2. If the HomePage is a GitHub repository, query the GitHub API for a
-#      RELEASE or TAG whose name matches <version> (accepting a leading `v` and
-#      any `name-`/`name_`/`name/` prefix, e.g. `v1.11.1`, `dagger-2.60`,
-#      `lifecycle-viewmodel-compose-2.10.0`) and print that release/tag page.
-#   3. If no matching release/tag exists, print the repository HomePage itself.
-#   4. If the HomePage is not GitHub, print it verbatim.
+#   1. known-doc-urls.tsv — if the coordinates are listed there, its URL
+#      template wins (that is where deps whose docs have no per-version page
+#      live, e.g. AppsFlyer / Firebase BOM).
+#   2. Read the HomePage of the artifact from its POM (<url>, falling back to
+#      <scm>) in Google Maven / Maven Central / the Gradle Plugin Portal.
+#   3. If the HomePage is a GitHub repository, look for a TAG matching <version>
+#      via `git ls-remote --tags` — no API, no rate limit — and print its
+#      /releases/tag/<tag> page (which is the release page when a release
+#      exists). The GitHub API is only a fallback when ls-remote is unavailable.
+#   4. If no matching tag exists, print the repository HomePage itself.
+#   5. If the HomePage is not GitHub, print it verbatim.
 #
 # Prints one verdict line:
+#   KNOWN     <url>   from known-doc-urls.tsv (use as-is)
 #   RELEASE   <url>   github release page for the version (best)
-#   TAG       <url>   github tag page for the version
+#   TAG       <url>   github tag/release page for the version
 #   HOMEPAGE  <url>   repo/home page, no per-version release or tag found
 #   NO_HOMEPAGE      POM has no <url>/<scm> (common for plugin markers — use
 #                    the Gradle Plugin Portal route in SKILL.md, then re-run
 #                    with the real group:artifact)
 #   NOT_FOUND        artifact POM is in no repository
-#   GH_RATE_LIMITED <repo-url>   the GitHub API rate limit blocked the
-#                    release/tag lookup — NOT the same as "no release exists";
-#                    set GITHUB_TOKEN/GH_TOKEN (or wait) and re-run
+#   GH_RATE_LIMITED <repo-url>   the GitHub API fallback was rate limited and
+#                    ls-remote was unavailable — NOT the same as "no release
+#                    exists"; set GITHUB_TOKEN/GH_TOKEN (or wait) and re-run
 #
-# A GitHub token in $GITHUB_TOKEN / $GH_TOKEN is used if present (higher rate
-# limit) but is not required. READ-ONLY.
+# A GitHub token in $GITHUB_TOKEN / $GH_TOKEN is used by the API fallback if
+# present but is not required. READ-ONLY.
 set -euo pipefail
 
 [ "$#" -eq 2 ] || { echo "Usage: bash resolve-doc-url.sh <group:artifact> <version>"; exit 1; }
@@ -39,6 +43,32 @@ coord="$1"; version="$2"
 group="${coord%%:*}"; artifact="${coord#*:}"
 if [ -z "$group" ] || [ -z "$artifact" ] || [ "$group" = "$coord" ]; then
   echo "ERROR: '$coord' is not of the form group:artifact"; exit 1
+fi
+
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+known_file="$script_dir/known-doc-urls.tsv"
+
+# --- 0. known-doc-urls.tsv --------------------------------------------------
+# columns: alias-glob<TAB>coordinate-glob<TAB>url-template<TAB>flags
+# first row whose coordinate-glob matches wins; template "-" means "no template,
+# resolve as usual" (the row only carries verification flags for check-doc-links)
+if [ -f "$known_file" ]; then
+  while IFS=$'\t' read -r _alias cglob tpl _flags; do
+    case "${_alias:-}" in ''|'#'*) continue ;; esac
+    [ -n "${cglob:-}" ] || continue
+    # shellcheck disable=SC2254 — $cglob is intentionally a glob pattern
+    case "$coord" in
+      $cglob)
+        [ "${tpl:-}" = "-" ] && break        # flags only — resolve normally
+        [ -n "${tpl:-}" ] || break
+        url="${tpl//\{version\}/$version}"
+        url="${url//\{version-dashes\}/${version//./-}}"
+        url="${url//\{version-nodots\}/${version//./}}"
+        echo "KNOWN  $url"
+        exit 0
+        ;;
+    esac
+  done < "$known_file"
 fi
 
 # --- 1. fetch the POM and read its HomePage --------------------------------
@@ -85,7 +115,7 @@ fi
 
 # resolve redirects so the printed URL is the canonical one (e.g. the old
 # JetBrains/compose-jb home redirects to JetBrains/compose-multiplatform) — a
-# stored redirecting URL would trip check-changelog-urls.sh.
+# stored redirecting URL would trip check-doc-links.sh.
 canonical() { # $1 = url
   local final
   final=$(curl -s -o /dev/null -L --max-time 15 -w '%{url_effective}' "$1" 2>/dev/null) || final="$1"
@@ -106,32 +136,62 @@ if [ -z "$org" ] || [ -z "$repo" ] || [ "$org" = "$slug" ]; then
   exit 0
 fi
 # canonicalise the repo once (e.g. compose-jb → compose-multiplatform) so both
-# the GitHub API calls and the printed release/tag URLs use the real repo.
+# the tag lookup and the printed release/tag URLs use the real repo.
 repo_url=$(canonical "https://github.com/$org/$repo")
 slug=$(sed -E 's#^.*github\.com[/:]+##; s#\.git$##; s#/+$##' <<< "$repo_url")
 org="${slug%%/*}"; repo=$(cut -d/ -f2 <<< "$slug")
 
-# --- 3. look for a release / tag matching the version ----------------------
-gh_api() { # $1 = path (no -f: the rate-limit error body must stay readable)
-  local auth=()
-  [ -n "${GITHUB_TOKEN:-}" ] && auth=(-H "Authorization: Bearer $GITHUB_TOKEN")
-  [ -z "${GITHUB_TOKEN:-}" ] && [ -n "${GH_TOKEN:-}" ] && auth=(-H "Authorization: Bearer $GH_TOKEN")
-  curl -sL --max-time 20 "${auth[@]}" \
-    -H 'Accept: application/vnd.github+json' \
-    "https://api.github.com/repos/$org/$repo/$1" 2>/dev/null || true
-}
-
-# A rate-limited lookup must not silently degrade to HOMEPAGE (which would
-# make the agent ask the user for a URL that actually exists).
-rate_limited() { grep -qi 'rate limit exceeded' <<< "$1"; }
-
+# --- 3. look for a tag / release matching the version ----------------------
 vesc=$(sed -E 's/[.]/\\./g' <<< "$version")
-# tag matches version if, ignoring an optional leading `v` and any
+# a tag matches the version if, ignoring an optional leading `v` and any
 # `prefix-`/`prefix_`/`prefix/` before it, it equals the version exactly.
 # `.` is excluded from the boundary so version 2.60 does not match tag 1.2.60.
 tag_matches='(^|[^0-9.])v?'"$vesc"'$'
 
-# releases (paginated, first 100 is plenty for a recent version)
+# of several matching tags prefer the plainest: exact version, then v<version>,
+# then the shortest name (e.g. `2.60` over `dagger-parent-2.60`)
+pick_tag() { # stdin = candidate tag names
+  awk -v v="$version" '
+    { c[NR] = $0 }
+    END {
+      for (i = 1; i <= NR; i++) if (c[i] == v)       { print c[i]; exit }
+      for (i = 1; i <= NR; i++) if (c[i] == "v" v)   { print c[i]; exit }
+      best = ""
+      for (i = 1; i <= NR; i++) if (best == "" || length(c[i]) < length(best)) best = c[i]
+      if (best != "") print best
+    }'
+}
+
+# 3a. ls-remote: no API, no rate limit
+ls_tags=$(git ls-remote --tags "$repo_url" 2>/dev/null \
+  | sed -E 's#^.*refs/tags/##; s#\^\{\}$##' | sort -u || true)
+if [ -n "$ls_tags" ]; then
+  tag=$(grep -E "$tag_matches" <<< "$ls_tags" | pick_tag || true)
+  if [ -n "$tag" ]; then
+    echo "TAG  $repo_url/releases/tag/$tag"
+    exit 0
+  fi
+  echo "HOMEPAGE  $repo_url"
+  exit 0
+fi
+
+# 3b. fallback: GitHub API (only when ls-remote could not run at all)
+gh_api() { # $1 = path (no -f: the rate-limit error body must stay readable)
+  # no array for the auth header: expanding an EMPTY "${arr[@]}" aborts under
+  # `set -u` in the bash 3.2 that macOS ships
+  local token="${GITHUB_TOKEN:-${GH_TOKEN:-}}"
+  if [ -n "$token" ]; then
+    curl -sL --max-time 20 -H "Authorization: Bearer $token" \
+      -H 'Accept: application/vnd.github+json' \
+      "https://api.github.com/repos/$org/$repo/$1" 2>/dev/null || true
+  else
+    curl -sL --max-time 20 \
+      -H 'Accept: application/vnd.github+json' \
+      "https://api.github.com/repos/$org/$repo/$1" 2>/dev/null || true
+  fi
+}
+rate_limited() { grep -qi 'rate limit exceeded' <<< "$1"; }
+
 releases=$(gh_api "releases?per_page=100")
 if rate_limited "$releases"; then
   echo "GH_RATE_LIMITED  $repo_url"
@@ -139,13 +199,12 @@ if rate_limited "$releases"; then
 fi
 rel_tag=$(grep -oE '"tag_name":[[:space:]]*"[^"]+"' <<< "$releases" \
   | sed -E 's/.*"tag_name":[[:space:]]*"([^"]+)"/\1/' \
-  | grep -E "$tag_matches" | head -1 || true)
+  | grep -E "$tag_matches" | pick_tag || true)
 if [ -n "$rel_tag" ]; then
   echo "RELEASE  $repo_url/releases/tag/$rel_tag"
   exit 0
 fi
 
-# plain tags
 tags=$(gh_api "tags?per_page=100")
 if rate_limited "$tags"; then
   echo "GH_RATE_LIMITED  $repo_url"
@@ -153,7 +212,7 @@ if rate_limited "$tags"; then
 fi
 tag=$(grep -oE '"name":[[:space:]]*"[^"]+"' <<< "$tags" \
   | sed -E 's/.*"name":[[:space:]]*"([^"]+)"/\1/' \
-  | grep -E "$tag_matches" | head -1 || true)
+  | grep -E "$tag_matches" | pick_tag || true)
 if [ -n "$tag" ]; then
   echo "TAG  $repo_url/releases/tag/$tag"
   exit 0
