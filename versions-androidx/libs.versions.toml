@@ -3,7 +3,7 @@
 activity = "1.13.0"
 annotation = "1.10.0"
 annotation-experimental = "1.6.0"
-appcompat = "1.7.1"
+appcompat = "1.8.0"
 biometric = "1.4.0-alpha07"
 browser = "1.10.0"
 camera = "1.6.1"
