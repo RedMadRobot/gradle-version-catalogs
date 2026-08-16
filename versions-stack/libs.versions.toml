@@ -36,7 +36,7 @@ gson = "2.14.0"
 jsoup = "1.23.1"
 kotlinx-serialization = "1.11.0"
 moshi = "1.15.2" # https://github.com/square/moshi/blob/master/CHANGELOG.md
-okhttp = "5.4.0" # https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md
+okhttp = "5.5.0" # https://github.com/square/okhttp/blob/master/docs/changelogs/changelog_4x.md
 retrofit = "3.0.0" # https://github.com/square/retrofit/blob/master/CHANGELOG.md
 
 # Security
