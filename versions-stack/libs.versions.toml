@@ -51,7 +51,7 @@ javax-inject = "1"
 # Test
 junit = "6.1.2"
 junit4 = "4.13.2"
-kotest = "6.2.3"
+kotest = "6.2.4"
 kotest-prev = "5.9.1"
 mockk = "1.14.11"
 turbine = "1.2.1"
