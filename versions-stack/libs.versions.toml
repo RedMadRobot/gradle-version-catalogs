@@ -83,7 +83,7 @@ gms-adsidentifier = "18.3.0"
 gms-auth = "21.6.0"
 gms-auth-phone = "18.3.1"
 gms-barcodeScanning = "18.3.1"
-gms-base = "18.10.0"
+gms-base = "18.10.1"
 gms-location = "21.4.0"
 play-integrity = "1.6.0"
 
