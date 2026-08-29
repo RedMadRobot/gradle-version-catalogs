@@ -22,7 +22,7 @@ qrose = "1.1.2"
 rive-android = "11.8.0"
 
 # Compose Multiplatform
-compose = "1.11.1"
+compose = "1.12.0"
 compose-material3 = "1.9.0"
 lifecycle = "2.11.0"
 
