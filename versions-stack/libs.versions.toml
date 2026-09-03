@@ -64,7 +64,7 @@ timber = "5.0.1"
 ksp = "2.3.10"
 
 # Monitoring & Error Tracking
-sentry = "8.51.0"
+sentry = "8.55.0"
 sentry-android-gradle = "6.17.0"
 sentry-kotlin-compiler = "6.17.0"
 
