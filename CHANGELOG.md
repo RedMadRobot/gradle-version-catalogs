@@ -15,11 +15,45 @@
 
 ### AndroidX
 
-- *No changes*
+- :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.8.0) `1.7.1` → `1.8.0`
+- :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.6.2) `1.6.1` → `1.6.2`
+- :arrow_up: [compose-bom](https://developer.android.com/develop/ui/compose/bom/bom-mapping) `2026.06.01` → `2026.08.00`
+  - :arrow_up: [compose-animation](https://developer.android.com/jetpack/androidx/releases/compose-animation#1.12.0) `1.11.4` → `1.12.0`
+  - :arrow_up: [compose-foundation](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.12.0) `1.11.4` → `1.12.0`
+  - :arrow_up: [compose-material](https://developer.android.com/jetpack/androidx/releases/compose-material#1.12.0) `1.11.4` → `1.12.0`
+  - :arrow_up: [compose-runtime](https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.12.0) `1.11.4` → `1.12.0`
+  - :arrow_up: [compose-ui](https://developer.android.com/jetpack/androidx/releases/compose-ui#1.12.0) `1.11.4` → `1.12.0`
+- :arrow_up: [fragment](https://developer.android.com/jetpack/androidx/releases/fragment#1.9.0) `1.8.9` → `1.9.0`
+- :arrow_up: [media3](https://developer.android.com/jetpack/androidx/releases/media3#1.11.0) `1.10.1` → `1.11.0`
+- :arrow_up: [navigation](https://developer.android.com/jetpack/androidx/releases/navigation#2.10.0) `2.9.8` → `2.10.0`
+- :arrow_up: [navigation3-core](https://developer.android.com/jetpack/androidx/releases/navigation3#1.1.7) `1.1.5` → `1.1.7`
+- :arrow_up: [paging](https://developer.android.com/jetpack/androidx/releases/paging#3.5.1) `3.5.0` → `3.5.1`
+- :arrow_up: [webkit](https://developer.android.com/jetpack/androidx/releases/webkit#webkit-1.17.0) `1.16.0` → `1.17.0`
 
 ### Stack
 
-- *No changes*
+- :arrow_up: [coil3](https://github.com/coil-kt/coil/releases/tag/3.6.2) `3.5.0` → `3.6.2`
+- :arrow_up: [compose](https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0) `1.11.1` → `1.12.0`
+- :arrow_up: [firebase-bom](https://firebase.google.com/support/release-notes/android#bom_v34-18-0) `34.17.0` → `34.18.0`
+  - :arrow_up: [firebase-messaging](https://firebase.google.com/support/release-notes/android) `25.1.1` → `25.1.2`
+- :arrow_up: [gms-auth](https://developers.google.com/android/guides/releases) `21.6.0` → `22.0.0`
+- :arrow_up: [gms-base](https://developers.google.com/android/guides/releases) `18.10.0` → `18.10.1`
+- :arrow_up: [haze](https://github.com/chrisbanes/haze/releases/tag/1.7.3) `1.7.2` → `1.7.3`
+- :arrow_up: [jsoup](https://github.com/jhy/jsoup/releases/tag/jsoup-1.23.2) `1.23.1` → `1.23.2`
+- :arrow_up: [junit](https://github.com/junit-team/junit-framework/releases/tag/r6.1.3) `6.1.2` → `6.1.3`
+- :arrow_up: [kotest](https://github.com/kotest/kotest/releases/tag/v6.2.4) `6.2.3` → `6.2.4`
+- :arrow_up: [kotlinx-collections-immutable](https://github.com/Kotlin/kotlinx.collections.immutable/releases/tag/v0.5.2) `0.5.1` → `0.5.2`
+- :arrow_up: [ksp](https://github.com/google/ksp/releases/tag/2.3.11) `2.3.10` → `2.3.11`
+- :arrow_up: [okhttp](https://github.com/lysine-dev/okhttp/releases/tag/parent-5.5.0) `5.4.0` → `5.5.0`
+- :arrow_up: [rive-android](https://github.com/rive-app/rive-android/releases/tag/11.12.0) `11.8.0` → `11.12.0`
+- :arrow_up: [sentry](https://github.com/getsentry/sentry-java/releases/tag/8.55.0) `8.51.0` → `8.55.0`
+- :arrow_up: plugin: [android-gradlePlugin](https://developer.android.com/build/releases/agp-9-4-0-release-notes) `9.3.1` → `9.4.0`
+- :arrow_up: plugin: [firebase-crashlytics-gradle](https://firebase.google.com/support/release-notes/android#crashlytics-gradle_v3-0-8) `3.0.7` → `3.0.8`
+- :arrow_up: plugin: [kotlinx-binaryCompatibilityValidator](https://github.com/Kotlin/binary-compatibility-validator/releases/tag/0.18.2) `0.18.1` → `0.18.2`
+- :arrow_up: plugin: [owasp-dependencycheck](https://github.com/dependency-check/DependencyCheck/releases/tag/v13.0.0) `12.2.2` → `13.0.0`
+- :arrow_up: plugin: [sentry-android-gradle](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.21.0) `6.17.0` → `6.21.0`
+- :arrow_up: plugin: [sentry-kotlin-compiler](https://github.com/getsentry/sentry-android-gradle-plugin/releases/tag/6.21.0) `6.17.0` → `6.21.0`
+- :arrow_up: plugin: [versionsPlugin](https://github.com/ben-manes/gradle-versions-plugin/releases/tag/v0.61.0) `0.57.0` → `0.61.0`
 
 ## [2026.07.31]
 
