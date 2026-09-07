@@ -15,6 +15,20 @@
 
 ### AndroidX
 
+- *No changes*
+
+### Stack
+
+- *No changes*
+
+## [2026.09.07]
+
+### red_mad_robot
+
+- *No changes*
+
+### AndroidX
+
 - :arrow_up: [appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat#1.8.0) `1.7.1` → `1.8.0`
 - :arrow_up: [camera](https://developer.android.com/jetpack/androidx/releases/camera#1.6.2) `1.6.1` → `1.6.2`
 - :arrow_up: [compose-bom](https://developer.android.com/develop/ui/compose/bom/bom-mapping) `2026.06.01` → `2026.08.00`
@@ -331,7 +345,8 @@
 - [2023](CHANGELOG-2023.md)
 - [2022](CHANGELOG-2022.md)
 
-[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.07.31...main
+[unreleased]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.09.07...main
+[2026.09.07]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.07.31...2026.09.07
 [2026.07.31]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.07.10...2026.07.31
 [2026.07.10]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.06.26...2026.07.10
 [2026.06.26]: https://github.com/RedMadRobot/gradle-version-catalogs/compare/2026.05.29...2026.06.26
