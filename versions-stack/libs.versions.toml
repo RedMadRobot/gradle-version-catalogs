@@ -100,7 +100,7 @@ kotlinx-binaryCompatibilityValidator = "0.18.2"
 owasp-dependencycheck = "13.0.0"
 poko = "0.23.1"
 publish-plugin = "0.37.0"
-versionsPlugin = "0.61.0"
+versionsPlugin = "0.62.0"
 
 [libraries]
 
