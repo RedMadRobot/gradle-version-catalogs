@@ -54,7 +54,7 @@ test-rules = "1.7.0"
 test-services = "1.6.0"
 webkit = "1.17.0"
 window = "1.5.1"
-work = "2.11.2"
+work = "2.12.0"
 
 [libraries]
 
