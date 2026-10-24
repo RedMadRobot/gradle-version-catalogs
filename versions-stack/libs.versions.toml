@@ -32,7 +32,7 @@ reactivex-rxjava2 = "2.2.21"
 reactivex-rxjava3 = "3.1.12"
 
 # Network & Serialization
-gson = "2.14.0"
+gson = "2.15.0"
 jsoup = "1.23.2"
 kotlinx-serialization = "1.11.0"
 moshi = "1.15.2" # https://github.com/square/moshi/blob/master/CHANGELOG.md
