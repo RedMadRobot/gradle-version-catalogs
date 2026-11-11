@@ -76,7 +76,7 @@ firebase-config = "23.1.0"
 firebase-crashlytics = "20.1.0"
 firebase-crashlytics-gradle = "3.0.8"
 firebase-messaging = "25.1.2"
-gms-googleServices = "4.5.0"
+gms-googleServices = "4.6.0"
 
 # Google Play Services
 gms-adsidentifier = "18.3.0"
